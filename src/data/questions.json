@@ -1,5 +1,265 @@
 [
   {
+    "id": "rff001",
+    "question": "What zoo animal's enclosure would you least like to fall into?",
+    "category": "Animals",
+    "answers": [
+      { "text": "Lion", "aliases": ["lions"], "points": 29 },
+      { "text": "Tiger", "aliases": ["tigers"], "points": 20 },
+      { "text": "Gorilla", "aliases": ["gorillas", "ape"], "points": 19 },
+      { "text": "Bear", "aliases": ["bears", "grizzly", "polar bear"], "points": 15 },
+      { "text": "Hippo", "aliases": ["hippopotamus", "hippos"], "points": 11 },
+      { "text": "Crocodile", "aliases": ["croc", "alligator", "gator"], "points": 6 }
+    ]
+  },
+  {
+    "id": "rff002",
+    "question": "What is the most common tattoo among young people?",
+    "category": "Culture",
+    "answers": [
+      { "text": "Flowers or Trees", "aliases": ["flowers", "trees", "flower", "tree", "rose", "roses"], "points": 26 },
+      { "text": "Infinity Symbol", "aliases": ["infinity", "infinity sign"], "points": 25 },
+      { "text": "Heart", "aliases": ["hearts", "heart tattoo"], "points": 14 },
+      { "text": "Butterfly", "aliases": ["butterflies"], "points": 14 },
+      { "text": "Words or Quotes", "aliases": ["words", "quotes", "quote", "text", "lettering"], "points": 12 },
+      { "text": "Tribal Tattoo", "aliases": ["tribal", "tribal design"], "points": 9 }
+    ]
+  },
+  {
+    "id": "rff003",
+    "question": "What language sounds the nicest?",
+    "category": "Culture",
+    "answers": [
+      { "text": "French", "aliases": [], "points": 48 },
+      { "text": "Spanish", "aliases": [], "points": 19 },
+      { "text": "Italian", "aliases": [], "points": 17 },
+      { "text": "English", "aliases": [], "points": 8 },
+      { "text": "Japanese", "aliases": [], "points": 5 },
+      { "text": "German", "aliases": ["deutsch"], "points": 3 }
+    ]
+  },
+  {
+    "id": "rff004",
+    "question": "Name a notoriously cheap beer.",
+    "category": "Food & Drink",
+    "answers": [
+      { "text": "Budweiser", "aliases": ["bud", "bud light"], "points": 38 },
+      { "text": "Pabst Blue Ribbon", "aliases": ["pbr", "pabst"], "points": 25 },
+      { "text": "Natural Light", "aliases": ["natty light", "natty", "natural ice", "natty ice"], "points": 19 },
+      { "text": "Corona", "aliases": [], "points": 9 },
+      { "text": "Coors", "aliases": ["coors light", "coors banquet"], "points": 5 },
+      { "text": "Keystone", "aliases": ["keystone light"], "points": 4 }
+    ]
+  },
+  {
+    "id": "rff005",
+    "question": "What genre of music has the most powerful lyrics?",
+    "category": "Entertainment",
+    "answers": [
+      { "text": "Rock", "aliases": ["rock music", "rock and roll"], "points": 30 },
+      { "text": "Rap", "aliases": ["hip hop", "rap music", "hip-hop"], "points": 29 },
+      { "text": "Metal", "aliases": ["heavy metal", "metal music"], "points": 14 },
+      { "text": "R&B", "aliases": ["rnb", "soul", "r and b"], "points": 12 },
+      { "text": "Indie / Folk", "aliases": ["indie", "folk", "folk music", "indie music"], "points": 9 },
+      { "text": "Country", "aliases": ["country music"], "points": 6 }
+    ]
+  },
+  {
+    "id": "rff006",
+    "question": "Name a word that immediately follows the word \"Golden\".",
+    "category": "Word Play",
+    "answers": [
+      { "text": "Shower", "aliases": ["golden shower"], "points": 35 },
+      { "text": "Girls", "aliases": ["golden girls", "girl"], "points": 25 },
+      { "text": "Retriever", "aliases": ["golden retriever"], "points": 24 },
+      { "text": "Gate", "aliases": ["golden gate", "gate bridge"], "points": 6 },
+      { "text": "Boy", "aliases": ["golden boy"], "points": 5 },
+      { "text": "Globe", "aliases": ["golden globe", "golden globes"], "points": 5 }
+    ]
+  },
+  {
+    "id": "rff007",
+    "question": "What popular band has the best name?",
+    "category": "Entertainment",
+    "answers": [
+      { "text": "Panic! At The Disco", "aliases": ["panic at the disco", "panic", "patd"], "points": 22 },
+      { "text": "Queen", "aliases": [], "points": 18 },
+      { "text": "The Beatles", "aliases": ["beatles"], "points": 18 },
+      { "text": "Imagine Dragons", "aliases": [], "points": 17 },
+      { "text": "Led Zeppelin", "aliases": ["led zep"], "points": 13 },
+      { "text": "Red Hot Chili Peppers", "aliases": ["rhcp", "chili peppers", "red hot chilli peppers"], "points": 12 }
+    ]
+  },
+  {
+    "id": "rff008",
+    "question": "Other than the bedroom, name a place where a movie love scene might be filmed.",
+    "category": "Entertainment",
+    "answers": [
+      { "text": "Kitchen", "aliases": ["the kitchen", "kitchen counter"], "points": 40 },
+      { "text": "Living Room", "aliases": ["living room", "lounge"], "points": 20 },
+      { "text": "Shower", "aliases": ["bathroom", "bath", "shower scene"], "points": 15 },
+      { "text": "Couch", "aliases": ["sofa"], "points": 9 },
+      { "text": "Pool", "aliases": ["swimming pool", "hot tub", "jacuzzi"], "points": 8 },
+      { "text": "Office", "aliases": ["work", "workplace", "at work"], "points": 8 }
+    ]
+  },
+  {
+    "id": "rff009",
+    "question": "What superpower would be the best to have as an athlete?",
+    "category": "Sports",
+    "answers": [
+      { "text": "Super Speed", "aliases": ["speed", "super fast", "fast"], "points": 61 },
+      { "text": "Super Strength", "aliases": ["strength", "strong", "super strong"], "points": 20 },
+      { "text": "Stamina", "aliases": ["endurance", "infinite stamina", "unlimited endurance"], "points": 7 },
+      { "text": "Time Control", "aliases": ["time manipulation", "stop time", "slow time", "time"], "points": 5 },
+      { "text": "Flight", "aliases": ["flying", "fly"], "points": 4 },
+      { "text": "Healing", "aliases": ["immunity", "regeneration", "self healing", "heal"], "points": 3 }
+    ]
+  },
+  {
+    "id": "rff010",
+    "question": "What country has the nicest people?",
+    "category": "Culture",
+    "answers": [
+      { "text": "Canada", "aliases": ["canadians"], "points": 70 },
+      { "text": "USA", "aliases": ["united states", "america", "americans", "us"], "points": 8 },
+      { "text": "Sweden", "aliases": ["swedish"], "points": 7 },
+      { "text": "Japan", "aliases": ["japanese"], "points": 5 },
+      { "text": "The Netherlands", "aliases": ["netherlands", "holland", "dutch"], "points": 5 },
+      { "text": "Denmark", "aliases": ["danish", "danes"], "points": 5 }
+    ]
+  },
+  {
+    "id": "rff011",
+    "question": "Name a robot from a movie.",
+    "category": "Entertainment",
+    "answers": [
+      { "text": "WALL-E", "aliases": ["wall e", "walle"], "points": 53 },
+      { "text": "R2-D2", "aliases": ["r2d2", "r2 d2", "artoo"], "points": 18 },
+      { "text": "Terminator", "aliases": ["t-800", "t800", "the terminator"], "points": 10 },
+      { "text": "C-3PO", "aliases": ["c3po", "c 3po", "threepio"], "points": 10 },
+      { "text": "HAL 9000", "aliases": ["hal", "hal9000"], "points": 5 },
+      { "text": "RoboCop", "aliases": ["robo cop"], "points": 4 }
+    ]
+  },
+  {
+    "id": "rff012",
+    "question": "What app on your phone do you use the most?",
+    "category": "Technology",
+    "answers": [
+      { "text": "Reddit", "aliases": [], "points": 54 },
+      { "text": "Messenger", "aliases": ["messenger apps", "whatsapp", "imessage", "texts", "messages"], "points": 12 },
+      { "text": "Instagram", "aliases": ["insta", "ig"], "points": 11 },
+      { "text": "YouTube", "aliases": ["yt"], "points": 9 },
+      { "text": "Browser", "aliases": ["internet", "chrome", "safari", "web browser"], "points": 9 },
+      { "text": "Facebook", "aliases": ["fb"], "points": 5 }
+    ]
+  },
+  {
+    "id": "rff013",
+    "question": "What is the cutest dog breed?",
+    "category": "Animals",
+    "answers": [
+      { "text": "Corgi", "aliases": ["corgis", "welsh corgi"], "points": 30 },
+      { "text": "Golden Retriever", "aliases": ["golden", "goldie"], "points": 24 },
+      { "text": "Pomeranian", "aliases": ["pom", "poms"], "points": 12 },
+      { "text": "Labrador", "aliases": ["labrador retriever", "lab", "labs"], "points": 12 },
+      { "text": "Shiba Inu", "aliases": ["shiba", "doge"], "points": 11 },
+      { "text": "Husky", "aliases": ["huskies", "siberian husky"], "points": 11 }
+    ]
+  },
+  {
+    "id": "rff014",
+    "question": "What country could be considered the most beautiful?",
+    "category": "Travel",
+    "answers": [
+      { "text": "Iceland", "aliases": [], "points": 22 },
+      { "text": "Switzerland", "aliases": ["swiss"], "points": 21 },
+      { "text": "New Zealand", "aliases": ["nz"], "points": 20 },
+      { "text": "Italy", "aliases": [], "points": 14 },
+      { "text": "USA", "aliases": ["united states", "america"], "points": 12 },
+      { "text": "Canada", "aliases": [], "points": 11 }
+    ]
+  },
+  {
+    "id": "rff015",
+    "question": "Name something you might lose on a night out.",
+    "category": "Everyday Life",
+    "answers": [
+      { "text": "Wallet", "aliases": ["my wallet", "purse"], "points": 30 },
+      { "text": "Phone", "aliases": ["my phone", "cell phone", "mobile"], "points": 22 },
+      { "text": "Keys", "aliases": ["my keys", "house keys", "car keys"], "points": 17 },
+      { "text": "Virginity", "aliases": ["my virginity", "innocence"], "points": 14 },
+      { "text": "Cash", "aliases": ["money", "card", "credit card"], "points": 13 },
+      { "text": "Jewelry", "aliases": ["earrings", "ring", "necklace", "watch"], "points": 4 }
+    ]
+  },
+  {
+    "id": "rff016",
+    "question": "What's the most cups of coffee you should have in one day?",
+    "category": "Food & Drink",
+    "answers": [
+      { "text": "3 Cups", "aliases": ["3", "three", "three cups"], "points": 37 },
+      { "text": "2 Cups", "aliases": ["2", "two", "two cups"], "points": 24 },
+      { "text": "4 Cups", "aliases": ["4", "four", "four cups"], "points": 15 },
+      { "text": "5 Cups", "aliases": ["5", "five", "five cups"], "points": 12 },
+      { "text": "0 Cups", "aliases": ["0", "zero", "none", "zero cups"], "points": 6 },
+      { "text": "1 Cup", "aliases": ["1", "one", "one cup"], "points": 6 }
+    ]
+  },
+  {
+    "id": "rff017",
+    "question": "What holiday is the most enjoyable?",
+    "category": "Holidays",
+    "answers": [
+      { "text": "Christmas", "aliases": ["xmas", "christmas day"], "points": 54 },
+      { "text": "Halloween", "aliases": [], "points": 20 },
+      { "text": "Thanksgiving", "aliases": ["turkey day"], "points": 12 },
+      { "text": "4th of July", "aliases": ["fourth of july", "independence day", "july 4th"], "points": 6 },
+      { "text": "New Years", "aliases": ["new year", "new years eve", "nye"], "points": 4 },
+      { "text": "Easter", "aliases": [], "points": 4 }
+    ]
+  },
+  {
+    "id": "rff018",
+    "question": "Name a sport that uses a ball.",
+    "category": "Sports",
+    "answers": [
+      { "text": "Baseball", "aliases": [], "points": 28 },
+      { "text": "Basketball", "aliases": ["bball"], "points": 25 },
+      { "text": "Soccer", "aliases": ["futbol", "football", "fussball"], "points": 21 },
+      { "text": "American Football", "aliases": ["nfl", "gridiron"], "points": 19 },
+      { "text": "Tennis", "aliases": [], "points": 5 },
+      { "text": "Golf", "aliases": [], "points": 2 }
+    ]
+  },
+  {
+    "id": "rff019",
+    "question": "On average, how long should sex last?",
+    "category": "Relationships",
+    "answers": [
+      { "text": "30 minutes", "aliases": ["30 min", "30", "half hour", "30 mins"], "points": 28 },
+      { "text": "20 minutes", "aliases": ["20 min", "20", "20 mins"], "points": 22 },
+      { "text": "15 minutes", "aliases": ["15 min", "15", "15 mins", "quarter hour"], "points": 20 },
+      { "text": "10 minutes", "aliases": ["10 min", "10", "10 mins"], "points": 16 },
+      { "text": "1 hour", "aliases": ["60 min", "60 minutes", "an hour", "one hour"], "points": 8 },
+      { "text": "45 minutes", "aliases": ["45 min", "45", "45 mins"], "points": 6 }
+    ]
+  },
+  {
+    "id": "rff020",
+    "question": "Name a famous painter.",
+    "category": "Culture",
+    "answers": [
+      { "text": "Van Gogh", "aliases": ["vincent van gogh", "vangogh"], "points": 45 },
+      { "text": "Picasso", "aliases": ["pablo picasso"], "points": 24 },
+      { "text": "Da Vinci", "aliases": ["leonardo da vinci", "leonardo", "davinci"], "points": 12 },
+      { "text": "Monet", "aliases": ["claude monet"], "points": 8 },
+      { "text": "Michelangelo", "aliases": ["michaelangelo"], "points": 6 },
+      { "text": "Salvador Dali", "aliases": ["dali", "salvador dali"], "points": 5 }
+    ]
+  },
+  {
     "id": "q001",
     "question": "Name something you take to the beach.",
     "category": "Everyday Life",
