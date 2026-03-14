@@ -1,6 +1,7 @@
 "use client";
 
 import { useLang, t } from "@/lib/i18n";
+import { Answer } from "@/lib/types";
 import { PlayerScore, ROUNDS_PER_GAME } from "./usePartyState";
 
 interface RoundResultsProps {
@@ -8,6 +9,7 @@ interface RoundResultsProps {
   roundScores: PlayerScore[];
   roundNumber: number;
   questionText: string;
+  answers: Answer[];
   onNext: () => void;
   isLastRound: boolean;
 }
@@ -15,7 +17,7 @@ interface RoundResultsProps {
 const COLORS = ["bg-accent", "bg-correct", "bg-gold", "bg-wrong"];
 const TEXT_COLORS = ["text-accent", "text-correct", "text-gold", "text-wrong"];
 
-export default function RoundResults({ players, roundScores, roundNumber, questionText, onNext, isLastRound }: RoundResultsProps) {
+export default function RoundResults({ players, roundScores, roundNumber, questionText, answers, onNext, isLastRound }: RoundResultsProps) {
   const lang = useLang();
 
   // Sort players by score for this round
@@ -30,9 +32,51 @@ export default function RoundResults({ players, roundScores, roundNumber, questi
       </p>
 
       <h2 className="mb-1 text-center text-xl font-extrabold">{t("party.roundComplete", lang)}</h2>
-      <p className="mb-8 max-w-sm text-center text-sm text-text-muted">{questionText}</p>
+      <p className="mb-6 max-w-sm text-center text-sm text-text-muted">{questionText}</p>
 
-      <div className="mb-8 flex w-full max-w-sm flex-col gap-3">
+      {/* Answer reveal */}
+      <div className="mb-6 w-full max-w-sm">
+        <h3 className="mb-3 text-sm font-bold text-text-muted">{t("party.answers", lang)}</h3>
+        <div className="flex flex-col gap-2">
+          {answers.map((answer, ansIdx) => {
+            // Check which players found this answer
+            const foundBy = players
+              .map((_, pi) => roundScores[pi]?.answersFound[ansIdx])
+              .filter(Boolean).length;
+
+            return (
+              <div
+                key={ansIdx}
+                className="card flex items-center gap-3 p-3"
+              >
+                <span className="w-8 text-right text-sm font-extrabold text-accent">
+                  {answer.points}
+                </span>
+                <span className="flex-1 font-semibold">{answer.text}</span>
+                <div className="flex gap-1">
+                  {players.map((_, pi) => {
+                    const found = roundScores[pi]?.answersFound[ansIdx];
+                    return (
+                      <div
+                        key={pi}
+                        className={`h-5 w-5 rounded-full flex items-center justify-center text-[10px] font-bold text-white ${
+                          found ? COLORS[pi] : "bg-border"
+                        }`}
+                        title={players[pi]}
+                      >
+                        {found ? "\u2713" : ""}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Player scores */}
+      <div className="mb-6 flex w-full max-w-sm flex-col gap-3">
         {ranked.map((player, rank) => (
           <div
             key={player.index}
@@ -53,19 +97,6 @@ export default function RoundResults({ players, roundScores, roundNumber, questi
             </div>
           </div>
         ))}
-      </div>
-
-      {/* Answers found bar */}
-      <div className="mb-8 grid w-full max-w-sm grid-cols-2 gap-2 sm:grid-cols-4">
-        {players.map((name, i) => {
-          const found = roundScores[i]?.answersFound.filter(Boolean).length || 0;
-          return (
-            <div key={i} className="card p-2 text-center">
-              <p className="text-xs text-text-dim">{name}</p>
-              <p className={`text-sm font-bold ${TEXT_COLORS[i]}`}>{found}/6</p>
-            </div>
-          );
-        })}
       </div>
 
       <button

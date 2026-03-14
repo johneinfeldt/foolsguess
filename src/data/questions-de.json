@@ -1,11 +1,11 @@
 [
   {
     "id": "rff001",
-    "question": "In welches Zoogehege wuerdest du am wenigsten fallen wollen?",
+    "question": "In welches Zoogehege würdest du am wenigsten fallen wollen?",
     "category": "Tiere",
     "answers": [
       {
-        "text": "Loewe",
+        "text": "Löwe",
         "aliases": [
           "lions",
           "loewen",
@@ -31,7 +31,7 @@
         "points": 19
       },
       {
-        "text": "Baer",
+        "text": "Bär",
         "aliases": [
           "bears",
           "grizzly",
@@ -67,11 +67,11 @@
   },
   {
     "id": "rff002",
-    "question": "Was ist das haeufigste Tattoo bei jungen Leuten?",
+    "question": "Was ist das häufigste Tattoo bei jungen Leuten?",
     "category": "Kultur",
     "answers": [
       {
-        "text": "Blumen oder Baeume",
+        "text": "Blumen oder Bäume",
         "aliases": [
           "flowers",
           "trees",
@@ -120,7 +120,7 @@
         "points": 14
       },
       {
-        "text": "Woerter oder Zitate",
+        "text": "Wörter oder Zitate",
         "aliases": [
           "words",
           "quotes",
@@ -148,11 +148,11 @@
   },
   {
     "id": "rff003",
-    "question": "Welche Sprache klingt am schoensten?",
+    "question": "Welche Sprache klingt am schönsten?",
     "category": "Kultur",
     "answers": [
       {
-        "text": "Franzoesisch",
+        "text": "Französisch",
         "aliases": [
           "franzosisch",
           "French"
@@ -252,7 +252,7 @@
   },
   {
     "id": "rff005",
-    "question": "Welches Musikgenre hat die staerksten Songtexte?",
+    "question": "Welches Musikgenre hat die stärksten Songtexte?",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -385,7 +385,7 @@
         "points": 22
       },
       {
-        "text": "Queen",
+        "text": "Qüen",
         "aliases": [],
         "points": 18
       },
@@ -421,11 +421,11 @@
   },
   {
     "id": "rff008",
-    "question": "Ausser dem Schlafzimmer: Wo koennte eine Liebesszene in einem Film gedreht werden?",
+    "question": "Ausser dem Schlafzimmer: Wo könnte eine Liebesszene in einem Film gedreht werden?",
     "category": "Unterhaltung",
     "answers": [
       {
-        "text": "Kueche",
+        "text": "Küche",
         "aliases": [
           "the kitchen",
           "kitchen counter",
@@ -476,7 +476,7 @@
         "points": 8
       },
       {
-        "text": "Buero",
+        "text": "Büro",
         "aliases": [
           "work",
           "workplace",
@@ -491,7 +491,7 @@
   },
   {
     "id": "rff009",
-    "question": "Welche Superkraft waere als Sportler am besten?",
+    "question": "Welche Superkraft wäre als Sportler am besten?",
     "category": "Sport",
     "answers": [
       {
@@ -508,7 +508,7 @@
         "points": 61
       },
       {
-        "text": "Superstaerke",
+        "text": "Superstärke",
         "aliases": [
           "strength",
           "strong",
@@ -630,7 +630,7 @@
         "points": 5
       },
       {
-        "text": "Daenemark",
+        "text": "Dänemark",
         "aliases": [
           "danish",
           "danes",
@@ -759,7 +759,7 @@
   },
   {
     "id": "rff013",
-    "question": "Was ist die suesseste Hunderasse?",
+    "question": "Was ist die süsseste Hunderasse?",
     "category": "Tiere",
     "answers": [
       {
@@ -817,7 +817,7 @@
   },
   {
     "id": "rff014",
-    "question": "Welches Land koennte als das schoenste gelten?",
+    "question": "Welches Land könnte als das schönste gelten?",
     "category": "Reisen",
     "answers": [
       {
@@ -872,7 +872,7 @@
   },
   {
     "id": "rff015",
-    "question": "Nenne etwas, das man bei einer Partynacht verlieren koennte.",
+    "question": "Nenne etwas, das man bei einer Partynacht verlieren könnte.",
     "category": "Alltag",
     "answers": [
       {
@@ -901,7 +901,7 @@
         "points": 22
       },
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "my keys",
           "house keys",
@@ -914,7 +914,7 @@
         "points": 17
       },
       {
-        "text": "Jungfraeulichkeit",
+        "text": "Jungfräulichkeit",
         "aliases": [
           "my virginity",
           "innocence",
@@ -1217,7 +1217,7 @@
   },
   {
     "id": "rff020",
-    "question": "Nenne einen beruehmten Maler.",
+    "question": "Nenne einen berühmten Maler.",
     "category": "Kultur",
     "answers": [
       {
@@ -1303,7 +1303,7 @@
         "points": 15
       },
       {
-        "text": "Kuehlbox",
+        "text": "Kühlbox",
         "aliases": [
           "ice chest",
           "cool box",
@@ -1338,7 +1338,7 @@
     "category": "Arbeit & Schule",
     "answers": [
       {
-        "text": "Erkaeltung oder Grippe",
+        "text": "Erkältung oder Grippe",
         "aliases": [
           "cold",
           "flu",
@@ -1381,7 +1381,7 @@
         "points": 12
       },
       {
-        "text": "Rueckenschmerzen",
+        "text": "Rückenschmerzen",
         "aliases": [
           "back hurts",
           "backache",
@@ -1470,7 +1470,7 @@
   },
   {
     "id": "q004",
-    "question": "Nenne etwas, das Leute auf dem Handy machen, waehrend sie warten.",
+    "question": "Nenne etwas, das Leute auf dem Handy machen, während sie warten.",
     "category": "Technologie",
     "answers": [
       {
@@ -1604,7 +1604,7 @@
     "category": "Reisen",
     "answers": [
       {
-        "text": "Zahnbuerste",
+        "text": "Zahnbürste",
         "aliases": [
           "tooth brush",
           "Toothbrush"
@@ -1612,7 +1612,7 @@
         "points": 32
       },
       {
-        "text": "Ladegeraet",
+        "text": "Ladegerät",
         "aliases": [
           "charger",
           "charging cable",
@@ -1622,7 +1622,7 @@
         "points": 28
       },
       {
-        "text": "Unterwaesche",
+        "text": "Unterwäsche",
         "aliases": [
           "socks",
           "clean underwear",
@@ -1675,7 +1675,7 @@
         "points": 30
       },
       {
-        "text": "Hoehen",
+        "text": "Höhen",
         "aliases": [
           "high places",
           "falling",
@@ -1693,7 +1693,7 @@
         "points": 18
       },
       {
-        "text": "Oeffentliches Reden",
+        "text": "Öffentliches Reden",
         "aliases": [
           "speaking in public",
           "presentations",
@@ -1729,7 +1729,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Zaehne putzen",
+        "text": "Zähne putzen",
         "aliases": [
           "brush my teeth",
           "brushing teeth",
@@ -1830,7 +1830,7 @@
         "points": 18
       },
       {
-        "text": "Aufhoeren zu rauchen",
+        "text": "Aufhören zu rauchen",
         "aliases": [
           "stop smoking",
           "quit cigarettes",
@@ -1893,7 +1893,7 @@
         "points": 18
       },
       {
-        "text": "Buecher",
+        "text": "Bücher",
         "aliases": [
           "textbooks",
           "book",
@@ -1989,7 +1989,7 @@
         "points": 32
       },
       {
-        "text": "Kaese",
+        "text": "Käse",
         "aliases": [
           "cheddar",
           "american cheese",
@@ -2068,7 +2068,7 @@
         "points": 16
       },
       {
-        "text": "Handtuecher",
+        "text": "Handtücher",
         "aliases": [
           "towel",
           "bath towels",
@@ -2136,7 +2136,7 @@
         "points": 12
       },
       {
-        "text": "Meeresschildkroete",
+        "text": "Meeresschildkröte",
         "aliases": [
           "turtle",
           "turtles",
@@ -2170,7 +2170,7 @@
         "points": 30
       },
       {
-        "text": "Muenzen",
+        "text": "Münzen",
         "aliases": [
           "coin",
           "old coins",
@@ -2222,7 +2222,7 @@
   },
   {
     "id": "q016",
-    "question": "Nenne etwas, das dich zu spaet zur Arbeit kommen laesst.",
+    "question": "Nenne etwas, das dich zu spät zur Arbeit kommen lässt.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -2278,7 +2278,7 @@
         "points": 7
       },
       {
-        "text": "Schluessel verloren",
+        "text": "Schlüssel verloren",
         "aliases": [
           "couldnt find keys",
           "looking for keys",
@@ -2291,7 +2291,7 @@
   },
   {
     "id": "q017",
-    "question": "Nenne ein beliebtes Fruehstuecksessen.",
+    "question": "Nenne ein beliebtes Frühstücksessen.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -2314,7 +2314,7 @@
         "points": 22
       },
       {
-        "text": "Muesli",
+        "text": "Müsli",
         "aliases": [
           "cereals",
           "corn flakes",
@@ -2501,7 +2501,7 @@
         "points": 28
       },
       {
-        "text": "Ladegeraet",
+        "text": "Ladegerät",
         "aliases": [
           "charger",
           "car charger",
@@ -2567,7 +2567,7 @@
         "points": 32
       },
       {
-        "text": "Erkaeltung oder Grippe",
+        "text": "Erkältung oder Grippe",
         "aliases": [
           "cold",
           "flu",
@@ -2752,7 +2752,7 @@
   },
   {
     "id": "gen003",
-    "question": "Nenne ein Gemuese, das Kinder nicht essen wollen.",
+    "question": "Nenne ein Gemüse, das Kinder nicht essen wollen.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -2851,7 +2851,7 @@
   },
   {
     "id": "gen005",
-    "question": "Nenne etwas, das man auf einer Firmenveranstaltung nur so tut als wuerde man es geniessen.",
+    "question": "Nenne etwas, das man auf einer Firmenveranstaltung nur so tut als würde man es geniessen.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -2918,7 +2918,7 @@
   },
   {
     "id": "gen006",
-    "question": "Nenne ein Land, von dem Leute traeumen es zu besuchen.",
+    "question": "Nenne ein Land, von dem Leute träumen es zu besuchen.",
     "category": "Reisen",
     "answers": [
       {
@@ -3000,7 +3000,7 @@
         "points": 26
       },
       {
-        "text": "Geschenke oeffnen",
+        "text": "Geschenke öffnen",
         "aliases": [
           "presents",
           "gifts",
@@ -3021,7 +3021,7 @@
         "points": 11
       },
       {
-        "text": "Sich etwas wuenschen",
+        "text": "Sich etwas wünschen",
         "aliases": [
           "wish",
           "birthday wish",
@@ -3158,11 +3158,11 @@
   },
   {
     "id": "gen010",
-    "question": "Nenne ein Tier, das ein schrecklicher Mitbewohner waere.",
+    "question": "Nenne ein Tier, das ein schrecklicher Mitbewohner wäre.",
     "category": "Tiere",
     "answers": [
       {
-        "text": "Baer",
+        "text": "Bär",
         "aliases": [
           "bears",
           "grizzly",
@@ -3218,7 +3218,7 @@
   },
   {
     "id": "gen011",
-    "question": "Nenne ein Wort, das Leute haeufig falsch schreiben.",
+    "question": "Nenne ein Wort, das Leute häufig falsch schreiben.",
     "category": "Wortspiel",
     "answers": [
       {
@@ -3271,7 +3271,7 @@
   },
   {
     "id": "gen012",
-    "question": "Nenne etwas, worueber Leute beim ersten Date immer luegen.",
+    "question": "Nenne etwas, worüber Leute beim ersten Date immer lügen.",
     "category": "Beziehungen",
     "answers": [
       {
@@ -3326,7 +3326,7 @@
         "points": 9
       },
       {
-        "text": "Ihre Groesse",
+        "text": "Ihre Grösse",
         "aliases": [
           "height",
           "how tall",
@@ -3338,11 +3338,11 @@
   },
   {
     "id": "gen013",
-    "question": "Nenne etwas, das Leute tun, um juenger auszusehen.",
+    "question": "Nenne etwas, das Leute tun, um jünger auszusehen.",
     "category": "Gesundheit",
     "answers": [
       {
-        "text": "Haare faerben",
+        "text": "Haare färben",
         "aliases": [
           "hair dye",
           "color hair",
@@ -3382,7 +3382,7 @@
         "points": 13
       },
       {
-        "text": "Juenger kleiden",
+        "text": "Jünger kleiden",
         "aliases": [
           "trendy clothes",
           "fashion",
@@ -3406,7 +3406,7 @@
   },
   {
     "id": "gen014",
-    "question": "Nenne ein Geraeusch in der Natur, das entspannend ist.",
+    "question": "Nenne ein Geräusch in der Natur, das entspannend ist.",
     "category": "Natur",
     "answers": [
       {
@@ -3496,7 +3496,7 @@
         "points": 24
       },
       {
-        "text": "Gummibaender",
+        "text": "Gummibänder",
         "aliases": [
           "rubber band",
           "elastics",
@@ -3505,7 +3505,7 @@
         "points": 18
       },
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "old keys",
           "mystery keys",
@@ -3525,7 +3525,7 @@
         "points": 10
       },
       {
-        "text": "Lieferservice-Menues",
+        "text": "Lieferservice-Menüs",
         "aliases": [
           "menus",
           "coupons",
@@ -3539,7 +3539,7 @@
   },
   {
     "id": "gen016",
-    "question": "Nenne ein Essen, das in der Oeffentlichkeit schwer sauber zu essen ist.",
+    "question": "Nenne ein Essen, das in der Öffentlichkeit schwer sauber zu essen ist.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -3597,7 +3597,7 @@
   },
   {
     "id": "gen017",
-    "question": "Nenne eine Serie, die Leute am Stueck durchschauen.",
+    "question": "Nenne eine Serie, die Leute am Stück durchschauen.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -3728,7 +3728,7 @@
         "points": 28
       },
       {
-        "text": "Verspaetungen",
+        "text": "Verspätungen",
         "aliases": [
           "flight delays",
           "cancelled flights",
@@ -3760,7 +3760,7 @@
         "points": 14
       },
       {
-        "text": "Verlorenes Gepaeck",
+        "text": "Verlorenes Gepäck",
         "aliases": [
           "lost bags",
           "baggage",
@@ -3786,7 +3786,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Steuererklaerung",
+        "text": "Steuererklärung",
         "aliases": [
           "filing taxes",
           "tax return",
@@ -3825,7 +3825,7 @@
         "points": 12
       },
       {
-        "text": "Waesche",
+        "text": "Wäsche",
         "aliases": [
           "washing clothes",
           "doing laundry",
@@ -3846,7 +3846,7 @@
   },
   {
     "id": "gen021",
-    "question": "Nenne ein Getraenk, das man an der Bar bestellt.",
+    "question": "Nenne ein Getränk, das man an der Bar bestellt.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "gen023",
-    "question": "Nenne etwas, das dich nachts wach haelt.",
+    "question": "Nenne etwas, das dich nachts wach hält.",
     "category": "Gesundheit",
     "answers": [
       {
@@ -3985,7 +3985,7 @@
         "points": 22
       },
       {
-        "text": "Laerm",
+        "text": "Lärm",
         "aliases": [
           "loud neighbors",
           "traffic noise",
@@ -4032,7 +4032,7 @@
     "category": "Gesundheit",
     "answers": [
       {
-        "text": "Zu muede",
+        "text": "Zu müde",
         "aliases": [
           "tired",
           "exhausted",
@@ -4099,7 +4099,7 @@
   },
   {
     "id": "gen025",
-    "question": "Nenne etwas, worueber Leute auf Roadtrips streiten.",
+    "question": "Nenne etwas, worüber Leute auf Roadtrips streiten.",
     "category": "Reisen",
     "answers": [
       {
@@ -4149,7 +4149,7 @@
         "points": 13
       },
       {
-        "text": "Wer faehrt",
+        "text": "Wer fährt",
         "aliases": [
           "driving",
           "whos driving",
@@ -4177,7 +4177,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Abspuelen",
+        "text": "Abspülen",
         "aliases": [
           "washing dishes",
           "doing the dishes",
@@ -4197,7 +4197,7 @@
         "points": 24
       },
       {
-        "text": "Waesche",
+        "text": "Wäsche",
         "aliases": [
           "folding laundry",
           "washing clothes",
@@ -4217,7 +4217,7 @@
         "points": 12
       },
       {
-        "text": "Muell rausbringen",
+        "text": "Müll rausbringen",
         "aliases": [
           "trash",
           "garbage",
@@ -4228,7 +4228,7 @@
         "points": 10
       },
       {
-        "text": "Rasen maehen",
+        "text": "Rasen mähen",
         "aliases": [
           "lawn",
           "yard work",
@@ -4253,7 +4253,7 @@
         "points": 45
       },
       {
-        "text": "Suessigkeiten",
+        "text": "Süssigkeiten",
         "aliases": [
           "sweets",
           "m&ms",
@@ -4305,7 +4305,7 @@
   },
   {
     "id": "gen028",
-    "question": "Nenne etwas, das ein Lehrer Schuelern abnimmt.",
+    "question": "Nenne etwas, das ein Lehrer Schülern abnimmt.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -4348,7 +4348,7 @@
         "points": 10
       },
       {
-        "text": "Muetze",
+        "text": "Mütze",
         "aliases": [
           "hats",
           "cap",
@@ -4358,7 +4358,7 @@
         "points": 7
       },
       {
-        "text": "Kopfhoerer",
+        "text": "Kopfhörer",
         "aliases": [
           "earbuds",
           "airpods",
@@ -4371,7 +4371,7 @@
   },
   {
     "id": "gen029",
-    "question": "Nenne ein Tier, von dem Leute ueberrascht sind, dass es gefaehrlich ist.",
+    "question": "Nenne ein Tier, von dem Leute überrascht sind, dass es gefährlich ist.",
     "category": "Tiere",
     "answers": [
       {
@@ -4430,7 +4430,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Parfuem",
+        "text": "Parfüm",
         "aliases": [
           "cologne",
           "fragrance",
@@ -4488,7 +4488,7 @@
   },
   {
     "id": "gen031",
-    "question": "Nenne einen beruehmten fiktiven Detektiv.",
+    "question": "Nenne einen berühmten fiktiven Detektiv.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -4542,7 +4542,7 @@
   },
   {
     "id": "gen032",
-    "question": "Nenne etwas in einem Haus, das Gaeste zuerst bemerken.",
+    "question": "Nenne etwas in einem Haus, das Gäste zürst bemerken.",
     "category": "Alltag",
     "answers": [
       {
@@ -4579,7 +4579,7 @@
         "points": 18
       },
       {
-        "text": "Die Kueche",
+        "text": "Die Küche",
         "aliases": [
           "kitchen",
           "size of kitchen",
@@ -4768,7 +4768,7 @@
         "points": 17
       },
       {
-        "text": "Abfuehrmittel",
+        "text": "Abführmittel",
         "aliases": [
           "laxative",
           "stool softener",
@@ -4800,7 +4800,7 @@
   },
   {
     "id": "gen036",
-    "question": "Nenne ein beruehmtes Wahrzeichen, das jeder kennt.",
+    "question": "Nenne ein berühmtes Wahrzeichen, das jeder kennt.",
     "category": "Kultur",
     "answers": [
       {
@@ -4814,7 +4814,7 @@
         "points": 35
       },
       {
-        "text": "Freiheitsstatue",
+        "text": "Freiheitsstatü",
         "aliases": [
           "lady liberty",
           "statue",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "gen037",
-    "question": "Nenne etwas, bei dem man so tut als wuerde man es verstehen.",
+    "question": "Nenne etwas, bei dem man so tut als würde man es verstehen.",
     "category": "Alltag",
     "answers": [
       {
@@ -4875,7 +4875,7 @@
         "points": 30
       },
       {
-        "text": "Kryptowaehrung",
+        "text": "Kryptowährung",
         "aliases": [
           "crypto",
           "bitcoin",
@@ -4935,7 +4935,7 @@
     "category": "Beziehungen",
     "answers": [
       {
-        "text": "Ueber den Ex reden",
+        "text": "Über den Ex reden",
         "aliases": [
           "mention your ex",
           "bring up ex",
@@ -4956,7 +4956,7 @@
         "points": 22
       },
       {
-        "text": "Zu spaet kommen",
+        "text": "Zu spät kommen",
         "aliases": [
           "show up late",
           "being late",
@@ -4975,7 +4975,7 @@
         "points": 11
       },
       {
-        "text": "Ueber Heirat reden",
+        "text": "Über Heirat reden",
         "aliases": [
           "marriage",
           "propose",
@@ -4986,7 +4986,7 @@
         "points": 8
       },
       {
-        "text": "Ruelpsen",
+        "text": "Rülpsen",
         "aliases": [
           "fart",
           "pass gas",
@@ -5047,7 +5047,7 @@
         "points": 8
       },
       {
-        "text": "Gaensebluemchen",
+        "text": "Gänsebluemchen",
         "aliases": [
           "daisy",
           "Daisies"
@@ -5142,7 +5142,7 @@
         "points": 24
       },
       {
-        "text": "Rasenmaeher",
+        "text": "Rasenmäher",
         "aliases": [
           "mowing",
           "lawn mower",
@@ -5207,7 +5207,7 @@
         "points": 22
       },
       {
-        "text": "Kaese-Makkaroni",
+        "text": "Käse-Makkaroni",
         "aliases": [
           "macaroni and cheese",
           "mac n cheese",
@@ -5244,7 +5244,7 @@
   },
   {
     "id": "gen043",
-    "question": "Nenne einen Beruf, den Kinder ausueben wollen wenn sie gross sind.",
+    "question": "Nenne einen Beruf, den Kinder ausüben wollen wenn sie gross sind.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -5306,7 +5306,7 @@
   },
   {
     "id": "gen044",
-    "question": "Nenne etwas, das du als erstes greifen wuerdest wenn dein Haus brennt.",
+    "question": "Nenne etwas, das du als erstes greifen würdest wenn dein Haus brennt.",
     "category": "Alltag",
     "answers": [
       {
@@ -5482,7 +5482,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Tuer abschliessen",
+        "text": "Tür abschliessen",
         "aliases": [
           "lock door",
           "lock up",
@@ -5492,7 +5492,7 @@
         "points": 30
       },
       {
-        "text": "Schluessel nehmen",
+        "text": "Schlüssel nehmen",
         "aliases": [
           "keys",
           "take keys",
@@ -5544,7 +5544,7 @@
   },
   {
     "id": "gen048",
-    "question": "Nenne eine typische Ausrede dafuer, eine Nachricht nicht beantwortet zu haben.",
+    "question": "Nenne eine typische Ausrede dafür, eine Nachricht nicht beantwortet zu haben.",
     "category": "Technologie",
     "answers": [
       {
@@ -5570,7 +5570,7 @@
         "points": 25
       },
       {
-        "text": "War beschaeftigt",
+        "text": "War beschäftigt",
         "aliases": [
           "too busy",
           "busy",
@@ -5614,7 +5614,7 @@
   },
   {
     "id": "gen049",
-    "question": "Nenne eine Sportart, die man alleine ausueben kann.",
+    "question": "Nenne eine Sportart, die man alleine ausüben kann.",
     "category": "Sport",
     "answers": [
       {
@@ -5677,7 +5677,7 @@
         "points": 28
       },
       {
-        "text": "Kraehe",
+        "text": "Krähe",
         "aliases": [
           "crows",
           "raven",
@@ -5723,7 +5723,7 @@
   },
   {
     "id": "gen051",
-    "question": "Nenne etwas, das man sich immer ausleiht aber nie zurueckgibt.",
+    "question": "Nenne etwas, das man sich immer ausleiht aber nie zurückgibt.",
     "category": "Alltag",
     "answers": [
       {
@@ -5752,7 +5752,7 @@
         "points": 18
       },
       {
-        "text": "Buecher",
+        "text": "Bücher",
         "aliases": [
           "book",
           "novels",
@@ -5761,7 +5761,7 @@
         "points": 12
       },
       {
-        "text": "Ladegeraet",
+        "text": "Ladegerät",
         "aliases": [
           "phone charger",
           "charging cable",
@@ -5782,11 +5782,11 @@
   },
   {
     "id": "gen052",
-    "question": "Nenne etwas, das man in der Schule haette lernen sollen, aber nicht gelernt hat.",
+    "question": "Nenne etwas, das man in der Schule hätte lernen sollen, aber nicht gelernt hat.",
     "category": "Arbeit & Schule",
     "answers": [
       {
-        "text": "Steuererklaerung machen",
+        "text": "Steuererklärung machen",
         "aliases": [
           "taxes",
           "filing taxes",
@@ -5836,7 +5836,7 @@
         "points": 8
       },
       {
-        "text": "Wie man waehlt",
+        "text": "Wie man wählt",
         "aliases": [
           "voting",
           "politics",
@@ -5849,7 +5849,7 @@
   },
   {
     "id": "gen053",
-    "question": "Nenne einen Ort, an dem man fluestert.",
+    "question": "Nenne einen Ort, an dem man flüstert.",
     "category": "Alltag",
     "answers": [
       {
@@ -5971,7 +5971,7 @@
   },
   {
     "id": "gen055",
-    "question": "Nenne einen beruehmten fiktiven Boesewicht.",
+    "question": "Nenne einen berühmten fiktiven Bösewicht.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -6004,9 +6004,10 @@
         "points": 13
       },
       {
-        "text": "Cruella de Vil",
+        "text": "Crülla de Vil",
         "aliases": [
-          "cruella"
+          "cruella",
+          "Cruella de Vil"
         ],
         "points": 8
       },
@@ -6066,7 +6067,7 @@
         "points": 10
       },
       {
-        "text": "Schriftliche Pruefung",
+        "text": "Schriftliche Prüfung",
         "aliases": [
           "the test",
           "driving test",
@@ -6090,7 +6091,7 @@
   },
   {
     "id": "gen057",
-    "question": "Nenne ein Musikinstrument, das Leute gerne spielen koennten.",
+    "question": "Nenne ein Musikinstrument, das Leute gerne spielen könnten.",
     "category": "Kultur",
     "answers": [
       {
@@ -6151,7 +6152,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Musik hoeren",
+        "text": "Musik hören",
         "aliases": [
           "music",
           "play music",
@@ -6217,7 +6218,7 @@
   },
   {
     "id": "gen059",
-    "question": "Nenne etwas Albernes, worueber Paare streiten.",
+    "question": "Nenne etwas Albernes, worüber Paare streiten.",
     "category": "Beziehungen",
     "answers": [
       {
@@ -6243,7 +6244,7 @@
         "points": 22
       },
       {
-        "text": "Abspuelen",
+        "text": "Abspülen",
         "aliases": [
           "chores",
           "who does dishes",
@@ -6308,7 +6309,7 @@
         "points": 24
       },
       {
-        "text": "Waesche",
+        "text": "Wäsche",
         "aliases": [
           "washing machine",
           "dryer",
@@ -6350,7 +6351,7 @@
   },
   {
     "id": "gen061",
-    "question": "Nenne ein Wetter, das Plaene ruiniert.",
+    "question": "Nenne ein Wetter, das Pläne ruiniert.",
     "category": "Natur",
     "answers": [
       {
@@ -6423,7 +6424,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Suessigkeiten",
+        "text": "Süssigkeiten",
         "aliases": [
           "sweets",
           "candy dish",
@@ -6571,7 +6572,7 @@
         "points": 35
       },
       {
-        "text": "Kochbuecher",
+        "text": "Kochbücher",
         "aliases": [
           "cookbook",
           "recipe books",
@@ -6590,7 +6591,7 @@
         "points": 17
       },
       {
-        "text": "Buecher",
+        "text": "Bücher",
         "aliases": [
           "book",
           "novels",
@@ -6608,7 +6609,7 @@
         "points": 9
       },
       {
-        "text": "Buegeleisen",
+        "text": "Bügeleisen",
         "aliases": [
           "ironing board",
           "clothes iron",
@@ -6634,7 +6635,7 @@
         "points": 40
       },
       {
-        "text": "Zweimal taeglich putzen",
+        "text": "Zweimal täglich putzen",
         "aliases": [
           "brush more",
           "brush your teeth",
@@ -6644,7 +6645,7 @@
         "points": 24
       },
       {
-        "text": "Mundspuelung benutzen",
+        "text": "Mundspülung benutzen",
         "aliases": [
           "mouthwash",
           "rinse",
@@ -6675,7 +6676,7 @@
         "points": 7
       },
       {
-        "text": "Zahnbuerste wechseln",
+        "text": "Zahnbürste wechseln",
         "aliases": [
           "new toothbrush",
           "change toothbrush",
@@ -6805,7 +6806,7 @@
   },
   {
     "id": "gen068",
-    "question": "Nenne ein Brettspiel, das zu Familienstreits fuehrt.",
+    "question": "Nenne ein Brettspiel, das zu Familienstreits führt.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -6907,7 +6908,7 @@
         "points": 10
       },
       {
-        "text": "Frueher gehen",
+        "text": "Früher gehen",
         "aliases": [
           "sneak out",
           "go home early",
@@ -6983,7 +6984,7 @@
   },
   {
     "id": "gen071",
-    "question": "Nenne eine Faehigkeit, die auf einer Party beeindruckt.",
+    "question": "Nenne eine Fähigkeit, die auf einer Party beeindruckt.",
     "category": "Kultur",
     "answers": [
       {
@@ -7096,7 +7097,7 @@
         "points": 14
       },
       {
-        "text": "Kopfhoerer",
+        "text": "Kopfhörer",
         "aliases": [
           "earbuds",
           "airpods",
@@ -7105,7 +7106,7 @@
         "points": 10
       },
       {
-        "text": "Leere Snacktueten",
+        "text": "Leere Snacktüten",
         "aliases": [
           "food wrappers",
           "trash",
@@ -7119,7 +7120,7 @@
   },
   {
     "id": "gen073",
-    "question": "Nenne ein Fahrzeug, in dem man einmal mitfahren moechte.",
+    "question": "Nenne ein Fahrzeug, in dem man einmal mitfahren möchte.",
     "category": "Reisen",
     "answers": [
       {
@@ -7180,7 +7181,7 @@
   },
   {
     "id": "gen074",
-    "question": "Nenne einen Feiertag, fuer den Leute zu viel Geld ausgeben.",
+    "question": "Nenne einen Feiertag, für den Leute zu viel Geld ausgeben.",
     "category": "Feiertage",
     "answers": [
       {
@@ -7232,11 +7233,11 @@
   },
   {
     "id": "gen075",
-    "question": "Nenne ein Geraet, das veraltet ist.",
+    "question": "Nenne ein Gerät, das veraltet ist.",
     "category": "Technologie",
     "answers": [
       {
-        "text": "Faxgeraet",
+        "text": "Faxgerät",
         "aliases": [
           "fax",
           "Fax Machine"
@@ -7296,7 +7297,7 @@
   },
   {
     "id": "gen076",
-    "question": "Nenne eine olympische Sportart, die die meisten nicht koennten.",
+    "question": "Nenne eine olympische Sportart, die die meisten nicht könnten.",
     "category": "Sport",
     "answers": [
       {
@@ -7367,7 +7368,7 @@
         "points": 40
       },
       {
-        "text": "Schildkroete",
+        "text": "Schildkröte",
         "aliases": [
           "tortoise",
           "turtles",
@@ -7440,7 +7441,7 @@
         "points": 25
       },
       {
-        "text": "Zaehne putzen",
+        "text": "Zähne putzen",
         "aliases": [
           "brush my teeth",
           "teeth",
@@ -7469,7 +7470,7 @@
         "points": 8
       },
       {
-        "text": "Schlummertaste druecken",
+        "text": "Schlummertaste drücken",
         "aliases": [
           "snooze",
           "press snooze",
@@ -7522,7 +7523,7 @@
         "points": 12
       },
       {
-        "text": "Oel",
+        "text": "Öl",
         "aliases": [
           "petroleum",
           "oil rigs",
@@ -7545,7 +7546,7 @@
   },
   {
     "id": "gen080",
-    "question": "Nenne etwas, das jedes Buero hat.",
+    "question": "Nenne etwas, das jedes Büro hat.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -7624,7 +7625,7 @@
         "points": 28
       },
       {
-        "text": "Gruselige Geraeusche",
+        "text": "Gruselige Geräusche",
         "aliases": [
           "noises",
           "screaming",
@@ -7733,7 +7734,7 @@
         "points": 10
       },
       {
-        "text": "Haengt sich auf",
+        "text": "Hängt sich auf",
         "aliases": [
           "crashes",
           "lags",
@@ -7848,7 +7849,7 @@
         "points": 9
       },
       {
-        "text": "Hyaene",
+        "text": "Hyäne",
         "aliases": [
           "hyenas",
           "Hyena"
@@ -7900,7 +7901,7 @@
         "points": 12
       },
       {
-        "text": "Regenschirm drinnen oeffnen",
+        "text": "Regenschirm drinnen öffnen",
         "aliases": [
           "umbrella inside",
           "umbrella indoors",
@@ -7910,7 +7911,7 @@
         "points": 9
       },
       {
-        "text": "Salz verschuetten",
+        "text": "Salz verschütten",
         "aliases": [
           "spilled salt",
           "salt",
@@ -7944,7 +7945,7 @@
         "points": 22
       },
       {
-        "text": "Schnapsglaeser",
+        "text": "Schnapsgläser",
         "aliases": [
           "shot glass",
           "Shot Glasses"
@@ -7961,7 +7962,7 @@
         "points": 12
       },
       {
-        "text": "Schluesselanhaenger",
+        "text": "Schlüsselanhänger",
         "aliases": [
           "keychain",
           "key chains",
@@ -7983,7 +7984,7 @@
   },
   {
     "id": "gen087",
-    "question": "Nenne etwas, das man vor einem Vorstellungsgespraech tun sollte.",
+    "question": "Nenne etwas, das man vor einem Vorstellungsgespräch tun sollte.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -8008,7 +8009,7 @@
         "points": 24
       },
       {
-        "text": "Antworten ueben",
+        "text": "Antworten üben",
         "aliases": [
           "prepare",
           "rehearse",
@@ -8068,7 +8069,7 @@
         "points": 45
       },
       {
-        "text": "Kaese",
+        "text": "Käse",
         "aliases": [
           "aged cheese",
           "cheddar",
@@ -8130,7 +8131,7 @@
         "points": 30
       },
       {
-        "text": "Eroeffnungstanz",
+        "text": "Eröffnungstanz",
         "aliases": [
           "dancing",
           "the dance",
@@ -8343,7 +8344,7 @@
         "points": 8
       },
       {
-        "text": "Kuehlbox",
+        "text": "Kühlbox",
         "aliases": [
           "ice chest",
           "food cooler",
@@ -8359,7 +8360,7 @@
     "category": "Feiertage",
     "answers": [
       {
-        "text": "Fruechte-Kuchen",
+        "text": "Früchte-Kuchen",
         "aliases": [
           "fruit cake",
           "Fruitcake"
@@ -8367,7 +8368,7 @@
         "points": 35
       },
       {
-        "text": "Eierlikoerpunsch",
+        "text": "Eierlikörpunsch",
         "aliases": [
           "egg nog",
           "Eggnog"
@@ -8384,7 +8385,7 @@
         "points": 16
       },
       {
-        "text": "Suesskartoffeln",
+        "text": "Süsskartoffeln",
         "aliases": [
           "yams",
           "sweet potato casserole",
@@ -8394,7 +8395,7 @@
         "points": 10
       },
       {
-        "text": "Fuellung",
+        "text": "Füllung",
         "aliases": [
           "dressing",
           "Stuffing"
@@ -8413,7 +8414,7 @@
   },
   {
     "id": "gen094",
-    "question": "Nenne ein Passwort, das Leute haeufig verwenden.",
+    "question": "Nenne ein Passwort, das Leute häufig verwenden.",
     "category": "Technologie",
     "answers": [
       {
@@ -8476,7 +8477,7 @@
   },
   {
     "id": "gen095",
-    "question": "Nenne eine Uebung, die Leute lieben zu hassen.",
+    "question": "Nenne eine Übung, die Leute lieben zu hassen.",
     "category": "Sport",
     "answers": [
       {
@@ -8512,7 +8513,7 @@
         "points": 11
       },
       {
-        "text": "Liegestuetze",
+        "text": "Liegestütze",
         "aliases": [
           "pushups",
           "push ups",
@@ -8534,11 +8535,11 @@
   },
   {
     "id": "gen096",
-    "question": "Nenne ein Tier, das man im Garten sehen koennte.",
+    "question": "Nenne ein Tier, das man im Garten sehen könnte.",
     "category": "Tiere",
     "answers": [
       {
-        "text": "Eichhoernchen",
+        "text": "Eichhörnchen",
         "aliases": [
           "squirrels",
           "Squirrel"
@@ -8575,7 +8576,7 @@
         "points": 12
       },
       {
-        "text": "Waschbaer",
+        "text": "Waschbär",
         "aliases": [
           "raccoons",
           "trash panda",
@@ -8660,7 +8661,7 @@
         "points": 35
       },
       {
-        "text": "Unbequeme Stuehle",
+        "text": "Unbeqüme Stühle",
         "aliases": [
           "chairs",
           "hard chairs",
@@ -8718,7 +8719,7 @@
     "category": "Kultur",
     "answers": [
       {
-        "text": "Kaenguru",
+        "text": "Känguru",
         "aliases": [
           "kangaroos",
           "roo",
@@ -8770,7 +8771,7 @@
   },
   {
     "id": "gen100",
-    "question": "Nenne einen Grund, warum jemand den Notruf waehlen koennte.",
+    "question": "Nenne einen Grund, warum jemand den Notruf wählen könnte.",
     "category": "Alltag",
     "answers": [
       {
@@ -8794,7 +8795,7 @@
         "points": 24
       },
       {
-        "text": "Ueberfall",
+        "text": "Überfall",
         "aliases": [
           "break in",
           "burglary",
@@ -8817,7 +8818,7 @@
         "points": 14
       },
       {
-        "text": "Schlaegerei",
+        "text": "Schlägerei",
         "aliases": [
           "assault",
           "violence",
@@ -8828,7 +8829,7 @@
         "points": 10
       },
       {
-        "text": "Verdaechtige Person",
+        "text": "Verdächtige Person",
         "aliases": [
           "suspicious activity",
           "stranger",
@@ -8841,7 +8842,7 @@
   },
   {
     "id": "gen101",
-    "question": "Nenne ein Essen, das man unmoeglich leise essen kann.",
+    "question": "Nenne ein Essen, das man unmöglich leise essen kann.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -8863,7 +8864,7 @@
         "points": 22
       },
       {
-        "text": "Aepfel",
+        "text": "Äpfel",
         "aliases": [
           "apple",
           "an apple",
@@ -8872,7 +8873,7 @@
         "points": 18
       },
       {
-        "text": "Moehren",
+        "text": "Möhren",
         "aliases": [
           "carrot",
           "carrot sticks",
@@ -8882,7 +8883,7 @@
         "points": 14
       },
       {
-        "text": "Muesli",
+        "text": "Müsli",
         "aliases": [
           "breakfast cereal",
           "corn flakes",
@@ -8903,7 +8904,7 @@
   },
   {
     "id": "gen102",
-    "question": "Nenne etwas, bei dem Leute auf Dinnerpartys so tun, als wuerden sie es verstehen.",
+    "question": "Nenne etwas, bei dem Leute auf Dinnerpartys so tun, als würden sie es verstehen.",
     "category": "Kultur",
     "answers": [
       {
@@ -8957,7 +8958,7 @@
         "points": 8
       },
       {
-        "text": "Auslaendische Kueche",
+        "text": "Ausländische Küche",
         "aliases": [
           "exotic food",
           "fancy food",
@@ -9051,7 +9052,7 @@
         "points": 16
       },
       {
-        "text": "Parfuem",
+        "text": "Parfüm",
         "aliases": [
           "cologne",
           "fragrance",
@@ -9126,7 +9127,7 @@
         "points": 14
       },
       {
-        "text": "Braeuche nicht respektieren",
+        "text": "Bräuche nicht respektieren",
         "aliases": [
           "ignoring culture",
           "rude behavior",
@@ -9149,11 +9150,11 @@
   },
   {
     "id": "gen106",
-    "question": "Nenne ein Tier, das suess aussieht, aber eigentlich gefaehrlich ist.",
+    "question": "Nenne ein Tier, das süss aussieht, aber eigentlich gefährlich ist.",
     "category": "Tiere",
     "answers": [
       {
-        "text": "Baer",
+        "text": "Bär",
         "aliases": [
           "bears",
           "bear cub",
@@ -9180,7 +9181,7 @@
         "points": 16
       },
       {
-        "text": "Waschbaer",
+        "text": "Waschbär",
         "aliases": [
           "raccoons",
           "trash panda",
@@ -9211,11 +9212,11 @@
   },
   {
     "id": "gen107",
-    "question": "Nenne etwas, das Leute staendig im eigenen Haus verlieren.",
+    "question": "Nenne etwas, das Leute ständig im eigenen Haus verlieren.",
     "category": "Alltag",
     "answers": [
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "house keys",
           "car keys",
@@ -9277,7 +9278,7 @@
   },
   {
     "id": "gen108",
-    "question": "Nenne einen Beruf, den Kinder spaeter ausueben wollen.",
+    "question": "Nenne einen Beruf, den Kinder später ausüben wollen.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -9398,7 +9399,7 @@
         "points": 10
       },
       {
-        "text": "Tagtraeumen",
+        "text": "Tagträumen",
         "aliases": [
           "zone out",
           "stare at wall",
@@ -9470,7 +9471,7 @@
     "category": "Reisen",
     "answers": [
       {
-        "text": "Zahnbuerste",
+        "text": "Zahnbürste",
         "aliases": [
           "tooth brush",
           "toothpaste",
@@ -9489,7 +9490,7 @@
         "points": 25
       },
       {
-        "text": "Unterwaesche",
+        "text": "Unterwäsche",
         "aliases": [
           "extra underwear",
           "undies",
@@ -9566,7 +9567,7 @@
         "points": 18
       },
       {
-        "text": "Plastik auf Moebeln",
+        "text": "Plastik auf Möbeln",
         "aliases": [
           "plastic covers",
           "couch covers",
@@ -9576,7 +9577,7 @@
         "points": 14
       },
       {
-        "text": "Religioese Gegenstaende",
+        "text": "Religiöse Gegenstände",
         "aliases": [
           "crosses",
           "bible",
@@ -9598,11 +9599,11 @@
   },
   {
     "id": "gen113",
-    "question": "Nenne eine Ausrede, um frueh von einer Party zu gehen.",
+    "question": "Nenne eine Ausrede, um früh von einer Party zu gehen.",
     "category": "Beziehungen",
     "answers": [
       {
-        "text": "Muss frueh arbeiten",
+        "text": "Muss früh arbeiten",
         "aliases": [
           "work tomorrow",
           "early morning",
@@ -9612,7 +9613,7 @@
         "points": 32
       },
       {
-        "text": "Fuehle mich nicht gut",
+        "text": "Fühle mich nicht gut",
         "aliases": [
           "sick",
           "headache",
@@ -9643,7 +9644,7 @@
         "points": 12
       },
       {
-        "text": "Frueher Termin",
+        "text": "Früher Termin",
         "aliases": [
           "appointment tomorrow",
           "doctor appointment",
@@ -9789,7 +9790,7 @@
   },
   {
     "id": "gen116",
-    "question": "Nenne etwas, woreuber Leute beim ersten Date luegen.",
+    "question": "Nenne etwas, woreuber Leute beim ersten Date lügen.",
     "category": "Beziehungen",
     "answers": [
       {
@@ -9832,7 +9833,7 @@
         "points": 13
       },
       {
-        "text": "Groesse",
+        "text": "Grösse",
         "aliases": [
           "how tall",
           "their height",
@@ -9868,7 +9869,7 @@
         "points": 38
       },
       {
-        "text": "Formulare ausfuellen",
+        "text": "Formulare ausfüllen",
         "aliases": [
           "paperwork",
           "forms",
@@ -9907,7 +9908,7 @@
         "points": 8
       },
       {
-        "text": "Ueberweisung bekommen",
+        "text": "Überweisung bekommen",
         "aliases": [
           "referrals",
           "specialist referral",
@@ -9923,7 +9924,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Abspuelen",
+        "text": "Abspülen",
         "aliases": [
           "washing dishes",
           "doing the dishes",
@@ -9933,7 +9934,7 @@
         "points": 30
       },
       {
-        "text": "Waesche",
+        "text": "Wäsche",
         "aliases": [
           "doing laundry",
           "folding laundry",
@@ -9971,7 +9972,7 @@
         "points": 10
       },
       {
-        "text": "Buegeln",
+        "text": "Bügeln",
         "aliases": [
           "ironing clothes",
           "pressing clothes",
@@ -9983,7 +9984,7 @@
   },
   {
     "id": "gen119",
-    "question": "Nenne ein Geraeusch, das dich mitten in der Nacht aufweckt.",
+    "question": "Nenne ein Geräusch, das dich mitten in der Nacht aufweckt.",
     "category": "Alltag",
     "answers": [
       {
@@ -10054,7 +10055,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Knoepfe druecken",
+        "text": "Knöpfe drücken",
         "aliases": [
           "push buttons",
           "press all buttons",
@@ -10117,7 +10118,7 @@
   },
   {
     "id": "gen121",
-    "question": "Nenne einen beruehmten fiktiven Detektiv.",
+    "question": "Nenne einen berühmten fiktiven Detektiv.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -10186,7 +10187,7 @@
         "points": 30
       },
       {
-        "text": "Freizeitpark-Fahrgeschaefte",
+        "text": "Freizeitpark-Fahrgeschäfte",
         "aliases": [
           "theme park",
           "roller coasters",
@@ -10227,7 +10228,7 @@
         "points": 10
       },
       {
-        "text": "Oeffentliche Toilette",
+        "text": "Öffentliche Toilette",
         "aliases": [
           "bathroom",
           "womens restroom",
@@ -10255,7 +10256,7 @@
         "points": 28
       },
       {
-        "text": "Gummibaender",
+        "text": "Gummibänder",
         "aliases": [
           "rubber band",
           "elastic bands",
@@ -10285,7 +10286,7 @@
         "points": 14
       },
       {
-        "text": "Lieferservice-Menues",
+        "text": "Lieferservice-Menüs",
         "aliases": [
           "menus",
           "old menus",
@@ -10295,7 +10296,7 @@
         "points": 10
       },
       {
-        "text": "Alte Schluessel",
+        "text": "Alte Schlüssel",
         "aliases": [
           "mystery keys",
           "random keys",
@@ -10381,7 +10382,7 @@
         "points": 34
       },
       {
-        "text": "Gesuender essen",
+        "text": "Gesünder essen",
         "aliases": [
           "diet",
           "go on a diet",
@@ -10422,7 +10423,7 @@
         "points": 8
       },
       {
-        "text": "Frueh aufstehen",
+        "text": "Früh aufstehen",
         "aliases": [
           "get up early",
           "become a morning person",
@@ -10435,7 +10436,7 @@
   },
   {
     "id": "gen126",
-    "question": "Nenne ein Gemuese, das Kinder nicht essen wollen.",
+    "question": "Nenne ein Gemüse, das Kinder nicht essen wollen.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -10507,7 +10508,7 @@
         "points": 30
       },
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "house keys",
           "car keys",
@@ -10548,7 +10549,7 @@
         "points": 8
       },
       {
-        "text": "Tuer abschliessen",
+        "text": "Tür abschliessen",
         "aliases": [
           "door locked",
           "locked the door",
@@ -10561,7 +10562,7 @@
   },
   {
     "id": "gen128",
-    "question": "Nenne eine beruehmte Sehenswuerdigkeit, vor der Leute Fotos machen.",
+    "question": "Nenne eine berühmte Sehenswürdigkeit, vor der Leute Fotos machen.",
     "category": "Reisen",
     "answers": [
       {
@@ -10575,7 +10576,7 @@
         "points": 32
       },
       {
-        "text": "Freiheitsstatue",
+        "text": "Freiheitsstatü",
         "aliases": [
           "lady liberty",
           "statue of liberty NYC",
@@ -10692,7 +10693,7 @@
   },
   {
     "id": "gen130",
-    "question": "Nenne ein haeufig verwendetes Passwort.",
+    "question": "Nenne ein häufig verwendetes Passwort.",
     "category": "Technologie",
     "answers": [
       {
@@ -10755,11 +10756,11 @@
   },
   {
     "id": "gen131",
-    "question": "Nenne ein Tier, das man in jemandes Garten sehen koennte.",
+    "question": "Nenne ein Tier, das man in jemandes Garten sehen könnte.",
     "category": "Tiere",
     "answers": [
       {
-        "text": "Eichhoernchen",
+        "text": "Eichhörnchen",
         "aliases": [
           "squirrels",
           "a squirrel",
@@ -10798,7 +10799,7 @@
         "points": 13
       },
       {
-        "text": "Waschbaer",
+        "text": "Waschbär",
         "aliases": [
           "raccoons",
           "trash panda",
@@ -10822,7 +10823,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Kopfhoerer",
+        "text": "Kopfhörer",
         "aliases": [
           "earbuds",
           "earphones",
@@ -10871,7 +10872,7 @@
         "points": 9
       },
       {
-        "text": "Verlaengerungskabel",
+        "text": "Verlängerungskabel",
         "aliases": [
           "power cords",
           "cables",
@@ -10917,7 +10918,7 @@
         "points": 18
       },
       {
-        "text": "Aenderungen am Gericht",
+        "text": "Änderungen am Gericht",
         "aliases": [
           "changes to the dish",
           "modifications",
@@ -10937,7 +10938,7 @@
         "points": 11
       },
       {
-        "text": "Den Geschaeftsfuehrer",
+        "text": "Den Geschäftsführer",
         "aliases": [
           "speak to manager",
           "see the manager",
@@ -11073,11 +11074,11 @@
   },
   {
     "id": "gen136",
-    "question": "Nenne einen Grund, warum jemand kurzfristig Plaene absagt.",
+    "question": "Nenne einen Grund, warum jemand kurzfristig Pläne absagt.",
     "category": "Beziehungen",
     "answers": [
       {
-        "text": "Krank fuehlen",
+        "text": "Krank fühlen",
         "aliases": [
           "sick",
           "not feeling well",
@@ -11088,7 +11089,7 @@
         "points": 34
       },
       {
-        "text": "Zu muede",
+        "text": "Zu müde",
         "aliases": [
           "exhausted",
           "tired",
@@ -11157,7 +11158,7 @@
         "points": 28
       },
       {
-        "text": "Muenzen",
+        "text": "Münzen",
         "aliases": [
           "coin collection",
           "old coins",
@@ -11211,7 +11212,7 @@
   },
   {
     "id": "gen138",
-    "question": "Nenne einen Ort, an dem man fluestern muss.",
+    "question": "Nenne einen Ort, an dem man flüstern muss.",
     "category": "Kultur",
     "answers": [
       {
@@ -11351,7 +11352,7 @@
         "points": 36
       },
       {
-        "text": "Muenzen aufheben",
+        "text": "Münzen aufheben",
         "aliases": [
           "pick up small things",
           "grab change",
@@ -11371,7 +11372,7 @@
         "points": 16
       },
       {
-        "text": "Hemd zuknuepfen",
+        "text": "Hemd zuknüpfen",
         "aliases": [
           "buttons",
           "zip a zipper",
@@ -11391,7 +11392,7 @@
         "points": 8
       },
       {
-        "text": "Glas oeffnen",
+        "text": "Glas öffnen",
         "aliases": [
           "grip things",
           "hold things",
@@ -11404,7 +11405,7 @@
   },
   {
     "id": "gen141",
-    "question": "Nenne einen fiktiven Ort, den sich jeder als real wuenscht.",
+    "question": "Nenne einen fiktiven Ort, den sich jeder als real wünscht.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -11468,7 +11469,7 @@
     "category": "Unterhaltung",
     "answers": [
       {
-        "text": "Suessigkeiten",
+        "text": "Süssigkeiten",
         "aliases": [
           "sweets",
           "chocolate",
@@ -11600,7 +11601,7 @@
   },
   {
     "id": "gen144",
-    "question": "Nenne eine Frucht, die Leute in Getraenke tun.",
+    "question": "Nenne eine Frucht, die Leute in Getränke tun.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -11663,7 +11664,7 @@
   },
   {
     "id": "gen145",
-    "question": "Nenne etwas, das Leute tun, waehrend sie im Restaurant aufs Essen warten.",
+    "question": "Nenne etwas, das Leute tun, während sie im Restaurant aufs Essen warten.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -11733,7 +11734,7 @@
   },
   {
     "id": "gen146",
-    "question": "Nenne eine Serie, die Leute am Stueck durchschauen.",
+    "question": "Nenne eine Serie, die Leute am Stück durchschauen.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -11859,7 +11860,7 @@
     "category": "Essen & Trinken",
     "answers": [
       {
-        "text": "Blauschimmelkaese",
+        "text": "Blauschimmelkäse",
         "aliases": [
           "bleu cheese",
           "stinky cheese",
@@ -11986,7 +11987,7 @@
   },
   {
     "id": "gen150",
-    "question": "Nenne ein Brettspiel, das zu Familienstreit fuehrt.",
+    "question": "Nenne ein Brettspiel, das zu Familienstreit führt.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -12089,7 +12090,7 @@
         "points": 14
       },
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "key",
           "car keys",
@@ -12112,7 +12113,7 @@
   },
   {
     "id": "gen152",
-    "question": "Nenne ein Geraeusch, das schwer zu ignorieren ist.",
+    "question": "Nenne ein Geräusch, das schwer zu ignorieren ist.",
     "category": "Alltag",
     "answers": [
       {
@@ -12182,7 +12183,7 @@
   },
   {
     "id": "gen153",
-    "question": "Nenne etwas, das Leute tun, waehrend sie im Restaurant auf ihr Essen warten.",
+    "question": "Nenne etwas, das Leute tun, während sie im Restaurant auf ihr Essen warten.",
     "category": "Alltag",
     "answers": [
       {
@@ -12542,7 +12543,7 @@
   },
   {
     "id": "gen158",
-    "question": "Nenne etwas, bei dem Leute so tun, als haetten sie es gelesen.",
+    "question": "Nenne etwas, bei dem Leute so tun, als hätten sie es gelesen.",
     "category": "Kultur",
     "answers": [
       {
@@ -12669,7 +12670,7 @@
         "points": 10
       },
       {
-        "text": "Witze erzaehlen",
+        "text": "Witze erzählen",
         "aliases": [
           "jokes",
           "being funny",
@@ -12775,7 +12776,7 @@
         "points": 22
       },
       {
-        "text": "Parfuem",
+        "text": "Parfüm",
         "aliases": [
           "cologne",
           "fragrance",
@@ -12891,7 +12892,7 @@
   },
   {
     "id": "gen163",
-    "question": "Nenne einen Grund, warum Leute zu spaet zur Arbeit kommen.",
+    "question": "Nenne einen Grund, warum Leute zu spät zur Arbeit kommen.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -13040,7 +13041,7 @@
   },
   {
     "id": "gen165",
-    "question": "Nenne ein Essen, das unmoeglich leise zu essen ist.",
+    "question": "Nenne ein Essen, das unmöglich leise zu essen ist.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -13074,7 +13075,7 @@
         "points": 17
       },
       {
-        "text": "Muesli",
+        "text": "Müsli",
         "aliases": [
           "cereal bowl",
           "cornflakes",
@@ -13108,7 +13109,7 @@
     "category": "Unterhaltung",
     "answers": [
       {
-        "text": "Suessigkeiten",
+        "text": "Süssigkeiten",
         "aliases": [
           "sweets",
           "chocolate",
@@ -13120,7 +13121,7 @@
         "points": 33
       },
       {
-        "text": "Getraenke",
+        "text": "Getränke",
         "aliases": [
           "soda",
           "pop",
@@ -13180,7 +13181,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "key",
           "car keys",
@@ -13247,7 +13248,7 @@
   },
   {
     "id": "gen168",
-    "question": "Nenne ein Tier, das erschreckend waere, wenn es so gross wie ein Pferd waere.",
+    "question": "Nenne ein Tier, das erschreckend wäre, wenn es so gross wie ein Pferd wäre.",
     "category": "Tiere",
     "answers": [
       {
@@ -13412,7 +13413,7 @@
         "points": 18
       },
       {
-        "text": "Gaeste verstehen sich nicht",
+        "text": "Gäste verstehen sich nicht",
         "aliases": [
           "people not getting along",
           "awkward guests",
@@ -13434,7 +13435,7 @@
         "points": 9
       },
       {
-        "text": "Getraenke gehen aus",
+        "text": "Getränke gehen aus",
         "aliases": [
           "not enough drinks",
           "no wine",
@@ -13654,7 +13655,7 @@
         "points": 11
       },
       {
-        "text": "Handyvertraege",
+        "text": "Handyverträge",
         "aliases": [
           "cell phone bill",
           "data plan",
@@ -13668,7 +13669,7 @@
   },
   {
     "id": "gen174",
-    "question": "Nenne einen Grund, warum jemand schreien wuerde.",
+    "question": "Nenne einen Grund, warum jemand schreien würde.",
     "category": "Alltag",
     "answers": [
       {
@@ -13748,7 +13749,7 @@
   },
   {
     "id": "gen175",
-    "question": "Nenne etwas, das Leute tun, um sich an einem heissen Tag abzukuehlen.",
+    "question": "Nenne etwas, das Leute tun, um sich an einem heissen Tag abzukühlen.",
     "category": "Natur",
     "answers": [
       {
@@ -13941,7 +13942,7 @@
         "points": 12
       },
       {
-        "text": "Schoene Strecke",
+        "text": "Schöne Strecke",
         "aliases": [
           "nice scenery",
           "views",
@@ -13953,7 +13954,7 @@
         "points": 9
       },
       {
-        "text": "Haeufige Pausen",
+        "text": "Häufige Pausen",
         "aliases": [
           "rest stops",
           "breaks",
@@ -14005,7 +14006,7 @@
         "points": 18
       },
       {
-        "text": "Gummibaender",
+        "text": "Gummibänder",
         "aliases": [
           "rubber band",
           "elastics",
@@ -14015,7 +14016,7 @@
         "points": 14
       },
       {
-        "text": "Alte Schluessel",
+        "text": "Alte Schlüssel",
         "aliases": [
           "keys",
           "random keys",
@@ -14026,7 +14027,7 @@
         "points": 12
       },
       {
-        "text": "Lieferservice-Menues",
+        "text": "Lieferservice-Menüs",
         "aliases": [
           "menus",
           "coupons",
@@ -14056,7 +14057,7 @@
         "points": 30
       },
       {
-        "text": "Kaempfen",
+        "text": "Kämpfen",
         "aliases": [
           "fight",
           "martial arts",
@@ -14113,7 +14114,7 @@
   },
   {
     "id": "gen180",
-    "question": "Nenne etwas, woreuber Leute in sozialen Medien luegen.",
+    "question": "Nenne etwas, woreuber Leute in sozialen Medien lügen.",
     "category": "Technologie",
     "answers": [
       {
@@ -14262,7 +14263,7 @@
   },
   {
     "id": "gen182",
-    "question": "Nenne einen Beruf, bei dem man eine Uniform traegt.",
+    "question": "Nenne einen Beruf, bei dem man eine Uniform trägt.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -14300,7 +14301,7 @@
         "points": 18
       },
       {
-        "text": "Militaer",
+        "text": "Militär",
         "aliases": [
           "soldier",
           "army",
@@ -14353,7 +14354,7 @@
         "points": 28
       },
       {
-        "text": "Buecher",
+        "text": "Bücher",
         "aliases": [
           "book",
           "old books",
@@ -14364,7 +14365,7 @@
         "points": 22
       },
       {
-        "text": "Moebel",
+        "text": "Möbel",
         "aliases": [
           "chairs",
           "tables",
@@ -14388,7 +14389,7 @@
         "points": 14
       },
       {
-        "text": "Kuechensachen",
+        "text": "Küchensachen",
         "aliases": [
           "dishes",
           "pots",
@@ -14496,7 +14497,7 @@
   },
   {
     "id": "gen185",
-    "question": "Nenne ein Gemuese, das Leute tatsaechlich gerne essen.",
+    "question": "Nenne ein Gemüse, das Leute tatsächlich gerne essen.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -14521,7 +14522,7 @@
         "points": 24
       },
       {
-        "text": "Moehren",
+        "text": "Möhren",
         "aliases": [
           "carrot",
           "baby carrots",
@@ -14530,7 +14531,7 @@
         "points": 17
       },
       {
-        "text": "Gruene Bohnen",
+        "text": "Grüne Bohnen",
         "aliases": [
           "green bean",
           "string beans",
@@ -14563,7 +14564,7 @@
   },
   {
     "id": "gen186",
-    "question": "Nenne etwas, das Leute vor dem Verlassen des Hauses ueberpruefen.",
+    "question": "Nenne etwas, das Leute vor dem Verlassen des Hauses überprüfen.",
     "category": "Alltag",
     "answers": [
       {
@@ -14578,7 +14579,7 @@
         "points": 30
       },
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "house keys",
           "car keys",
@@ -14612,7 +14613,7 @@
         "points": 13
       },
       {
-        "text": "Tuer abgeschlossen",
+        "text": "Tür abgeschlossen",
         "aliases": [
           "door",
           "lock",
@@ -14637,7 +14638,7 @@
   },
   {
     "id": "gen187",
-    "question": "Nenne ein beruehmtes fiktives Paar.",
+    "question": "Nenne ein berühmtes fiktives Paar.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -14752,7 +14753,7 @@
         "points": 14
       },
       {
-        "text": "Nuesse",
+        "text": "Nüsse",
         "aliases": [
           "peanuts",
           "cashews",
@@ -14781,7 +14782,7 @@
     "category": "Arbeit & Schule",
     "answers": [
       {
-        "text": "Schulbuecher",
+        "text": "Schulbücher",
         "aliases": [
           "books",
           "school books",
@@ -14852,7 +14853,7 @@
   },
   {
     "id": "gen190",
-    "question": "Nenne etwas, das ein schlechtes Geburtstagsgeschenk waere.",
+    "question": "Nenne etwas, das ein schlechtes Geburtstagsgeschenk wäre.",
     "category": "Feiertage",
     "answers": [
       {
@@ -14877,7 +14878,7 @@
         "points": 22
       },
       {
-        "text": "Diaetbuch",
+        "text": "Diätbuch",
         "aliases": [
           "weight loss book",
           "gym membership",
@@ -14911,7 +14912,7 @@
         "points": 11
       },
       {
-        "text": "Ein Buegeleisen",
+        "text": "Ein Bügeleisen",
         "aliases": [
           "ironing board",
           "iron",
@@ -14926,7 +14927,7 @@
   },
   {
     "id": "gen191",
-    "question": "Nenne ein Tier, von dem Leute ueberrascht sind, dass man es als Haustier halten kann.",
+    "question": "Nenne ein Tier, von dem Leute überrascht sind, dass man es als Haustier halten kann.",
     "category": "Tiere",
     "answers": [
       {
@@ -15011,7 +15012,7 @@
         "points": 30
       },
       {
-        "text": "Buecher aufschlagen",
+        "text": "Bücher aufschlagen",
         "aliases": [
           "take out your books",
           "turn to page",
@@ -15071,7 +15072,7 @@
   },
   {
     "id": "gen193",
-    "question": "Nenne etwas, das ein Viertel sicher wirken laesst.",
+    "question": "Nenne etwas, das ein Viertel sicher wirken lässt.",
     "category": "Alltag",
     "answers": [
       {
@@ -15097,7 +15098,7 @@
         "points": 24
       },
       {
-        "text": "Polizeipraesenz",
+        "text": "Polizeipräsenz",
         "aliases": [
           "police",
           "cops",
@@ -15119,7 +15120,7 @@
         "points": 13
       },
       {
-        "text": "Wenig Kriminalitaet",
+        "text": "Wenig Kriminalität",
         "aliases": [
           "no crime",
           "safe area",
@@ -15130,7 +15131,7 @@
         "points": 10
       },
       {
-        "text": "Ueberwachungskameras",
+        "text": "Überwachungskameras",
         "aliases": [
           "cameras",
           "surveillance",
@@ -15218,7 +15219,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Abspuelen",
+        "text": "Abspülen",
         "aliases": [
           "washing dishes",
           "doing dishes",
@@ -15229,7 +15230,7 @@
         "points": 30
       },
       {
-        "text": "Zimmer aufraeumen",
+        "text": "Zimmer aufräumen",
         "aliases": [
           "clean room",
           "room cleaning",
@@ -15240,7 +15241,7 @@
         "points": 24
       },
       {
-        "text": "Muell rausbringen",
+        "text": "Müll rausbringen",
         "aliases": [
           "trash",
           "garbage",
@@ -15263,7 +15264,7 @@
         "points": 12
       },
       {
-        "text": "Rasen maehen",
+        "text": "Rasen mähen",
         "aliases": [
           "lawn mowing",
           "yard work",
@@ -15275,7 +15276,7 @@
         "points": 10
       },
       {
-        "text": "Waesche",
+        "text": "Wäsche",
         "aliases": [
           "washing clothes",
           "folding laundry",
@@ -15430,7 +15431,7 @@
   },
   {
     "id": "gen198",
-    "question": "Nenne etwas, von dem Leute wuenschen, sie haetten frueher damit angefangen.",
+    "question": "Nenne etwas, von dem Leute wünschen, sie hätten früher damit angefangen.",
     "category": "Gesundheit",
     "answers": [
       {
@@ -15540,7 +15541,7 @@
         "points": 20
       },
       {
-        "text": "Streichhoelzer oder Feuerzeug",
+        "text": "Streichhölzer oder Feuerzeug",
         "aliases": [
           "matches",
           "lighter",
@@ -15563,7 +15564,7 @@
         "points": 11
       },
       {
-        "text": "Dosenoeffner",
+        "text": "Dosenöffner",
         "aliases": [
           "bottle opener",
           "utensils",
@@ -15582,7 +15583,7 @@
     "category": "Feiertage",
     "answers": [
       {
-        "text": "Jemanden kuessen",
+        "text": "Jemanden küssen",
         "aliases": [
           "kiss",
           "midnight kiss",
@@ -15593,7 +15594,7 @@
         "points": 35
       },
       {
-        "text": "Runterzaehlen",
+        "text": "Runterzählen",
         "aliases": [
           "countdown",
           "counting down",
@@ -15604,7 +15605,7 @@
         "points": 22
       },
       {
-        "text": "Mit Sekt anstoessen",
+        "text": "Mit Sekt anstössen",
         "aliases": [
           "champagne",
           "drink champagne",
@@ -15637,7 +15638,7 @@
         "points": 8
       },
       {
-        "text": "Sich etwas wuenschen",
+        "text": "Sich etwas wünschen",
         "aliases": [
           "wish",
           "new years resolution",
@@ -15754,7 +15755,7 @@
         "points": 8
       },
       {
-        "text": "Den Tuer-zu-Knopf druecken",
+        "text": "Den Tür-zu-Knopf drücken",
         "aliases": [
           "press buttons",
           "hit the close button",
@@ -15767,7 +15768,7 @@
   },
   {
     "id": "gen203",
-    "question": "Nenne ein Lebensmittel, bei dem man streitet, ob es Obst oder Gemuese ist.",
+    "question": "Nenne ein Lebensmittel, bei dem man streitet, ob es Obst oder Gemüse ist.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -15815,7 +15816,7 @@
         "points": 7
       },
       {
-        "text": "Kuerbis",
+        "text": "Kürbis",
         "aliases": [
           "squash",
           "pumpkins",
@@ -15827,11 +15828,11 @@
   },
   {
     "id": "gen204",
-    "question": "Nenne etwas, das immer hinten im Kuehlschrank steht.",
+    "question": "Nenne etwas, das immer hinten im Kühlschrank steht.",
     "category": "Alltag",
     "answers": [
       {
-        "text": "Gewuerze und Sossen",
+        "text": "Gewürze und Sossen",
         "aliases": [
           "ketchup",
           "mustard",
@@ -15863,7 +15864,7 @@
         "points": 19
       },
       {
-        "text": "Kaese",
+        "text": "Käse",
         "aliases": [
           "old cheese",
           "block of cheese",
@@ -15893,7 +15894,7 @@
   },
   {
     "id": "gen205",
-    "question": "Nenne eine Faehigkeit, die nutzlos aber beeindruckend ist.",
+    "question": "Nenne eine Fähigkeit, die nutzlos aber beeindruckend ist.",
     "category": "Kultur",
     "answers": [
       {
@@ -15906,7 +15907,7 @@
         "points": 28
       },
       {
-        "text": "Rubik's Cube loesen",
+        "text": "Rubik's Cube lösen",
         "aliases": [
           "rubik's cube",
           "rubiks cube",
@@ -16026,7 +16027,7 @@
   },
   {
     "id": "gen207",
-    "question": "Nenne ein Wort, das Leute haeufig falsch benutzen.",
+    "question": "Nenne ein Wort, das Leute häufig falsch benutzen.",
     "category": "Wortspiel",
     "answers": [
       {
@@ -16075,7 +16076,7 @@
   },
   {
     "id": "gen208",
-    "question": "Nenne etwas, das Leute vortaeuschen zu moegen, aber heimlich hassen.",
+    "question": "Nenne etwas, das Leute vortäuschen zu mögen, aber heimlich hassen.",
     "category": "Alltag",
     "answers": [
       {
@@ -16142,7 +16143,7 @@
   },
   {
     "id": "gen209",
-    "question": "Nenne ein Tier, vor dem du Angst haettest, es in deinem Haus zu finden.",
+    "question": "Nenne ein Tier, vor dem du Angst hättest, es in deinem Haus zu finden.",
     "category": "Tiere",
     "answers": [
       {
@@ -16165,7 +16166,7 @@
         "points": 24
       },
       {
-        "text": "Baer",
+        "text": "Bär",
         "aliases": [
           "bears",
           "grizzly",
@@ -16203,11 +16204,11 @@
   },
   {
     "id": "gen210",
-    "question": "Nenne etwas, das Leute staendig verlieren.",
+    "question": "Nenne etwas, das Leute ständig verlieren.",
     "category": "Alltag",
     "answers": [
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "car keys",
           "house keys",
@@ -16227,7 +16228,7 @@
         "points": 22
       },
       {
-        "text": "Geldboerse",
+        "text": "Geldbörse",
         "aliases": [
           "purse",
           "my wallet",
@@ -16359,7 +16360,7 @@
         "points": 13
       },
       {
-        "text": "Schulbuecher",
+        "text": "Schulbücher",
         "aliases": [
           "books",
           "school books",
@@ -16416,7 +16417,7 @@
         "points": 20
       },
       {
-        "text": "Haemorrhoiden-Creme",
+        "text": "Hämorrhoiden-Creme",
         "aliases": [
           "preparation h",
           "hemorrhoid medicine",
@@ -16479,7 +16480,7 @@
         "points": 19
       },
       {
-        "text": "Militaer",
+        "text": "Militär",
         "aliases": [
           "soldier",
           "army",
@@ -16499,7 +16500,7 @@
         "points": 8
       },
       {
-        "text": "Taenzer",
+        "text": "Tänzer",
         "aliases": [
           "ballet dancer",
           "ballerina",
@@ -16567,7 +16568,7 @@
   },
   {
     "id": "gen216",
-    "question": "Nenne ein Land, das Leute traeumen eines Tages zu besuchen.",
+    "question": "Nenne ein Land, das Leute träumen eines Tages zu besuchen.",
     "category": "Reisen",
     "answers": [
       {
@@ -16739,7 +16740,7 @@
         "points": 14
       },
       {
-        "text": "Frisch gemaehtes Gras",
+        "text": "Frisch gemähtes Gras",
         "aliases": [
           "cut grass",
           "mowed lawn",
@@ -16788,7 +16789,7 @@
         "points": 24
       },
       {
-        "text": "Formulare ausfuellen",
+        "text": "Formulare ausfüllen",
         "aliases": [
           "filling out forms",
           "forms",
@@ -16884,7 +16885,7 @@
   },
   {
     "id": "gen221",
-    "question": "Nenne etwas, worueber Leute auf ihrem Dating-Profil luegen.",
+    "question": "Nenne etwas, worüber Leute auf ihrem Dating-Profil lügen.",
     "category": "Beziehungen",
     "answers": [
       {
@@ -16897,7 +16898,7 @@
         "points": 30
       },
       {
-        "text": "Groesse",
+        "text": "Grösse",
         "aliases": [
           "how tall they are",
           "their height",
@@ -16950,11 +16951,11 @@
   },
   {
     "id": "gen222",
-    "question": "Nenne etwas, das ein Hund sagen wuerde, wenn er reden koennte.",
+    "question": "Nenne etwas, das ein Hund sagen würde, wenn er reden könnte.",
     "category": "Tiere",
     "answers": [
       {
-        "text": "Fuetter mich",
+        "text": "Fütter mich",
         "aliases": [
           "i'm hungry",
           "give me food",
@@ -16996,7 +16997,7 @@
         "points": 13
       },
       {
-        "text": "Wer ist an der Tuer",
+        "text": "Wer ist an der Tür",
         "aliases": [
           "someone's here",
           "intruder",
@@ -17034,7 +17035,7 @@
         "points": 28
       },
       {
-        "text": "Schoenes Wetter",
+        "text": "Schönes Wetter",
         "aliases": [
           "beautiful day",
           "sunny day",
@@ -17055,7 +17056,7 @@
         "points": 20
       },
       {
-        "text": "Vorstellungsgespraech",
+        "text": "Vorstellungsgespräch",
         "aliases": [
           "interview",
           "another job interview",
@@ -17088,7 +17089,7 @@
   },
   {
     "id": "gen224",
-    "question": "Nenne ein Essen, das unmoeglich sauber zu essen ist.",
+    "question": "Nenne ein Essen, das unmöglich sauber zu essen ist.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -17215,7 +17216,7 @@
   },
   {
     "id": "gen226",
-    "question": "Nenne einen Beruf, den Kinder ausueben wollen wenn sie gross sind.",
+    "question": "Nenne einen Beruf, den Kinder ausüben wollen wenn sie gross sind.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -17275,7 +17276,7 @@
   },
   {
     "id": "gen227",
-    "question": "Nenne einen Feiertag, fuer den Leute viel zu frueh anfangen sich vorzubereiten.",
+    "question": "Nenne einen Feiertag, für den Leute viel zu früh anfangen sich vorzubereiten.",
     "category": "Feiertage",
     "answers": [
       {
@@ -17399,7 +17400,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Plastiktueten",
+        "text": "Plastiktüten",
         "aliases": [
           "grocery bags",
           "shopping bags",
@@ -17418,7 +17419,7 @@
         "points": 23
       },
       {
-        "text": "Behaelter vom Lieferservice",
+        "text": "Behälter vom Lieferservice",
         "aliases": [
           "tupperware",
           "containers",
@@ -17449,7 +17450,7 @@
         "points": 10
       },
       {
-        "text": "Gummibaender",
+        "text": "Gummibänder",
         "aliases": [
           "twist ties",
           "paper clips",
@@ -17461,7 +17462,7 @@
   },
   {
     "id": "gen230",
-    "question": "Nenne ein Geraeusch, das sofort erkennbar ist.",
+    "question": "Nenne ein Geräusch, das sofort erkennbar ist.",
     "category": "Kultur",
     "answers": [
       {
@@ -17484,7 +17485,7 @@
         "points": 22
       },
       {
-        "text": "Tuerklopfen",
+        "text": "Türklopfen",
         "aliases": [
           "knocking",
           "doorbell",
@@ -17579,7 +17580,7 @@
   },
   {
     "id": "gen232",
-    "question": "Nenne eine Ausrede, die Leute fuers Zuspaet-Kommen haben.",
+    "question": "Nenne eine Ausrede, die Leute fürs Zuspät-Kommen haben.",
     "category": "Alltag",
     "answers": [
       {
@@ -17715,7 +17716,7 @@
   },
   {
     "id": "gen234",
-    "question": "Nenne etwas, worueber Leute an Thanksgiving streiten.",
+    "question": "Nenne etwas, worüber Leute an Thanksgiving streiten.",
     "category": "Feiertage",
     "answers": [
       {
@@ -17729,7 +17730,7 @@
         "points": 30
       },
       {
-        "text": "Das letzte Stueck Kuchen",
+        "text": "Das letzte Stück Kuchen",
         "aliases": [
           "pie",
           "dessert",
@@ -17855,7 +17856,7 @@
   },
   {
     "id": "gen236",
-    "question": "Nenne ein Gemuese, das Kinder sich weigern zu essen.",
+    "question": "Nenne ein Gemüse, das Kinder sich weigern zu essen.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -17910,7 +17911,7 @@
   },
   {
     "id": "gen237",
-    "question": "Nenne etwas, das fuer Kinder akzeptabel ist, aber fuer Erwachsene seltsam waere.",
+    "question": "Nenne etwas, das für Kinder akzeptabel ist, aber für Erwachsene seltsam wäre.",
     "category": "Kultur",
     "answers": [
       {
@@ -17953,7 +17954,7 @@
         "points": 14
       },
       {
-        "text": "Einen imaginaeren Freund haben",
+        "text": "Einen imaginären Freund haben",
         "aliases": [
           "imaginary friends",
           "talking to yourself",
@@ -17963,7 +17964,7 @@
         "points": 11
       },
       {
-        "text": "Ueberall einschlafen",
+        "text": "Überall einschlafen",
         "aliases": [
           "sleeping anywhere",
           "falling asleep in public",
@@ -18001,7 +18002,7 @@
         "points": 22
       },
       {
-        "text": "Gummibaender",
+        "text": "Gummibänder",
         "aliases": [
           "rubber band",
           "elastic bands",
@@ -18031,7 +18032,7 @@
         "points": 12
       },
       {
-        "text": "Lieferservice-Menues",
+        "text": "Lieferservice-Menüs",
         "aliases": [
           "menus",
           "old menus",
@@ -18045,7 +18046,7 @@
   },
   {
     "id": "gen239",
-    "question": "Nenne eine App, nach der Leute suechtig sind.",
+    "question": "Nenne eine App, nach der Leute süchtig sind.",
     "category": "Technologie",
     "answers": [
       {
@@ -18115,7 +18116,7 @@
         "points": 38
       },
       {
-        "text": "Gesuender essen",
+        "text": "Gesünder essen",
         "aliases": [
           "diet",
           "eat better",
@@ -18136,7 +18137,7 @@
         "points": 16
       },
       {
-        "text": "Mit dem Rauchen aufhoeren",
+        "text": "Mit dem Rauchen aufhören",
         "aliases": [
           "stop smoking",
           "quit vaping",
@@ -18145,7 +18146,7 @@
         "points": 10
       },
       {
-        "text": "Mehr Buecher lesen",
+        "text": "Mehr Bücher lesen",
         "aliases": [
           "read more",
           "reading",
@@ -18203,7 +18204,7 @@
         "points": 18
       },
       {
-        "text": "Schoene Aussicht",
+        "text": "Schöne Aussicht",
         "aliases": [
           "scenery",
           "beautiful views",
@@ -18254,7 +18255,7 @@
         "points": 28
       },
       {
-        "text": "Studiengebuehren",
+        "text": "Studiengebühren",
         "aliases": [
           "college",
           "education",
@@ -18372,11 +18373,11 @@
   },
   {
     "id": "gen244",
-    "question": "Nenne etwas, von dem du so tust als wuerdest du es verstehen, aber eigentlich nicht.",
+    "question": "Nenne etwas, von dem du so tust als würdest du es verstehen, aber eigentlich nicht.",
     "category": "Kultur",
     "answers": [
       {
-        "text": "Kryptowaehrung",
+        "text": "Kryptowährung",
         "aliases": [
           "crypto",
           "bitcoin",
@@ -18490,7 +18491,7 @@
         "points": 8
       },
       {
-        "text": "Partyhuete",
+        "text": "Partyhüte",
         "aliases": [
           "hats",
           "party hat",
@@ -18503,7 +18504,7 @@
   },
   {
     "id": "gen246",
-    "question": "Nenne eine Wetterlage, die Plaene im Freien ruiniert.",
+    "question": "Nenne eine Wetterlage, die Pläne im Freien ruiniert.",
     "category": "Natur",
     "answers": [
       {
@@ -18577,7 +18578,7 @@
     "category": "Arbeit & Schule",
     "answers": [
       {
-        "text": "Um eine Gehaltserhoehung",
+        "text": "Um eine Gehaltserhöhung",
         "aliases": [
           "raise",
           "more money",
@@ -18609,7 +18610,7 @@
         "points": 15
       },
       {
-        "text": "Etwas nochmal zu erklaeren",
+        "text": "Etwas nochmal zu erklären",
         "aliases": [
           "repeat instructions",
           "clarification",
@@ -18619,7 +18620,7 @@
         "points": 11
       },
       {
-        "text": "Nach einer Befoerderung",
+        "text": "Nach einer Beförderung",
         "aliases": [
           "promotion",
           "moving up",
@@ -18629,7 +18630,7 @@
         "points": 9
       },
       {
-        "text": "Ob man frueher gehen darf",
+        "text": "Ob man früher gehen darf",
         "aliases": [
           "leave early",
           "go home early",
@@ -18680,7 +18681,7 @@
         "points": 11
       },
       {
-        "text": "Minze-Schokostueckchen",
+        "text": "Minze-Schokostückchen",
         "aliases": [
           "mint chip",
           "mint",
@@ -18707,7 +18708,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Zaehne putzen",
+        "text": "Zähne putzen",
         "aliases": [
           "brush teeth",
           "brushing teeth",
@@ -18757,7 +18758,7 @@
         "points": 9
       },
       {
-        "text": "Tueren abschliessen",
+        "text": "Türen abschliessen",
         "aliases": [
           "check the locks",
           "lock up",
@@ -18895,7 +18896,7 @@
   },
   {
     "id": "gen252",
-    "question": "Nenne ein Geraeusch, das dich sofort in die Kindheit zurueckversetzt.",
+    "question": "Nenne ein Geräusch, das dich sofort in die Kindheit zurückversetzt.",
     "category": "Alltag",
     "answers": [
       {
@@ -18939,7 +18940,7 @@
         "points": 12
       },
       {
-        "text": "Videospielgeraeusche",
+        "text": "Videospielgeräusche",
         "aliases": [
           "game sounds",
           "nintendo",
@@ -19018,7 +19019,7 @@
         "points": 9
       },
       {
-        "text": "Archaeologe",
+        "text": "Archäologe",
         "aliases": [
           "archaeology",
           "indiana jones",
@@ -19031,7 +19032,7 @@
   },
   {
     "id": "gen254",
-    "question": "Nenne etwas, fuer das man nie zu alt ist.",
+    "question": "Nenne etwas, für das man nie zu alt ist.",
     "category": "Alltag",
     "answers": [
       {
@@ -19150,7 +19151,7 @@
         "points": 10
       },
       {
-        "text": "Kaese und Honig",
+        "text": "Käse und Honig",
         "aliases": [
           "honey cheese",
           "honey on cheese",
@@ -19162,11 +19163,11 @@
   },
   {
     "id": "gen256",
-    "question": "Nenne etwas, das Leute tun wenn sie nervoes sind.",
+    "question": "Nenne etwas, das Leute tun wenn sie nervös sind.",
     "category": "Alltag",
     "answers": [
       {
-        "text": "Naegel kauen",
+        "text": "Nägel kauen",
         "aliases": [
           "nail biting",
           "biting nails",
@@ -19218,7 +19219,7 @@
         "points": 9
       },
       {
-        "text": "Nervoes lachen",
+        "text": "Nervös lachen",
         "aliases": [
           "nervous laugh",
           "giggle",
@@ -19231,7 +19232,7 @@
   },
   {
     "id": "gen257",
-    "question": "Nenne einen Gegenstand, um den Leute beim Ausverkauf kaempfen.",
+    "question": "Nenne einen Gegenstand, um den Leute beim Ausverkauf kämpfen.",
     "category": "Alltag",
     "answers": [
       {
@@ -19279,7 +19280,7 @@
         "points": 13
       },
       {
-        "text": "Kuechengeraete",
+        "text": "Küchengeräte",
         "aliases": [
           "blender",
           "instant pot",
@@ -19290,7 +19291,7 @@
         "points": 9
       },
       {
-        "text": "Handtuecher",
+        "text": "Handtücher",
         "aliases": [
           "bedding",
           "linens",
@@ -19304,11 +19305,11 @@
   },
   {
     "id": "gen258",
-    "question": "Was verlieren Leute staendig?",
+    "question": "Was verlieren Leute ständig?",
     "category": "Alltag",
     "answers": [
       {
-        "text": "Schluessel",
+        "text": "Schlüssel",
         "aliases": [
           "car keys",
           "house keys",
@@ -19329,7 +19330,7 @@
         "points": 22
       },
       {
-        "text": "Geldboerse",
+        "text": "Geldbörse",
         "aliases": [
           "purse",
           "billfold",
@@ -19387,7 +19388,7 @@
         "points": 28
       },
       {
-        "text": "Vorstellungsgespraech",
+        "text": "Vorstellungsgespräch",
         "aliases": [
           "interview",
           "another job",
@@ -19397,7 +19398,7 @@
         "points": 22
       },
       {
-        "text": "Schoenes Wetter",
+        "text": "Schönes Wetter",
         "aliases": [
           "beautiful day",
           "sunny day",
@@ -19446,7 +19447,7 @@
     "category": "Alltag",
     "answers": [
       {
-        "text": "Suessigkeitenschale",
+        "text": "Süssigkeitenschale",
         "aliases": [
           "candy dish",
           "hard candy",
@@ -19478,7 +19479,7 @@
         "points": 18
       },
       {
-        "text": "Plastikbezuege auf Moebeln",
+        "text": "Plastikbezüge auf Möbeln",
         "aliases": [
           "plastic on couch",
           "couch covers",
@@ -19499,7 +19500,7 @@
         "points": 10
       },
       {
-        "text": "Kuehlschrankmagnete",
+        "text": "Kühlschrankmagnete",
         "aliases": [
           "fridge magnets",
           "refrigerator magnets",
@@ -19567,7 +19568,7 @@
   },
   {
     "id": "gen262",
-    "question": "Nenne etwas, das Leute auf dem Handy tun, waehrend sie so tun als wuerden sie zuhoeren.",
+    "question": "Nenne etwas, das Leute auf dem Handy tun, während sie so tun als würden sie zuhören.",
     "category": "Technologie",
     "answers": [
       {
@@ -19637,11 +19638,11 @@
   },
   {
     "id": "gen263",
-    "question": "Nenne ein Tier, das als Haustier schrecklich waere.",
+    "question": "Nenne ein Tier, das als Haustier schrecklich wäre.",
     "category": "Tiere",
     "answers": [
       {
-        "text": "Baer",
+        "text": "Bär",
         "aliases": [
           "bears",
           "grizzly bear",
@@ -19652,7 +19653,7 @@
         "points": 28
       },
       {
-        "text": "Loewe",
+        "text": "Löwe",
         "aliases": [
           "lions",
           "mountain lion",
@@ -19704,7 +19705,7 @@
     "category": "Gesundheit",
     "answers": [
       {
-        "text": "Diaet",
+        "text": "Diät",
         "aliases": [
           "dieting",
           "eating healthy",
@@ -19726,7 +19727,7 @@
         "points": 25
       },
       {
-        "text": "Frueh aufstehen",
+        "text": "Früh aufstehen",
         "aliases": [
           "getting up early",
           "early mornings",
@@ -19737,7 +19738,7 @@
         "points": 14
       },
       {
-        "text": "Mit dem Rauchen aufhoeren",
+        "text": "Mit dem Rauchen aufhören",
         "aliases": [
           "stop smoking",
           "quit smoking",
@@ -19770,7 +19771,7 @@
   },
   {
     "id": "gen265",
-    "question": "Nenne einen Ort, an dem Leute immer fluestern.",
+    "question": "Nenne einen Ort, an dem Leute immer flüstern.",
     "category": "Alltag",
     "answers": [
       {
@@ -19878,7 +19879,7 @@
         "points": 13
       },
       {
-        "text": "Kaese und Cracker",
+        "text": "Käse und Cracker",
         "aliases": [
           "cheese",
           "cheese platter",
@@ -19889,7 +19890,7 @@
         "points": 9
       },
       {
-        "text": "Mini-Wuerstchen",
+        "text": "Mini-Würstchen",
         "aliases": [
           "pigs in a blanket",
           "cocktail wieners",
@@ -19903,7 +19904,7 @@
   },
   {
     "id": "gen267",
-    "question": "Nenne etwas, von dem Leute so tun als wuessten sie Bescheid, aber eigentlich nicht.",
+    "question": "Nenne etwas, von dem Leute so tun als wüssten sie Bescheid, aber eigentlich nicht.",
     "category": "Kultur",
     "answers": [
       {
@@ -19973,7 +19974,7 @@
   },
   {
     "id": "gen268",
-    "question": "Nenne etwas, das immer in den Zaehnen stecken bleibt.",
+    "question": "Nenne etwas, das immer in den Zähnen stecken bleibt.",
     "category": "Essen & Trinken",
     "answers": [
       {
@@ -20027,7 +20028,7 @@
         "points": 9
       },
       {
-        "text": "Sesamkoerner",
+        "text": "Sesamkörner",
         "aliases": [
           "seeds",
           "poppy seeds",
@@ -20091,7 +20092,7 @@
   },
   {
     "id": "gen270",
-    "question": "Nenne einen Ort, an dem du ungern eine Reifenpanne haettest.",
+    "question": "Nenne einen Ort, an dem du ungern eine Reifenpanne hättest.",
     "category": "Reisen",
     "answers": [
       {
@@ -20127,7 +20128,7 @@
         "points": 18
       },
       {
-        "text": "Bruecke",
+        "text": "Brücke",
         "aliases": [
           "on a bridge",
           "overpass",
@@ -20185,7 +20186,7 @@
         "points": 24
       },
       {
-        "text": "Parfuem",
+        "text": "Parfüm",
         "aliases": [
           "cologne",
           "fragrance",
@@ -20253,7 +20254,7 @@
         "points": 22
       },
       {
-        "text": "Loeffel",
+        "text": "Löffel",
         "aliases": [
           "souvenir spoons",
           "collectible spoons",
@@ -20296,7 +20297,7 @@
   },
   {
     "id": "gen273",
-    "question": "Nenne etwas, das man immer vergisst fuer eine Reise einzupacken.",
+    "question": "Nenne etwas, das man immer vergisst für eine Reise einzupacken.",
     "category": "Reisen",
     "answers": [
       {
@@ -20311,7 +20312,7 @@
         "points": 32
       },
       {
-        "text": "Zahnbuerste",
+        "text": "Zahnbürste",
         "aliases": [
           "toothpaste",
           "dental care",
@@ -20321,7 +20322,7 @@
         "points": 24
       },
       {
-        "text": "Unterwaesche",
+        "text": "Unterwäsche",
         "aliases": [
           "socks",
           "undergarments",
@@ -20483,7 +20484,7 @@
   },
   {
     "id": "gen276",
-    "question": "Nenne eine Ausrede fuer Verspaetung.",
+    "question": "Nenne eine Ausrede für Verspätung.",
     "category": "Alltag",
     "answers": [
       {
@@ -20569,7 +20570,7 @@
         "points": 26
       },
       {
-        "text": "Gummibaender",
+        "text": "Gummibänder",
         "aliases": [
           "rubber band",
           "elastic bands",
@@ -20601,7 +20602,7 @@
         "points": 14
       },
       {
-        "text": "Alte Menues",
+        "text": "Alte Menüs",
         "aliases": [
           "takeout menus",
           "delivery menus",
@@ -20691,7 +20692,7 @@
   },
   {
     "id": "gen279",
-    "question": "Nenne etwas, wofuer du andere heimlich verurteilst.",
+    "question": "Nenne etwas, wofür du andere heimlich verurteilst.",
     "category": "Beziehungen",
     "answers": [
       {
@@ -20762,7 +20763,7 @@
   },
   {
     "id": "gen280",
-    "question": "Nenne etwas, das Leute tun, um auf der Arbeit beschaeftigt auszusehen.",
+    "question": "Nenne etwas, das Leute tun, um auf der Arbeit beschäftigt auszusehen.",
     "category": "Arbeit & Schule",
     "answers": [
       {
@@ -20833,7 +20834,7 @@
   },
   {
     "id": "gen281",
-    "question": "Nenne ein Tiergeraeusch, das jeder nachmachen kann.",
+    "question": "Nenne ein Tiergeräusch, das jeder nachmachen kann.",
     "category": "Tiere",
     "answers": [
       {
@@ -20880,7 +20881,7 @@
         "points": 12
       },
       {
-        "text": "Hahnkraehen",
+        "text": "Hahnkrähen",
         "aliases": [
           "rooster",
           "cock-a-doodle-doo",
@@ -20905,7 +20906,7 @@
   },
   {
     "id": "gen282",
-    "question": "Was dauert viel laenger als es sollte?",
+    "question": "Was dauert viel länger als es sollte?",
     "category": "Alltag",
     "answers": [
       {
@@ -20964,7 +20965,7 @@
         "points": 10
       },
       {
-        "text": "Moebel zusammenbauen",
+        "text": "Möbel zusammenbauen",
         "aliases": [
           "IKEA",
           "building furniture",
@@ -20978,7 +20979,7 @@
   },
   {
     "id": "gen283",
-    "question": "Welchen Feiertag fuerchten Leute heimlich?",
+    "question": "Welchen Feiertag fürchten Leute heimlich?",
     "category": "Feiertage",
     "answers": [
       {
@@ -21055,7 +21056,7 @@
         "points": 36
       },
       {
-        "text": "Erotikgeschaeft",
+        "text": "Erotikgeschäft",
         "aliases": [
           "sex shop",
           "lingerie store",
@@ -21094,7 +21095,7 @@
         "points": 8
       },
       {
-        "text": "Kautionsbuero",
+        "text": "Kautionsbüro",
         "aliases": [
           "bail bondsman",
           "jail",
@@ -21174,7 +21175,7 @@
   },
   {
     "id": "gen286",
-    "question": "Nenne ein Wort, das Leute haeufig falsch schreiben.",
+    "question": "Nenne ein Wort, das Leute häufig falsch schreiben.",
     "category": "Wortspiel",
     "answers": [
       {
@@ -21282,7 +21283,7 @@
         "points": 12
       },
       {
-        "text": "Schoene Strecke",
+        "text": "Schöne Strecke",
         "aliases": [
           "scenery",
           "pretty views",
@@ -21293,7 +21294,7 @@
         "points": 8
       },
       {
-        "text": "Hoerbuecher",
+        "text": "Hörbücher",
         "aliases": [
           "podcasts",
           "podcast",
@@ -21311,7 +21312,7 @@
     "category": "Beziehungen",
     "answers": [
       {
-        "text": "Schmutzige Waesche",
+        "text": "Schmutzige Wäsche",
         "aliases": [
           "laundry",
           "clothes on floor",
@@ -21354,7 +21355,7 @@
         "points": 14
       },
       {
-        "text": "Leere Essensbehaelter",
+        "text": "Leere Essensbehälter",
         "aliases": [
           "food wrappers",
           "snack wrappers",
@@ -21365,7 +21366,7 @@
         "points": 10
       },
       {
-        "text": "Kopfhoerer",
+        "text": "Kopfhörer",
         "aliases": [
           "earbuds",
           "airpods",
@@ -21378,7 +21379,7 @@
   },
   {
     "id": "gen289",
-    "question": "Nenne eine Luege, die Eltern ihren Kindern erzaehlen.",
+    "question": "Nenne eine Lüge, die Eltern ihren Kindern erzählen.",
     "category": "Beziehungen",
     "answers": [
       {
@@ -21393,7 +21394,7 @@
         "points": 32
       },
       {
-        "text": "Gemuese macht stark",
+        "text": "Gemüse macht stark",
         "aliases": [
           "vegetables make you grow",
           "spinach makes you strong",
@@ -21528,7 +21529,7 @@
         "points": 30
       },
       {
-        "text": "Plastiktueten",
+        "text": "Plastiktüten",
         "aliases": [
           "grocery bags",
           "shopping bags",
@@ -21548,7 +21549,7 @@
         "points": 18
       },
       {
-        "text": "Buecher",
+        "text": "Bücher",
         "aliases": [
           "magazines",
           "newspapers",
@@ -21558,7 +21559,7 @@
         "points": 13
       },
       {
-        "text": "Behaelter vom Lieferservice",
+        "text": "Behälter vom Lieferservice",
         "aliases": [
           "tupperware",
           "food containers",
@@ -21581,7 +21582,7 @@
   },
   {
     "id": "gen292",
-    "question": "Nenne etwas, das du ungern in deinem Hotelzimmer entdecken wuerdest.",
+    "question": "Nenne etwas, das du ungern in deinem Hotelzimmer entdecken würdest.",
     "category": "Reisen",
     "answers": [
       {
@@ -21649,7 +21650,7 @@
   },
   {
     "id": "gen293",
-    "question": "Nenne eine Faehigkeit, die Leute auf einer Party beeindruckt.",
+    "question": "Nenne eine Fähigkeit, die Leute auf einer Party beeindruckt.",
     "category": "Kultur",
     "answers": [
       {
@@ -21763,7 +21764,7 @@
         "points": 11
       },
       {
-        "text": "Zaehne putzen",
+        "text": "Zähne putzen",
         "aliases": [
           "brushing teeth",
           "floss",
@@ -21784,7 +21785,7 @@
   },
   {
     "id": "gen295",
-    "question": "Nenne ein Spiel, das Freundschaften zerstoert hat.",
+    "question": "Nenne ein Spiel, das Freundschaften zerstört hat.",
     "category": "Unterhaltung",
     "answers": [
       {
@@ -21836,7 +21837,7 @@
   },
   {
     "id": "gen296",
-    "question": "Was tust du als Erwachsener so, als wuerdest du es geniessen?",
+    "question": "Was tust du als Erwachsener so, als würdest du es geniessen?",
     "category": "Alltag",
     "answers": [
       {
@@ -21883,7 +21884,7 @@
         "points": 14
       },
       {
-        "text": "Frueh aufstehen",
+        "text": "Früh aufstehen",
         "aliases": [
           "mornings",
           "early mornings",
@@ -21920,7 +21921,7 @@
         "points": 30
       },
       {
-        "text": "Militaer",
+        "text": "Militär",
         "aliases": [
           "soldier",
           "army",
@@ -22017,7 +22018,7 @@
         "points": 14
       },
       {
-        "text": "Fruehstueck",
+        "text": "Frühstück",
         "aliases": [
           "eggs",
           "pancakes",
@@ -22041,11 +22042,11 @@
   },
   {
     "id": "gen299",
-    "question": "Nenne etwas, das Leute wuenschen in der Schule gelernt zu haben.",
+    "question": "Nenne etwas, das Leute wünschen in der Schule gelernt zu haben.",
     "category": "Arbeit & Schule",
     "answers": [
       {
-        "text": "Steuererklaerung",
+        "text": "Steuererklärung",
         "aliases": [
           "how to do taxes",
           "filing taxes",
@@ -22089,7 +22090,7 @@
         "points": 12
       },
       {
-        "text": "Kommunikationsfaehigkeiten",
+        "text": "Kommunikationsfähigkeiten",
         "aliases": [
           "social skills",
           "conflict resolution",

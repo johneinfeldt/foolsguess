@@ -93,6 +93,7 @@ export default function PartyGame({ allQuestionsEn }: PartyGameProps) {
             roundScores={state.scores[state.currentRound] || []}
             roundNumber={state.currentRound + 1}
             questionText={currentQuestion.question}
+            answers={currentQuestion.answers}
             onNext={handleNextRound}
             isLastRound={state.currentRound >= ROUNDS_PER_GAME - 1}
           />

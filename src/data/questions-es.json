@@ -1,7 +1,7 @@
 [
   {
     "id": "rff001",
-    "question": "En que recinto del zoologico menos te gustaria caer?",
+    "question": "En qué recinto del zoológico menos te gustaría caer?",
     "category": "Animales",
     "answers": [
       {
@@ -72,7 +72,7 @@
   },
   {
     "id": "rff002",
-    "question": "Cual es el tatuaje mas comun entre los jovenes?",
+    "question": "Cuál es el tatuaje más común entre los jóvenes?",
     "category": "Cultura",
     "answers": [
       {
@@ -106,7 +106,7 @@
         "points": 25
       },
       {
-        "text": "Corazon",
+        "text": "Corazón",
         "aliases": [
           "hearts",
           "heart tattoo",
@@ -155,18 +155,18 @@
   },
   {
     "id": "rff003",
-    "question": "Que idioma suena mas bonito?",
+    "question": "Qué idioma suena más bonito?",
     "category": "Cultura",
     "answers": [
       {
-        "text": "Frances",
+        "text": "Francés",
         "aliases": [
           "French"
         ],
         "points": 48
       },
       {
-        "text": "Espanol",
+        "text": "Español",
         "aliases": [
           "castellano",
           "Spanish"
@@ -181,21 +181,21 @@
         "points": 17
       },
       {
-        "text": "Ingles",
+        "text": "Inglés",
         "aliases": [
           "English"
         ],
         "points": 8
       },
       {
-        "text": "Japones",
+        "text": "Japonés",
         "aliases": [
           "Japanese"
         ],
         "points": 5
       },
       {
-        "text": "Aleman",
+        "text": "Alemán",
         "aliases": [
           "deutsch",
           "German"
@@ -259,7 +259,7 @@
   },
   {
     "id": "rff005",
-    "question": "Que genero musical tiene las letras mas poderosas?",
+    "question": "Qué género musical tiene las letras más poderosas?",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -379,7 +379,7 @@
   },
   {
     "id": "rff007",
-    "question": "Que banda famosa tiene el mejor nombre?",
+    "question": "Qué banda famosa tiene el mejor nombre?",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -428,7 +428,7 @@
   },
   {
     "id": "rff008",
-    "question": "Aparte del dormitorio, nombra un lugar donde se podria filmar una escena de amor.",
+    "question": "Aparte del dormitorio, nombra un lugar donde se podría filmar una escena de amor.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -502,7 +502,7 @@
   },
   {
     "id": "rff009",
-    "question": "Que superpoder seria el mejor para un atleta?",
+    "question": "Qué superpoder sería el mejor para un atleta?",
     "category": "Deportes",
     "answers": [
       {
@@ -569,7 +569,7 @@
         "points": 4
       },
       {
-        "text": "Curacion",
+        "text": "Curación",
         "aliases": [
           "immunity",
           "regeneration",
@@ -587,7 +587,7 @@
   },
   {
     "id": "rff010",
-    "question": "Que pais tiene la gente mas amable?",
+    "question": "Qué país tiene la gente más amable?",
     "category": "Cultura",
     "answers": [
       {
@@ -656,7 +656,7 @@
   },
   {
     "id": "rff011",
-    "question": "Nombra un robot de una pelicula.",
+    "question": "Nombra un robot de una película.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -714,7 +714,7 @@
   },
   {
     "id": "rff012",
-    "question": "Que app de tu telefono usas mas?",
+    "question": "Qué app de tu teléfono usas más?",
     "category": "Tecnologia",
     "answers": [
       {
@@ -773,7 +773,7 @@
   },
   {
     "id": "rff013",
-    "question": "Cual es la raza de perro mas linda?",
+    "question": "Cuál es la raza de perro más linda?",
     "category": "Animales",
     "answers": [
       {
@@ -831,7 +831,7 @@
   },
   {
     "id": "rff014",
-    "question": "Que pais podria considerarse el mas hermoso?",
+    "question": "Qué país podría considerarse el más hermoso?",
     "category": "Viajes",
     "answers": [
       {
@@ -883,7 +883,7 @@
   },
   {
     "id": "rff015",
-    "question": "Nombra algo que podrias perder en una noche de fiesta.",
+    "question": "Nombra algo que podrías perder en una noche de fiesta.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -899,7 +899,7 @@
         "points": 30
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "my phone",
           "cell phone",
@@ -967,7 +967,7 @@
   },
   {
     "id": "rff016",
-    "question": "Cuantas tazas de cafe deberia uno tomar como maximo al dia?",
+    "question": "Cuántas tazas de café debería uno tomar como maximo al día?",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -1048,7 +1048,7 @@
   },
   {
     "id": "rff017",
-    "question": "Que dia festivo es el mas divertido?",
+    "question": "Qué día festivo es el más divertido?",
     "category": "Fiestas",
     "answers": [
       {
@@ -1067,7 +1067,7 @@
         "points": 20
       },
       {
-        "text": "Accion de Gracias",
+        "text": "Acción de Gracias",
         "aliases": [
           "turkey day",
           "thanksgiving",
@@ -1132,7 +1132,7 @@
         "points": 25
       },
       {
-        "text": "Futbol",
+        "text": "Fútbol",
         "aliases": [
           "futbol",
           "football",
@@ -1142,7 +1142,7 @@
         "points": 21
       },
       {
-        "text": "Futbol Americano",
+        "text": "Fútbol Americano",
         "aliases": [
           "nfl",
           "gridiron",
@@ -1166,7 +1166,7 @@
   },
   {
     "id": "rff019",
-    "question": "En promedio, cuanto deberia durar el sexo?",
+    "question": "En promedio, cuanto debería durar el sexo?",
     "category": "Relaciones",
     "answers": [
       {
@@ -1358,7 +1358,7 @@
   },
   {
     "id": "q002",
-    "question": "Nombra una razon por la que la gente llama al trabajo para decir que esta enferma.",
+    "question": "Nombra una razón por la que la gente llama al trabajo para decir que está enferma.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -1394,7 +1394,7 @@
         "points": 16
       },
       {
-        "text": "Dia de Salud Mental",
+        "text": "Día de Salud Mental",
         "aliases": [
           "mental health",
           "stress",
@@ -1452,7 +1452,7 @@
         "points": 28
       },
       {
-        "text": "Identificacion",
+        "text": "Identificación",
         "aliases": [
           "drivers license",
           "driver license",
@@ -1483,7 +1483,7 @@
         "points": 6
       },
       {
-        "text": "Tarjetas de Presentacion",
+        "text": "Tarjetas de Presentación",
         "aliases": [
           "business card",
           "Business cards"
@@ -1494,7 +1494,7 @@
   },
   {
     "id": "q004",
-    "question": "Nombra algo que la gente hace en su telefono mientras espera.",
+    "question": "Nombra algo que la gente hace en su teléfono mientras espera.",
     "category": "Tecnologia",
     "answers": [
       {
@@ -1612,7 +1612,7 @@
         "points": 9
       },
       {
-        "text": "Aceitunas",
+        "text": "Aceituñas",
         "aliases": [
           "olive",
           "black olives",
@@ -1636,7 +1636,7 @@
         "points": 32
       },
       {
-        "text": "Cargador de Telefono",
+        "text": "Cargador de Teléfono",
         "aliases": [
           "charger",
           "charging cable",
@@ -1717,7 +1717,7 @@
         "points": 18
       },
       {
-        "text": "Hablar en Publico",
+        "text": "Hablar en Público",
         "aliases": [
           "speaking in public",
           "presentations",
@@ -1763,7 +1763,7 @@
         "points": 35
       },
       {
-        "text": "Revisar el Telefono",
+        "text": "Revisar el Teléfono",
         "aliases": [
           "scroll phone",
           "look at phone",
@@ -1773,7 +1773,7 @@
         "points": 25
       },
       {
-        "text": "Ver Television",
+        "text": "Ver Televisión",
         "aliases": [
           "watch television",
           "tv",
@@ -1816,11 +1816,11 @@
   },
   {
     "id": "q009",
-    "question": "Nombra un proposito de Ano Nuevo comun.",
+    "question": "Nombra un propósito de Año Nuevo común.",
     "category": "Fiestas",
     "answers": [
       {
-        "text": "Hacer mas Ejercicio",
+        "text": "Hacer más Ejercicio",
         "aliases": [
           "work out",
           "go to gym",
@@ -1863,7 +1863,7 @@
         "points": 10
       },
       {
-        "text": "Leer mas",
+        "text": "Leer más",
         "aliases": [
           "read books",
           "reading",
@@ -1872,7 +1872,7 @@
         "points": 7
       },
       {
-        "text": "Viajar mas",
+        "text": "Viajar más",
         "aliases": [
           "travel",
           "see the world",
@@ -1885,7 +1885,7 @@
   },
   {
     "id": "q010",
-    "question": "Nombra algo que encuentras en un salon de clases.",
+    "question": "Nombra algo que encuentras en un salón de clases.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -1949,11 +1949,11 @@
   },
   {
     "id": "q011",
-    "question": "Nombra un deporte que la gente ve en la television.",
+    "question": "Nombra un deporte que la gente ve en la televisión.",
     "category": "Entretenimiento",
     "answers": [
       {
-        "text": "Futbol Americano",
+        "text": "Fútbol Americano",
         "aliases": [
           "american football",
           "nfl",
@@ -2065,7 +2065,7 @@
   },
   {
     "id": "q013",
-    "question": "Nombra algo que encontrarias en una habitacion de hotel.",
+    "question": "Nombra algo que encontrarias en una habitación de hotel.",
     "category": "Viajes",
     "answers": [
       {
@@ -2078,7 +2078,7 @@
         "points": 35
       },
       {
-        "text": "Television",
+        "text": "Televisión",
         "aliases": [
           "television",
           "flat screen",
@@ -2276,7 +2276,7 @@
         "points": 28
       },
       {
-        "text": "Ninos",
+        "text": "Niños",
         "aliases": [
           "children",
           "dropping kids off",
@@ -2397,7 +2397,7 @@
         "points": 30
       },
       {
-        "text": "El Arbitro esta Ciego",
+        "text": "El Arbitro está Ciego",
         "aliases": [
           "bad call",
           "are you blind",
@@ -2530,7 +2530,7 @@
         "points": 28
       },
       {
-        "text": "Cargador de Telefono",
+        "text": "Cargador de Teléfono",
         "aliases": [
           "charger",
           "car charger",
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "q021",
-    "question": "Nombra una razon por la que la gente va al medico.",
+    "question": "Nombra una razón por la que la gente va al médico.",
     "category": "Salud",
     "answers": [
       {
@@ -2630,7 +2630,7 @@
         "points": 12
       },
       {
-        "text": "Lesion",
+        "text": "Lesión",
         "aliases": [
           "broken bone",
           "sprain",
@@ -2641,7 +2641,7 @@
         "points": 9
       },
       {
-        "text": "Vacunacion",
+        "text": "Vacunación",
         "aliases": [
           "vaccine",
           "shot",
@@ -2702,7 +2702,7 @@
         "points": 9
       },
       {
-        "text": "Papel Higienico",
+        "text": "Papel Higiénico",
         "aliases": [
           "tp",
           "tissue",
@@ -2714,11 +2714,11 @@
   },
   {
     "id": "gen002",
-    "question": "Nombra algo que la gente hace cuando esta aburrida en casa.",
+    "question": "Nombra algo que la gente hace cuando está aburrida en casa.",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Ver Television",
+        "text": "Ver Televisión",
         "aliases": [
           "watch netflix",
           "binge watch",
@@ -2729,7 +2729,7 @@
         "points": 34
       },
       {
-        "text": "Navegar el Telefono",
+        "text": "Navegar el Teléfono",
         "aliases": [
           "phone",
           "check phone",
@@ -2782,7 +2782,7 @@
   },
   {
     "id": "gen003",
-    "question": "Nombra una verdura que los ninos se niegan a comer.",
+    "question": "Nombra una verdura que los niños se niegan a comer.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -2803,7 +2803,7 @@
         "points": 24
       },
       {
-        "text": "Espinacas",
+        "text": "Espiñacas",
         "aliases": [
           "Spinach"
         ],
@@ -2835,7 +2835,7 @@
   },
   {
     "id": "gen004",
-    "question": "Nombra una pelicula que todos han visto al menos una vez.",
+    "question": "Nombra una película que todos han visto al menos una vez.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -2948,7 +2948,7 @@
   },
   {
     "id": "gen006",
-    "question": "Nombra un pais que la gente suena con visitar.",
+    "question": "Nombra un país que la gente suena con visitar.",
     "category": "Viajes",
     "answers": [
       {
@@ -3006,7 +3006,7 @@
   },
   {
     "id": "gen007",
-    "question": "Nombra una tradicion que la gente hace en su cumpleanos.",
+    "question": "Nombra una tradición que la gente hace en su cumpleaños.",
     "category": "Fiestas",
     "answers": [
       {
@@ -3060,7 +3060,7 @@
         "points": 8
       },
       {
-        "text": "Cantar Feliz Cumpleanos",
+        "text": "Cantar Feliz Cumpleaños",
         "aliases": [
           "happy birthday song",
           "singing",
@@ -3076,7 +3076,7 @@
     "category": "Tecnologia",
     "answers": [
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "smartphone",
@@ -3138,7 +3138,7 @@
   },
   {
     "id": "gen009",
-    "question": "Nombra un deporte que parece facil pero es muy dificil.",
+    "question": "Nombra un deporte que parece fácil pero es muy difícil.",
     "category": "Deportes",
     "answers": [
       {
@@ -3147,7 +3147,7 @@
         "points": 32
       },
       {
-        "text": "Natacion",
+        "text": "Natación",
         "aliases": [
           "competitive swimming",
           "Swimming"
@@ -3189,7 +3189,7 @@
   },
   {
     "id": "gen010",
-    "question": "Nombra un animal que seria un companero de piso terrible.",
+    "question": "Nombra un animal que sería un compañero de piso terrible.",
     "category": "Animales",
     "answers": [
       {
@@ -3336,7 +3336,7 @@
         "points": 18
       },
       {
-        "text": "Cuanto Beben",
+        "text": "Cuánto Beben",
         "aliases": [
           "drinking habits",
           "alcohol",
@@ -3369,7 +3369,7 @@
   },
   {
     "id": "gen013",
-    "question": "Nombra algo que la gente hace para parecer mas joven.",
+    "question": "Nombra algo que la gente hace para parecer más joven.",
     "category": "Salud",
     "answers": [
       {
@@ -3413,7 +3413,7 @@
         "points": 13
       },
       {
-        "text": "Vestirse mas Joven",
+        "text": "Vestirse más Joven",
         "aliases": [
           "trendy clothes",
           "fashion",
@@ -3571,7 +3571,7 @@
   },
   {
     "id": "gen016",
-    "question": "Nombra una comida dificil de comer sin ensuciarse en publico.",
+    "question": "Nombra una comida difícil de comer sin ensuciarse en público.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -3680,7 +3680,7 @@
     "category": "Trabajo y Escuela",
     "answers": [
       {
-        "text": "Ver Television",
+        "text": "Ver Televisión",
         "aliases": [
           "netflix",
           "watch shows",
@@ -3746,7 +3746,7 @@
   },
   {
     "id": "gen019",
-    "question": "Nombra algo molesto de viajar en avion.",
+    "question": "Nombra algo molesto de viajar en avión.",
     "category": "Viajes",
     "answers": [
       {
@@ -3816,7 +3816,7 @@
   },
   {
     "id": "gen020",
-    "question": "Nombra algo que la gente deja para el ultimo minuto.",
+    "question": "Nombra algo que la gente deja para el último minuto.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -4010,7 +4010,7 @@
         "points": 34
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "scrolling phone",
           "social media",
@@ -4031,7 +4031,7 @@
         "points": 16
       },
       {
-        "text": "Cafe",
+        "text": "Café",
         "aliases": [
           "caffeine",
           "too much coffee",
@@ -4109,7 +4109,7 @@
         "points": 11
       },
       {
-        "text": "Lesion",
+        "text": "Lesión",
         "aliases": [
           "hurt",
           "sore",
@@ -4138,7 +4138,7 @@
     "category": "Viajes",
     "answers": [
       {
-        "text": "Musica",
+        "text": "Música",
         "aliases": [
           "what to listen to",
           "radio",
@@ -4173,7 +4173,7 @@
         "points": 18
       },
       {
-        "text": "Donde Comer",
+        "text": "Dónde Comer",
         "aliases": [
           "food",
           "restaurants",
@@ -4194,7 +4194,7 @@
         "points": 9
       },
       {
-        "text": "Paradas al Bano",
+        "text": "Paradas al Baño",
         "aliases": [
           "stopping",
           "rest stops",
@@ -4222,7 +4222,7 @@
         "points": 30
       },
       {
-        "text": "Limpiar el Bano",
+        "text": "Limpiar el Baño",
         "aliases": [
           "scrubbing toilet",
           "toilet",
@@ -4345,7 +4345,7 @@
     "category": "Trabajo y Escuela",
     "answers": [
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "mobile phone",
@@ -4474,7 +4474,7 @@
         "points": 32
       },
       {
-        "text": "Cafe",
+        "text": "Café",
         "aliases": [
           "coffee beans",
           "fresh coffee",
@@ -4523,7 +4523,7 @@
   },
   {
     "id": "gen031",
-    "question": "Nombra un famoso detective de ficcion.",
+    "question": "Nombra un famoso detective de ficción.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -4592,7 +4592,7 @@
         "points": 30
       },
       {
-        "text": "Decoracion",
+        "text": "Decoración",
         "aliases": [
           "decorations",
           "furniture",
@@ -4769,7 +4769,7 @@
   },
   {
     "id": "gen035",
-    "question": "Nombra algo que da verguenza comprar en la tienda.",
+    "question": "Nombra algo que da vergüenza comprar en la tienda.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -4783,7 +4783,7 @@
         "points": 35
       },
       {
-        "text": "Papel Higienico",
+        "text": "Papel Higiénico",
         "aliases": [
           "tp",
           "toiletries",
@@ -4792,7 +4792,7 @@
         "points": 20
       },
       {
-        "text": "Productos Femeninos",
+        "text": "Productos Femeniños",
         "aliases": [
           "tampons",
           "pads",
@@ -4979,7 +4979,7 @@
         "points": 38
       },
       {
-        "text": "Estar en el Telefono",
+        "text": "Estar en el Teléfono",
         "aliases": [
           "phone",
           "check phone",
@@ -5167,7 +5167,7 @@
         "points": 30
       },
       {
-        "text": "Construccion",
+        "text": "Construcción",
         "aliases": [
           "building work",
           "road work",
@@ -5208,7 +5208,7 @@
         "points": 10
       },
       {
-        "text": "Ninos Jugando",
+        "text": "Niños Jugando",
         "aliases": [
           "children",
           "screaming kids",
@@ -5278,7 +5278,7 @@
   },
   {
     "id": "gen043",
-    "question": "Nombra un trabajo que los ninos dicen querer de grandes.",
+    "question": "Nombra un trabajo que los niños dicen querer de grandes.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -5344,7 +5344,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "smartphone",
@@ -5410,7 +5410,7 @@
   },
   {
     "id": "gen045",
-    "question": "Nombra una fruta dificil de comer sin ensuciarse.",
+    "question": "Nombra una fruta difícil de comer sin ensuciarse.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -5549,7 +5549,7 @@
         "points": 18
       },
       {
-        "text": "Agarrar el Telefono",
+        "text": "Agarrar el Teléfono",
         "aliases": [
           "phone",
           "forget phone",
@@ -5581,7 +5581,7 @@
   },
   {
     "id": "gen048",
-    "question": "Nombra una excusa comun para no responder un mensaje.",
+    "question": "Nombra una excusa común para no responder un mensaje.",
     "category": "Tecnologia",
     "answers": [
       {
@@ -5596,7 +5596,7 @@
         "points": 35
       },
       {
-        "text": "Telefono sin Bateria",
+        "text": "Teléfono sin Bateria",
         "aliases": [
           "dead phone",
           "battery died",
@@ -5669,7 +5669,7 @@
         "points": 24
       },
       {
-        "text": "Natacion",
+        "text": "Natación",
         "aliases": [
           "Swimming"
         ],
@@ -5704,7 +5704,7 @@
   },
   {
     "id": "gen050",
-    "question": "Nombra un animal que es mas inteligente de lo que la gente cree.",
+    "question": "Nombra un animal que es más inteligente de lo que la gente cree.",
     "category": "Animales",
     "answers": [
       {
@@ -5767,7 +5767,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Boligrafo",
+        "text": "Bolígrafo",
         "aliases": [
           "pens",
           "pencil",
@@ -5997,7 +5997,7 @@
         "points": 9
       },
       {
-        "text": "Pavo de Accion de Gracias",
+        "text": "Pavo de Acción de Gracias",
         "aliases": [
           "turkey",
           "thanksgiving leftovers",
@@ -6009,7 +6009,7 @@
   },
   {
     "id": "gen055",
-    "question": "Nombra un famoso villano de ficcion.",
+    "question": "Nombra un famoso villaño de ficción.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -6028,8 +6028,10 @@
         "points": 24
       },
       {
-        "text": "Thanos",
-        "aliases": [],
+        "text": "Thaños",
+        "aliases": [
+          "Thanos"
+        ],
         "points": 17
       },
       {
@@ -6114,7 +6116,7 @@
         "points": 8
       },
       {
-        "text": "Que te Llamen",
+        "text": "Qué te Llamen",
         "aliases": [
           "waiting for your number",
           "your number",
@@ -6128,7 +6130,7 @@
   },
   {
     "id": "gen057",
-    "question": "Nombra un instrumento musical que a la gente le gustaria saber tocar.",
+    "question": "Nombra un instrumento musical que a la gente le gustaría saber tocar.",
     "category": "Cultura",
     "answers": [
       {
@@ -6183,11 +6185,11 @@
   },
   {
     "id": "gen058",
-    "question": "Nombra algo que la gente hace cuando esta atrapada en el trafico.",
+    "question": "Nombra algo que la gente hace cuando está atrapada en el trafico.",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Escuchar Musica",
+        "text": "Escuchar Música",
         "aliases": [
           "music",
           "play music",
@@ -6208,7 +6210,7 @@
         "points": 20
       },
       {
-        "text": "Revisar el Telefono",
+        "text": "Revisar el Teléfono",
         "aliases": [
           "phone",
           "text",
@@ -6257,7 +6259,7 @@
     "category": "Relaciones",
     "answers": [
       {
-        "text": "Que Comer",
+        "text": "Qué Comer",
         "aliases": [
           "where to eat",
           "dinner",
@@ -6528,11 +6530,11 @@
   },
   {
     "id": "gen063",
-    "question": "Nombra algo que pasa en toda pelicula de accion.",
+    "question": "Nombra algo que pasa en toda película de acción.",
     "category": "Entretenimiento",
     "answers": [
       {
-        "text": "Persecucion de Autos",
+        "text": "Persecución de Autos",
         "aliases": [
           "car chases",
           "chase scene",
@@ -6542,11 +6544,12 @@
         "points": 30
       },
       {
-        "text": "Explosion",
+        "text": "Explosión",
         "aliases": [
           "explosions",
           "things blow up",
-          "blowing up"
+          "blowing up",
+          "Explosion"
         ],
         "points": 26
       },
@@ -6596,7 +6599,7 @@
   },
   {
     "id": "gen064",
-    "question": "Nombra un articulo que la gente compra pero rara vez usa.",
+    "question": "Nombra un artículo que la gente compra pero rara vez usa.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -6672,7 +6675,7 @@
         "points": 40
       },
       {
-        "text": "Cepillate Dos Veces al Dia",
+        "text": "Cepillate Dos Veces al Día",
         "aliases": [
           "brush more",
           "brush your teeth",
@@ -6725,7 +6728,7 @@
   },
   {
     "id": "gen066",
-    "question": "Nombra una cancion cuya letra todos conocen.",
+    "question": "Nombra una canción cuya letra todos conocen.",
     "category": "Cultura",
     "answers": [
       {
@@ -6781,7 +6784,7 @@
   },
   {
     "id": "gen067",
-    "question": "Nombra algo que siempre es mas caro en el aeropuerto.",
+    "question": "Nombra algo que siempre es más caro en el aeropuerto.",
     "category": "Viajes",
     "answers": [
       {
@@ -6805,7 +6808,7 @@
         "points": 24
       },
       {
-        "text": "Cafe",
+        "text": "Café",
         "aliases": [
           "starbucks",
           "latte",
@@ -6900,7 +6903,7 @@
         "points": 30
       },
       {
-        "text": "Revisar el Telefono",
+        "text": "Revisar el Teléfono",
         "aliases": [
           "phone",
           "text",
@@ -7087,11 +7090,11 @@
   },
   {
     "id": "gen072",
-    "question": "Nombra algo que encontrarias en la habitacion de un adolescente.",
+    "question": "Nombra algo que encontrarias en la habitación de un adolescente.",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "smartphone",
@@ -7154,7 +7157,7 @@
   },
   {
     "id": "gen073",
-    "question": "Nombra un vehiculo en el que te gustaria viajar una vez.",
+    "question": "Nombra un vehículo en el que te gustaría viajar una vez.",
     "category": "Viajes",
     "answers": [
       {
@@ -7216,7 +7219,7 @@
   },
   {
     "id": "gen074",
-    "question": "Nombra un dia festivo en el que la gente gasta demasiado dinero.",
+    "question": "Nombra un día festivo en el que la gente gasta demasiado dinero.",
     "category": "Fiestas",
     "answers": [
       {
@@ -7228,7 +7231,7 @@
         "points": 50
       },
       {
-        "text": "Dia de San Valentin",
+        "text": "Día de San Valentin",
         "aliases": [
           "valentines",
           "valentine",
@@ -7238,7 +7241,7 @@
         "points": 20
       },
       {
-        "text": "Accion de Gracias",
+        "text": "Acción de Gracias",
         "aliases": [
           "turkey day",
           "Thanksgiving"
@@ -7320,7 +7323,7 @@
         "points": 10
       },
       {
-        "text": "Telefono de Tapa",
+        "text": "Teléfono de Tapa",
         "aliases": [
           "flip phones",
           "old phone",
@@ -7333,7 +7336,7 @@
   },
   {
     "id": "gen076",
-    "question": "Nombra un deporte olimpico que la mayoria no podria hacer.",
+    "question": "Nombra un deporte olimpico que la mayoria no podría hacer.",
     "category": "Deportes",
     "answers": [
       {
@@ -7456,7 +7459,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Revisar el Telefono",
+        "text": "Revisar el Teléfono",
         "aliases": [
           "look at phone",
           "grab phone",
@@ -7466,7 +7469,7 @@
         "points": 35
       },
       {
-        "text": "Ir al Bano",
+        "text": "Ir al Baño",
         "aliases": [
           "use bathroom",
           "pee",
@@ -7486,7 +7489,7 @@
         "points": 15
       },
       {
-        "text": "Hacer Cafe",
+        "text": "Hacer Café",
         "aliases": [
           "coffee",
           "drink coffee",
@@ -7719,7 +7722,7 @@
   },
   {
     "id": "gen082",
-    "question": "Nombra algo que hace tu telefono que te molesta.",
+    "question": "Nombra algo que hace tu teléfono que te molesta.",
     "category": "Tecnologia",
     "answers": [
       {
@@ -7804,7 +7807,7 @@
         "points": 28
       },
       {
-        "text": "Futbol",
+        "text": "Fútbol",
         "aliases": [
           "football",
           "futbol",
@@ -7813,7 +7816,7 @@
         "points": 24
       },
       {
-        "text": "Futbol Americano",
+        "text": "Fútbol Americano",
         "aliases": [
           "american football",
           "nfl",
@@ -7849,7 +7852,7 @@
   },
   {
     "id": "gen084",
-    "question": "Nombra un animal con una reputacion que no merece.",
+    "question": "Nombra un animal con una reputación que no merece.",
     "category": "Animales",
     "answers": [
       {
@@ -8103,7 +8106,7 @@
   },
   {
     "id": "gen088",
-    "question": "Nombra algo que mejora con los anos.",
+    "question": "Nombra algo que mejora con los años.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -8424,7 +8427,7 @@
         "points": 24
       },
       {
-        "text": "Salsa de Arandanos",
+        "text": "Salsa de Arandaños",
         "aliases": [
           "cranberry",
           "cranberries",
@@ -8485,7 +8488,7 @@
         "points": 25
       },
       {
-        "text": "Su Cumpleanos",
+        "text": "Su Cumpleaños",
         "aliases": [
           "birthday",
           "birth date",
@@ -8585,7 +8588,7 @@
   },
   {
     "id": "gen096",
-    "question": "Nombra un animal que podrias ver en tu jardin.",
+    "question": "Nombra un animal que podrías ver en tu jardín.",
     "category": "Animales",
     "answers": [
       {
@@ -8697,7 +8700,7 @@
   },
   {
     "id": "gen098",
-    "question": "Nombra algo que siempre hay en la sala de espera del medico.",
+    "question": "Nombra algo que siempre hay en la sala de espera del médico.",
     "category": "Salud",
     "answers": [
       {
@@ -8722,7 +8725,7 @@
         "points": 22
       },
       {
-        "text": "Television",
+        "text": "Televisión",
         "aliases": [
           "television",
           "a tv",
@@ -8751,7 +8754,7 @@
         "points": 10
       },
       {
-        "text": "Ninos Llorando",
+        "text": "Niños Llorando",
         "aliases": [
           "children",
           "babies",
@@ -8822,7 +8825,7 @@
   },
   {
     "id": "gen100",
-    "question": "Nombra una razon por la que alguien llamaria al numero de emergencias.",
+    "question": "Nombra una razón por la que alguien llamaria al número de emergencias.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -8858,7 +8861,7 @@
         "points": 18
       },
       {
-        "text": "Ataque al Corazon",
+        "text": "Ataque al Corazón",
         "aliases": [
           "medical emergency",
           "chest pain",
@@ -8988,7 +8991,7 @@
         "points": 17
       },
       {
-        "text": "Musica Clasica",
+        "text": "Música Clasica",
         "aliases": [
           "opera",
           "symphony",
@@ -9022,7 +9025,7 @@
   },
   {
     "id": "gen103",
-    "question": "Nombra una pelicula que siempre hace llorar a la gente.",
+    "question": "Nombra una película que siempre hace llorar a la gente.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -9076,7 +9079,7 @@
     "category": "Comida y Bebida",
     "answers": [
       {
-        "text": "Cafe",
+        "text": "Café",
         "aliases": [
           "coffee beans",
           "fresh coffee",
@@ -9132,7 +9135,7 @@
   },
   {
     "id": "gen105",
-    "question": "Nombra algo que los turistas siempre hacen mal al visitar un nuevo pais.",
+    "question": "Nombra algo que los turistas siempre hacen mal al visitar un nuevo país.",
     "category": "Viajes",
     "answers": [
       {
@@ -9146,7 +9149,7 @@
         "points": 28
       },
       {
-        "text": "Dar Propina Mal",
+        "text": "Dar Propiña Mal",
         "aliases": [
           "bad tipping",
           "wrong tip",
@@ -9286,7 +9289,7 @@
         "points": 25
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "mobile",
@@ -9328,7 +9331,7 @@
   },
   {
     "id": "gen108",
-    "question": "Nombra un trabajo que los ninos dicen que quieren cuando sean grandes.",
+    "question": "Nombra un trabajo que los niños dicen que quieren cuando sean grandes.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -9394,7 +9397,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Ver Television",
+        "text": "Ver Televisión",
         "aliases": [
           "watch shows",
           "binge watch",
@@ -9530,7 +9533,7 @@
         "points": 30
       },
       {
-        "text": "Cargador de Telefono",
+        "text": "Cargador de Teléfono",
         "aliases": [
           "charger",
           "charging cable",
@@ -9650,7 +9653,7 @@
   },
   {
     "id": "gen113",
-    "question": "Nombra una excusa que la gente usa para irse temprano de una fiesta.",
+    "question": "Nombra una excusa que la gente usa para irse tempraño de una fiesta.",
     "category": "Relaciones",
     "answers": [
       {
@@ -9722,7 +9725,7 @@
     "category": "Viajes",
     "answers": [
       {
-        "text": "Musica",
+        "text": "Música",
         "aliases": [
           "radio station",
           "what to listen to",
@@ -9756,7 +9759,7 @@
         "points": 18
       },
       {
-        "text": "Donde Comer",
+        "text": "Dónde Comer",
         "aliases": [
           "food stops",
           "restaurants",
@@ -9766,7 +9769,7 @@
         "points": 14
       },
       {
-        "text": "Paradas al Bano",
+        "text": "Paradas al Baño",
         "aliases": [
           "stopping too much",
           "rest stops",
@@ -9913,7 +9916,7 @@
     "category": "Salud",
     "answers": [
       {
-        "text": "Esperar en la Recepcion",
+        "text": "Esperar en la Recepción",
         "aliases": [
           "waiting room",
           "the wait",
@@ -9998,7 +10001,7 @@
         "points": 24
       },
       {
-        "text": "Limpiar el Bano",
+        "text": "Limpiar el Baño",
         "aliases": [
           "scrubbing toilet",
           "toilet cleaning",
@@ -10105,7 +10108,7 @@
   },
   {
     "id": "gen120",
-    "question": "Nombra algo que la gente hace cuando esta atrapada en un ascensor.",
+    "question": "Nombra algo que la gente hace cuando está atrapada en un ascensor.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -10140,7 +10143,7 @@
         "points": 18
       },
       {
-        "text": "Revisar el Telefono",
+        "text": "Revisar el Teléfono",
         "aliases": [
           "look at phone",
           "use phone",
@@ -10282,7 +10285,7 @@
         "points": 10
       },
       {
-        "text": "Bano Publico",
+        "text": "Baño Público",
         "aliases": [
           "bathroom",
           "womens restroom",
@@ -10363,7 +10366,7 @@
   },
   {
     "id": "gen124",
-    "question": "Nombra una cancion de la que todos saben la letra.",
+    "question": "Nombra una canción de la que todos saben la letra.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -10435,7 +10438,7 @@
         "points": 34
       },
       {
-        "text": "Comer mas Sano",
+        "text": "Comer más Sano",
         "aliases": [
           "diet",
           "go on a diet",
@@ -10456,7 +10459,7 @@
         "points": 16
       },
       {
-        "text": "Leer mas",
+        "text": "Leer más",
         "aliases": [
           "read books",
           "start reading",
@@ -10489,7 +10492,7 @@
   },
   {
     "id": "gen126",
-    "question": "Nombra una verdura que los ninos se niegan a comer.",
+    "question": "Nombra una verdura que los niños se niegan a comer.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -10511,7 +10514,7 @@
         "points": 24
       },
       {
-        "text": "Espinacas",
+        "text": "Espiñacas",
         "aliases": [
           "spinich",
           "Spinach"
@@ -10551,7 +10554,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "mobile phone",
@@ -10678,7 +10681,7 @@
   },
   {
     "id": "gen129",
-    "question": "Nombra algo que la gente hace cuando suena una cancion que les encanta.",
+    "question": "Nombra algo que la gente hace cuando suena una canción que les encanta.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -10712,7 +10715,7 @@
         "points": 18
       },
       {
-        "text": "Decir 'Esta es mi Cancion'",
+        "text": "Decir 'Esta es mi Canción'",
         "aliases": [
           "that's my song",
           "my jam",
@@ -10746,7 +10749,7 @@
   },
   {
     "id": "gen130",
-    "question": "Nombra una contrasena comun que la gente usa.",
+    "question": "Nombra una contrasena común que la gente usa.",
     "category": "Tecnologia",
     "answers": [
       {
@@ -10769,7 +10772,7 @@
         "points": 26
       },
       {
-        "text": "Su Cumpleanos",
+        "text": "Su Cumpleaños",
         "aliases": [
           "birthday",
           "date of birth",
@@ -10809,7 +10812,7 @@
   },
   {
     "id": "gen131",
-    "question": "Nombra un animal que podrias ver en el jardin de alguien.",
+    "question": "Nombra un animal que podrías ver en el jardín de alguien.",
     "category": "Animales",
     "answers": [
       {
@@ -10926,7 +10929,7 @@
         "points": 9
       },
       {
-        "text": "Cables de Extension",
+        "text": "Cables de Extensión",
         "aliases": [
           "power cords",
           "cables",
@@ -11004,11 +11007,11 @@
   },
   {
     "id": "gen134",
-    "question": "Nombra un dia festivo que involucra mucha cocina.",
+    "question": "Nombra un día festivo que involucra mucha cocina.",
     "category": "Fiestas",
     "answers": [
       {
-        "text": "Dia de Accion de Gracias",
+        "text": "Día de Acción de Gracias",
         "aliases": [
           "turkey day",
           "Thanksgiving"
@@ -11064,7 +11067,7 @@
   },
   {
     "id": "gen135",
-    "question": "Nombra algo que siempre es mas caro en el aeropuerto.",
+    "question": "Nombra algo que siempre es más caro en el aeropuerto.",
     "category": "Viajes",
     "answers": [
       {
@@ -11130,7 +11133,7 @@
   },
   {
     "id": "gen136",
-    "question": "Nombra una razon por la que alguien cancelaria planes a ultimo momento.",
+    "question": "Nombra una razón por la que alguien cancelaria planes a último momento.",
     "category": "Relaciones",
     "answers": [
       {
@@ -11224,7 +11227,7 @@
         "points": 24
       },
       {
-        "text": "Figuras de Accion",
+        "text": "Figuras de Acción",
         "aliases": [
           "figurines",
           "toys",
@@ -11392,11 +11395,11 @@
   },
   {
     "id": "gen140",
-    "question": "Nombra algo que es dificil hacer con guantes puestos.",
+    "question": "Nombra algo que es difícil hacer con guantes puestos.",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Usar el Telefono",
+        "text": "Usar el Teléfono",
         "aliases": [
           "text",
           "type on phone",
@@ -11604,7 +11607,7 @@
         "points": 32
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "phone screen",
@@ -11662,7 +11665,7 @@
     "category": "Comida y Bebida",
     "answers": [
       {
-        "text": "Limon",
+        "text": "Limón",
         "aliases": [
           "lemons",
           "lemon slice",
@@ -11700,7 +11703,7 @@
         "points": 12
       },
       {
-        "text": "Pina",
+        "text": "Piña",
         "aliases": [
           "pineapple slice",
           "pineapple chunk",
@@ -11726,7 +11729,7 @@
     "category": "Comida y Bebida",
     "answers": [
       {
-        "text": "Ver el Telefono",
+        "text": "Ver el Teléfono",
         "aliases": [
           "check phone",
           "scroll phone",
@@ -11792,7 +11795,7 @@
   },
   {
     "id": "gen146",
-    "question": "Nombra una serie de television que la gente ve de un tiron.",
+    "question": "Nombra una serie de televisión que la gente ve de un tiron.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -11872,7 +11875,7 @@
         "points": 24
       },
       {
-        "text": "Taza de Cafe",
+        "text": "Taza de Café",
         "aliases": [
           "coffee cup",
           "coffee",
@@ -12116,7 +12119,7 @@
         "points": 32
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "cellphone",
@@ -12128,7 +12131,7 @@
         "points": 24
       },
       {
-        "text": "Boligrafo",
+        "text": "Bolígrafo",
         "aliases": [
           "pens",
           "pencil",
@@ -12172,7 +12175,7 @@
   },
   {
     "id": "gen152",
-    "question": "Nombra un sonido que es dificil de ignorar.",
+    "question": "Nombra un sonido que es difícil de ignorar.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -12229,7 +12232,7 @@
         "points": 10
       },
       {
-        "text": "Telefono Sonando",
+        "text": "Teléfono Sonando",
         "aliases": [
           "ringing phone",
           "ringtone",
@@ -12247,7 +12250,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Ver el Telefono",
+        "text": "Ver el Teléfono",
         "aliases": [
           "check phone",
           "scroll phone",
@@ -12322,7 +12325,7 @@
   },
   {
     "id": "gen154",
-    "question": "Nombra una razon por la que la gente se toma una selfie.",
+    "question": "Nombra una razón por la que la gente se toma una selfie.",
     "category": "Cultura",
     "answers": [
       {
@@ -12405,7 +12408,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Papel Higienico",
+        "text": "Papel Higiénico",
         "aliases": [
           "tp",
           "toilet roll",
@@ -12416,7 +12419,7 @@
         "points": 34
       },
       {
-        "text": "Bateria del Telefono",
+        "text": "Bateria del Teléfono",
         "aliases": [
           "battery",
           "phone charge",
@@ -12537,7 +12540,7 @@
   },
   {
     "id": "gen157",
-    "question": "Nombra algo que encuentras en todos los banos.",
+    "question": "Nombra algo que encuentras en todos los baños.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -12592,7 +12595,7 @@
         "points": 9
       },
       {
-        "text": "Papel Higienico",
+        "text": "Papel Higiénico",
         "aliases": [
           "tp",
           "toilet roll",
@@ -12880,11 +12883,11 @@
   },
   {
     "id": "gen162",
-    "question": "Nombra un articulo por el que la gente pelea en Black Friday.",
+    "question": "Nombra un artículo por el que la gente pelea en Black Friday.",
     "category": "Fiestas",
     "answers": [
       {
-        "text": "Television",
+        "text": "Televisión",
         "aliases": [
           "television",
           "flat screen",
@@ -12906,7 +12909,7 @@
         "points": 20
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "iphone",
           "smartphone",
@@ -12955,7 +12958,7 @@
   },
   {
     "id": "gen163",
-    "question": "Nombra una razon por la que la gente llega tarde al trabajo.",
+    "question": "Nombra una razón por la que la gente llega tarde al trabajo.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -12982,7 +12985,7 @@
         "points": 28
       },
       {
-        "text": "Ninos",
+        "text": "Niños",
         "aliases": [
           "children",
           "dropping off kids",
@@ -13231,7 +13234,7 @@
         "points": 10
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "smartphone",
@@ -13267,7 +13270,7 @@
         "points": 25
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "cellphone",
@@ -13314,7 +13317,7 @@
   },
   {
     "id": "gen168",
-    "question": "Nombra un animal que seria aterrador si fuera del tamano de un caballo.",
+    "question": "Nombra un animal que sería aterrador si fuera del tamaño de un caballo.",
     "category": "Animales",
     "answers": [
       {
@@ -13376,7 +13379,7 @@
   },
   {
     "id": "gen169",
-    "question": "Nombra una comida que la gente come cuando esta estresada.",
+    "question": "Nombra una comida que la gente come cuando está estresada.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -13480,7 +13483,7 @@
         "points": 18
       },
       {
-        "text": "Que los Invitados se Lleven Bien",
+        "text": "Qué los Invitados se Lleven Bien",
         "aliases": [
           "people not getting along",
           "awkward guests",
@@ -13502,7 +13505,7 @@
         "points": 9
       },
       {
-        "text": "Que se Acaben las Bebidas",
+        "text": "Qué se Acaben las Bebidas",
         "aliases": [
           "not enough drinks",
           "no wine",
@@ -13516,7 +13519,7 @@
   },
   {
     "id": "gen171",
-    "question": "Nombra un genero de pelicula que hace llorar a la gente.",
+    "question": "Nombra un género de película que hace llorar a la gente.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -13586,7 +13589,7 @@
   },
   {
     "id": "gen172",
-    "question": "Nombra algo que la gente hace en un dia de nieve.",
+    "question": "Nombra algo que la gente hace en un día de nieve.",
     "category": "Naturaleza",
     "answers": [
       {
@@ -13658,7 +13661,7 @@
   },
   {
     "id": "gen173",
-    "question": "Nombra algo que es mucho mas caro de lo que deberia ser.",
+    "question": "Nombra algo que es mucho más caro de lo que debería ser.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -13721,7 +13724,7 @@
         "points": 11
       },
       {
-        "text": "Planes de Telefono",
+        "text": "Planes de Teléfono",
         "aliases": [
           "cell phone bill",
           "data plan",
@@ -13735,7 +13738,7 @@
   },
   {
     "id": "gen174",
-    "question": "Nombra una razon por la que alguien gritaria.",
+    "question": "Nombra una razón por la que alguien gritaria.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -13777,7 +13780,7 @@
         "points": 18
       },
       {
-        "text": "Emocion",
+        "text": "Emoción",
         "aliases": [
           "happy",
           "joy",
@@ -13801,7 +13804,7 @@
         "points": 9
       },
       {
-        "text": "Montana Rusa",
+        "text": "Montaña Rusa",
         "aliases": [
           "amusement park",
           "ride",
@@ -13815,7 +13818,7 @@
   },
   {
     "id": "gen175",
-    "question": "Nombra algo que la gente hace para refrescarse en un dia caluroso.",
+    "question": "Nombra algo que la gente hace para refrescarse en un día caluroso.",
     "category": "Naturaleza",
     "answers": [
       {
@@ -13924,7 +13927,7 @@
         "points": 16
       },
       {
-        "text": "Senor o Senora",
+        "text": "Señor o Señora",
         "aliases": [
           "sir",
           "maam",
@@ -13964,7 +13967,7 @@
     "category": "Viajes",
     "answers": [
       {
-        "text": "Musica",
+        "text": "Música",
         "aliases": [
           "good music",
           "playlist",
@@ -14109,7 +14112,7 @@
   },
   {
     "id": "gen179",
-    "question": "Nombra algo que siempre parece mas facil en la television.",
+    "question": "Nombra algo que siempre parece más fácil en la televisión.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -14185,7 +14188,7 @@
     "category": "Tecnologia",
     "answers": [
       {
-        "text": "Que tan Felices Son",
+        "text": "Qué tan Felices Son",
         "aliases": [
           "happiness",
           "being happy",
@@ -14471,7 +14474,7 @@
         "points": 11
       },
       {
-        "text": "Electronicos",
+        "text": "Electrónicos",
         "aliases": [
           "old electronics",
           "dvd player",
@@ -14551,7 +14554,7 @@
         "points": 10
       },
       {
-        "text": "Ninos Corriendo por Todos Lados",
+        "text": "Niños Corriendo por Todos Lados",
         "aliases": [
           "kids playing",
           "children screaming",
@@ -14636,7 +14639,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "cellphone",
@@ -14770,7 +14773,7 @@
   },
   {
     "id": "gen188",
-    "question": "Nombra algo que siempre esta en el minibar de un hotel.",
+    "question": "Nombra algo que siempre está en el minibar de un hotel.",
     "category": "Viajes",
     "answers": [
       {
@@ -14921,7 +14924,7 @@
   },
   {
     "id": "gen190",
-    "question": "Nombra algo que seria un mal regalo de cumpleanos.",
+    "question": "Nombra algo que sería un mal regalo de cumpleaños.",
     "category": "Fiestas",
     "answers": [
       {
@@ -15062,7 +15065,7 @@
   },
   {
     "id": "gen192",
-    "question": "Nombra algo que un maestro dice todos los dias.",
+    "question": "Nombra algo que un maestro dice todos los días.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -15090,7 +15093,7 @@
         "points": 22
       },
       {
-        "text": "Pongan Atencion",
+        "text": "Pongan Atención",
         "aliases": [
           "focus",
           "listen",
@@ -15143,7 +15146,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Alumbrado Publico",
+        "text": "Alumbrado Público",
         "aliases": [
           "streetlights",
           "good lighting",
@@ -15226,7 +15229,7 @@
         "points": 28
       },
       {
-        "text": "Algodon de Azucar",
+        "text": "Algodón de Azucar",
         "aliases": [
           "candy floss",
           "funnel cake",
@@ -15249,7 +15252,7 @@
         "points": 18
       },
       {
-        "text": "Montana Rusa",
+        "text": "Montaña Rusa",
         "aliases": [
           "rides",
           "roller coasters",
@@ -15283,7 +15286,7 @@
   },
   {
     "id": "gen195",
-    "question": "Nombra una tarea del hogar que los ninos tratan de evitar.",
+    "question": "Nombra una tarea del hogar que los niños tratan de evitar.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -15441,7 +15444,7 @@
     "category": "Juego de Palabras",
     "answers": [
       {
-        "text": "Platano",
+        "text": "Plátano",
         "aliases": [
           "bananas",
           "Banana"
@@ -15479,7 +15482,7 @@
         "points": 13
       },
       {
-        "text": "Limon",
+        "text": "Limón",
         "aliases": [
           "lemons",
           "Lemon"
@@ -15588,7 +15591,7 @@
         "points": 26
       },
       {
-        "text": "Papel Higienico",
+        "text": "Papel Higiénico",
         "aliases": [
           "tp",
           "tissues",
@@ -15647,7 +15650,7 @@
   },
   {
     "id": "gen200",
-    "question": "Nombra algo que la gente hace a medianoche en Ano Nuevo.",
+    "question": "Nombra algo que la gente hace a medianoche en Año Nuevo.",
     "category": "Fiestas",
     "answers": [
       {
@@ -15695,7 +15698,7 @@
         "points": 12
       },
       {
-        "text": "Gritar Feliz Ano Nuevo",
+        "text": "Gritar Feliz Año Nuevo",
         "aliases": [
           "say happy new year",
           "scream happy new year",
@@ -15769,7 +15772,7 @@
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Mirar su telefono",
+        "text": "Mirar su teléfono",
         "aliases": [
           "check phone",
           "stare at phone",
@@ -15780,7 +15783,7 @@
         "points": 34
       },
       {
-        "text": "Mirar los numeros del piso",
+        "text": "Mirar los números del piso",
         "aliases": [
           "watch the numbers",
           "look at the numbers",
@@ -15823,7 +15826,7 @@
         "points": 8
       },
       {
-        "text": "Presionar el boton de cerrar",
+        "text": "Presionar el botón de cerrar",
         "aliases": [
           "press buttons",
           "hit the close button",
@@ -15897,7 +15900,7 @@
   },
   {
     "id": "gen204",
-    "question": "Nombra algo que siempre esta en el fondo de tu refrigerador.",
+    "question": "Nombra algo que siempre está en el fondo de tu refrigerador.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -15997,7 +16000,7 @@
         "points": 18
       },
       {
-        "text": "Girar un boligrafo",
+        "text": "Girar un bolígrafo",
         "aliases": [
           "pen twirling",
           "spin a pen",
@@ -16287,7 +16290,7 @@
         "points": 32
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "my phone",
@@ -16339,7 +16342,7 @@
   },
   {
     "id": "gen211",
-    "question": "Nombra una pelicula que todos han visto pero nadie admite que les encanta.",
+    "question": "Nombra una película que todos han visto pero nadie admite que les encanta.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -16439,7 +16442,7 @@
         "points": 9
       },
       {
-        "text": "Cargador de telefono",
+        "text": "Cargador de teléfono",
         "aliases": [
           "charger",
           "charging cable",
@@ -16453,11 +16456,11 @@
   },
   {
     "id": "gen213",
-    "question": "Nombra algo que a la gente le da verguenza comprar en la tienda.",
+    "question": "Nombra algo que a la gente le da vergüenza comprar en la tienda.",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Papel higienico",
+        "text": "Papel higiénico",
         "aliases": [
           "tp",
           "toiletpaper",
@@ -16475,7 +16478,7 @@
         "points": 25
       },
       {
-        "text": "Productos femeninos",
+        "text": "Productos femeniños",
         "aliases": [
           "tampons",
           "pads",
@@ -16517,7 +16520,7 @@
   },
   {
     "id": "gen214",
-    "question": "Nombra una profesion en la que esperarias que la persona este en gran forma.",
+    "question": "Nombra una profesión en la que esperarias que la persona este en gran forma.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -16583,7 +16586,7 @@
   },
   {
     "id": "gen215",
-    "question": "Nombra una cancion de la que todos saben la letra.",
+    "question": "Nombra una canción de la que todos saben la letra.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -16638,7 +16641,7 @@
   },
   {
     "id": "gen216",
-    "question": "Nombra un pais que la gente suena con visitar algun dia.",
+    "question": "Nombra un país que la gente suena con visitar algun día.",
     "category": "Viajes",
     "answers": [
       {
@@ -16712,7 +16715,7 @@
         "points": 34
       },
       {
-        "text": "Ver television",
+        "text": "Ver televisión",
         "aliases": [
           "watch netflix",
           "binge watch",
@@ -16849,7 +16852,7 @@
         "points": 35
       },
       {
-        "text": "Que llamen tu numero",
+        "text": "Qué llamen tu número",
         "aliases": [
           "waiting for your number",
           "number system",
@@ -16869,7 +16872,7 @@
         "points": 16
       },
       {
-        "text": "Que te tomen la foto",
+        "text": "Qué te tomen la foto",
         "aliases": [
           "photo",
           "license photo",
@@ -16900,7 +16903,7 @@
   },
   {
     "id": "gen220",
-    "question": "Nombra un deporte que parece facil pero en realidad es muy dificil.",
+    "question": "Nombra un deporte que parece fácil pero en realidad es muy difícil.",
     "category": "Deportes",
     "answers": [
       {
@@ -16911,7 +16914,7 @@
         "points": 30
       },
       {
-        "text": "Natacion",
+        "text": "Natación",
         "aliases": [
           "swim",
           "competitive swimming",
@@ -17022,7 +17025,7 @@
   },
   {
     "id": "gen222",
-    "question": "Nombra algo que un perro diria si pudiera hablar.",
+    "question": "Nombra algo que un perro diría si pudiera hablar.",
     "category": "Animales",
     "answers": [
       {
@@ -17068,7 +17071,7 @@
         "points": 13
       },
       {
-        "text": "Quien esta en la puerta",
+        "text": "Quien está en la puerta",
         "aliases": [
           "someone's here",
           "intruder",
@@ -17091,11 +17094,11 @@
   },
   {
     "id": "gen223",
-    "question": "Nombra una razon por la que la gente se reporta enferma sin estarlo.",
+    "question": "Nombra una razón por la que la gente se reporta enferma sin estarlo.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
-        "text": "Dia de salud mental",
+        "text": "Día de salud mental",
         "aliases": [
           "need a break",
           "stress",
@@ -17236,7 +17239,7 @@
         "points": 30
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "smartphone",
@@ -17289,7 +17292,7 @@
   },
   {
     "id": "gen226",
-    "question": "Nombra un trabajo que los ninos dicen que quieren cuando crezcan.",
+    "question": "Nombra un trabajo que los niños dicen que quieren cuando crezcan.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -17349,7 +17352,7 @@
   },
   {
     "id": "gen227",
-    "question": "Nombra un dia festivo para el que la gente empieza a prepararse demasiado temprano.",
+    "question": "Nombra un día festivo para el que la gente empieza a prepararse demasiado temprano.",
     "category": "Fiestas",
     "answers": [
       {
@@ -17369,7 +17372,7 @@
         "points": 18
       },
       {
-        "text": "Accion de Gracias",
+        "text": "Acción de Gracias",
         "aliases": [
           "turkey day",
           "Thanksgiving"
@@ -17384,7 +17387,7 @@
         "points": 9
       },
       {
-        "text": "Dia de San Valentin",
+        "text": "Día de San Valentin",
         "aliases": [
           "valentines",
           "valentines day",
@@ -17690,7 +17693,7 @@
         "points": 15
       },
       {
-        "text": "Ninos",
+        "text": "Niños",
         "aliases": [
           "my kids",
           "kid was sick",
@@ -17724,7 +17727,7 @@
   },
   {
     "id": "gen233",
-    "question": "Nombra un lugar donde te ves obligado a hacer conversacion incomoda.",
+    "question": "Nombra un lugar donde te ves obligado a hacer conversación incomoda.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -17791,7 +17794,7 @@
   },
   {
     "id": "gen234",
-    "question": "Nombra algo por lo que la gente pelea en Accion de Gracias.",
+    "question": "Nombra algo por lo que la gente pelea en Acción de Gracias.",
     "category": "Fiestas",
     "answers": [
       {
@@ -17805,7 +17808,7 @@
         "points": 30
       },
       {
-        "text": "El ultimo pedazo de pastel",
+        "text": "El último pedazo de pastel",
         "aliases": [
           "pie",
           "dessert",
@@ -17848,7 +17851,7 @@
         "points": 10
       },
       {
-        "text": "Distribucion de asientos",
+        "text": "Distribución de asientos",
         "aliases": [
           "where to sit",
           "seats",
@@ -17861,7 +17864,7 @@
   },
   {
     "id": "gen235",
-    "question": "Nombra una razon por la que la gente evita ir al doctor.",
+    "question": "Nombra una razón por la que la gente evita ir al doctor.",
     "category": "Salud",
     "answers": [
       {
@@ -17931,7 +17934,7 @@
   },
   {
     "id": "gen236",
-    "question": "Nombra una verdura que los ninos se niegan a comer.",
+    "question": "Nombra una verdura que los niños se niegan a comer.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -17953,7 +17956,7 @@
         "points": 22
       },
       {
-        "text": "Espinacas",
+        "text": "Espiñacas",
         "aliases": [
           "Spinach"
         ],
@@ -17986,7 +17989,7 @@
   },
   {
     "id": "gen237",
-    "question": "Nombra algo que es socialmente aceptable para ninos pero raro para adultos.",
+    "question": "Nombra algo que es socialmente aceptable para niños pero raro para adultos.",
     "category": "Cultura",
     "answers": [
       {
@@ -18020,7 +18023,7 @@
         "points": 18
       },
       {
-        "text": "Hablar con extranos",
+        "text": "Hablar con extraños",
         "aliases": [
           "talking to random people",
           "saying hi to everyone",
@@ -18121,7 +18124,7 @@
   },
   {
     "id": "gen239",
-    "question": "Nombra una aplicacion a la que la gente es adicta.",
+    "question": "Nombra una aplicación a la que la gente es adicta.",
     "category": "Tecnologia",
     "answers": [
       {
@@ -18175,7 +18178,7 @@
   },
   {
     "id": "gen240",
-    "question": "Nombra algo que la gente dice que hara en Ano Nuevo pero nunca hace.",
+    "question": "Nombra algo que la gente dice que hara en Año Nuevo pero nunca hace.",
     "category": "Fiestas",
     "answers": [
       {
@@ -18191,7 +18194,7 @@
         "points": 38
       },
       {
-        "text": "Comer mas sano",
+        "text": "Comer más sano",
         "aliases": [
           "diet",
           "eat better",
@@ -18221,7 +18224,7 @@
         "points": 10
       },
       {
-        "text": "Leer mas libros",
+        "text": "Leer más libros",
         "aliases": [
           "read more",
           "reading",
@@ -18247,7 +18250,7 @@
     "category": "Viajes",
     "answers": [
       {
-        "text": "Musica",
+        "text": "Música",
         "aliases": [
           "singing",
           "good playlist",
@@ -18269,7 +18272,7 @@
         "points": 25
       },
       {
-        "text": "Buena compania",
+        "text": "Buena compañía",
         "aliases": [
           "friends",
           "family",
@@ -18316,7 +18319,7 @@
   },
   {
     "id": "gen242",
-    "question": "Nombra algo que es mucho mas caro de lo que deberia ser.",
+    "question": "Nombra algo que es mucho más caro de lo que debería ser.",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -18387,7 +18390,7 @@
   },
   {
     "id": "gen243",
-    "question": "Nombra un animal que la gente tiene como mascota pero probablemente no deberia.",
+    "question": "Nombra un animal que la gente tiene como mascota pero probablemente no debería.",
     "category": "Animales",
     "answers": [
       {
@@ -18519,7 +18522,7 @@
   },
   {
     "id": "gen245",
-    "question": "Nombra algo que encuentras en cada fiesta de cumpleanos.",
+    "question": "Nombra algo que encuentras en cada fiesta de cumpleaños.",
     "category": "Fiestas",
     "answers": [
       {
@@ -18558,7 +18561,7 @@
         "points": 12
       },
       {
-        "text": "Cantar Feliz Cumpleanos",
+        "text": "Cantar Feliz Cumpleaños",
         "aliases": [
           "happy birthday song",
           "singing",
@@ -18596,7 +18599,7 @@
         "points": 38
       },
       {
-        "text": "Tormenta electrica",
+        "text": "Tormenta eléctrica",
         "aliases": [
           "thunder",
           "lightning",
@@ -18687,7 +18690,7 @@
         "points": 15
       },
       {
-        "text": "Que explique algo de nuevo",
+        "text": "Qué explique algo de nuevo",
         "aliases": [
           "repeat instructions",
           "clarification",
@@ -18795,7 +18798,7 @@
         "points": 30
       },
       {
-        "text": "Revisar el telefono",
+        "text": "Revisar el teléfono",
         "aliases": [
           "scroll phone",
           "look at phone",
@@ -18806,7 +18809,7 @@
         "points": 25
       },
       {
-        "text": "Ir al bano",
+        "text": "Ir al baño",
         "aliases": [
           "go to the bathroom",
           "pee",
@@ -18848,7 +18851,7 @@
   },
   {
     "id": "gen250",
-    "question": "Nombra un juego de mesa que causa mas discusiones familiares.",
+    "question": "Nombra un juego de mesa que causa más discusiones familiares.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -18998,7 +19001,7 @@
         "points": 24
       },
       {
-        "text": "Cancion de caricaturas",
+        "text": "Canción de caricaturas",
         "aliases": [
           "cartoons",
           "cartoon music",
@@ -19029,7 +19032,7 @@
         "points": 9
       },
       {
-        "text": "Cancion de saltar la cuerda",
+        "text": "Canción de saltar la cuerda",
         "aliases": [
           "playground songs",
           "clapping games",
@@ -19042,7 +19045,7 @@
   },
   {
     "id": "gen253",
-    "question": "Nombra un trabajo que las peliculas hacen ver mucho mas genial de lo que es.",
+    "question": "Nombra un trabajo que las películas hacen ver mucho más genial de lo que es.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -19154,7 +19157,7 @@
         "points": 14
       },
       {
-        "text": "Pastel de cumpleanos",
+        "text": "Pastel de cumpleaños",
         "aliases": [
           "cake",
           "birthday",
@@ -19177,7 +19180,7 @@
   },
   {
     "id": "gen255",
-    "question": "Nombra una combinacion de comida que suena rara pero en realidad es buena.",
+    "question": "Nombra una combinación de comida que suena rara pero en realidad es buena.",
     "category": "Comida y Bebida",
     "answers": [
       {
@@ -19240,11 +19243,11 @@
   },
   {
     "id": "gen256",
-    "question": "Nombra algo que la gente hace cuando esta nerviosa.",
+    "question": "Nombra algo que la gente hace cuando está nerviosa.",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Morderse las unas",
+        "text": "Morderse las uñas",
         "aliases": [
           "nail biting",
           "biting nails",
@@ -19285,7 +19288,7 @@
         "points": 13
       },
       {
-        "text": "Hablar rapido",
+        "text": "Hablar rápido",
         "aliases": [
           "ramble",
           "rambling",
@@ -19309,11 +19312,11 @@
   },
   {
     "id": "gen257",
-    "question": "Nombra un articulo por el que la gente pelea en una venta.",
+    "question": "Nombra un artículo por el que la gente pelea en una venta.",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Television",
+        "text": "Televisión",
         "aliases": [
           "television",
           "flat screen",
@@ -19346,7 +19349,7 @@
         "points": 16
       },
       {
-        "text": "Electronicos",
+        "text": "Electrónicos",
         "aliases": [
           "gadgets",
           "phones",
@@ -19382,7 +19385,7 @@
   },
   {
     "id": "gen258",
-    "question": "Que es algo que la gente siempre pierde?",
+    "question": "Qué es algo que la gente siempre pierde?",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -19396,7 +19399,7 @@
         "points": 35
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "mobile",
@@ -19449,11 +19452,11 @@
   },
   {
     "id": "gen259",
-    "question": "Nombra una razon por la que la gente se reporta enferma sin estar enferma.",
+    "question": "Nombra una razón por la que la gente se reporta enferma sin estar enferma.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
-        "text": "Dia de salud mental",
+        "text": "Día de salud mental",
         "aliases": [
           "need a break",
           "tired",
@@ -19590,7 +19593,7 @@
   },
   {
     "id": "gen261",
-    "question": "Nombra una celebridad de la que todos pueden hacer una imitacion.",
+    "question": "Nombra una celebridad de la que todos pueden hacer una imitación.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -19645,7 +19648,7 @@
   },
   {
     "id": "gen262",
-    "question": "Nombra algo que la gente hace en su telefono mientras finge escuchar.",
+    "question": "Nombra algo que la gente hace en su teléfono mientras finge escuchar.",
     "category": "Tecnologia",
     "answers": [
       {
@@ -19715,7 +19718,7 @@
   },
   {
     "id": "gen263",
-    "question": "Nombra un animal que seria terrible como mascota.",
+    "question": "Nombra un animal que sería terrible como mascota.",
     "category": "Animales",
     "answers": [
       {
@@ -19835,7 +19838,7 @@
         "points": 8
       },
       {
-        "text": "Leer mas",
+        "text": "Leer más",
         "aliases": [
           "reading",
           "read a book",
@@ -20036,7 +20039,7 @@
         "points": 10
       },
       {
-        "text": "Musica clasica",
+        "text": "Música clásica",
         "aliases": [
           "opera",
           "symphony",
@@ -20064,7 +20067,7 @@
         "points": 34
       },
       {
-        "text": "Espinacas",
+        "text": "Espiñacas",
         "aliases": [
           "lettuce",
           "leafy greens",
@@ -20118,7 +20121,7 @@
   },
   {
     "id": "gen269",
-    "question": "Cual pelicula han visto todos al menos una vez?",
+    "question": "Cuál película han visto todos al menos una vez?",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -20239,7 +20242,7 @@
   },
   {
     "id": "gen271",
-    "question": "Que huele bien pero sabe terrible?",
+    "question": "Qué huele bien pero sabe terrible?",
     "category": "Naturaleza",
     "answers": [
       {
@@ -20253,7 +20256,7 @@
         "points": 28
       },
       {
-        "text": "Cafe",
+        "text": "Café",
         "aliases": [
           "black coffee",
           "coffee beans",
@@ -20339,7 +20342,7 @@
         "points": 17
       },
       {
-        "text": "Recortes de unas",
+        "text": "Recortes de uñas",
         "aliases": [
           "toenail clippings",
           "nails",
@@ -20349,7 +20352,7 @@
         "points": 14
       },
       {
-        "text": "Juguetes de comida rapida",
+        "text": "Juguetes de comida rápida",
         "aliases": [
           "happy meal toys",
           "mcdonalds toys",
@@ -20377,7 +20380,7 @@
     "category": "Viajes",
     "answers": [
       {
-        "text": "Cargador de telefono",
+        "text": "Cargador de teléfono",
         "aliases": [
           "charger",
           "charging cable",
@@ -20440,7 +20443,7 @@
   },
   {
     "id": "gen274",
-    "question": "Nombra una cancion de la que todos saben la letra.",
+    "question": "Nombra una canción de la que todos saben la letra.",
     "category": "Entretenimiento",
     "answers": [
       {
@@ -20497,7 +20500,7 @@
   },
   {
     "id": "gen275",
-    "question": "Que es algo que es mas dificil de lo que parece?",
+    "question": "Qué es algo que es más difícil de lo que parece?",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -20607,7 +20610,7 @@
         "points": 11
       },
       {
-        "text": "Ninos",
+        "text": "Niños",
         "aliases": [
           "the kids",
           "children",
@@ -20632,7 +20635,7 @@
   },
   {
     "id": "gen277",
-    "question": "Que siempre se esconde en un cajon de cosas varias?",
+    "question": "Qué siempre se esconde en un cajon de cosas varias?",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -20703,11 +20706,11 @@
   },
   {
     "id": "gen278",
-    "question": "Nombra un deporte que parece facil pero en realidad es agotador.",
+    "question": "Nombra un deporte que parece fácil pero en realidad es agotador.",
     "category": "Deportes",
     "answers": [
       {
-        "text": "Natacion",
+        "text": "Natación",
         "aliases": [
           "swim",
           "laps",
@@ -20727,7 +20730,7 @@
         "points": 22
       },
       {
-        "text": "Futbol",
+        "text": "Fútbol",
         "aliases": [
           "football",
           "futbol",
@@ -20866,7 +20869,7 @@
         "points": 20
       },
       {
-        "text": "Caminar rapido",
+        "text": "Caminar rápido",
         "aliases": [
           "walk quickly",
           "power walk",
@@ -20877,7 +20880,7 @@
         "points": 17
       },
       {
-        "text": "Hablar por telefono",
+        "text": "Hablar por teléfono",
         "aliases": [
           "phone call",
           "pretend phone call",
@@ -20983,7 +20986,7 @@
   },
   {
     "id": "gen282",
-    "question": "Que toma mucho mas tiempo de lo que deberia?",
+    "question": "Qué toma mucho más tiempo de lo que debería?",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -21056,11 +21059,11 @@
   },
   {
     "id": "gen283",
-    "question": "Cual dia festivo la gente secretamente teme?",
+    "question": "Cuál día festivo la gente secretamente teme?",
     "category": "Fiestas",
     "answers": [
       {
-        "text": "Accion de Gracias",
+        "text": "Acción de Gracias",
         "aliases": [
           "turkey day",
           "Thanksgiving"
@@ -21068,7 +21071,7 @@
         "points": 30
       },
       {
-        "text": "Dia de San Valentin",
+        "text": "Día de San Valentin",
         "aliases": [
           "valentines",
           "valentines day",
@@ -21097,7 +21100,7 @@
         "points": 12
       },
       {
-        "text": "Dia de las Madres",
+        "text": "Día de las Madres",
         "aliases": [
           "fathers day",
           "parents day",
@@ -21107,7 +21110,7 @@
         "points": 9
       },
       {
-        "text": "Dia de los Inocentes",
+        "text": "Día de los Inocentes",
         "aliases": [
           "april fools",
           "april 1st",
@@ -21119,11 +21122,11 @@
   },
   {
     "id": "gen284",
-    "question": "Que les da verguenza a las personas pedir indicaciones para llegar a?",
+    "question": "Qué les da vergüenza a las personas pedir indicaciones para llegar a?",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Bano",
+        "text": "Baño",
         "aliases": [
           "restroom",
           "toilet",
@@ -21144,7 +21147,7 @@
         "points": 22
       },
       {
-        "text": "Consultorio medico",
+        "text": "Consultorio médico",
         "aliases": [
           "clinic",
           "hospital",
@@ -21164,7 +21167,7 @@
         "points": 12
       },
       {
-        "text": "Casa de empeno",
+        "text": "Casa de empeño",
         "aliases": [
           "pawnshop",
           "pawn broker",
@@ -21186,7 +21189,7 @@
   },
   {
     "id": "gen285",
-    "question": "Que siempre parece romperse en el peor momento?",
+    "question": "Qué siempre parece romperse en el peor momento?",
     "category": "Tecnologia",
     "answers": [
       {
@@ -21200,7 +21203,7 @@
         "points": 30
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "smartphone",
@@ -21314,11 +21317,11 @@
   },
   {
     "id": "gen287",
-    "question": "Nombra algo que hace un viaje por carretera mas divertido.",
+    "question": "Nombra algo que hace un viaje por carretera más divertido.",
     "category": "Viajes",
     "answers": [
       {
-        "text": "Musica",
+        "text": "Música",
         "aliases": [
           "playlist",
           "songs",
@@ -21341,7 +21344,7 @@
         "points": 24
       },
       {
-        "text": "Buena compania",
+        "text": "Buena compañía",
         "aliases": [
           "friends",
           "best friend",
@@ -21363,7 +21366,7 @@
         "points": 12
       },
       {
-        "text": "Ruta panoramica",
+        "text": "Ruta panorámica",
         "aliases": [
           "scenery",
           "pretty views",
@@ -21388,7 +21391,7 @@
   },
   {
     "id": "gen288",
-    "question": "Que encontrarias en el cuarto de un adolescente?",
+    "question": "Qué encontrarias en el cuarto de un adolescente?",
     "category": "Relaciones",
     "answers": [
       {
@@ -21403,7 +21406,7 @@
         "points": 30
       },
       {
-        "text": "Telefono",
+        "text": "Teléfono",
         "aliases": [
           "cell phone",
           "smartphone",
@@ -21493,7 +21496,7 @@
         "points": 16
       },
       {
-        "text": "El camion de helados no tiene",
+        "text": "El camión de helados no tiene",
         "aliases": [
           "ice cream truck out of ice cream",
           "no more ice cream",
@@ -21512,7 +21515,7 @@
         "points": 10
       },
       {
-        "text": "Si cruzas los ojos se quedan asi",
+        "text": "Si cruzas los ojos se quedan así",
         "aliases": [
           "eyes will stick",
           "face will freeze",
@@ -21593,11 +21596,11 @@
   },
   {
     "id": "gen291",
-    "question": "Que acumula la gente aunque no lo necesite?",
+    "question": "Qué acumula la gente aunque no lo necesite?",
     "category": "Vida Cotidiana",
     "answers": [
       {
-        "text": "Papel higienico",
+        "text": "Papel higiénico",
         "aliases": [
           "tp",
           "tissue",
@@ -21798,7 +21801,7 @@
   },
   {
     "id": "gen294",
-    "question": "Que hace la gente en la ducha ademas de banarse?",
+    "question": "Qué hace la gente en la ducha además de bañarse?",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -21916,7 +21919,7 @@
   },
   {
     "id": "gen296",
-    "question": "Que finges disfrutar como adulto?",
+    "question": "Qué finges disfrutar como adulto?",
     "category": "Vida Cotidiana",
     "answers": [
       {
@@ -21973,7 +21976,7 @@
         "points": 11
       },
       {
-        "text": "Musica clasica",
+        "text": "Música clásica",
         "aliases": [
           "opera",
           "jazz",
@@ -21986,7 +21989,7 @@
   },
   {
     "id": "gen297",
-    "question": "Nombra una ocupacion con un uniforme genial.",
+    "question": "Nombra una ocupación con un uniforme genial.",
     "category": "Trabajo y Escuela",
     "answers": [
       {
@@ -22172,7 +22175,7 @@
         "points": 12
       },
       {
-        "text": "Habilidades de comunicacion",
+        "text": "Habilidades de comunicación",
         "aliases": [
           "social skills",
           "conflict resolution",
@@ -22197,7 +22200,7 @@
   },
   {
     "id": "gen300",
-    "question": "Que instantaneamente mejora un mal dia?",
+    "question": "Qué instantaneamente mejora un mal día?",
     "category": "Relaciones",
     "answers": [
       {
@@ -22224,7 +22227,7 @@
         "points": 24
       },
       {
-        "text": "Musica",
+        "text": "Música",
         "aliases": [
           "favorite song",
           "listening to music",

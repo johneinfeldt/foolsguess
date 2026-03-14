@@ -170,6 +170,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "party.leaderboard": { en: "Final Standings", de: "Endstand", es: "Clasificación final" },
   "party.roundBreakdown": { en: "Round Breakdown", de: "Runden-Übersicht", es: "Desglose por ronda" },
   "party.total": { en: "Total", de: "Gesamt", es: "Total" },
+  "party.answers": { en: "Answers", de: "Antworten", es: "Respuestas" },
   "party.playAgain": { en: "Play Again", de: "Nochmal spielen", es: "Jugar de nuevo" },
 
   // Language

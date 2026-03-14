@@ -695,6 +695,241 @@ ES_ANSWER_TEXTS.update(ES_ANSWER_TEXTS_NEW1)
 ES_ANSWER_TEXTS.update(ES_ANSWER_TEXTS_NEW2)
 
 
+import re
+
+
+def fix_german_text(text):
+    """Convert ASCII umlaut approximations to real German umlauts."""
+    s = text
+
+    # Protect English words that contain 'ue'/'oe' but shouldn't be converted
+    EN_PROTECT = {
+        'Blue': '\x10', 'blue': '\x11', 'True': '\x12', 'true': '\x13',
+        'Clue': '\x14', 'clue': '\x15', 'Glue': '\x16', 'glue': '\x17',
+        'Due': '\x18', 'due': '\x19', 'Issue': '\x1a', 'issue': '\x1b',
+        'Rescue': '\x1c', 'rescue': '\x1d', 'Venue': '\x1e', 'venue': '\x1f',
+        'Poet': '\x7f', 'poet': '~',
+    }
+    for eng, ph in EN_PROTECT.items():
+        s = s.replace(eng, ph)
+
+    # Protect genuine diphthongs where 'ue'/'aue' is NOT an umlaut
+    # "eue" as in Feuer, teuer, Steuer, neuer, Abenteuer
+    # "aue" as in Mauer, Bauer, sauer, Trauer, Schauer
+    s = s.replace('Eue', '\x01').replace('eue', '\x02')
+    s = s.replace('Aue', '\x03').replace('aue', '\x04')
+
+    # Convert umlauts (uppercase first to avoid double-conversion)
+    s = s.replace('Ae', '\u00c4').replace('Oe', '\u00d6').replace('Ue', '\u00dc')
+    s = s.replace('ae', '\u00e4').replace('oe', '\u00f6').replace('ue', '\u00fc')
+
+    # Restore protected diphthongs
+    s = s.replace('\x01', 'Eue').replace('\x02', 'eue')
+    s = s.replace('\x03', 'Aue').replace('\x04', 'aue')
+
+    # Restore protected English words
+    for eng, ph in EN_PROTECT.items():
+        s = s.replace(ph, eng)
+
+    return s
+
+
+def fix_spanish_text(text):
+    """Restore Spanish accents and special characters from ASCII approximations."""
+    s = text
+
+    # Pattern: -cion at end of word → -ción
+    s = re.sub(r'cion\b', 'ci\u00f3n', s)
+    s = re.sub(r'Cion\b', 'Ci\u00f3n', s)
+    # Pattern: -sion at end of word → -sión
+    s = re.sub(r'sion\b', 'si\u00f3n', s)
+
+    # Question words at start of string
+    s = re.sub(r'^Que\b', 'Qu\u00e9', s)
+    s = re.sub(r'^Cual\b', 'Cu\u00e1l', s)
+    s = re.sub(r'^Cuantas\b', 'Cu\u00e1ntas', s)
+    s = re.sub(r'^Cuantos\b', 'Cu\u00e1ntos', s)
+    s = re.sub(r'^Cuanto\b', 'Cu\u00e1nto', s)
+    s = re.sub(r'^Donde\b', 'D\u00f3nde', s)
+    s = re.sub(r'^En que\b', 'En qu\u00e9', s)
+    s = re.sub(r'^Aparte de que\b', 'Aparte de qu\u00e9', s)
+    s = re.sub(r'^Aparte del que\b', 'Aparte del qu\u00e9', s)
+
+    # ñ words (word-level replacements)
+    n_tilde_words = {
+        'nino': 'ni\u00f1o', 'nina': 'ni\u00f1a',
+        'ninos': 'ni\u00f1os', 'ninas': 'ni\u00f1as',
+        'Nino': 'Ni\u00f1o', 'Nina': 'Ni\u00f1a',
+        'Ninos': 'Ni\u00f1os', 'Ninas': 'Ni\u00f1as',
+        'Ano ': 'A\u00f1o ', 'ano ': 'a\u00f1o ',
+        'Ano.': 'A\u00f1o.', 'anos': 'a\u00f1os',
+        'Ano,': 'A\u00f1o,', 'Ano?': 'A\u00f1o?',
+        'Espana': 'Espa\u00f1a',
+        'espanol': 'espa\u00f1ol', 'espanola': 'espa\u00f1ola',
+        'Espanol': 'Espa\u00f1ol',
+        'senor': 'se\u00f1or', 'senora': 'se\u00f1ora',
+        'Senor': 'Se\u00f1or', 'Senora': 'Se\u00f1ora',
+        'companero': 'compa\u00f1ero', 'companera': 'compa\u00f1era',
+        'compania': 'compa\u00f1\u00eda',
+        'bano': 'ba\u00f1o', 'banos': 'ba\u00f1os',
+        'banera': 'ba\u00f1era', 'Bano': 'Ba\u00f1o',
+        'banarse': 'ba\u00f1arse',
+        'muneco': 'mu\u00f1eco', 'muneca': 'mu\u00f1eca',
+        'ensenanza': 'ense\u00f1anza',
+        'montana': 'monta\u00f1a', 'Montana': 'Monta\u00f1a',
+        'panuelo': 'pa\u00f1uelo',
+        'sueno': 'sue\u00f1o', 'suenos': 'sue\u00f1os',
+        'otono': 'oto\u00f1o',
+        'empeno': 'empe\u00f1o',
+        'unas': 'u\u00f1as',
+        'cumpleanos': 'cumplea\u00f1os',
+        'danesa': 'danesa',  # Not ñ, keep as is
+        'manana': 'ma\u00f1ana',
+        'Cunado': 'Cu\u00f1ado', 'cunado': 'cu\u00f1ado',
+        'pina': 'pi\u00f1a', 'Pina': 'Pi\u00f1a',
+        'arana': 'ara\u00f1a',
+    }
+    for orig, fixed in n_tilde_words.items():
+        s = s.replace(orig, fixed)
+
+    # Word-boundary accent replacements (using regex to avoid substring issues)
+    # Format: (pattern, replacement) - all case-insensitive where needed
+    accent_rules = [
+        # Words with accents (use \b for word boundaries)
+        (r'\bmas\b', 'más'),
+        (r'\bdetras\b', 'detrás'),
+        (r'\bademas\b', 'además'),
+        (r'\btambien\b', 'también'), (r'\bTambien\b', 'También'),
+        (r'\bdia\b', 'día'), (r'\bDia\b', 'Día'), (r'\bdias\b', 'días'),
+        (r'\btelefono\b', 'teléfono'), (r'\bTelefono\b', 'Teléfono'), (r'\btelefonos\b', 'teléfonos'),
+        (r'\bmusica\b', 'música'), (r'\bMusica\b', 'Música'),
+        (r'\bmusical\b', 'musical'),  # NO accent
+        (r'\bpelicula\b', 'película'), (r'\bPelicula\b', 'Película'), (r'\bpeliculas\b', 'películas'),
+        (r'\bpublico\b', 'público'), (r'\bPublico\b', 'Público'), (r'\bpublica\b', 'pública'),
+        (r'\bultimo\b', 'último'), (r'\bultima\b', 'última'),
+        (r'\brapido\b', 'rápido'), (r'\brapida\b', 'rápida'),
+        (r'\bfacil\b', 'fácil'), (r'\bdificil\b', 'difícil'),
+        (r'\bmedico\b', 'médico'),
+        (r'\bvehiculo\b', 'vehículo'),
+        (r'\bclasica\b', 'clásica'), (r'\bclasico\b', 'clásico'),
+        (r'\bromantico\b', 'romántico'), (r'\bromantica\b', 'romántica'),
+        (r'\bfantastico\b', 'fantástico'),
+        (r'\btipico\b', 'típico'), (r'\btipica\b', 'típica'),
+        (r'\barticulo\b', 'artículo'),
+        (r'\bpajaro\b', 'pájaro'), (r'\bpajaros\b', 'pájaros'),
+        (r'\bplatano\b', 'plátano'), (r'\bPlatano\b', 'Plátano'),
+        (r'\blimon\b', 'limón'), (r'\bLimon\b', 'Limón'),
+        (r'\brazon\b', 'razón'),
+        (r'\bcorazon\b', 'corazón'), (r'\bCorazon\b', 'Corazón'),
+        (r'\bcamion\b', 'camión'),
+        (r'\bavion\b', 'avión'),
+        (r'\bnumero\b', 'número'), (r'\bnumeros\b', 'números'),
+        (r'\bgenero\b', 'género'),
+        (r'\bpais\b', 'país'),
+        (r'\bcafe\b', 'café'), (r'\bCafe\b', 'Café'),
+        (r'\bbebe\b', 'bebé'), (r'\bbebes\b', 'bebés'),
+        (r'\baqui\b', 'aquí'),
+        (r'\basi\b', 'así'),
+        (r'\batras\b', 'atrás'),
+        (r'\bjamas\b', 'jamás'),
+        (r'\besta\b', 'está'), (r'\bestan\b', 'están'),
+        (r'\bsera\b', 'será'),
+        (r'\bpodria\b', 'podría'),
+        (r'\bdeberia\b', 'debería'),
+        (r'\benergia\b', 'energía'), (r'\bEnergia\b', 'Energía'),
+        (r'\bgarantia\b', 'garantía'),
+        (r'\bcategoria\b', 'categoría'),
+        (r'\bcomico\b', 'cómico'),
+        (r'\belectronico\b', 'electrónico'), (r'\belectronica\b', 'electrónica'),
+        (r'\belectronicos\b', 'electrónicos'), (r'\bElectronicos\b', 'Electrónicos'),
+        (r'\bmecanico\b', 'mecánico'),
+        (r'\bautomatico\b', 'automático'),
+        (r'\bridiculo\b', 'ridículo'),
+        (r'\bperiodico\b', 'periódico'),
+        (r'\bproximo\b', 'próximo'), (r'\bproxima\b', 'próxima'),
+        (r'\bpractico\b', 'práctico'), (r'\bpractica\b', 'práctica'),
+        (r'\bmatematicas\b', 'matemáticas'),
+        (r'\bbeisbol\b', 'béisbol'),
+        (r'\bfutbol\b', 'fútbol'), (r'\bFutbol\b', 'Fútbol'),
+        (r'\bfrances\b', 'francés'), (r'\bFrances\b', 'Francés'),
+        (r'\bjapones\b', 'japonés'), (r'\bJapones\b', 'Japonés'),
+        (r'\bingles\b', 'inglés'), (r'\bIngles\b', 'Inglés'),
+        (r'\baleman\b', 'alemán'), (r'\bAleman\b', 'Alemán'),
+        (r'\bjardin\b', 'jardín'),
+        (r'\braton\b', 'ratón'),
+        (r'\bsalon\b', 'salón'),
+        (r'\bsillon\b', 'sillón'),
+        (r'\brincon\b', 'rincón'),
+        (r'\balgodon\b', 'algodón'), (r'\bAlgodon\b', 'Algodón'),
+        (r'\bboton\b', 'botón'),
+        (r'\bpatron\b', 'patrón'),
+        (r'\bhelicoptero\b', 'helicóptero'),
+        (r'\bproposito\b', 'propósito'),
+        (r'\baguila\b', 'águila'),
+        (r'\blagrima\b', 'lágrima'),
+        (r'\blampara\b', 'lámpara'),
+        (r'\bcamara\b', 'cámara'), (r'\bcamaras\b', 'cámaras'),
+        (r'\bsabado\b', 'sábado'),
+        (r'\bpeluqueria\b', 'peluquería'),
+        (r'\blavanderia\b', 'lavandería'),
+        (r'\bverguenza\b', 'vergüenza'),
+        (r'\belectrica\b', 'eléctrica'), (r'\belectrico\b', 'eléctrico'),
+        (r'\bhistorico\b', 'histórico'),
+        (r'\bescenico\b', 'escénico'), (r'\bescenica\b', 'escénica'),
+        (r'\bpanoramico\b', 'panorámico'), (r'\bpanoramica\b', 'panorámica'),
+        (r'\bbiologico\b', 'biológico'),
+        (r'\bimagenes\b', 'imágenes'),
+        (r'\bjovenes\b', 'jóvenes'),
+        (r'\bexamenes\b', 'exámenes'),
+        (r'\bcomun\b', 'común'),
+        (r'\bzoologico\b', 'zoológico'),
+        (r'\bgustaria\b', 'gustaría'),
+        (r'\bpodrias\b', 'podrías'),
+        (r'\bharia\b', 'haría'),
+        (r'\bseria\b', 'sería'),
+        (r'\btendria\b', 'tendría'),
+        (r'\bdiria\b', 'diría'),
+        (r'\bqueria\b', 'quería'),
+        (r'\bodias\b', 'odías'),
+        (r'\btrivia\b', 'trivia'),  # no accent
+        (r'\bHigienico\b', 'Higiénico'), (r'\bhigienico\b', 'higiénico'),
+        (r'\baudiofonos\b', 'audífonos'), (r'\bAudiofonos\b', 'Audífonos'),
+        (r'\baudiofono\b', 'audífono'),
+        (r'\bbolígrafo\b', 'bolígrafo'),
+        (r'\bboligrafo\b', 'bolígrafo'), (r'\bBoligrafo\b', 'Bolígrafo'),
+        (r'\bboligrafos\b', 'bolígrafos'),
+        (r'\btecnica\b', 'técnica'), (r'\btecnico\b', 'técnico'),
+        (r'\bcirculo\b', 'círculo'),
+        (r'\bpelirrojo\b', 'pelirrojo'),  # no accent needed
+        (r'\bdiversion\b', 'diversión'),
+        (r'\bcesped\b', 'césped'),
+        (r'\bdespertar\b', 'despertar'),  # no accent
+        (r'\bbusqueda\b', 'búsqueda'),
+        (r'\bultimas\b', 'últimas'),
+        (r'\bhigiénica\b', 'higiénica'),
+        (r'\bclaxon\b', 'cláxon'),
+        (r'\bvolcan\b', 'volcán'),
+        (r'\btiran\b', 'tirán'),
+        (r'\bfisico\b', 'físico'),
+        (r'\bpasion\b', 'pasión'),
+        (r'\btension\b', 'tensión'),
+    ]
+
+    for pattern, replacement in accent_rules:
+        s = re.sub(pattern, replacement, s)
+
+    return s
+
+
+def fix_text(text, lang):
+    """Apply language-specific text fixes."""
+    if lang == 'de':
+        return fix_german_text(text)
+    elif lang == 'es':
+        return fix_spanish_text(text)
+    return text
+
+
 def build_translated_json(lang):
     """Build translated JSON from English source."""
     with open(EN_FILE, 'r') as f:
@@ -718,11 +953,11 @@ def build_translated_json(lang):
 
         # Translate question text
         if qid in q_map:
-            translated['question'] = q_map[qid]
+            translated['question'] = fix_text(q_map[qid], lang)
 
         # Translate category
         if q['category'] in cat_map:
-            translated['category'] = cat_map[q['category']]
+            translated['category'] = fix_text(cat_map[q['category']], lang)
 
         # Translate answers
         if qid in detailed_answers:
@@ -731,7 +966,7 @@ def build_translated_json(lang):
             for i, ans in enumerate(translated['answers']):
                 if i < len(detail):
                     new_text, new_aliases = detail[i]
-                    ans['text'] = new_text
+                    ans['text'] = fix_text(new_text, lang)
                     # Merge: keep original English aliases + add new translated aliases
                     all_aliases = list(ans['aliases'])  # English aliases
                     for a in new_aliases:
@@ -748,7 +983,7 @@ def build_translated_json(lang):
             texts = simple_answers[qid]
             for i, ans in enumerate(translated['answers']):
                 if i < len(texts):
-                    new_text = texts[i]
+                    new_text = fix_text(texts[i], lang)
                     en_text = q['answers'][i]['text']
                     # Keep all English aliases
                     all_aliases = list(ans['aliases'])
