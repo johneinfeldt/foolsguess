@@ -1,29 +1,27 @@
 "use client";
 
 import { useLang, t } from "@/lib/i18n";
-import { PlayerScore, ROUNDS_PER_GAME } from "./usePartyState";
-import JesterMascot from "@/components/JesterMascot";
+import { Player, PlayerScore, ROUNDS_PER_GAME } from "./usePartyState";
+import { COLOR_HEX } from "@/lib/avatars";
+import AvatarDisplay from "@/components/AvatarDisplay";
 import Confetti from "@/components/Confetti";
 
 interface FinalResultsProps {
-  players: string[];
+  players: Player[];
   scores: PlayerScore[][];
   onPlayAgain: () => void;
 }
-
-const COLORS = ["bg-accent", "bg-correct", "bg-gold", "bg-wrong"];
-const TEXT_COLORS = ["text-accent", "text-correct", "text-gold", "text-wrong"];
 
 export default function FinalResults({ players, scores, onPlayAgain }: FinalResultsProps) {
   const lang = useLang();
 
   // Calculate total scores per player
-  const totals = players.map((name, playerIndex) => {
+  const totals = players.map((player, playerIndex) => {
     let total = 0;
     for (let round = 0; round < scores.length; round++) {
       total += scores[round]?.[playerIndex]?.pointsEarned || 0;
     }
-    return { name, total, index: playerIndex };
+    return { player, total, index: playerIndex };
   });
 
   const ranked = [...totals].sort((a, b) => b.total - a.total);
@@ -34,16 +32,20 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
     <div className="flex min-h-[80vh] flex-col items-center px-4 py-8">
       <Confetti active={true} />
 
-      <JesterMascot size={80} mood="excited" />
-
       <h1 className="mb-2 mt-4 text-3xl font-extrabold">{t("party.gameOver", lang)}</h1>
 
       {/* Winner */}
       <div className="card mb-8 w-full max-w-sm p-6 text-center ring-2 ring-gold">
         <p className="mb-1 text-sm text-text-muted">{t("party.winner", lang)}</p>
-        <div className="mb-2 text-4xl">{"\u{1F451}"}</div>
-        <h2 className={`text-2xl font-extrabold ${TEXT_COLORS[winner.index]}`}>
-          {winner.name}
+        <div className="mb-2 flex justify-center">
+          <AvatarDisplay avatar={winner.player.avatar} size={80} />
+        </div>
+        <div className="mb-2 text-2xl">{"\u{1F451}"}</div>
+        <h2
+          className="text-2xl font-extrabold"
+          style={{ color: COLOR_HEX[winner.player.avatar.color] }}
+        >
+          {winner.player.name}
         </h2>
         <p className="mt-1 text-lg">
           <span className="text-3xl font-extrabold text-gold">{winner.total}</span>
@@ -55,20 +57,21 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
       <div className="mb-6 w-full max-w-sm">
         <h3 className="mb-3 text-sm font-bold text-text-muted">{t("party.leaderboard", lang)}</h3>
         <div className="flex flex-col gap-2">
-          {ranked.map((player, rank) => (
+          {ranked.map((entry, rank) => (
             <div
-              key={player.index}
+              key={entry.index}
               className={`card flex items-center gap-3 p-3 ${rank === 0 ? "ring-1 ring-gold" : ""}`}
             >
               <span className="w-6 text-center text-sm font-bold text-text-dim">
                 {rank + 1}.
               </span>
-              <div className={`h-8 w-8 rounded-full ${COLORS[player.index]} flex items-center justify-center text-sm font-bold text-white`}>
-                {player.name[0]}
-              </div>
-              <span className="flex-1 font-bold">{player.name}</span>
-              <span className={`text-lg font-extrabold ${TEXT_COLORS[player.index]}`}>
-                {player.total}
+              <AvatarDisplay avatar={entry.player.avatar} size={32} />
+              <span className="flex-1 font-bold">{entry.player.name}</span>
+              <span
+                className="text-lg font-extrabold"
+                style={{ color: COLOR_HEX[entry.player.avatar.color] }}
+              >
+                {entry.total}
               </span>
             </div>
           ))}
@@ -83,9 +86,13 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
             <thead>
               <tr className="border-b border-border">
                 <th className="py-2 text-left text-text-dim"></th>
-                {players.map((name, i) => (
-                  <th key={i} className={`py-2 text-center font-bold ${TEXT_COLORS[i]}`}>
-                    {name}
+                {players.map((player, i) => (
+                  <th
+                    key={i}
+                    className="py-2 text-center font-bold"
+                    style={{ color: COLOR_HEX[player.avatar.color] }}
+                  >
+                    {player.name}
                   </th>
                 ))}
               </tr>
@@ -103,9 +110,13 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
               ))}
               <tr className="font-bold">
                 <td className="py-2 text-text-dim">{t("party.total", lang)}</td>
-                {totals.map((player) => (
-                  <td key={player.index} className={`py-2 text-center ${TEXT_COLORS[player.index]}`}>
-                    {player.total}
+                {totals.map((entry) => (
+                  <td
+                    key={entry.index}
+                    className="py-2 text-center"
+                    style={{ color: COLOR_HEX[entry.player.avatar.color] }}
+                  >
+                    {entry.total}
                   </td>
                 ))}
               </tr>

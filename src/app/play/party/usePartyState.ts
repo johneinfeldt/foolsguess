@@ -1,5 +1,11 @@
 import { useReducer } from "react";
 import { Question } from "@/lib/types";
+import { AvatarConfig } from "@/lib/avatars";
+
+export interface Player {
+  name: string;
+  avatar: AvatarConfig;
+}
 
 export interface PlayerScore {
   pointsEarned: number;
@@ -11,7 +17,7 @@ export type PartyPhase = "setup" | "turn_intro" | "playing" | "round_results" | 
 
 export interface PartyState {
   phase: PartyPhase;
-  players: string[];
+  players: Player[];
   questions: Question[];
   currentRound: number;       // 0-indexed, total of ROUNDS_PER_GAME
   currentPlayerIndex: number;  // 0-indexed within players array
@@ -26,7 +32,7 @@ export interface PartyState {
 }
 
 export type PartyAction =
-  | { type: "START_GAME"; players: string[]; questions: Question[] }
+  | { type: "START_GAME"; players: Player[]; questions: Question[] }
   | { type: "BEGIN_TURN" }
   | { type: "CORRECT_GUESS"; answerIndex: number; points: number }
   | { type: "WRONG_GUESS" }

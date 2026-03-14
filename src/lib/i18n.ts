@@ -172,6 +172,38 @@ const translations: Record<string, Record<Lang, string>> = {
   "party.total": { en: "Total", de: "Gesamt", es: "Total" },
   "party.answers": { en: "Answers", de: "Antworten", es: "Respuestas" },
   "party.playAgain": { en: "Play Again", de: "Nochmal spielen", es: "Jugar de nuevo" },
+  "party.sameDevice": { en: "Same Device", de: "Ein Gerät", es: "Mismo dispositivo" },
+  "party.sameDevice.desc": { en: "Pass the device between turns", de: "Gebt das Gerät weiter", es: "Pasa el dispositivo entre turnos" },
+  "party.online": { en: "Online", de: "Online", es: "En línea" },
+  "party.online.desc": { en: "Each player on their own device", de: "Jeder auf seinem eigenen Gerät", es: "Cada jugador en su dispositivo" },
+  "party.chooseMode": { en: "How do you want to play?", de: "Wie wollt ihr spielen?", es: "¿Cómo quieres jugar?" },
+
+  // Avatar
+  "avatar.shape": { en: "Head Shape", de: "Kopfform", es: "Forma de cabeza" },
+  "avatar.color": { en: "Color", de: "Farbe", es: "Color" },
+  "avatar.accessory": { en: "Accessory", de: "Accessoire", es: "Accesorio" },
+
+  // Online
+  "online.createRoom": { en: "Create Room", de: "Raum erstellen", es: "Crear sala" },
+  "online.joinRoom": { en: "Join Room", de: "Raum beitreten", es: "Unirse a sala" },
+  "online.roomCode": { en: "Room Code", de: "Raumcode", es: "Código de sala" },
+  "online.enterCode": { en: "Enter room code...", de: "Raumcode eingeben...", es: "Introduce el código..." },
+  "online.waiting": { en: "Waiting for host...", de: "Warte auf Host...", es: "Esperando al anfitrión..." },
+  "online.waitingPlayers": { en: "Waiting for players...", de: "Warte auf Spieler...", es: "Esperando jugadores..." },
+  "online.players": { en: "Players", de: "Spieler", es: "Jugadores" },
+  "online.startGame": { en: "Start Game", de: "Spiel starten", es: "Iniciar juego" },
+  "online.connecting": { en: "Connecting...", de: "Verbinde...", es: "Conectando..." },
+  "online.disconnected": { en: "Disconnected. Reconnecting...", de: "Getrennt. Verbinde erneut...", es: "Desconectado. Reconectando..." },
+  "online.shareCode": { en: "Share this code with friends:", de: "Teile diesen Code:", es: "Comparte este código:" },
+  "online.copied": { en: "Copied!", de: "Kopiert!", es: "¡Copiado!" },
+  "online.needMorePlayers": { en: "Need at least 2 players", de: "Mindestens 2 Spieler nötig", es: "Se necesitan al menos 2 jugadores" },
+  "online.host": { en: "Host", de: "Host", es: "Anfitrión" },
+  "online.join": { en: "Join", de: "Beitreten", es: "Unirse" },
+  "online.yourName": { en: "Your name", de: "Dein Name", es: "Tu nombre" },
+  "online.foundAnswer": { en: "found an answer!", de: "hat eine Antwort gefunden!", es: "¡encontró una respuesta!" },
+  "online.everyoneDone": { en: "Everyone's done!", de: "Alle fertig!", es: "¡Todos listos!" },
+  "online.roomFull": { en: "Room is full", de: "Raum ist voll", es: "La sala está llena" },
+  "online.gameInProgress": { en: "Game already in progress", de: "Spiel läuft bereits", es: "Juego en curso" },
 
   // Language
   "lang.en": { en: "English", de: "Englisch", es: "Inglés" },

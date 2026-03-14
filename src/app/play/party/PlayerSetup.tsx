@@ -2,85 +2,120 @@
 
 import { useState } from "react";
 import { useLang, t } from "@/lib/i18n";
-import JesterMascot from "@/components/JesterMascot";
+import { AvatarConfig, DEFAULT_AVATARS } from "@/lib/avatars";
+import { Player } from "./usePartyState";
+import AvatarDisplay from "@/components/AvatarDisplay";
+import AvatarBuilder from "@/components/AvatarBuilder";
 
 interface PlayerSetupProps {
-  onStart: (players: string[]) => void;
+  onStart: (players: Player[]) => void;
 }
-
-const COLORS = ["bg-accent", "bg-correct", "bg-gold", "bg-wrong"];
 
 export default function PlayerSetup({ onStart }: PlayerSetupProps) {
   const lang = useLang();
-  const [players, setPlayers] = useState<string[]>(["", ""]);
+  const [names, setNames] = useState<string[]>(["", ""]);
+  const [avatars, setAvatars] = useState<AvatarConfig[]>([
+    { ...DEFAULT_AVATARS[0] },
+    { ...DEFAULT_AVATARS[1] },
+  ]);
+  const [expandedPlayer, setExpandedPlayer] = useState<number | null>(null);
 
   const addPlayer = () => {
-    if (players.length < 4) {
-      setPlayers([...players, ""]);
+    if (names.length < 4) {
+      setNames([...names, ""]);
+      setAvatars([...avatars, { ...DEFAULT_AVATARS[names.length] }]);
     }
   };
 
   const removePlayer = (index: number) => {
-    if (players.length > 2) {
-      setPlayers(players.filter((_, i) => i !== index));
+    if (names.length > 2) {
+      setNames(names.filter((_, i) => i !== index));
+      setAvatars(avatars.filter((_, i) => i !== index));
+      if (expandedPlayer === index) setExpandedPlayer(null);
+      else if (expandedPlayer !== null && expandedPlayer > index) {
+        setExpandedPlayer(expandedPlayer - 1);
+      }
     }
   };
 
-  const updatePlayer = (index: number, name: string) => {
-    const updated = [...players];
+  const updateName = (index: number, name: string) => {
+    const updated = [...names];
     updated[index] = name;
-    setPlayers(updated);
+    setNames(updated);
   };
 
-  const canStart = players.every((p) => p.trim().length > 0);
+  const updateAvatar = (index: number, avatar: AvatarConfig) => {
+    const updated = [...avatars];
+    updated[index] = avatar;
+    setAvatars(updated);
+  };
+
+  const canStart = names.every((p) => p.trim().length > 0);
 
   const handleStart = () => {
     if (canStart) {
-      onStart(players.map((p) => p.trim()));
+      onStart(
+        names.map((name, i) => ({
+          name: name.trim(),
+          avatar: avatars[i],
+        }))
+      );
     }
   };
 
   return (
     <div className="flex min-h-[80vh] flex-col items-center justify-center px-4 py-8">
-      <div className="animate-float mb-6">
-        <JesterMascot size={80} mood="excited" />
-      </div>
-
       <h1 className="mb-2 text-3xl font-extrabold">
         {t("party.title", lang)}
       </h1>
-      <p className="mb-8 text-text-muted">{t("party.addPlayers", lang)}</p>
+      <p className="mb-6 text-text-muted">{t("party.addPlayers", lang)}</p>
 
       <div className="mb-6 flex w-full max-w-sm flex-col gap-3">
-        {players.map((name, i) => (
-          <div key={i} className="flex items-center gap-2">
-            <div className={`h-8 w-8 shrink-0 rounded-full ${COLORS[i]} flex items-center justify-center text-sm font-bold text-white`}>
-              {i + 1}
-            </div>
-            <input
-              type="text"
-              value={name}
-              onChange={(e) => updatePlayer(i, e.target.value)}
-              placeholder={`${t("party.player", lang)} ${i + 1}`}
-              maxLength={12}
-              className="flex-1 rounded-xl border-2 border-border bg-surface px-4 py-2.5 text-text placeholder-text-dim outline-none transition-all focus:border-accent"
-              onKeyDown={(e) => {
-                if (e.key === "Enter") handleStart();
-              }}
-            />
-            {players.length > 2 && (
+        {names.map((name, i) => (
+          <div key={i} className="card overflow-hidden">
+            <div className="flex items-center gap-2 p-3">
               <button
-                onClick={() => removePlayer(i)}
-                className="shrink-0 text-text-dim transition-colors hover:text-wrong"
+                type="button"
+                onClick={() =>
+                  setExpandedPlayer(expandedPlayer === i ? null : i)
+                }
+                className="shrink-0 rounded-lg p-0.5 transition-all hover:scale-110"
               >
-                &#10005;
+                <AvatarDisplay avatar={avatars[i]} size={36} />
               </button>
+              <input
+                type="text"
+                value={name}
+                onChange={(e) => updateName(i, e.target.value)}
+                placeholder={`${t("party.player", lang)} ${i + 1}`}
+                maxLength={12}
+                className="flex-1 rounded-xl border-2 border-border bg-surface px-4 py-2.5 text-text placeholder-text-dim outline-none transition-all focus:border-accent"
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") handleStart();
+                }}
+              />
+              {names.length > 2 && (
+                <button
+                  onClick={() => removePlayer(i)}
+                  className="shrink-0 text-text-dim transition-colors hover:text-wrong"
+                >
+                  &#10005;
+                </button>
+              )}
+            </div>
+            {expandedPlayer === i && (
+              <div className="border-t border-border px-3 py-4">
+                <AvatarBuilder
+                  value={avatars[i]}
+                  onChange={(av) => updateAvatar(i, av)}
+                />
+              </div>
             )}
           </div>
         ))}
       </div>
 
-      {players.length < 4 && (
+      {names.length < 4 && (
         <button
           onClick={addPlayer}
           className="mb-6 text-sm font-semibold text-accent transition-colors hover:text-accent-light"

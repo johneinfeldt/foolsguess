@@ -5,6 +5,8 @@ import { Question } from "@/lib/types";
 import { checkGuess } from "@/lib/matching";
 import { PartyState, PartyAction } from "./usePartyState";
 import { useLang, t } from "@/lib/i18n";
+import { AvatarConfig, COLOR_HEX } from "@/lib/avatars";
+import AvatarDisplay from "@/components/AvatarDisplay";
 import AnswerSlot from "../daily/AnswerSlot";
 import StrikeCounter from "../daily/StrikeCounter";
 import Timer from "../daily/Timer";
@@ -15,18 +17,18 @@ interface PartyBoardProps {
   state: PartyState;
   dispatch: React.Dispatch<PartyAction>;
   playerName: string;
+  avatar: AvatarConfig;
   playerIndex: number;
 }
 
-const COLORS = ["text-accent", "text-correct", "text-gold", "text-wrong"];
-
-export default function PartyBoard({ question, state, dispatch, playerName, playerIndex }: PartyBoardProps) {
+export default function PartyBoard({ question, state, dispatch, playerName, avatar, playerIndex }: PartyBoardProps) {
   const lang = useLang();
   const [input, setInput] = useState("");
   const [shaking, setShaking] = useState(false);
   const [showTransition, setShowTransition] = useState(false);
   const [correctFlash, setCorrectFlash] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const color = COLOR_HEX[avatar.color];
 
   useEffect(() => {
     inputRef.current?.focus();
@@ -84,9 +86,12 @@ export default function PartyBoard({ question, state, dispatch, playerName, play
     <div className={`flex min-h-[80vh] flex-col px-4 py-6 sm:px-6 ${correctFlash ? "animate-correct-flash" : ""}`}>
       {/* Top bar */}
       <div className="mb-4 flex items-center justify-between">
-        <span className={`text-sm font-bold ${COLORS[playerIndex]}`}>
-          {playerName}
-        </span>
+        <div className="flex items-center gap-2">
+          <AvatarDisplay avatar={avatar} size={28} />
+          <span className="text-sm font-bold" style={{ color }}>
+            {playerName}
+          </span>
+        </div>
         <ScoreBar score={state.turnScore} />
       </div>
 

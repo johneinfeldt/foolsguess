@@ -1,32 +1,31 @@
 "use client";
 
 import { useLang, t } from "@/lib/i18n";
-import JesterMascot from "@/components/JesterMascot";
+import { AvatarConfig, COLOR_HEX } from "@/lib/avatars";
+import AvatarDisplay from "@/components/AvatarDisplay";
 
 interface TurnIntroProps {
   playerName: string;
-  playerIndex: number;
+  avatar: AvatarConfig;
   roundNumber: number;
   totalRounds: number;
   onReady: () => void;
 }
 
-const COLORS = ["text-accent", "text-correct", "text-gold", "text-wrong"];
-const BG_COLORS = ["bg-accent", "bg-correct", "bg-gold", "bg-wrong"];
-
-export default function TurnIntro({ playerName, playerIndex, roundNumber, totalRounds, onReady }: TurnIntroProps) {
+export default function TurnIntro({ playerName, avatar, roundNumber, totalRounds, onReady }: TurnIntroProps) {
   const lang = useLang();
+  const color = COLOR_HEX[avatar.color];
 
   return (
     <div className="flex min-h-[80vh] flex-col items-center justify-center px-4 py-8">
       <div className="card animate-bounce-in flex w-full max-w-sm flex-col items-center gap-6 p-8 text-center">
-        <JesterMascot size={64} mood="thinking" />
+        <AvatarDisplay avatar={avatar} size={80} />
 
         <p className="text-sm font-bold text-text-muted">
           {t("party.round", lang)} {roundNumber}/{totalRounds}
         </p>
 
-        <h2 className={`text-3xl font-extrabold ${COLORS[playerIndex]}`}>
+        <h2 className="text-3xl font-extrabold" style={{ color }}>
           {playerName}
         </h2>
 
@@ -40,7 +39,8 @@ export default function TurnIntro({ playerName, playerIndex, roundNumber, totalR
 
         <button
           onClick={onReady}
-          className={`press-effect mt-2 rounded-full ${BG_COLORS[playerIndex]} px-10 py-3.5 text-lg font-bold text-white transition-opacity hover:opacity-90`}
+          className="press-effect mt-2 rounded-full px-10 py-3.5 text-lg font-bold text-white transition-opacity hover:opacity-90"
+          style={{ backgroundColor: color }}
         >
           {t("party.ready", lang)}
         </button>
