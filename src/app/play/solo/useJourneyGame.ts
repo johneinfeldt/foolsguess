@@ -58,7 +58,6 @@ function journeyGameReducer(state: JourneyGameState, action: JourneyGameAction):
       return {
         ...state,
         phase: "result",
-        revealedAnswers: state.revealedAnswers.map(() => true),
       };
 
     case "CLEAR_JUST_REVEALED":
