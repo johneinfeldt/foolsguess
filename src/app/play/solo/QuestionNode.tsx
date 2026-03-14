@@ -9,10 +9,10 @@ interface QuestionNodeProps {
 }
 
 const stateStyles: Record<NodeState, string> = {
-  locked: "border-border bg-surface text-text-dim cursor-not-allowed",
-  playable: "border-electric bg-electric/10 text-electric cursor-pointer hover:bg-electric/20 animate-node-pulse",
-  partial: "border-gold bg-gold/10 text-gold cursor-pointer hover:bg-gold/20",
-  complete: "border-neon-green bg-neon-green/10 text-neon-green cursor-default",
+  locked: "border-border bg-surface text-text-dim cursor-not-allowed opacity-40",
+  playable: "border-electric bg-gradient-to-br from-electric/20 to-electric/5 text-electric cursor-pointer hover:from-electric/30 hover:to-electric/10 animate-node-pulse glow-electric",
+  partial: "border-gold bg-gradient-to-br from-gold/20 to-gold/5 text-gold cursor-pointer hover:from-gold/30 hover:to-gold/10 glow-gold",
+  complete: "border-neon-green bg-gradient-to-br from-neon-green/20 to-neon-green/5 text-neon-green cursor-default glow-green",
 };
 
 export default function QuestionNode({ state, index, onClick }: QuestionNodeProps) {
@@ -26,10 +26,10 @@ export default function QuestionNode({ state, index, onClick }: QuestionNodeProp
     <button
       onClick={handleClick}
       disabled={state === "locked"}
-      className={`flex h-10 w-10 items-center justify-center rounded-full border-2 text-sm font-bold transition-colors ${stateStyles[state]}`}
+      className={`press-effect flex h-12 w-12 items-center justify-center rounded-xl border-2 text-sm font-extrabold transition-all ${stateStyles[state]}`}
     >
       {state === "complete" ? (
-        <span>&#10003;</span>
+        <span className="text-base">&#10003;</span>
       ) : state === "locked" ? (
         <span className="text-xs">&#128274;</span>
       ) : (

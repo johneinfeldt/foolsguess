@@ -19,7 +19,6 @@ interface LevelCardProps {
 
 export default function LevelCard({
   level,
-  levelIndex,
   xpThreshold,
   levelXP,
   unlocked,
@@ -34,32 +33,45 @@ export default function LevelCard({
     return "playable";
   }
 
+  const borderClass = !unlocked
+    ? "border-border"
+    : complete
+    ? "border-neon-green/20"
+    : "border-border hover:border-electric/20";
+
   return (
     <div
-      className={`rounded-2xl border p-5 transition-colors ${
-        !unlocked
-          ? "border-border bg-surface/50 opacity-60"
-          : complete
-          ? "border-neon-green/20 bg-surface"
-          : "border-border bg-surface hover:border-electric/20"
-      }`}
+      className={`rounded-2xl border-2 bg-gradient-to-br from-surface to-surface-light p-5 transition-all ${borderClass} ${
+        !unlocked ? "opacity-40" : ""
+      } game-shadow`}
     >
       <div className="mb-3 flex items-center justify-between">
-        <h3 className="text-sm font-bold">
-          Level {level.levelNumber}
-          {complete && <span className="ml-2 text-neon-green">&#10003;</span>}
-          {!unlocked && <span className="ml-2 text-xs text-text-dim">&#128274;</span>}
-        </h3>
-        <span className="text-xs text-text-dim">
-          {level.questionIds.length} questions
-        </span>
+        <div className="flex items-center gap-2">
+          <span className={`flex h-8 w-8 items-center justify-center rounded-lg text-sm font-extrabold ${
+            complete
+              ? "bg-neon-green/20 text-neon-green"
+              : unlocked
+              ? "bg-electric/20 text-electric"
+              : "bg-surface text-text-dim"
+          }`}>
+            {complete ? "\u2713" : level.levelNumber}
+          </span>
+          <h3 className="text-sm font-extrabold">
+            Level {level.levelNumber}
+          </h3>
+        </div>
+        {!unlocked && (
+          <span className="rounded-full bg-surface px-2 py-0.5 text-xs font-bold text-text-dim">
+            &#128274; Locked
+          </span>
+        )}
       </div>
 
-      <div className="mb-3">
+      <div className="mb-4">
         <XPBar current={levelXP} threshold={xpThreshold} />
       </div>
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2.5">
         {level.questionIds.map((qId, i) => (
           <QuestionNode
             key={qId}

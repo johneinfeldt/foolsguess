@@ -20,20 +20,20 @@ export default function EnergyBar({ energy }: EnergyBarProps) {
   }, [energy]);
 
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="flex items-center gap-1 rounded-full bg-surface px-3 py-1.5 game-shadow">
       {Array.from({ length: MAX_ENERGY }).map((_, i) => (
         <span
           key={i}
-          className={`text-lg transition-opacity ${
-            i < energy ? "opacity-100" : "opacity-25"
+          className={`text-base transition-all duration-300 ${
+            i < energy ? "scale-100 opacity-100" : "scale-75 opacity-20 grayscale"
           }`}
         >
           &#9889;
         </span>
       ))}
-      <span className="ml-1 text-sm font-bold text-gold">{energy}</span>
+      <span className="ml-1 text-xs font-extrabold text-gold">{energy}</span>
       {energy < MAX_ENERGY && countdown && (
-        <span className="ml-1 text-xs text-text-dim">{countdown}</span>
+        <span className="ml-1 text-[10px] text-text-dim">{countdown}</span>
       )}
     </div>
   );

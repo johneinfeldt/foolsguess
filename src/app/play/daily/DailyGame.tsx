@@ -75,10 +75,12 @@ export default function DailyGame({ questions }: DailyGameProps) {
       {/* Nav */}
       <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-midnight/80 px-6 py-4 backdrop-blur-md">
         <a href="/" className="text-xl font-bold tracking-tight">
-          <span className="text-electric">Fools</span>Guess
+          <span className="text-gradient-electric">Fools</span>Guess
         </a>
         {state.phase === "playing" && (
-          <span className="text-sm text-text-muted">Daily Challenge</span>
+          <span className="rounded-full bg-surface px-3 py-1 text-xs font-bold text-gold game-shadow">
+            &#128197; Daily Challenge
+          </span>
         )}
       </nav>
 

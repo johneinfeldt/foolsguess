@@ -8,6 +8,7 @@ import {
   saveJourneyProgress,
   loadStreak,
   getRefreshedEnergy,
+  hasEnergy,
 } from "@/lib/journeyStorage";
 import {
   isDivisionUnlocked,
@@ -16,6 +17,7 @@ import {
   isLevelUnlocked,
   getDivisionProgress,
 } from "@/lib/journey";
+import JesterMascot from "@/components/JesterMascot";
 import DivisionTab from "./DivisionTab";
 import LevelCard from "./LevelCard";
 import EnergyBar from "./EnergyBar";
@@ -36,6 +38,7 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
     levelNumber: number;
     questionIndex: number;
   } | null>(null);
+  const [noEnergyFlash, setNoEnergyFlash] = useState(false);
 
   useEffect(() => {
     const p = loadJourneyProgress();
@@ -49,6 +52,13 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
   const handlePlayQuestion = useCallback(
     (questionId: string) => {
       if (!progress) return;
+
+      if (!hasEnergy(progress)) {
+        setNoEnergyFlash(true);
+        setTimeout(() => setNoEnergyFlash(false), 1500);
+        return;
+      }
+
       const div = DIVISIONS.find((d) => d.number === activeDivision);
       if (!div) return;
       for (const level of div.levels) {
@@ -86,7 +96,9 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
   if (!progress) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-midnight">
-        <div className="text-text-muted">Loading...</div>
+        <div className="animate-float">
+          <JesterMascot size={80} mood="thinking" />
+        </div>
       </div>
     );
   }
@@ -119,9 +131,9 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
       {/* Nav */}
       <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-midnight/80 px-6 py-4 backdrop-blur-md">
         <a href="/" className="text-xl font-bold tracking-tight">
-          <span className="text-electric">Fools</span>Guess
+          <span className="text-gradient-electric">Fools</span>Guess
         </a>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <StreakBadge streak={streak} />
           <EnergyBar energy={energy.current} />
         </div>
@@ -143,57 +155,56 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
         </div>
 
         {/* Division Header */}
-        <div className="mb-6 rounded-2xl border border-border bg-surface p-5">
-          <div className="mb-2 flex items-center justify-between">
-            <h2 className="text-lg font-bold">{currentDiv.name}</h2>
-            <span className="text-sm text-text-muted">
+        <div className="mb-6 rounded-2xl border-2 border-electric/10 bg-gradient-to-br from-surface to-surface-light p-5 game-shadow">
+          <div className="mb-3 flex items-center justify-between">
+            <h2 className="text-lg font-extrabold">{currentDiv.name}</h2>
+            <span className="rounded-full bg-electric/10 px-3 py-1 text-xs font-bold text-electric">
               {divProgress.completedLevels}/{divProgress.totalLevels} levels
             </span>
           </div>
-          <div className="relative h-2 overflow-hidden rounded-full bg-surface-light">
+          <div className="relative h-3 overflow-hidden rounded-full bg-surface-light">
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent" />
             <div
-              className="h-full rounded-full bg-gradient-to-r from-electric to-electric-bright transition-all duration-500"
+              className="h-full rounded-full bg-gradient-to-r from-electric to-electric-bright shadow-[0_0_10px_rgba(108,92,231,0.3)] transition-all duration-700"
               style={{
                 width: `${(divProgress.completedLevels / divProgress.totalLevels) * 100}%`,
               }}
-            />
+            >
+              <div className="absolute inset-x-0 top-0 h-1/2 rounded-full bg-white/20" />
+            </div>
           </div>
         </div>
 
-        {/* Pro CTA Placeholder */}
-        <button className="mb-6 flex w-full items-center justify-between rounded-xl border border-gold/20 bg-gold/5 px-4 py-3 transition-colors hover:bg-gold/10">
-          <div className="flex items-center gap-2">
-            <span className="text-lg">&#11088;</span>
-            <div className="text-left">
-              <p className="text-sm font-semibold text-gold">
-                Get Unlimited Energy
-              </p>
-              <p className="text-xs text-text-dim">
-                Pro — coming soon
-              </p>
-            </div>
+        {/* No Energy Warning */}
+        {noEnergyFlash && (
+          <div className="animate-shake mb-4 rounded-xl border border-coral/30 bg-coral/10 p-4 text-center">
+            <p className="text-sm font-bold text-coral">
+              &#9889; No energy left! Come back tomorrow or go Pro.
+            </p>
           </div>
-          <span className="text-xs text-gold">&#8250;</span>
-        </button>
+        )}
 
-        {/* Coins/Hints Placeholder */}
-        <button className="mb-6 flex w-full items-center justify-between rounded-xl border border-cyan/20 bg-cyan/5 px-4 py-3 transition-colors hover:bg-cyan/10">
-          <div className="flex items-center gap-2">
-            <span className="text-lg">&#128161;</span>
+        {/* Pro + Coins CTAs */}
+        <div className="mb-6 grid grid-cols-2 gap-3">
+          <button className="press-effect flex items-center gap-2.5 rounded-xl border-2 border-gold/15 bg-gradient-to-br from-gold/8 to-gold/3 px-4 py-3 transition-all hover:border-gold/30 game-shadow">
+            <span className="text-xl">&#11088;</span>
             <div className="text-left">
-              <p className="text-sm font-semibold text-cyan">
-                Hints &amp; Coins
-              </p>
-              <p className="text-xs text-text-dim">
-                Buy hints to reveal answers — coming soon
-              </p>
+              <p className="text-xs font-bold text-gold">Go Pro</p>
+              <p className="text-[10px] text-text-dim">Unlimited energy</p>
             </div>
-          </div>
-          <span className="text-xs text-cyan">&#8250;</span>
-        </button>
+          </button>
+
+          <button className="press-effect flex items-center gap-2.5 rounded-xl border-2 border-cyan/15 bg-gradient-to-br from-cyan/8 to-cyan/3 px-4 py-3 transition-all hover:border-cyan/30 game-shadow">
+            <span className="text-xl">&#128161;</span>
+            <div className="text-left">
+              <p className="text-xs font-bold text-cyan">Hints</p>
+              <p className="text-[10px] text-text-dim">Reveal answers</p>
+            </div>
+          </button>
+        </div>
 
         {/* Level Cards */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-5">
           {currentDiv.levels.map((level, i) => (
             <LevelCard
               key={level.levelNumber}

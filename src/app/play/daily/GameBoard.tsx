@@ -21,6 +21,7 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
   const [input, setInput] = useState("");
   const [shaking, setShaking] = useState(false);
   const [showTransition, setShowTransition] = useState(false);
+  const [correctFlash, setCorrectFlash] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -29,8 +30,10 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
 
   useEffect(() => {
     if (state.justRevealedIndex !== null) {
-      const timer = setTimeout(() => dispatch({ type: "CLEAR_JUST_REVEALED" }), 500);
-      return () => clearTimeout(timer);
+      setCorrectFlash(true);
+      const timer1 = setTimeout(() => setCorrectFlash(false), 600);
+      const timer2 = setTimeout(() => dispatch({ type: "CLEAR_JUST_REVEALED" }), 500);
+      return () => { clearTimeout(timer1); clearTimeout(timer2); };
     }
   }, [state.justRevealedIndex, dispatch]);
 
@@ -61,7 +64,7 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
     } else {
       dispatch({ type: "WRONG_GUESS" });
       setShaking(true);
-      setTimeout(() => setShaking(false), 400);
+      setTimeout(() => setShaking(false), 500);
     }
 
     setInput("");
@@ -73,8 +76,10 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
     dispatch({ type: "NEXT_QUESTION" });
   };
 
+  const foundCount = state.revealedAnswers.filter(Boolean).length;
+
   return (
-    <div className="flex min-h-[80vh] flex-col px-4 py-6 sm:px-6">
+    <div className={`flex min-h-[80vh] flex-col px-4 py-6 sm:px-6 ${correctFlash ? "animate-correct-flash" : ""}`}>
       {/* Top bar */}
       <div className="mb-4 flex items-center justify-between">
         <QuestionIndicator current={state.currentQuestionIndex} total={3} />
@@ -93,15 +98,18 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
       )}
 
       {/* Question */}
-      <div className="mb-6 rounded-2xl bg-surface p-5 text-center">
-        <p className="mb-1 text-xs font-semibold uppercase text-electric">
+      <div className="mb-6 rounded-2xl border border-electric/20 bg-gradient-to-br from-surface to-surface-light p-5 text-center game-shadow">
+        <p className="mb-1 text-xs font-bold uppercase tracking-wider text-electric">
           {question.category}
         </p>
-        <h2 className="text-xl font-bold sm:text-2xl">{question.question}</h2>
+        <h2 className="text-xl font-extrabold sm:text-2xl">{question.question}</h2>
+        <p className="mt-2 text-xs text-text-dim">
+          {foundCount}/6 found
+        </p>
       </div>
 
       {/* Answer Board */}
-      <div className={`mb-6 flex flex-col gap-2 ${shaking ? "animate-shake" : ""}`}>
+      <div className={`mb-6 flex flex-col gap-2.5 ${shaking ? "animate-shake" : ""}`}>
         {question.answers.map((answer, i) => (
           <AnswerSlot
             key={i}
@@ -109,7 +117,7 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
             answer={answer}
             revealed={state.revealedAnswers[i]}
             justRevealed={state.justRevealedIndex === i}
-            missed={state.questionOver && !state.revealedAnswers[i] ? false : false}
+            missed={state.questionOver && !state.revealedAnswers[i]}
           />
         ))}
       </div>
@@ -121,18 +129,25 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
 
       {/* Input or Transition */}
       {showTransition ? (
-        <div className="animate-slide-up-fade flex flex-col items-center gap-4 rounded-2xl bg-surface p-6">
-          <p className="text-lg font-bold">
+        <div className="animate-slide-up-fade flex flex-col items-center gap-4 rounded-2xl border border-border bg-surface p-8 game-shadow">
+          <div className="text-4xl">
+            {state.currentQuestionScore >= 80 ? "\u2B50" : state.currentQuestionScore >= 50 ? "\u{1F44F}" : "\u{1F44D}"}
+          </div>
+          <p className="text-lg font-extrabold">
             Question {state.currentQuestionIndex + 1} Complete
           </p>
           <p className="text-text-muted">
-            You scored <span className="font-bold text-gold">{state.currentQuestionScore}</span> / 100
+            You scored{" "}
+            <span className="text-2xl font-extrabold text-gradient-gold">
+              {state.currentQuestionScore}
+            </span>{" "}
+            / 100
           </p>
           <button
             onClick={handleNextQuestion}
-            className="rounded-full bg-electric px-6 py-3 font-bold text-white transition-all hover:bg-electric-bright hover:scale-105"
+            className="press-effect mt-2 rounded-full bg-gradient-to-r from-electric to-electric-bright px-8 py-3 font-bold text-white shadow-lg shadow-electric/20 transition-all hover:scale-105"
           >
-            {state.currentQuestionIndex >= 2 ? "See Results" : "Next Question →"}
+            {state.currentQuestionIndex >= 2 ? "See Results" : "Next Question \u2192"}
           </button>
         </div>
       ) : (
@@ -144,13 +159,13 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
             onChange={(e) => setInput(e.target.value)}
             placeholder={state.questionOver ? "Question over..." : "Type your answer..."}
             disabled={state.questionOver}
-            className="flex-1 rounded-xl border border-border bg-surface px-4 py-3 text-text-primary placeholder-text-dim outline-none transition-colors focus:border-electric disabled:opacity-50"
+            className="flex-1 rounded-xl border-2 border-border bg-surface px-4 py-3.5 text-text-primary placeholder-text-dim outline-none transition-all focus:border-electric focus:shadow-lg focus:shadow-electric/10 disabled:opacity-50 game-shadow"
             autoComplete="off"
           />
           <button
             type="submit"
             disabled={state.questionOver || !input.trim()}
-            className="rounded-xl bg-electric px-6 py-3 font-bold text-white transition-all hover:bg-electric-bright disabled:opacity-50"
+            className="press-effect rounded-xl bg-gradient-to-r from-electric to-electric-bright px-6 py-3.5 font-bold text-white shadow-lg shadow-electric/20 transition-all hover:scale-105 disabled:opacity-50 disabled:hover:scale-100"
           >
             Guess
           </button>

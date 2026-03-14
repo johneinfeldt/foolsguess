@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import { Question, QuestionResult } from "@/lib/types";
 import { generateShareText } from "@/lib/daily";
+import JesterMascot from "@/components/JesterMascot";
+import Confetti from "@/components/Confetti";
 
 interface ResultsScreenProps {
   questions: Question[];
@@ -14,6 +16,13 @@ interface ResultsScreenProps {
 export default function ResultsScreen({ questions, questionResults, score, mode }: ResultsScreenProps) {
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState("");
+  const [showConfetti, setShowConfetti] = useState(false);
+
+  useEffect(() => {
+    if (score >= 200) setShowConfetti(true);
+    const timer = setTimeout(() => setShowConfetti(false), 4000);
+    return () => clearTimeout(timer);
+  }, [score]);
 
   useEffect(() => {
     const updateCountdown = () => {
@@ -49,18 +58,39 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
     }
   };
 
-  let stars = "";
-  if (score >= 250) stars = "⭐⭐⭐";
-  else if (score >= 150) stars = "⭐⭐";
-  else if (score >= 50) stars = "⭐";
+  const mascotMood = score >= 250 ? "excited" : score >= 150 ? "happy" : score >= 50 ? "thinking" : "sad";
+  let starCount = 0;
+  if (score >= 250) starCount = 3;
+  else if (score >= 150) starCount = 2;
+  else if (score >= 50) starCount = 1;
 
   return (
     <div className="flex flex-col items-center px-4 py-8 sm:px-6">
+      <Confetti active={showConfetti} />
+
       {/* Score Card */}
-      <div className="animate-slide-up-fade mb-8 w-full max-w-md rounded-2xl border border-gold/30 bg-surface p-8 text-center">
-        <div className="mb-2 text-4xl">{stars || "🎯"}</div>
-        <p className="mb-1 text-sm uppercase text-text-muted">Your Score</p>
-        <p className="text-5xl font-extrabold text-gold">{score}</p>
+      <div className="animate-bounce-in mb-8 w-full max-w-md rounded-2xl border border-gold/20 bg-gradient-to-br from-surface to-surface-light p-8 text-center game-shadow-lg">
+        <JesterMascot size={80} mood={mascotMood} className="mx-auto mb-4" />
+
+        {/* Stars */}
+        <div className="mb-3 flex items-center justify-center gap-1">
+          {[1, 2, 3].map((i) => (
+            <span
+              key={i}
+              className={`text-3xl transition-all ${
+                i <= starCount
+                  ? "animate-bounce-in text-gold"
+                  : "text-text-dim opacity-30"
+              }`}
+              style={{ animationDelay: `${i * 200}ms` }}
+            >
+              &#11088;
+            </span>
+          ))}
+        </div>
+
+        <p className="mb-1 text-xs font-bold uppercase tracking-wider text-text-muted">Your Score</p>
+        <p className="text-6xl font-extrabold text-gradient-gold">{score}</p>
         <p className="text-text-muted">/ 300</p>
         {mode === "relaxed" && (
           <p className="mt-2 text-xs text-text-dim">Relaxed mode — not ranked</p>
@@ -75,14 +105,14 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
           return (
             <div
               key={qi}
-              className="animate-slide-up-fade rounded-xl border border-border bg-surface p-5"
+              className="animate-slide-up-fade rounded-xl border border-border bg-surface p-5 game-shadow"
               style={{ animationDelay: `${(qi + 1) * 150}ms` }}
             >
               <p className="mb-2 text-sm font-semibold text-text-muted">
                 Q{qi + 1}: {question.question}
               </p>
               <p className="mb-3 text-lg font-bold">
-                <span className="text-gold">{result.pointsEarned}</span>
+                <span className="text-gradient-gold">{result.pointsEarned}</span>
                 <span className="text-text-dim"> / 100</span>
                 <span className="ml-2 text-sm text-text-muted">
                   {result.answersFound.filter(Boolean).length}/6 found
@@ -98,7 +128,7 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
                         : "bg-coral/10 text-coral"
                     }`}
                   >
-                    {result.answersFound[ai] ? "✓" : "✕"} {answer.text} ({answer.points})
+                    {result.answersFound[ai] ? "\u2713" : "\u2717"} {answer.text} ({answer.points})
                   </span>
                 ))}
               </div>
@@ -110,27 +140,30 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
       {/* Share Button */}
       <button
         onClick={handleShare}
-        className="mb-6 inline-flex items-center gap-2 rounded-full bg-electric px-6 py-3 font-bold text-white transition-all hover:bg-electric-bright hover:scale-105"
+        className="press-effect mb-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-electric to-electric-bright px-8 py-3.5 font-bold text-white shadow-lg shadow-electric/20 transition-all hover:scale-105"
       >
-        {copied ? "✓ Copied!" : "📋 Share Results"}
+        {copied ? "\u2713 Copied!" : "\u{1F4CB} Share Results"}
       </button>
 
       {/* Countdown */}
       <div className="mb-6 text-center">
         <p className="text-sm text-text-muted">Next challenge in</p>
-        <p className="text-xl font-bold text-electric">{countdown}</p>
+        <p className="text-2xl font-extrabold text-gradient-electric">{countdown}</p>
       </div>
 
-      {/* Account CTA */}
-      <div className="rounded-2xl border border-border bg-surface p-6 text-center">
-        <p className="mb-2 font-semibold">Want to save your scores?</p>
-        <p className="mb-4 text-sm text-text-muted">
-          Create an account to appear on the leaderboard and track your streak.
+      {/* Solo Journey CTA */}
+      <a
+        href="/play/solo"
+        className="press-effect rounded-2xl border border-neon-green/20 bg-surface p-6 text-center transition-all hover:border-neon-green/40 hover:bg-surface-light game-shadow"
+      >
+        <p className="mb-1 font-bold">Want more? Try Solo Journey</p>
+        <p className="text-sm text-text-muted">
+          Progress through levels and earn XP at your own pace.
         </p>
-        <button className="rounded-full border border-electric px-6 py-2 text-sm font-semibold text-electric transition-all hover:bg-electric/10">
-          Create Account (Coming Soon)
-        </button>
-      </div>
+        <span className="mt-3 inline-block rounded-full bg-neon-green/10 px-4 py-1.5 text-sm font-bold text-neon-green">
+          Play Solo &rarr;
+        </span>
+      </a>
     </div>
   );
 }
