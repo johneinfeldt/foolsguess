@@ -4,12 +4,54 @@
     "question": "What zoo animal's enclosure would you least like to fall into?",
     "category": "Animals",
     "answers": [
-      { "text": "Lion", "aliases": ["lions"], "points": 29 },
-      { "text": "Tiger", "aliases": ["tigers"], "points": 20 },
-      { "text": "Gorilla", "aliases": ["gorillas", "ape"], "points": 19 },
-      { "text": "Bear", "aliases": ["bears", "grizzly", "polar bear"], "points": 15 },
-      { "text": "Hippo", "aliases": ["hippopotamus", "hippos"], "points": 11 },
-      { "text": "Crocodile", "aliases": ["croc", "alligator", "gator"], "points": 6 }
+      {
+        "text": "Lion",
+        "aliases": [
+          "lions"
+        ],
+        "points": 29
+      },
+      {
+        "text": "Tiger",
+        "aliases": [
+          "tigers"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Gorilla",
+        "aliases": [
+          "gorillas",
+          "ape"
+        ],
+        "points": 19
+      },
+      {
+        "text": "Bear",
+        "aliases": [
+          "bears",
+          "grizzly",
+          "polar bear"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Hippo",
+        "aliases": [
+          "hippopotamus",
+          "hippos"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Crocodile",
+        "aliases": [
+          "croc",
+          "alligator",
+          "gator"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -17,12 +59,60 @@
     "question": "What is the most common tattoo among young people?",
     "category": "Culture",
     "answers": [
-      { "text": "Flowers or Trees", "aliases": ["flowers", "trees", "flower", "tree", "rose", "roses"], "points": 26 },
-      { "text": "Infinity Symbol", "aliases": ["infinity", "infinity sign"], "points": 25 },
-      { "text": "Heart", "aliases": ["hearts", "heart tattoo"], "points": 14 },
-      { "text": "Butterfly", "aliases": ["butterflies"], "points": 14 },
-      { "text": "Words or Quotes", "aliases": ["words", "quotes", "quote", "text", "lettering"], "points": 12 },
-      { "text": "Tribal Tattoo", "aliases": ["tribal", "tribal design"], "points": 9 }
+      {
+        "text": "Flowers or Trees",
+        "aliases": [
+          "flowers",
+          "trees",
+          "flower",
+          "tree",
+          "rose",
+          "roses"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Infinity Symbol",
+        "aliases": [
+          "infinity",
+          "infinity sign"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Heart",
+        "aliases": [
+          "hearts",
+          "heart tattoo"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Butterfly",
+        "aliases": [
+          "butterflies"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Words or Quotes",
+        "aliases": [
+          "words",
+          "quotes",
+          "quote",
+          "text",
+          "lettering"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Tribal Tattoo",
+        "aliases": [
+          "tribal",
+          "tribal design"
+        ],
+        "points": 9
+      }
     ]
   },
   {
@@ -30,12 +120,38 @@
     "question": "What language sounds the nicest?",
     "category": "Culture",
     "answers": [
-      { "text": "French", "aliases": [], "points": 48 },
-      { "text": "Spanish", "aliases": [], "points": 19 },
-      { "text": "Italian", "aliases": [], "points": 17 },
-      { "text": "English", "aliases": [], "points": 8 },
-      { "text": "Japanese", "aliases": [], "points": 5 },
-      { "text": "German", "aliases": ["deutsch"], "points": 3 }
+      {
+        "text": "French",
+        "aliases": [],
+        "points": 48
+      },
+      {
+        "text": "Spanish",
+        "aliases": [],
+        "points": 19
+      },
+      {
+        "text": "Italian",
+        "aliases": [],
+        "points": 17
+      },
+      {
+        "text": "English",
+        "aliases": [],
+        "points": 8
+      },
+      {
+        "text": "Japanese",
+        "aliases": [],
+        "points": 5
+      },
+      {
+        "text": "German",
+        "aliases": [
+          "deutsch"
+        ],
+        "points": 3
+      }
     ]
   },
   {
@@ -43,12 +159,52 @@
     "question": "Name a notoriously cheap beer.",
     "category": "Food & Drink",
     "answers": [
-      { "text": "Budweiser", "aliases": ["bud", "bud light"], "points": 38 },
-      { "text": "Pabst Blue Ribbon", "aliases": ["pbr", "pabst"], "points": 25 },
-      { "text": "Natural Light", "aliases": ["natty light", "natty", "natural ice", "natty ice"], "points": 19 },
-      { "text": "Corona", "aliases": [], "points": 9 },
-      { "text": "Coors", "aliases": ["coors light", "coors banquet"], "points": 5 },
-      { "text": "Keystone", "aliases": ["keystone light"], "points": 4 }
+      {
+        "text": "Budweiser",
+        "aliases": [
+          "bud",
+          "bud light"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Pabst Blue Ribbon",
+        "aliases": [
+          "pbr",
+          "pabst"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Natural Light",
+        "aliases": [
+          "natty light",
+          "natty",
+          "natural ice",
+          "natty ice"
+        ],
+        "points": 19
+      },
+      {
+        "text": "Corona",
+        "aliases": [],
+        "points": 9
+      },
+      {
+        "text": "Coors",
+        "aliases": [
+          "coors light",
+          "coors banquet"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Keystone",
+        "aliases": [
+          "keystone light"
+        ],
+        "points": 4
+      }
     ]
   },
   {
@@ -56,12 +212,57 @@
     "question": "What genre of music has the most powerful lyrics?",
     "category": "Entertainment",
     "answers": [
-      { "text": "Rock", "aliases": ["rock music", "rock and roll"], "points": 30 },
-      { "text": "Rap", "aliases": ["hip hop", "rap music", "hip-hop"], "points": 29 },
-      { "text": "Metal", "aliases": ["heavy metal", "metal music"], "points": 14 },
-      { "text": "R&B", "aliases": ["rnb", "soul", "r and b"], "points": 12 },
-      { "text": "Indie / Folk", "aliases": ["indie", "folk", "folk music", "indie music"], "points": 9 },
-      { "text": "Country", "aliases": ["country music"], "points": 6 }
+      {
+        "text": "Rock",
+        "aliases": [
+          "rock music",
+          "rock and roll"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Rap",
+        "aliases": [
+          "hip hop",
+          "rap music",
+          "hip-hop"
+        ],
+        "points": 29
+      },
+      {
+        "text": "Metal",
+        "aliases": [
+          "heavy metal",
+          "metal music"
+        ],
+        "points": 14
+      },
+      {
+        "text": "R&B",
+        "aliases": [
+          "rnb",
+          "soul",
+          "r and b"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Indie / Folk",
+        "aliases": [
+          "indie",
+          "folk",
+          "folk music",
+          "indie music"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Country",
+        "aliases": [
+          "country music"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -69,12 +270,51 @@
     "question": "Name a word that immediately follows the word \"Golden\".",
     "category": "Word Play",
     "answers": [
-      { "text": "Shower", "aliases": ["golden shower"], "points": 35 },
-      { "text": "Girls", "aliases": ["golden girls", "girl"], "points": 25 },
-      { "text": "Retriever", "aliases": ["golden retriever"], "points": 24 },
-      { "text": "Gate", "aliases": ["golden gate", "gate bridge"], "points": 6 },
-      { "text": "Boy", "aliases": ["golden boy"], "points": 5 },
-      { "text": "Globe", "aliases": ["golden globe", "golden globes"], "points": 5 }
+      {
+        "text": "Shower",
+        "aliases": [
+          "golden shower"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Girls",
+        "aliases": [
+          "golden girls",
+          "girl"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Retriever",
+        "aliases": [
+          "golden retriever"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Gate",
+        "aliases": [
+          "golden gate",
+          "gate bridge"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Boy",
+        "aliases": [
+          "golden boy"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Globe",
+        "aliases": [
+          "golden globe",
+          "golden globes"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -82,12 +322,48 @@
     "question": "What popular band has the best name?",
     "category": "Entertainment",
     "answers": [
-      { "text": "Panic! At The Disco", "aliases": ["panic at the disco", "panic", "patd"], "points": 22 },
-      { "text": "Queen", "aliases": [], "points": 18 },
-      { "text": "The Beatles", "aliases": ["beatles"], "points": 18 },
-      { "text": "Imagine Dragons", "aliases": [], "points": 17 },
-      { "text": "Led Zeppelin", "aliases": ["led zep"], "points": 13 },
-      { "text": "Red Hot Chili Peppers", "aliases": ["rhcp", "chili peppers", "red hot chilli peppers"], "points": 12 }
+      {
+        "text": "Panic! At The Disco",
+        "aliases": [
+          "panic at the disco",
+          "panic",
+          "patd"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Queen",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "The Beatles",
+        "aliases": [
+          "beatles"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Imagine Dragons",
+        "aliases": [],
+        "points": 17
+      },
+      {
+        "text": "Led Zeppelin",
+        "aliases": [
+          "led zep"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Red Hot Chili Peppers",
+        "aliases": [
+          "rhcp",
+          "chili peppers",
+          "red hot chilli peppers"
+        ],
+        "points": 12
+      }
     ]
   },
   {
@@ -95,12 +371,56 @@
     "question": "Other than the bedroom, name a place where a movie love scene might be filmed.",
     "category": "Entertainment",
     "answers": [
-      { "text": "Kitchen", "aliases": ["the kitchen", "kitchen counter"], "points": 40 },
-      { "text": "Living Room", "aliases": ["living room", "lounge"], "points": 20 },
-      { "text": "Shower", "aliases": ["bathroom", "bath", "shower scene"], "points": 15 },
-      { "text": "Couch", "aliases": ["sofa"], "points": 9 },
-      { "text": "Pool", "aliases": ["swimming pool", "hot tub", "jacuzzi"], "points": 8 },
-      { "text": "Office", "aliases": ["work", "workplace", "at work"], "points": 8 }
+      {
+        "text": "Kitchen",
+        "aliases": [
+          "the kitchen",
+          "kitchen counter"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Living Room",
+        "aliases": [
+          "living room",
+          "lounge"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Shower",
+        "aliases": [
+          "bathroom",
+          "bath",
+          "shower scene"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Couch",
+        "aliases": [
+          "sofa"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Pool",
+        "aliases": [
+          "swimming pool",
+          "hot tub",
+          "jacuzzi"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Office",
+        "aliases": [
+          "work",
+          "workplace",
+          "at work"
+        ],
+        "points": 8
+      }
     ]
   },
   {
@@ -108,12 +428,61 @@
     "question": "What superpower would be the best to have as an athlete?",
     "category": "Sports",
     "answers": [
-      { "text": "Super Speed", "aliases": ["speed", "super fast", "fast"], "points": 61 },
-      { "text": "Super Strength", "aliases": ["strength", "strong", "super strong"], "points": 20 },
-      { "text": "Stamina", "aliases": ["endurance", "infinite stamina", "unlimited endurance"], "points": 7 },
-      { "text": "Time Control", "aliases": ["time manipulation", "stop time", "slow time", "time"], "points": 5 },
-      { "text": "Flight", "aliases": ["flying", "fly"], "points": 4 },
-      { "text": "Healing", "aliases": ["immunity", "regeneration", "self healing", "heal"], "points": 3 }
+      {
+        "text": "Super Speed",
+        "aliases": [
+          "speed",
+          "super fast",
+          "fast"
+        ],
+        "points": 61
+      },
+      {
+        "text": "Super Strength",
+        "aliases": [
+          "strength",
+          "strong",
+          "super strong"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Stamina",
+        "aliases": [
+          "endurance",
+          "infinite stamina",
+          "unlimited endurance"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Time Control",
+        "aliases": [
+          "time manipulation",
+          "stop time",
+          "slow time",
+          "time"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Flight",
+        "aliases": [
+          "flying",
+          "fly"
+        ],
+        "points": 4
+      },
+      {
+        "text": "Healing",
+        "aliases": [
+          "immunity",
+          "regeneration",
+          "self healing",
+          "heal"
+        ],
+        "points": 3
+      }
     ]
   },
   {
@@ -121,12 +490,54 @@
     "question": "What country has the nicest people?",
     "category": "Culture",
     "answers": [
-      { "text": "Canada", "aliases": ["canadians"], "points": 70 },
-      { "text": "USA", "aliases": ["united states", "america", "americans", "us"], "points": 8 },
-      { "text": "Sweden", "aliases": ["swedish"], "points": 7 },
-      { "text": "Japan", "aliases": ["japanese"], "points": 5 },
-      { "text": "The Netherlands", "aliases": ["netherlands", "holland", "dutch"], "points": 5 },
-      { "text": "Denmark", "aliases": ["danish", "danes"], "points": 5 }
+      {
+        "text": "Canada",
+        "aliases": [
+          "canadians"
+        ],
+        "points": 70
+      },
+      {
+        "text": "USA",
+        "aliases": [
+          "united states",
+          "america",
+          "americans",
+          "us"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Sweden",
+        "aliases": [
+          "swedish"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Japan",
+        "aliases": [
+          "japanese"
+        ],
+        "points": 5
+      },
+      {
+        "text": "The Netherlands",
+        "aliases": [
+          "netherlands",
+          "holland",
+          "dutch"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Denmark",
+        "aliases": [
+          "danish",
+          "danes"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -134,12 +545,56 @@
     "question": "Name a robot from a movie.",
     "category": "Entertainment",
     "answers": [
-      { "text": "WALL-E", "aliases": ["wall e", "walle"], "points": 53 },
-      { "text": "R2-D2", "aliases": ["r2d2", "r2 d2", "artoo"], "points": 18 },
-      { "text": "Terminator", "aliases": ["t-800", "t800", "the terminator"], "points": 10 },
-      { "text": "C-3PO", "aliases": ["c3po", "c 3po", "threepio"], "points": 10 },
-      { "text": "HAL 9000", "aliases": ["hal", "hal9000"], "points": 5 },
-      { "text": "RoboCop", "aliases": ["robo cop"], "points": 4 }
+      {
+        "text": "WALL-E",
+        "aliases": [
+          "wall e",
+          "walle"
+        ],
+        "points": 53
+      },
+      {
+        "text": "R2-D2",
+        "aliases": [
+          "r2d2",
+          "r2 d2",
+          "artoo"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Terminator",
+        "aliases": [
+          "t-800",
+          "t800",
+          "the terminator"
+        ],
+        "points": 10
+      },
+      {
+        "text": "C-3PO",
+        "aliases": [
+          "c3po",
+          "c 3po",
+          "threepio"
+        ],
+        "points": 10
+      },
+      {
+        "text": "HAL 9000",
+        "aliases": [
+          "hal",
+          "hal9000"
+        ],
+        "points": 5
+      },
+      {
+        "text": "RoboCop",
+        "aliases": [
+          "robo cop"
+        ],
+        "points": 4
+      }
     ]
   },
   {
@@ -147,12 +602,54 @@
     "question": "What app on your phone do you use the most?",
     "category": "Technology",
     "answers": [
-      { "text": "Reddit", "aliases": [], "points": 54 },
-      { "text": "Messenger", "aliases": ["messenger apps", "whatsapp", "imessage", "texts", "messages"], "points": 12 },
-      { "text": "Instagram", "aliases": ["insta", "ig"], "points": 11 },
-      { "text": "YouTube", "aliases": ["yt"], "points": 9 },
-      { "text": "Browser", "aliases": ["internet", "chrome", "safari", "web browser"], "points": 9 },
-      { "text": "Facebook", "aliases": ["fb"], "points": 5 }
+      {
+        "text": "Reddit",
+        "aliases": [],
+        "points": 54
+      },
+      {
+        "text": "Messenger",
+        "aliases": [
+          "messenger apps",
+          "whatsapp",
+          "imessage",
+          "texts",
+          "messages"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Instagram",
+        "aliases": [
+          "insta",
+          "ig"
+        ],
+        "points": 11
+      },
+      {
+        "text": "YouTube",
+        "aliases": [
+          "yt"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Browser",
+        "aliases": [
+          "internet",
+          "chrome",
+          "safari",
+          "web browser"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Facebook",
+        "aliases": [
+          "fb"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -160,12 +657,55 @@
     "question": "What is the cutest dog breed?",
     "category": "Animals",
     "answers": [
-      { "text": "Corgi", "aliases": ["corgis", "welsh corgi"], "points": 30 },
-      { "text": "Golden Retriever", "aliases": ["golden", "goldie"], "points": 24 },
-      { "text": "Pomeranian", "aliases": ["pom", "poms"], "points": 12 },
-      { "text": "Labrador", "aliases": ["labrador retriever", "lab", "labs"], "points": 12 },
-      { "text": "Shiba Inu", "aliases": ["shiba", "doge"], "points": 11 },
-      { "text": "Husky", "aliases": ["huskies", "siberian husky"], "points": 11 }
+      {
+        "text": "Corgi",
+        "aliases": [
+          "corgis",
+          "welsh corgi"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Golden Retriever",
+        "aliases": [
+          "golden",
+          "goldie"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Pomeranian",
+        "aliases": [
+          "pom",
+          "poms"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Labrador",
+        "aliases": [
+          "labrador retriever",
+          "lab",
+          "labs"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Shiba Inu",
+        "aliases": [
+          "shiba",
+          "doge"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Husky",
+        "aliases": [
+          "huskies",
+          "siberian husky"
+        ],
+        "points": 11
+      }
     ]
   },
   {
@@ -173,12 +713,43 @@
     "question": "What country could be considered the most beautiful?",
     "category": "Travel",
     "answers": [
-      { "text": "Iceland", "aliases": [], "points": 22 },
-      { "text": "Switzerland", "aliases": ["swiss"], "points": 21 },
-      { "text": "New Zealand", "aliases": ["nz"], "points": 20 },
-      { "text": "Italy", "aliases": [], "points": 14 },
-      { "text": "USA", "aliases": ["united states", "america"], "points": 12 },
-      { "text": "Canada", "aliases": [], "points": 11 }
+      {
+        "text": "Iceland",
+        "aliases": [],
+        "points": 22
+      },
+      {
+        "text": "Switzerland",
+        "aliases": [
+          "swiss"
+        ],
+        "points": 21
+      },
+      {
+        "text": "New Zealand",
+        "aliases": [
+          "nz"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Italy",
+        "aliases": [],
+        "points": 14
+      },
+      {
+        "text": "USA",
+        "aliases": [
+          "united states",
+          "america"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Canada",
+        "aliases": [],
+        "points": 11
+      }
     ]
   },
   {
@@ -186,12 +757,59 @@
     "question": "Name something you might lose on a night out.",
     "category": "Everyday Life",
     "answers": [
-      { "text": "Wallet", "aliases": ["my wallet", "purse"], "points": 30 },
-      { "text": "Phone", "aliases": ["my phone", "cell phone", "mobile"], "points": 22 },
-      { "text": "Keys", "aliases": ["my keys", "house keys", "car keys"], "points": 17 },
-      { "text": "Virginity", "aliases": ["my virginity", "innocence"], "points": 14 },
-      { "text": "Cash", "aliases": ["money", "card", "credit card"], "points": 13 },
-      { "text": "Jewelry", "aliases": ["earrings", "ring", "necklace", "watch"], "points": 4 }
+      {
+        "text": "Wallet",
+        "aliases": [
+          "my wallet",
+          "purse"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Phone",
+        "aliases": [
+          "my phone",
+          "cell phone",
+          "mobile"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Keys",
+        "aliases": [
+          "my keys",
+          "house keys",
+          "car keys"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Virginity",
+        "aliases": [
+          "my virginity",
+          "innocence"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Cash",
+        "aliases": [
+          "money",
+          "card",
+          "credit card"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Jewelry",
+        "aliases": [
+          "earrings",
+          "ring",
+          "necklace",
+          "watch"
+        ],
+        "points": 4
+      }
     ]
   },
   {
@@ -199,12 +817,61 @@
     "question": "What's the most cups of coffee you should have in one day?",
     "category": "Food & Drink",
     "answers": [
-      { "text": "3 Cups", "aliases": ["3", "three", "three cups"], "points": 37 },
-      { "text": "2 Cups", "aliases": ["2", "two", "two cups"], "points": 24 },
-      { "text": "4 Cups", "aliases": ["4", "four", "four cups"], "points": 15 },
-      { "text": "5 Cups", "aliases": ["5", "five", "five cups"], "points": 12 },
-      { "text": "0 Cups", "aliases": ["0", "zero", "none", "zero cups"], "points": 6 },
-      { "text": "1 Cup", "aliases": ["1", "one", "one cup"], "points": 6 }
+      {
+        "text": "3 Cups",
+        "aliases": [
+          "3",
+          "three",
+          "three cups"
+        ],
+        "points": 37
+      },
+      {
+        "text": "2 Cups",
+        "aliases": [
+          "2",
+          "two",
+          "two cups"
+        ],
+        "points": 24
+      },
+      {
+        "text": "4 Cups",
+        "aliases": [
+          "4",
+          "four",
+          "four cups"
+        ],
+        "points": 15
+      },
+      {
+        "text": "5 Cups",
+        "aliases": [
+          "5",
+          "five",
+          "five cups"
+        ],
+        "points": 12
+      },
+      {
+        "text": "0 Cups",
+        "aliases": [
+          "0",
+          "zero",
+          "none",
+          "zero cups"
+        ],
+        "points": 6
+      },
+      {
+        "text": "1 Cup",
+        "aliases": [
+          "1",
+          "one",
+          "one cup"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -212,12 +879,49 @@
     "question": "What holiday is the most enjoyable?",
     "category": "Holidays",
     "answers": [
-      { "text": "Christmas", "aliases": ["xmas", "christmas day"], "points": 54 },
-      { "text": "Halloween", "aliases": [], "points": 20 },
-      { "text": "Thanksgiving", "aliases": ["turkey day"], "points": 12 },
-      { "text": "4th of July", "aliases": ["fourth of july", "independence day", "july 4th"], "points": 6 },
-      { "text": "New Years", "aliases": ["new year", "new years eve", "nye"], "points": 4 },
-      { "text": "Easter", "aliases": [], "points": 4 }
+      {
+        "text": "Christmas",
+        "aliases": [
+          "xmas",
+          "christmas day"
+        ],
+        "points": 54
+      },
+      {
+        "text": "Halloween",
+        "aliases": [],
+        "points": 20
+      },
+      {
+        "text": "Thanksgiving",
+        "aliases": [
+          "turkey day"
+        ],
+        "points": 12
+      },
+      {
+        "text": "4th of July",
+        "aliases": [
+          "fourth of july",
+          "independence day",
+          "july 4th"
+        ],
+        "points": 6
+      },
+      {
+        "text": "New Years",
+        "aliases": [
+          "new year",
+          "new years eve",
+          "nye"
+        ],
+        "points": 4
+      },
+      {
+        "text": "Easter",
+        "aliases": [],
+        "points": 4
+      }
     ]
   },
   {
@@ -225,12 +929,45 @@
     "question": "Name a sport that uses a ball.",
     "category": "Sports",
     "answers": [
-      { "text": "Baseball", "aliases": [], "points": 28 },
-      { "text": "Basketball", "aliases": ["bball"], "points": 25 },
-      { "text": "Soccer", "aliases": ["futbol", "football", "fussball"], "points": 21 },
-      { "text": "American Football", "aliases": ["nfl", "gridiron"], "points": 19 },
-      { "text": "Tennis", "aliases": [], "points": 5 },
-      { "text": "Golf", "aliases": [], "points": 2 }
+      {
+        "text": "Baseball",
+        "aliases": [],
+        "points": 28
+      },
+      {
+        "text": "Basketball",
+        "aliases": [
+          "bball"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Soccer",
+        "aliases": [
+          "futbol",
+          "football",
+          "fussball"
+        ],
+        "points": 21
+      },
+      {
+        "text": "American Football",
+        "aliases": [
+          "nfl",
+          "gridiron"
+        ],
+        "points": 19
+      },
+      {
+        "text": "Tennis",
+        "aliases": [],
+        "points": 5
+      },
+      {
+        "text": "Golf",
+        "aliases": [],
+        "points": 2
+      }
     ]
   },
   {
@@ -238,12 +975,63 @@
     "question": "On average, how long should sex last?",
     "category": "Relationships",
     "answers": [
-      { "text": "30 minutes", "aliases": ["30 min", "30", "half hour", "30 mins"], "points": 28 },
-      { "text": "20 minutes", "aliases": ["20 min", "20", "20 mins"], "points": 22 },
-      { "text": "15 minutes", "aliases": ["15 min", "15", "15 mins", "quarter hour"], "points": 20 },
-      { "text": "10 minutes", "aliases": ["10 min", "10", "10 mins"], "points": 16 },
-      { "text": "1 hour", "aliases": ["60 min", "60 minutes", "an hour", "one hour"], "points": 8 },
-      { "text": "45 minutes", "aliases": ["45 min", "45", "45 mins"], "points": 6 }
+      {
+        "text": "30 minutes",
+        "aliases": [
+          "30 min",
+          "30",
+          "half hour",
+          "30 mins"
+        ],
+        "points": 28
+      },
+      {
+        "text": "20 minutes",
+        "aliases": [
+          "20 min",
+          "20",
+          "20 mins"
+        ],
+        "points": 22
+      },
+      {
+        "text": "15 minutes",
+        "aliases": [
+          "15 min",
+          "15",
+          "15 mins",
+          "quarter hour"
+        ],
+        "points": 20
+      },
+      {
+        "text": "10 minutes",
+        "aliases": [
+          "10 min",
+          "10",
+          "10 mins"
+        ],
+        "points": 16
+      },
+      {
+        "text": "1 hour",
+        "aliases": [
+          "60 min",
+          "60 minutes",
+          "an hour",
+          "one hour"
+        ],
+        "points": 8
+      },
+      {
+        "text": "45 minutes",
+        "aliases": [
+          "45 min",
+          "45",
+          "45 mins"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -251,12 +1039,52 @@
     "question": "Name a famous painter.",
     "category": "Culture",
     "answers": [
-      { "text": "Van Gogh", "aliases": ["vincent van gogh", "vangogh"], "points": 45 },
-      { "text": "Picasso", "aliases": ["pablo picasso"], "points": 24 },
-      { "text": "Da Vinci", "aliases": ["leonardo da vinci", "leonardo", "davinci"], "points": 12 },
-      { "text": "Monet", "aliases": ["claude monet"], "points": 8 },
-      { "text": "Michelangelo", "aliases": ["michaelangelo"], "points": 6 },
-      { "text": "Salvador Dali", "aliases": ["dali", "salvador dali"], "points": 5 }
+      {
+        "text": "Van Gogh",
+        "aliases": [
+          "vincent van gogh",
+          "vangogh"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Picasso",
+        "aliases": [
+          "pablo picasso"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Da Vinci",
+        "aliases": [
+          "leonardo da vinci",
+          "leonardo",
+          "davinci"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Monet",
+        "aliases": [
+          "claude monet"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Michelangelo",
+        "aliases": [
+          "michaelangelo"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Salvador Dali",
+        "aliases": [
+          "dali",
+          "salvador dali"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -264,12 +1092,57 @@
     "question": "Name something you take to the beach.",
     "category": "Everyday Life",
     "answers": [
-      { "text": "Towel", "aliases": ["beach towel", "towels"], "points": 35 },
-      { "text": "Sunscreen", "aliases": ["sunblock", "sun screen", "spf", "sun lotion"], "points": 25 },
-      { "text": "Umbrella", "aliases": ["beach umbrella", "parasol"], "points": 15 },
-      { "text": "Cooler", "aliases": ["ice chest", "cool box"], "points": 12 },
-      { "text": "Chair", "aliases": ["beach chair", "lawn chair", "folding chair"], "points": 8 },
-      { "text": "Sunglasses", "aliases": ["shades", "sunnies"], "points": 5 }
+      {
+        "text": "Towel",
+        "aliases": [
+          "beach towel",
+          "towels"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Sunscreen",
+        "aliases": [
+          "sunblock",
+          "sun screen",
+          "spf",
+          "sun lotion"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Umbrella",
+        "aliases": [
+          "beach umbrella",
+          "parasol"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Cooler",
+        "aliases": [
+          "ice chest",
+          "cool box"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Chair",
+        "aliases": [
+          "beach chair",
+          "lawn chair",
+          "folding chair"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Sunglasses",
+        "aliases": [
+          "shades",
+          "sunnies"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -277,12 +1150,62 @@
     "question": "Name a reason people call in sick to work.",
     "category": "Work & School",
     "answers": [
-      { "text": "Cold or Flu", "aliases": ["cold", "flu", "sick", "illness", "fever"], "points": 38 },
-      { "text": "Headache", "aliases": ["migraine", "head hurts"], "points": 22 },
-      { "text": "Stomach ache", "aliases": ["stomach bug", "food poisoning", "nausea", "upset stomach"], "points": 16 },
-      { "text": "Mental health day", "aliases": ["mental health", "stress", "burnout", "anxiety"], "points": 12 },
-      { "text": "Back pain", "aliases": ["back hurts", "backache"], "points": 7 },
-      { "text": "Dentist appointment", "aliases": ["dentist", "toothache", "dental"], "points": 5 }
+      {
+        "text": "Cold or Flu",
+        "aliases": [
+          "cold",
+          "flu",
+          "sick",
+          "illness",
+          "fever"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Headache",
+        "aliases": [
+          "migraine",
+          "head hurts"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Stomach ache",
+        "aliases": [
+          "stomach bug",
+          "food poisoning",
+          "nausea",
+          "upset stomach"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Mental health day",
+        "aliases": [
+          "mental health",
+          "stress",
+          "burnout",
+          "anxiety"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Back pain",
+        "aliases": [
+          "back hurts",
+          "backache"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Dentist appointment",
+        "aliases": [
+          "dentist",
+          "toothache",
+          "dental"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -290,12 +1213,60 @@
     "question": "Name something you find in a wallet.",
     "category": "Everyday Life",
     "answers": [
-      { "text": "Credit card", "aliases": ["credit cards", "debit card", "bank card", "cards"], "points": 35 },
-      { "text": "Cash", "aliases": ["money", "bills", "notes"], "points": 28 },
-      { "text": "ID", "aliases": ["drivers license", "driver license", "identification", "id card", "licence"], "points": 18 },
-      { "text": "Photos", "aliases": ["pictures", "photo", "family photos"], "points": 9 },
-      { "text": "Receipts", "aliases": ["receipt", "old receipts"], "points": 6 },
-      { "text": "Business cards", "aliases": ["business card"], "points": 4 }
+      {
+        "text": "Credit card",
+        "aliases": [
+          "credit cards",
+          "debit card",
+          "bank card",
+          "cards"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Cash",
+        "aliases": [
+          "money",
+          "bills",
+          "notes"
+        ],
+        "points": 28
+      },
+      {
+        "text": "ID",
+        "aliases": [
+          "drivers license",
+          "driver license",
+          "identification",
+          "id card",
+          "licence"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Photos",
+        "aliases": [
+          "pictures",
+          "photo",
+          "family photos"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Receipts",
+        "aliases": [
+          "receipt",
+          "old receipts"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Business cards",
+        "aliases": [
+          "business card"
+        ],
+        "points": 4
+      }
     ]
   },
   {
@@ -303,12 +1274,66 @@
     "question": "Name something people do on their phone while waiting.",
     "category": "Technology",
     "answers": [
-      { "text": "Social media", "aliases": ["scroll social media", "instagram", "tiktok", "facebook", "twitter", "scrolling"], "points": 35 },
-      { "text": "Text", "aliases": ["texting", "send texts", "messaging", "messages"], "points": 25 },
-      { "text": "Play games", "aliases": ["games", "gaming", "play a game", "mobile games"], "points": 18 },
-      { "text": "Watch videos", "aliases": ["youtube", "watch youtube", "videos", "streaming"], "points": 12 },
-      { "text": "Check email", "aliases": ["email", "emails", "read email"], "points": 6 },
-      { "text": "Read news", "aliases": ["news", "read articles", "browse news"], "points": 4 }
+      {
+        "text": "Social media",
+        "aliases": [
+          "scroll social media",
+          "instagram",
+          "tiktok",
+          "facebook",
+          "twitter",
+          "scrolling"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Text",
+        "aliases": [
+          "texting",
+          "send texts",
+          "messaging",
+          "messages"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Play games",
+        "aliases": [
+          "games",
+          "gaming",
+          "play a game",
+          "mobile games"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Watch videos",
+        "aliases": [
+          "youtube",
+          "watch youtube",
+          "videos",
+          "streaming"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Check email",
+        "aliases": [
+          "email",
+          "emails",
+          "read email"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Read news",
+        "aliases": [
+          "news",
+          "read articles",
+          "browse news"
+        ],
+        "points": 4
+      }
     ]
   },
   {
@@ -316,12 +1341,51 @@
     "question": "Name a popular pizza topping.",
     "category": "Food & Drink",
     "answers": [
-      { "text": "Pepperoni", "aliases": ["peperoni"], "points": 38 },
-      { "text": "Mushrooms", "aliases": ["mushroom"], "points": 20 },
-      { "text": "Sausage", "aliases": ["italian sausage"], "points": 15 },
-      { "text": "Onions", "aliases": ["onion"], "points": 12 },
-      { "text": "Peppers", "aliases": ["bell peppers", "green peppers", "pepper"], "points": 9 },
-      { "text": "Olives", "aliases": ["olive", "black olives"], "points": 6 }
+      {
+        "text": "Pepperoni",
+        "aliases": [
+          "peperoni"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Mushrooms",
+        "aliases": [
+          "mushroom"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Sausage",
+        "aliases": [
+          "italian sausage"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Onions",
+        "aliases": [
+          "onion"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Peppers",
+        "aliases": [
+          "bell peppers",
+          "green peppers",
+          "pepper"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Olives",
+        "aliases": [
+          "olive",
+          "black olives"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -329,12 +1393,55 @@
     "question": "Name something you always forget to pack for a trip.",
     "category": "Travel",
     "answers": [
-      { "text": "Toothbrush", "aliases": ["tooth brush"], "points": 32 },
-      { "text": "Phone charger", "aliases": ["charger", "charging cable", "cable"], "points": 28 },
-      { "text": "Underwear", "aliases": ["socks", "clean underwear"], "points": 16 },
-      { "text": "Medication", "aliases": ["medicine", "pills", "meds"], "points": 11 },
-      { "text": "Deodorant", "aliases": ["deo"], "points": 8 },
-      { "text": "Pajamas", "aliases": ["pyjamas", "sleepwear", "pjs"], "points": 5 }
+      {
+        "text": "Toothbrush",
+        "aliases": [
+          "tooth brush"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Phone charger",
+        "aliases": [
+          "charger",
+          "charging cable",
+          "cable"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Underwear",
+        "aliases": [
+          "socks",
+          "clean underwear"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Medication",
+        "aliases": [
+          "medicine",
+          "pills",
+          "meds"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Deodorant",
+        "aliases": [
+          "deo"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Pajamas",
+        "aliases": [
+          "pyjamas",
+          "sleepwear",
+          "pjs"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -342,12 +1449,56 @@
     "question": "Name something people are afraid of.",
     "category": "Everyday Life",
     "answers": [
-      { "text": "Spiders", "aliases": ["spider", "arachnids"], "points": 30 },
-      { "text": "Heights", "aliases": ["high places", "falling"], "points": 25 },
-      { "text": "Snakes", "aliases": ["snake", "serpents"], "points": 18 },
-      { "text": "Public speaking", "aliases": ["speaking in public", "presentations", "giving speeches"], "points": 13 },
-      { "text": "The dark", "aliases": ["darkness", "dark"], "points": 9 },
-      { "text": "Flying", "aliases": ["airplanes", "planes", "flights"], "points": 5 }
+      {
+        "text": "Spiders",
+        "aliases": [
+          "spider",
+          "arachnids"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Heights",
+        "aliases": [
+          "high places",
+          "falling"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Snakes",
+        "aliases": [
+          "snake",
+          "serpents"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Public speaking",
+        "aliases": [
+          "speaking in public",
+          "presentations",
+          "giving speeches"
+        ],
+        "points": 13
+      },
+      {
+        "text": "The dark",
+        "aliases": [
+          "darkness",
+          "dark"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Flying",
+        "aliases": [
+          "airplanes",
+          "planes",
+          "flights"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -355,12 +1506,60 @@
     "question": "Name something you do before going to bed.",
     "category": "Everyday Life",
     "answers": [
-      { "text": "Brush teeth", "aliases": ["brush my teeth", "brushing teeth", "dental hygiene"], "points": 35 },
-      { "text": "Check phone", "aliases": ["scroll phone", "look at phone", "phone"], "points": 25 },
-      { "text": "Watch TV", "aliases": ["watch television", "tv", "netflix", "streaming"], "points": 16 },
-      { "text": "Read", "aliases": ["read a book", "reading"], "points": 12 },
-      { "text": "Shower", "aliases": ["take a shower", "bath", "bathe"], "points": 7 },
-      { "text": "Set alarm", "aliases": ["alarm", "set my alarm", "alarm clock"], "points": 5 }
+      {
+        "text": "Brush teeth",
+        "aliases": [
+          "brush my teeth",
+          "brushing teeth",
+          "dental hygiene"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Check phone",
+        "aliases": [
+          "scroll phone",
+          "look at phone",
+          "phone"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Watch TV",
+        "aliases": [
+          "watch television",
+          "tv",
+          "netflix",
+          "streaming"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Read",
+        "aliases": [
+          "read a book",
+          "reading"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Shower",
+        "aliases": [
+          "take a shower",
+          "bath",
+          "bathe"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Set alarm",
+        "aliases": [
+          "alarm",
+          "set my alarm",
+          "alarm clock"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -368,12 +1567,62 @@
     "question": "Name a common New Year's resolution.",
     "category": "Holidays",
     "answers": [
-      { "text": "Exercise more", "aliases": ["work out", "go to gym", "gym", "get fit", "exercise", "fitness"], "points": 35 },
-      { "text": "Lose weight", "aliases": ["diet", "eat less", "weight loss"], "points": 25 },
-      { "text": "Save money", "aliases": ["spend less", "save more", "budget", "saving money"], "points": 18 },
-      { "text": "Quit smoking", "aliases": ["stop smoking", "quit cigarettes"], "points": 10 },
-      { "text": "Read more", "aliases": ["read books", "reading"], "points": 7 },
-      { "text": "Travel more", "aliases": ["travel", "see the world", "explore"], "points": 5 }
+      {
+        "text": "Exercise more",
+        "aliases": [
+          "work out",
+          "go to gym",
+          "gym",
+          "get fit",
+          "exercise",
+          "fitness"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Lose weight",
+        "aliases": [
+          "diet",
+          "eat less",
+          "weight loss"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Save money",
+        "aliases": [
+          "spend less",
+          "save more",
+          "budget",
+          "saving money"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Quit smoking",
+        "aliases": [
+          "stop smoking",
+          "quit cigarettes"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Read more",
+        "aliases": [
+          "read books",
+          "reading"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Travel more",
+        "aliases": [
+          "travel",
+          "see the world",
+          "explore"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -381,12 +1630,57 @@
     "question": "Name something you find in a classroom.",
     "category": "Work & School",
     "answers": [
-      { "text": "Desk", "aliases": ["desks", "table", "tables"], "points": 30 },
-      { "text": "Whiteboard", "aliases": ["chalkboard", "blackboard", "board"], "points": 25 },
-      { "text": "Chair", "aliases": ["chairs", "seats"], "points": 18 },
-      { "text": "Books", "aliases": ["textbooks", "book", "textbook"], "points": 13 },
-      { "text": "Computer", "aliases": ["laptop", "computers", "laptops"], "points": 9 },
-      { "text": "Clock", "aliases": ["wall clock"], "points": 5 }
+      {
+        "text": "Desk",
+        "aliases": [
+          "desks",
+          "table",
+          "tables"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Whiteboard",
+        "aliases": [
+          "chalkboard",
+          "blackboard",
+          "board"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Chair",
+        "aliases": [
+          "chairs",
+          "seats"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Books",
+        "aliases": [
+          "textbooks",
+          "book",
+          "textbook"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Computer",
+        "aliases": [
+          "laptop",
+          "computers",
+          "laptops"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Clock",
+        "aliases": [
+          "wall clock"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -394,12 +1688,52 @@
     "question": "Name a sport people watch on TV.",
     "category": "Entertainment",
     "answers": [
-      { "text": "Football", "aliases": ["american football", "nfl", "soccer"], "points": 35 },
-      { "text": "Basketball", "aliases": ["nba", "hoops"], "points": 25 },
-      { "text": "Baseball", "aliases": ["mlb"], "points": 16 },
-      { "text": "Tennis", "aliases": ["wimbledon"], "points": 11 },
-      { "text": "Hockey", "aliases": ["ice hockey", "nhl"], "points": 8 },
-      { "text": "Golf", "aliases": ["pga"], "points": 5 }
+      {
+        "text": "Football",
+        "aliases": [
+          "american football",
+          "nfl",
+          "soccer"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Basketball",
+        "aliases": [
+          "nba",
+          "hoops"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Baseball",
+        "aliases": [
+          "mlb"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Tennis",
+        "aliases": [
+          "wimbledon"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Hockey",
+        "aliases": [
+          "ice hockey",
+          "nhl"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Golf",
+        "aliases": [
+          "pga"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -407,12 +1741,53 @@
     "question": "Name something you put on a hamburger.",
     "category": "Food & Drink",
     "answers": [
-      { "text": "Ketchup", "aliases": ["catsup"], "points": 32 },
-      { "text": "Cheese", "aliases": ["cheddar", "american cheese", "swiss"], "points": 25 },
-      { "text": "Lettuce", "aliases": ["salad", "greens"], "points": 17 },
-      { "text": "Tomato", "aliases": ["tomatoes", "tomato slice"], "points": 12 },
-      { "text": "Onion", "aliases": ["onions", "red onion"], "points": 8 },
-      { "text": "Pickles", "aliases": ["pickle"], "points": 6 }
+      {
+        "text": "Ketchup",
+        "aliases": [
+          "catsup"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Cheese",
+        "aliases": [
+          "cheddar",
+          "american cheese",
+          "swiss"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Lettuce",
+        "aliases": [
+          "salad",
+          "greens"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Tomato",
+        "aliases": [
+          "tomatoes",
+          "tomato slice"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Onion",
+        "aliases": [
+          "onions",
+          "red onion"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Pickles",
+        "aliases": [
+          "pickle"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -420,12 +1795,55 @@
     "question": "Name something you would find in a hotel room.",
     "category": "Travel",
     "answers": [
-      { "text": "Bed", "aliases": ["beds", "mattress"], "points": 35 },
-      { "text": "TV", "aliases": ["television", "flat screen"], "points": 22 },
-      { "text": "Bible", "aliases": ["holy bible", "book"], "points": 16 },
-      { "text": "Towels", "aliases": ["towel", "bath towels"], "points": 13 },
-      { "text": "Mini bar", "aliases": ["minibar", "mini fridge", "fridge"], "points": 9 },
-      { "text": "Safe", "aliases": ["room safe", "safety box"], "points": 5 }
+      {
+        "text": "Bed",
+        "aliases": [
+          "beds",
+          "mattress"
+        ],
+        "points": 35
+      },
+      {
+        "text": "TV",
+        "aliases": [
+          "television",
+          "flat screen"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Bible",
+        "aliases": [
+          "holy bible",
+          "book"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Towels",
+        "aliases": [
+          "towel",
+          "bath towels"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Mini bar",
+        "aliases": [
+          "minibar",
+          "mini fridge",
+          "fridge"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Safe",
+        "aliases": [
+          "room safe",
+          "safety box"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -433,12 +1851,52 @@
     "question": "Name an animal that lives in the ocean.",
     "category": "Nature",
     "answers": [
-      { "text": "Shark", "aliases": ["sharks", "great white"], "points": 32 },
-      { "text": "Dolphin", "aliases": ["dolphins"], "points": 25 },
-      { "text": "Whale", "aliases": ["whales", "blue whale"], "points": 18 },
-      { "text": "Octopus", "aliases": ["squid"], "points": 12 },
-      { "text": "Sea turtle", "aliases": ["turtle", "turtles", "sea turtles"], "points": 8 },
-      { "text": "Jellyfish", "aliases": ["jelly fish"], "points": 5 }
+      {
+        "text": "Shark",
+        "aliases": [
+          "sharks",
+          "great white"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Dolphin",
+        "aliases": [
+          "dolphins"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Whale",
+        "aliases": [
+          "whales",
+          "blue whale"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Octopus",
+        "aliases": [
+          "squid"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Sea turtle",
+        "aliases": [
+          "turtle",
+          "turtles",
+          "sea turtles"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Jellyfish",
+        "aliases": [
+          "jelly fish"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -446,12 +1904,58 @@
     "question": "Name something people collect.",
     "category": "Everyday Life",
     "answers": [
-      { "text": "Stamps", "aliases": ["stamp", "postage stamps"], "points": 30 },
-      { "text": "Coins", "aliases": ["coin", "old coins", "currency"], "points": 25 },
-      { "text": "Cards", "aliases": ["trading cards", "baseball cards", "pokemon cards"], "points": 18 },
-      { "text": "Art", "aliases": ["paintings", "artwork", "sculptures"], "points": 12 },
-      { "text": "Vinyl records", "aliases": ["records", "vinyl", "lps"], "points": 9 },
-      { "text": "Shoes", "aliases": ["sneakers", "trainers"], "points": 6 }
+      {
+        "text": "Stamps",
+        "aliases": [
+          "stamp",
+          "postage stamps"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Coins",
+        "aliases": [
+          "coin",
+          "old coins",
+          "currency"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Cards",
+        "aliases": [
+          "trading cards",
+          "baseball cards",
+          "pokemon cards"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Art",
+        "aliases": [
+          "paintings",
+          "artwork",
+          "sculptures"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Vinyl records",
+        "aliases": [
+          "records",
+          "vinyl",
+          "lps"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Shoes",
+        "aliases": [
+          "sneakers",
+          "trainers"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -459,12 +1963,62 @@
     "question": "Name something that makes you late for work.",
     "category": "Work & School",
     "answers": [
-      { "text": "Traffic", "aliases": ["traffic jam", "bad traffic", "congestion"], "points": 35 },
-      { "text": "Overslept", "aliases": ["slept in", "alarm didnt go off", "sleeping in", "oversleeping"], "points": 28 },
-      { "text": "Kids", "aliases": ["children", "dropping kids off", "kids school"], "points": 15 },
-      { "text": "Car trouble", "aliases": ["car broke down", "flat tire", "car problems"], "points": 10 },
-      { "text": "Bad weather", "aliases": ["weather", "rain", "snow", "storm"], "points": 7 },
-      { "text": "Lost keys", "aliases": ["couldnt find keys", "looking for keys", "keys"], "points": 5 }
+      {
+        "text": "Traffic",
+        "aliases": [
+          "traffic jam",
+          "bad traffic",
+          "congestion"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Overslept",
+        "aliases": [
+          "slept in",
+          "alarm didnt go off",
+          "sleeping in",
+          "oversleeping"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Kids",
+        "aliases": [
+          "children",
+          "dropping kids off",
+          "kids school"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Car trouble",
+        "aliases": [
+          "car broke down",
+          "flat tire",
+          "car problems"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Bad weather",
+        "aliases": [
+          "weather",
+          "rain",
+          "snow",
+          "storm"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Lost keys",
+        "aliases": [
+          "couldnt find keys",
+          "looking for keys",
+          "keys"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -472,12 +2026,57 @@
     "question": "Name a popular breakfast food.",
     "category": "Food & Drink",
     "answers": [
-      { "text": "Eggs", "aliases": ["egg", "scrambled eggs", "fried eggs", "omelette"], "points": 33 },
-      { "text": "Toast", "aliases": ["bread", "toasted bread"], "points": 22 },
-      { "text": "Cereal", "aliases": ["cereals", "corn flakes"], "points": 18 },
-      { "text": "Pancakes", "aliases": ["pancake", "flapjacks"], "points": 13 },
-      { "text": "Bacon", "aliases": ["crispy bacon"], "points": 9 },
-      { "text": "Fruit", "aliases": ["fruits", "banana", "apple", "berries"], "points": 5 }
+      {
+        "text": "Eggs",
+        "aliases": [
+          "egg",
+          "scrambled eggs",
+          "fried eggs",
+          "omelette"
+        ],
+        "points": 33
+      },
+      {
+        "text": "Toast",
+        "aliases": [
+          "bread",
+          "toasted bread"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Cereal",
+        "aliases": [
+          "cereals",
+          "corn flakes"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Pancakes",
+        "aliases": [
+          "pancake",
+          "flapjacks"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Bacon",
+        "aliases": [
+          "crispy bacon"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Fruit",
+        "aliases": [
+          "fruits",
+          "banana",
+          "apple",
+          "berries"
+        ],
+        "points": 5
+      }
     ]
   },
   {
@@ -485,12 +2084,57 @@
     "question": "Name something you shout at a sports game.",
     "category": "Entertainment",
     "answers": [
-      { "text": "Go team", "aliases": ["go", "lets go", "come on"], "points": 30 },
-      { "text": "Referee is blind", "aliases": ["bad call", "are you blind", "ref", "foul", "blind ref"], "points": 22 },
-      { "text": "Goal", "aliases": ["touchdown", "score"], "points": 20 },
-      { "text": "Boo", "aliases": ["boooo", "booing"], "points": 13 },
-      { "text": "Defense", "aliases": ["defence"], "points": 9 },
-      { "text": "MVP", "aliases": ["most valuable player", "youre the best"], "points": 6 }
+      {
+        "text": "Go team",
+        "aliases": [
+          "go",
+          "lets go",
+          "come on"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Referee is blind",
+        "aliases": [
+          "bad call",
+          "are you blind",
+          "ref",
+          "foul",
+          "blind ref"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Goal",
+        "aliases": [
+          "touchdown",
+          "score"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Boo",
+        "aliases": [
+          "boooo",
+          "booing"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Defense",
+        "aliases": [
+          "defence"
+        ],
+        "points": 9
+      },
+      {
+        "text": "MVP",
+        "aliases": [
+          "most valuable player",
+          "youre the best"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -498,12 +2142,64 @@
     "question": "Name something you do at a party.",
     "category": "Entertainment",
     "answers": [
-      { "text": "Dance", "aliases": ["dancing", "hit the dance floor"], "points": 33 },
-      { "text": "Drink", "aliases": ["drinking", "have drinks", "alcohol", "beer", "cocktails"], "points": 27 },
-      { "text": "Talk to people", "aliases": ["socialize", "chat", "mingle", "conversation", "talk"], "points": 17 },
-      { "text": "Eat", "aliases": ["eating", "snack", "food", "snacks"], "points": 12 },
-      { "text": "Play games", "aliases": ["games", "party games", "beer pong"], "points": 7 },
-      { "text": "Take photos", "aliases": ["selfies", "pictures", "photos"], "points": 4 }
+      {
+        "text": "Dance",
+        "aliases": [
+          "dancing",
+          "hit the dance floor"
+        ],
+        "points": 33
+      },
+      {
+        "text": "Drink",
+        "aliases": [
+          "drinking",
+          "have drinks",
+          "alcohol",
+          "beer",
+          "cocktails"
+        ],
+        "points": 27
+      },
+      {
+        "text": "Talk to people",
+        "aliases": [
+          "socialize",
+          "chat",
+          "mingle",
+          "conversation",
+          "talk"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Eat",
+        "aliases": [
+          "eating",
+          "snack",
+          "food",
+          "snacks"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Play games",
+        "aliases": [
+          "games",
+          "party games",
+          "beer pong"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Take photos",
+        "aliases": [
+          "selfies",
+          "pictures",
+          "photos"
+        ],
+        "points": 4
+      }
     ]
   },
   {
@@ -511,12 +2207,57 @@
     "question": "Name something you keep in your car.",
     "category": "Everyday Life",
     "answers": [
-      { "text": "Sunglasses", "aliases": ["shades", "sunnies"], "points": 28 },
-      { "text": "Phone charger", "aliases": ["charger", "car charger", "charging cable"], "points": 25 },
-      { "text": "Water bottle", "aliases": ["water", "drink", "bottle"], "points": 18 },
-      { "text": "Spare tire", "aliases": ["spare", "jack"], "points": 13 },
-      { "text": "Registration", "aliases": ["insurance", "documents", "papers", "car documents"], "points": 10 },
-      { "text": "Umbrella", "aliases": ["rain umbrella"], "points": 6 }
+      {
+        "text": "Sunglasses",
+        "aliases": [
+          "shades",
+          "sunnies"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Phone charger",
+        "aliases": [
+          "charger",
+          "car charger",
+          "charging cable"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Water bottle",
+        "aliases": [
+          "water",
+          "drink",
+          "bottle"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Spare tire",
+        "aliases": [
+          "spare",
+          "jack"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Registration",
+        "aliases": [
+          "insurance",
+          "documents",
+          "papers",
+          "car documents"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Umbrella",
+        "aliases": [
+          "rain umbrella"
+        ],
+        "points": 6
+      }
     ]
   },
   {
@@ -524,12 +2265,5811 @@
     "question": "Name a reason people go to the doctor.",
     "category": "Health",
     "answers": [
-      { "text": "Checkup", "aliases": ["annual checkup", "physical", "routine checkup", "check up"], "points": 32 },
-      { "text": "Cold or Flu", "aliases": ["cold", "flu", "sick", "cough", "fever"], "points": 25 },
-      { "text": "Pain", "aliases": ["body pain", "chronic pain", "hurting", "something hurts"], "points": 17 },
-      { "text": "Prescription", "aliases": ["refill", "medication", "medicine", "meds"], "points": 12 },
-      { "text": "Injury", "aliases": ["broken bone", "sprain", "hurt", "wound"], "points": 9 },
-      { "text": "Vaccination", "aliases": ["vaccine", "shot", "immunization", "flu shot"], "points": 5 }
+      {
+        "text": "Checkup",
+        "aliases": [
+          "annual checkup",
+          "physical",
+          "routine checkup",
+          "check up"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Cold or Flu",
+        "aliases": [
+          "cold",
+          "flu",
+          "sick",
+          "cough",
+          "fever"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Pain",
+        "aliases": [
+          "body pain",
+          "chronic pain",
+          "hurting",
+          "something hurts"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Prescription",
+        "aliases": [
+          "refill",
+          "medication",
+          "medicine",
+          "meds"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Injury",
+        "aliases": [
+          "broken bone",
+          "sprain",
+          "hurt",
+          "wound"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Vaccination",
+        "aliases": [
+          "vaccine",
+          "shot",
+          "immunization",
+          "flu shot"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen001",
+    "question": "Name something you always forget at the grocery store.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Milk",
+        "aliases": [
+          "milk carton"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Bread",
+        "aliases": [
+          "loaf of bread"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Eggs",
+        "aliases": [
+          "egg carton",
+          "dozen eggs"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Butter",
+        "aliases": [
+          "margarine"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Fruit",
+        "aliases": [
+          "fruits",
+          "bananas",
+          "apples"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Toilet Paper",
+        "aliases": [
+          "tp",
+          "tissue"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen002",
+    "question": "Name something people do when they're bored at home.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Watch TV",
+        "aliases": [
+          "watch netflix",
+          "binge watch",
+          "streaming",
+          "television"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Scroll Phone",
+        "aliases": [
+          "phone",
+          "check phone",
+          "social media"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Sleep",
+        "aliases": [
+          "nap",
+          "take a nap",
+          "sleeping"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Eat",
+        "aliases": [
+          "snack",
+          "snacking",
+          "eating"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Clean",
+        "aliases": [
+          "cleaning",
+          "tidy up",
+          "chores"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Play Video Games",
+        "aliases": [
+          "video games",
+          "gaming",
+          "games"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen003",
+    "question": "Name a vegetable kids refuse to eat.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Broccoli",
+        "aliases": [
+          "brocoli"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Brussels Sprouts",
+        "aliases": [
+          "brussel sprouts",
+          "sprouts"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Spinach",
+        "aliases": [],
+        "points": 15
+      },
+      {
+        "text": "Peas",
+        "aliases": [
+          "green peas"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Cauliflower",
+        "aliases": [],
+        "points": 8
+      },
+      {
+        "text": "Asparagus",
+        "aliases": [],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen004",
+    "question": "Name a movie everyone has seen at least once.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "The Lion King",
+        "aliases": [
+          "lion king"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Titanic",
+        "aliases": [],
+        "points": 25
+      },
+      {
+        "text": "Harry Potter",
+        "aliases": [
+          "harry potter and the sorcerers stone"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Star Wars",
+        "aliases": [
+          "a new hope",
+          "star wars a new hope"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Shrek",
+        "aliases": [
+          "shrek 1"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Frozen",
+        "aliases": [],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen005",
+    "question": "Name something you pretend to enjoy at a work event.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "Small Talk",
+        "aliases": [
+          "talking to coworkers",
+          "conversation",
+          "socializing",
+          "networking"
+        ],
+        "points": 32
+      },
+      {
+        "text": "The Food",
+        "aliases": [
+          "food",
+          "catering",
+          "snacks"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Your Boss's Jokes",
+        "aliases": [
+          "boss jokes",
+          "laughing at jokes",
+          "the speeches"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Team Building Games",
+        "aliases": [
+          "team building",
+          "icebreakers",
+          "activities"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Dancing",
+        "aliases": [
+          "dance",
+          "the music"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Being There",
+        "aliases": [
+          "being sober",
+          "staying late",
+          "showing up"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen006",
+    "question": "Name a country people dream of visiting.",
+    "category": "Travel",
+    "answers": [
+      {
+        "text": "Italy",
+        "aliases": [
+          "rome",
+          "venice",
+          "italia"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Japan",
+        "aliases": [
+          "tokyo"
+        ],
+        "points": 24
+      },
+      {
+        "text": "France",
+        "aliases": [
+          "paris"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Greece",
+        "aliases": [
+          "santorini",
+          "athens"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Australia",
+        "aliases": [
+          "sydney"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Maldives",
+        "aliases": [
+          "bora bora",
+          "tahiti"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen007",
+    "question": "Name a tradition people do on their birthday.",
+    "category": "Holidays",
+    "answers": [
+      {
+        "text": "Blow Out Candles",
+        "aliases": [
+          "candles",
+          "blow candles",
+          "birthday candles"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Eat Cake",
+        "aliases": [
+          "cake",
+          "birthday cake",
+          "have cake"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Open Presents",
+        "aliases": [
+          "presents",
+          "gifts",
+          "open gifts",
+          "unwrap presents"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Have a Party",
+        "aliases": [
+          "party",
+          "birthday party",
+          "celebrate"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Make a Wish",
+        "aliases": [
+          "wish",
+          "birthday wish"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Sing Happy Birthday",
+        "aliases": [
+          "happy birthday song",
+          "singing"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "gen008",
+    "question": "Name something that always seems to break at the worst time.",
+    "category": "Technology",
+    "answers": [
+      {
+        "text": "Phone",
+        "aliases": [
+          "cell phone",
+          "smartphone",
+          "mobile"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Car",
+        "aliases": [
+          "vehicle",
+          "automobile"
+        ],
+        "points": 25
+      },
+      {
+        "text": "WiFi",
+        "aliases": [
+          "internet",
+          "wi-fi",
+          "router",
+          "connection"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Washing Machine",
+        "aliases": [
+          "washer",
+          "dryer",
+          "laundry machine"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Toilet",
+        "aliases": [
+          "plumbing",
+          "pipes"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Air Conditioning",
+        "aliases": [
+          "ac",
+          "a/c",
+          "heater",
+          "hvac"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen009",
+    "question": "Name a sport that looks easy but is actually really hard.",
+    "category": "Sports",
+    "answers": [
+      {
+        "text": "Golf",
+        "aliases": [],
+        "points": 32
+      },
+      {
+        "text": "Swimming",
+        "aliases": [
+          "competitive swimming"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Gymnastics",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "Bowling",
+        "aliases": [],
+        "points": 13
+      },
+      {
+        "text": "Ice Skating",
+        "aliases": [
+          "figure skating",
+          "skating"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Archery",
+        "aliases": [
+          "bow and arrow"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen010",
+    "question": "Name an animal that would make a terrible roommate.",
+    "category": "Animals",
+    "answers": [
+      {
+        "text": "Bear",
+        "aliases": [
+          "bears",
+          "grizzly"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Skunk",
+        "aliases": [
+          "skunks"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Monkey",
+        "aliases": [
+          "monkeys",
+          "chimp",
+          "chimpanzee"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Elephant",
+        "aliases": [
+          "elephants"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Parrot",
+        "aliases": [
+          "parrots",
+          "bird",
+          "cockatoo"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Goat",
+        "aliases": [
+          "goats"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen011",
+    "question": "Name a word people commonly misspell.",
+    "category": "Word Play",
+    "answers": [
+      {
+        "text": "Definitely",
+        "aliases": [
+          "definately",
+          "definitly"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Restaurant",
+        "aliases": [
+          "restaraunt",
+          "restraunt"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Necessary",
+        "aliases": [
+          "neccessary",
+          "neccesary"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Separate",
+        "aliases": [
+          "seperate"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Embarrassed",
+        "aliases": [
+          "embarassed"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Wednesday",
+        "aliases": [
+          "wendsday",
+          "wensday"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen012",
+    "question": "Name something people always lie about on a first date.",
+    "category": "Relationships",
+    "answers": [
+      {
+        "text": "Their Age",
+        "aliases": [
+          "age",
+          "how old they are"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Their Job",
+        "aliases": [
+          "job",
+          "career",
+          "salary",
+          "income",
+          "what they do"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Their Hobbies",
+        "aliases": [
+          "hobbies",
+          "interests"
+        ],
+        "points": 18
+      },
+      {
+        "text": "How Much They Drink",
+        "aliases": [
+          "drinking habits",
+          "alcohol",
+          "partying"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Their Past Relationships",
+        "aliases": [
+          "ex",
+          "exes",
+          "past",
+          "relationship history"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Their Height",
+        "aliases": [
+          "height",
+          "how tall"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen013",
+    "question": "Name something people do to try to look younger.",
+    "category": "Health",
+    "answers": [
+      {
+        "text": "Dye Their Hair",
+        "aliases": [
+          "hair dye",
+          "color hair",
+          "hair color",
+          "dye hair"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Exercise",
+        "aliases": [
+          "work out",
+          "gym",
+          "fitness"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Wear Makeup",
+        "aliases": [
+          "makeup",
+          "cosmetics",
+          "foundation"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Botox",
+        "aliases": [
+          "fillers",
+          "plastic surgery",
+          "cosmetic surgery"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Dress Younger",
+        "aliases": [
+          "trendy clothes",
+          "fashion",
+          "young clothes"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Skincare",
+        "aliases": [
+          "face cream",
+          "moisturizer",
+          "anti-aging cream",
+          "skin care"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen014",
+    "question": "Name a sound you hear in nature that is relaxing.",
+    "category": "Nature",
+    "answers": [
+      {
+        "text": "Birds Singing",
+        "aliases": [
+          "birds",
+          "bird song",
+          "bird chirping",
+          "chirping"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Rain",
+        "aliases": [
+          "rainfall",
+          "rain drops",
+          "raindrops"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Ocean Waves",
+        "aliases": [
+          "waves",
+          "sea",
+          "waves crashing",
+          "water"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Wind",
+        "aliases": [
+          "breeze",
+          "wind in trees"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Crickets",
+        "aliases": [
+          "cricket sounds",
+          "insects"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Waterfall",
+        "aliases": [
+          "stream",
+          "river",
+          "running water",
+          "brook"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen015",
+    "question": "Name something people hoard in their junk drawer.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Batteries",
+        "aliases": [
+          "old batteries",
+          "dead batteries"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Pens",
+        "aliases": [
+          "pencils",
+          "markers",
+          "writing utensils"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Rubber Bands",
+        "aliases": [
+          "rubber band",
+          "elastics"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Keys",
+        "aliases": [
+          "old keys",
+          "mystery keys",
+          "random keys"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Tape",
+        "aliases": [
+          "scotch tape",
+          "duct tape",
+          "sellotape"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Takeout Menus",
+        "aliases": [
+          "menus",
+          "coupons",
+          "old menus",
+          "flyers"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen016",
+    "question": "Name a food that is messy to eat in public.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Ribs",
+        "aliases": [
+          "bbq ribs",
+          "barbecue ribs",
+          "spare ribs"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Spaghetti",
+        "aliases": [
+          "pasta",
+          "noodles"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Tacos",
+        "aliases": [
+          "taco"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Wings",
+        "aliases": [
+          "chicken wings",
+          "buffalo wings",
+          "hot wings"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Corn on the Cob",
+        "aliases": [
+          "corn",
+          "corn cob"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Burrito",
+        "aliases": [
+          "burritos",
+          "wrap"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen017",
+    "question": "Name a TV show people binge-watch.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Friends",
+        "aliases": [],
+        "points": 28
+      },
+      {
+        "text": "The Office",
+        "aliases": [
+          "office"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Stranger Things",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "Breaking Bad",
+        "aliases": [],
+        "points": 14
+      },
+      {
+        "text": "Grey's Anatomy",
+        "aliases": [
+          "greys anatomy",
+          "grays anatomy"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Game of Thrones",
+        "aliases": [
+          "got",
+          "thrones"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen018",
+    "question": "Name something students do to procrastinate studying.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "Watch TV",
+        "aliases": [
+          "netflix",
+          "watch shows",
+          "streaming",
+          "youtube"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Scroll Social Media",
+        "aliases": [
+          "social media",
+          "instagram",
+          "tiktok",
+          "phone"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Clean",
+        "aliases": [
+          "cleaning",
+          "tidy room",
+          "organize"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Eat",
+        "aliases": [
+          "snack",
+          "snacking",
+          "eating",
+          "cooking"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Nap",
+        "aliases": [
+          "sleep",
+          "sleeping",
+          "take a nap"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Talk to Friends",
+        "aliases": [
+          "text friends",
+          "call friends",
+          "chatting"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen019",
+    "question": "Name something annoying about air travel.",
+    "category": "Travel",
+    "answers": [
+      {
+        "text": "Long Lines",
+        "aliases": [
+          "lines",
+          "queues",
+          "waiting",
+          "security line",
+          "tsa"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Delays",
+        "aliases": [
+          "flight delays",
+          "cancelled flights",
+          "cancellations"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Cramped Seats",
+        "aliases": [
+          "small seats",
+          "no legroom",
+          "legroom",
+          "tight seats"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Crying Babies",
+        "aliases": [
+          "babies",
+          "kids",
+          "screaming children",
+          "loud children"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Lost Luggage",
+        "aliases": [
+          "lost bags",
+          "baggage",
+          "luggage"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Turbulence",
+        "aliases": [
+          "bumpy ride",
+          "bumps"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen020",
+    "question": "Name something people put off doing until the last minute.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Taxes",
+        "aliases": [
+          "filing taxes",
+          "tax return",
+          "tax returns"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Homework",
+        "aliases": [
+          "assignments",
+          "schoolwork",
+          "studying"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Packing",
+        "aliases": [
+          "packing for a trip",
+          "pack"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Christmas Shopping",
+        "aliases": [
+          "holiday shopping",
+          "buying gifts",
+          "gift shopping"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Laundry",
+        "aliases": [
+          "washing clothes",
+          "doing laundry"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Cleaning",
+        "aliases": [
+          "housework",
+          "tidying"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen021",
+    "question": "Name a drink people order at a bar.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Beer",
+        "aliases": [
+          "draft beer",
+          "pint",
+          "lager",
+          "ale"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Margarita",
+        "aliases": [
+          "marg",
+          "margaritas"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Whiskey",
+        "aliases": [
+          "whisky",
+          "bourbon",
+          "scotch",
+          "jack daniels"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Vodka Soda",
+        "aliases": [
+          "vodka",
+          "vodka tonic",
+          "vodka cranberry"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Wine",
+        "aliases": [
+          "red wine",
+          "white wine",
+          "glass of wine"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Old Fashioned",
+        "aliases": [
+          "manhattan",
+          "cocktail"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen022",
+    "question": "Name a celebrity everyone can do an impression of.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Morgan Freeman",
+        "aliases": [
+          "freeman"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Arnold Schwarzenegger",
+        "aliases": [
+          "schwarzenegger",
+          "arnold"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Christopher Walken",
+        "aliases": [
+          "walken"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Donald Trump",
+        "aliases": [
+          "trump"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Matthew McConaughey",
+        "aliases": [
+          "mcconaughey"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Owen Wilson",
+        "aliases": [
+          "wilson",
+          "wow"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen023",
+    "question": "Name something that keeps you up at night.",
+    "category": "Health",
+    "answers": [
+      {
+        "text": "Stress",
+        "aliases": [
+          "anxiety",
+          "worrying",
+          "worry",
+          "overthinking"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Phone",
+        "aliases": [
+          "scrolling phone",
+          "social media",
+          "screen time"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Noise",
+        "aliases": [
+          "loud neighbors",
+          "traffic noise",
+          "sounds",
+          "noisy"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Coffee",
+        "aliases": [
+          "caffeine",
+          "too much coffee"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Pain",
+        "aliases": [
+          "back pain",
+          "body aches",
+          "headache"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Bad Dream",
+        "aliases": [
+          "nightmare",
+          "nightmares",
+          "bad dreams"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen024",
+    "question": "Name an excuse people give for not exercising.",
+    "category": "Health",
+    "answers": [
+      {
+        "text": "Too Tired",
+        "aliases": [
+          "tired",
+          "exhausted",
+          "no energy",
+          "fatigue"
+        ],
+        "points": 34
+      },
+      {
+        "text": "No Time",
+        "aliases": [
+          "too busy",
+          "busy",
+          "not enough time"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Too Expensive",
+        "aliases": [
+          "gym is expensive",
+          "cant afford it",
+          "cost"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Bad Weather",
+        "aliases": [
+          "weather",
+          "its raining",
+          "too cold",
+          "too hot"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Injury",
+        "aliases": [
+          "hurt",
+          "sore",
+          "in pain",
+          "bad back",
+          "bad knee"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Too Lazy",
+        "aliases": [
+          "lazy",
+          "dont feel like it",
+          "unmotivated"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen025",
+    "question": "Name something people argue about on road trips.",
+    "category": "Travel",
+    "answers": [
+      {
+        "text": "Music",
+        "aliases": [
+          "what to listen to",
+          "radio",
+          "playlist",
+          "the radio station"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Directions",
+        "aliases": [
+          "which way to go",
+          "navigation",
+          "gps",
+          "the route",
+          "map"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Temperature",
+        "aliases": [
+          "ac",
+          "air conditioning",
+          "too hot",
+          "too cold",
+          "the heat"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Where to Eat",
+        "aliases": [
+          "food",
+          "restaurants",
+          "where to stop",
+          "stopping for food"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Who Drives",
+        "aliases": [
+          "driving",
+          "whos driving",
+          "taking turns driving"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Bathroom Stops",
+        "aliases": [
+          "stopping",
+          "rest stops",
+          "how often to stop",
+          "pee break"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen026",
+    "question": "Name a chore nobody likes doing.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Dishes",
+        "aliases": [
+          "washing dishes",
+          "doing the dishes",
+          "cleaning dishes"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Cleaning the Bathroom",
+        "aliases": [
+          "scrubbing toilet",
+          "toilet",
+          "bathroom"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Laundry",
+        "aliases": [
+          "folding laundry",
+          "washing clothes",
+          "ironing"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Vacuuming",
+        "aliases": [
+          "vacuum",
+          "hoovering",
+          "mopping"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Taking Out Trash",
+        "aliases": [
+          "trash",
+          "garbage",
+          "taking out garbage",
+          "bins"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Mowing the Lawn",
+        "aliases": [
+          "lawn",
+          "yard work",
+          "mowing",
+          "cutting grass"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen027",
+    "question": "Name a snack people eat at the movies.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Popcorn",
+        "aliases": [
+          "pop corn"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Candy",
+        "aliases": [
+          "sweets",
+          "m&ms",
+          "skittles",
+          "gummy bears",
+          "chocolate"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Nachos",
+        "aliases": [
+          "nacho",
+          "chips and cheese"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Hot Dog",
+        "aliases": [
+          "hotdog",
+          "hot dogs"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Soda",
+        "aliases": [
+          "coke",
+          "pepsi",
+          "soft drink",
+          "pop",
+          "drink"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Ice Cream",
+        "aliases": [
+          "frozen treat",
+          "ice cream bar"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "gen028",
+    "question": "Name something a teacher confiscates from students.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "Phone",
+        "aliases": [
+          "cell phone",
+          "mobile phone",
+          "smartphone"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Notes",
+        "aliases": [
+          "passing notes",
+          "letters"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Gum",
+        "aliases": [
+          "chewing gum",
+          "candy",
+          "sweets"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Toys",
+        "aliases": [
+          "fidget spinner",
+          "fidget",
+          "fidget toy"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Hat",
+        "aliases": [
+          "hats",
+          "cap",
+          "caps"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Headphones",
+        "aliases": [
+          "earbuds",
+          "airpods",
+          "earphones"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen029",
+    "question": "Name an animal people are surprised to learn is dangerous.",
+    "category": "Animals",
+    "answers": [
+      {
+        "text": "Hippo",
+        "aliases": [
+          "hippopotamus",
+          "hippos"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Dolphin",
+        "aliases": [
+          "dolphins"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Swan",
+        "aliases": [
+          "swans"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Moose",
+        "aliases": [],
+        "points": 13
+      },
+      {
+        "text": "Koala",
+        "aliases": [
+          "koalas",
+          "koala bear"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Platypus",
+        "aliases": [
+          "duck-billed platypus"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen030",
+    "question": "Name something that smells great but tastes terrible.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Perfume",
+        "aliases": [
+          "cologne",
+          "fragrance"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Coffee",
+        "aliases": [
+          "coffee beans",
+          "fresh coffee"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Candles",
+        "aliases": [
+          "scented candles",
+          "candle"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Soap",
+        "aliases": [
+          "hand soap",
+          "body wash",
+          "shampoo"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Flowers",
+        "aliases": [
+          "roses",
+          "flower"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Vanilla Extract",
+        "aliases": [
+          "vanilla",
+          "extract"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen031",
+    "question": "Name a famous fictional detective.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Sherlock Holmes",
+        "aliases": [
+          "sherlock",
+          "holmes"
+        ],
+        "points": 42
+      },
+      {
+        "text": "Batman",
+        "aliases": [
+          "bruce wayne",
+          "the dark knight"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Scooby-Doo",
+        "aliases": [
+          "scooby doo",
+          "scooby",
+          "shaggy",
+          "the mystery gang"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Inspector Gadget",
+        "aliases": [
+          "gadget"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Nancy Drew",
+        "aliases": [
+          "drew"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Hercule Poirot",
+        "aliases": [
+          "poirot"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen032",
+    "question": "Name something in a house that guests always notice first.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "The Smell",
+        "aliases": [
+          "smell",
+          "odor",
+          "scent",
+          "how it smells"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Decor",
+        "aliases": [
+          "decorations",
+          "furniture",
+          "art",
+          "paintings"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Cleanliness",
+        "aliases": [
+          "mess",
+          "how clean it is",
+          "dirty",
+          "tidy"
+        ],
+        "points": 18
+      },
+      {
+        "text": "The Kitchen",
+        "aliases": [
+          "kitchen",
+          "size of kitchen"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Pets",
+        "aliases": [
+          "dog",
+          "cat",
+          "animals"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Photos",
+        "aliases": [
+          "pictures",
+          "family photos",
+          "frames"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen033",
+    "question": "Name a game people play at a family gathering.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Cards",
+        "aliases": [
+          "card games",
+          "poker",
+          "uno"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Charades",
+        "aliases": [],
+        "points": 22
+      },
+      {
+        "text": "Monopoly",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "Scrabble",
+        "aliases": [
+          "board games",
+          "board game"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Trivia",
+        "aliases": [
+          "quiz",
+          "trivia game",
+          "trivial pursuit"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Pictionary",
+        "aliases": [
+          "drawing game"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen034",
+    "question": "Name something people secretly google.",
+    "category": "Technology",
+    "answers": [
+      {
+        "text": "Health Symptoms",
+        "aliases": [
+          "symptoms",
+          "medical symptoms",
+          "is this normal",
+          "webmd"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Themselves",
+        "aliases": [
+          "their own name",
+          "self",
+          "googling yourself",
+          "my name"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Celebrity Gossip",
+        "aliases": [
+          "celebrities",
+          "celeb news",
+          "celebrity drama"
+        ],
+        "points": 16
+      },
+      {
+        "text": "How to Spell a Word",
+        "aliases": [
+          "spelling",
+          "how to spell",
+          "word spelling"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Their Ex",
+        "aliases": [
+          "ex",
+          "ex partner",
+          "former partner",
+          "stalking ex"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Dumb Questions",
+        "aliases": [
+          "stupid questions",
+          "obvious questions",
+          "basic facts"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen035",
+    "question": "Name something people are embarrassed to buy at the store.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Condoms",
+        "aliases": [
+          "condom",
+          "protection",
+          "contraception"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Toilet Paper",
+        "aliases": [
+          "tp",
+          "toiletries"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Feminine Products",
+        "aliases": [
+          "tampons",
+          "pads",
+          "feminine hygiene"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Laxatives",
+        "aliases": [
+          "laxative",
+          "stool softener",
+          "constipation medicine"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Adult Diapers",
+        "aliases": [
+          "diapers",
+          "incontinence"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Anti-Itch Cream",
+        "aliases": [
+          "hemorrhoid cream",
+          "rash cream",
+          "fungal cream"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen036",
+    "question": "Name a famous landmark everyone recognizes.",
+    "category": "Culture",
+    "answers": [
+      {
+        "text": "Eiffel Tower",
+        "aliases": [
+          "eiffel",
+          "the eiffel tower",
+          "tour eiffel"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Statue of Liberty",
+        "aliases": [
+          "lady liberty",
+          "statue"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Great Wall of China",
+        "aliases": [
+          "great wall",
+          "chinese wall"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Big Ben",
+        "aliases": [
+          "london clock",
+          "elizabeth tower"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Pyramids",
+        "aliases": [
+          "egyptian pyramids",
+          "pyramid",
+          "great pyramid",
+          "giza"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Taj Mahal",
+        "aliases": [
+          "taj"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen037",
+    "question": "Name something you pretend to understand but really don't.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Taxes",
+        "aliases": [
+          "tax",
+          "filing taxes",
+          "the tax system"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Cryptocurrency",
+        "aliases": [
+          "crypto",
+          "bitcoin",
+          "blockchain",
+          "nft"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Politics",
+        "aliases": [
+          "government",
+          "political stuff",
+          "policy"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Car Engines",
+        "aliases": [
+          "cars",
+          "mechanics",
+          "how cars work",
+          "engines"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Wine",
+        "aliases": [
+          "wine tasting",
+          "wine varieties",
+          "wines"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Stock Market",
+        "aliases": [
+          "stocks",
+          "investing",
+          "investments",
+          "finance"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen038",
+    "question": "Name something you should never do on a first date.",
+    "category": "Relationships",
+    "answers": [
+      {
+        "text": "Talk About Your Ex",
+        "aliases": [
+          "mention your ex",
+          "bring up ex",
+          "ex"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Be On Your Phone",
+        "aliases": [
+          "phone",
+          "check phone",
+          "text",
+          "scroll phone"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Be Late",
+        "aliases": [
+          "show up late",
+          "being late"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Eat Messy Food",
+        "aliases": [
+          "eat with mouth open",
+          "eat sloppily",
+          "bad table manners"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Talk About Marriage",
+        "aliases": [
+          "marriage",
+          "propose",
+          "kids",
+          "wedding"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Burp",
+        "aliases": [
+          "fart",
+          "pass gas",
+          "be rude",
+          "bad manners"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen039",
+    "question": "Name a flower people give as a gift.",
+    "category": "Nature",
+    "answers": [
+      {
+        "text": "Roses",
+        "aliases": [
+          "rose",
+          "red roses",
+          "red rose"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Tulips",
+        "aliases": [
+          "tulip"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Sunflowers",
+        "aliases": [
+          "sunflower"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Lilies",
+        "aliases": [
+          "lily",
+          "white lilies"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Orchids",
+        "aliases": [
+          "orchid"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Daisies",
+        "aliases": [
+          "daisy"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen040",
+    "question": "Name a word that follows the word 'Chicken'.",
+    "category": "Word Play",
+    "answers": [
+      {
+        "text": "Nuggets",
+        "aliases": [
+          "chicken nuggets",
+          "nugget"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Wings",
+        "aliases": [
+          "chicken wings",
+          "wing"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Pox",
+        "aliases": [
+          "chicken pox",
+          "chickenpox"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Soup",
+        "aliases": [
+          "chicken soup",
+          "noodle soup"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Fingers",
+        "aliases": [
+          "chicken fingers",
+          "tenders",
+          "chicken tenders"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Breast",
+        "aliases": [
+          "chicken breast"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen041",
+    "question": "Name something that makes a neighborhood noisy.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Dogs Barking",
+        "aliases": [
+          "dogs",
+          "barking",
+          "barking dogs",
+          "dog"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Construction",
+        "aliases": [
+          "building work",
+          "road work",
+          "jackhammer"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Lawn Mowers",
+        "aliases": [
+          "mowing",
+          "lawn mower",
+          "leaf blower",
+          "leaf blowers"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Traffic",
+        "aliases": [
+          "cars",
+          "road noise",
+          "honking"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Parties",
+        "aliases": [
+          "loud music",
+          "music",
+          "party"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Kids Playing",
+        "aliases": [
+          "children",
+          "screaming kids",
+          "kids"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen042",
+    "question": "Name a comfort food people eat when they're sad.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Ice Cream",
+        "aliases": [
+          "icecream"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Chocolate",
+        "aliases": [
+          "chocolate bar",
+          "candy"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Mac and Cheese",
+        "aliases": [
+          "macaroni and cheese",
+          "mac n cheese",
+          "mac & cheese"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Pizza",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "Chips",
+        "aliases": [
+          "potato chips",
+          "crisps",
+          "fries"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Soup",
+        "aliases": [
+          "chicken soup",
+          "ramen",
+          "noodle soup"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen043",
+    "question": "Name a job kids say they want when they grow up.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "Doctor",
+        "aliases": [
+          "physician",
+          "surgeon"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Astronaut",
+        "aliases": [
+          "spaceman"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Firefighter",
+        "aliases": [
+          "fireman",
+          "fire fighter"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Police Officer",
+        "aliases": [
+          "cop",
+          "policeman",
+          "detective"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Athlete",
+        "aliases": [
+          "sports player",
+          "professional athlete",
+          "soccer player",
+          "football player"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Veterinarian",
+        "aliases": [
+          "vet",
+          "animal doctor"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen044",
+    "question": "Name something you'd grab first if your house was on fire.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Phone",
+        "aliases": [
+          "cell phone",
+          "smartphone",
+          "my phone"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Pets",
+        "aliases": [
+          "dog",
+          "cat",
+          "pet",
+          "my pet",
+          "my dog"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Family Photos",
+        "aliases": [
+          "photos",
+          "photo albums",
+          "pictures",
+          "albums"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Wallet",
+        "aliases": [
+          "purse",
+          "money",
+          "cash",
+          "keys"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Documents",
+        "aliases": [
+          "passport",
+          "important papers",
+          "birth certificate",
+          "ids"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Laptop",
+        "aliases": [
+          "computer",
+          "my laptop"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen045",
+    "question": "Name a fruit that is hard to eat neatly.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Mango",
+        "aliases": [
+          "mangoes",
+          "mangos"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Watermelon",
+        "aliases": [
+          "water melon"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Pomegranate",
+        "aliases": [
+          "pomegranates"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Orange",
+        "aliases": [
+          "oranges",
+          "tangerine",
+          "clementine"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Peach",
+        "aliases": [
+          "peaches",
+          "nectarine"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Grapefruit",
+        "aliases": [],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen046",
+    "question": "Name a TV show set in a hospital.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Grey's Anatomy",
+        "aliases": [
+          "greys anatomy",
+          "grays anatomy"
+        ],
+        "points": 40
+      },
+      {
+        "text": "House",
+        "aliases": [
+          "house md",
+          "dr house",
+          "house m.d."
+        ],
+        "points": 22
+      },
+      {
+        "text": "ER",
+        "aliases": [
+          "e.r."
+        ],
+        "points": 14
+      },
+      {
+        "text": "Scrubs",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "The Good Doctor",
+        "aliases": [
+          "good doctor"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Chicago Med",
+        "aliases": [],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen047",
+    "question": "Name something people forget to do before leaving the house.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Lock the Door",
+        "aliases": [
+          "lock door",
+          "lock up",
+          "locking the door"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Grab Keys",
+        "aliases": [
+          "keys",
+          "take keys",
+          "forget keys"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Turn Off Lights",
+        "aliases": [
+          "lights",
+          "turn off the lights",
+          "switch off lights"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Grab Phone",
+        "aliases": [
+          "phone",
+          "forget phone"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Turn Off Stove",
+        "aliases": [
+          "stove",
+          "oven",
+          "turn off oven"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Grab Wallet",
+        "aliases": [
+          "wallet",
+          "purse",
+          "forget wallet"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen048",
+    "question": "Name a common excuse for not returning a text.",
+    "category": "Technology",
+    "answers": [
+      {
+        "text": "Didn't See It",
+        "aliases": [
+          "didnt see it",
+          "missed it",
+          "didnt notice",
+          "i didnt see it"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Phone Died",
+        "aliases": [
+          "dead phone",
+          "battery died",
+          "phone was dead",
+          "no battery"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Was Busy",
+        "aliases": [
+          "too busy",
+          "busy",
+          "i was busy"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Forgot",
+        "aliases": [
+          "i forgot",
+          "just forgot",
+          "slipped my mind"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Fell Asleep",
+        "aliases": [
+          "sleeping",
+          "was sleeping",
+          "i fell asleep",
+          "was asleep"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Bad Signal",
+        "aliases": [
+          "no signal",
+          "no service",
+          "no reception"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen049",
+    "question": "Name a sport you can play alone.",
+    "category": "Sports",
+    "answers": [
+      {
+        "text": "Golf",
+        "aliases": [],
+        "points": 28
+      },
+      {
+        "text": "Running",
+        "aliases": [
+          "jogging",
+          "track"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Swimming",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "Tennis",
+        "aliases": [
+          "hitting against a wall"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Bowling",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "Cycling",
+        "aliases": [
+          "biking",
+          "bike riding",
+          "riding a bike"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen050",
+    "question": "Name an animal that is smarter than people think.",
+    "category": "Animals",
+    "answers": [
+      {
+        "text": "Pig",
+        "aliases": [
+          "pigs",
+          "hog"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Crow",
+        "aliases": [
+          "crows",
+          "raven",
+          "ravens"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Octopus",
+        "aliases": [],
+        "points": 20
+      },
+      {
+        "text": "Dog",
+        "aliases": [
+          "dogs"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Rat",
+        "aliases": [
+          "rats",
+          "mouse",
+          "mice"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Elephant",
+        "aliases": [
+          "elephants"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen051",
+    "question": "Name something people always borrow but never return.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Pen",
+        "aliases": [
+          "pens",
+          "pencil"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Lighter",
+        "aliases": [
+          "lighters"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Umbrella",
+        "aliases": [
+          "umbrellas"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Books",
+        "aliases": [
+          "book",
+          "novels"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Charger",
+        "aliases": [
+          "phone charger",
+          "charging cable"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Tupperware",
+        "aliases": [
+          "containers",
+          "food container",
+          "food containers"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen052",
+    "question": "Name something you should have learned in school but didn't.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "How to Do Taxes",
+        "aliases": [
+          "taxes",
+          "filing taxes",
+          "tax returns"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Budgeting",
+        "aliases": [
+          "finances",
+          "money management",
+          "personal finance",
+          "managing money"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Cooking",
+        "aliases": [
+          "how to cook",
+          "basic cooking"
+        ],
+        "points": 14
+      },
+      {
+        "text": "First Aid",
+        "aliases": [
+          "cpr",
+          "basic medical",
+          "emergency skills"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Car Maintenance",
+        "aliases": [
+          "changing a tire",
+          "how to fix a car",
+          "oil change"
+        ],
+        "points": 8
+      },
+      {
+        "text": "How to Vote",
+        "aliases": [
+          "voting",
+          "politics",
+          "civic duty"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen053",
+    "question": "Name a place where people whisper.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Library",
+        "aliases": [
+          "the library"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Church",
+        "aliases": [
+          "temple",
+          "mosque",
+          "synagogue",
+          "place of worship"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Movie Theater",
+        "aliases": [
+          "theater",
+          "cinema",
+          "the movies"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Hospital",
+        "aliases": [
+          "doctor's office",
+          "medical"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Funeral",
+        "aliases": [
+          "funeral home",
+          "wake"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Classroom",
+        "aliases": [
+          "school",
+          "class",
+          "during a test"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen054",
+    "question": "Name a food that tastes better as leftovers.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Pizza",
+        "aliases": [
+          "cold pizza"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Lasagna",
+        "aliases": [
+          "lasagne"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Chinese Food",
+        "aliases": [
+          "chinese",
+          "chinese takeout",
+          "lo mein",
+          "fried rice"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Chili",
+        "aliases": [
+          "chilli"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Stew",
+        "aliases": [
+          "soup",
+          "curry"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Thanksgiving Turkey",
+        "aliases": [
+          "turkey",
+          "thanksgiving leftovers"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen055",
+    "question": "Name a famous fictional villain.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Darth Vader",
+        "aliases": [
+          "vader",
+          "lord vader"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Joker",
+        "aliases": [
+          "the joker"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Thanos",
+        "aliases": [],
+        "points": 17
+      },
+      {
+        "text": "Voldemort",
+        "aliases": [
+          "lord voldemort",
+          "he who must not be named",
+          "you know who"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Cruella de Vil",
+        "aliases": [
+          "cruella"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Scar",
+        "aliases": [
+          "lion king scar"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen056",
+    "question": "Name something that takes forever at the DMV.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Waiting in Line",
+        "aliases": [
+          "the line",
+          "waiting",
+          "queue",
+          "standing in line"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Paperwork",
+        "aliases": [
+          "forms",
+          "filling out forms",
+          "documents"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Photo",
+        "aliases": [
+          "getting your photo",
+          "license photo",
+          "taking the photo",
+          "picture"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Eye Test",
+        "aliases": [
+          "vision test",
+          "eye exam"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Written Test",
+        "aliases": [
+          "the test",
+          "driving test",
+          "exam"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Getting Called",
+        "aliases": [
+          "waiting for your number",
+          "your number",
+          "being called",
+          "ticket number"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen057",
+    "question": "Name a musical instrument people wish they could play.",
+    "category": "Culture",
+    "answers": [
+      {
+        "text": "Piano",
+        "aliases": [
+          "keyboard"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Guitar",
+        "aliases": [
+          "electric guitar",
+          "acoustic guitar"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Violin",
+        "aliases": [
+          "fiddle"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Drums",
+        "aliases": [
+          "drum set",
+          "drum kit",
+          "percussion"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Saxophone",
+        "aliases": [
+          "sax"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Harp",
+        "aliases": [],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen058",
+    "question": "Name something people do while stuck in traffic.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Listen to Music",
+        "aliases": [
+          "music",
+          "play music",
+          "radio",
+          "listen to the radio"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Honk",
+        "aliases": [
+          "honk horn",
+          "honking",
+          "beep"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Check Phone",
+        "aliases": [
+          "phone",
+          "text",
+          "look at phone",
+          "scroll phone"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Sing",
+        "aliases": [
+          "sing along",
+          "singing",
+          "sing in the car"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Swear",
+        "aliases": [
+          "curse",
+          "yell",
+          "road rage",
+          "get angry",
+          "get frustrated"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Podcast",
+        "aliases": [
+          "listen to podcast",
+          "audiobook",
+          "listen to audiobook"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen059",
+    "question": "Name a silly thing couples argue about.",
+    "category": "Relationships",
+    "answers": [
+      {
+        "text": "What to Eat",
+        "aliases": [
+          "where to eat",
+          "dinner",
+          "food",
+          "restaurant"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Thermostat",
+        "aliases": [
+          "temperature",
+          "ac",
+          "heating",
+          "too hot",
+          "too cold"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Dishes",
+        "aliases": [
+          "chores",
+          "who does dishes",
+          "cleaning"
+        ],
+        "points": 16
+      },
+      {
+        "text": "TV Remote",
+        "aliases": [
+          "remote",
+          "what to watch",
+          "whats on tv"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Toilet Seat",
+        "aliases": [
+          "toilet seat up",
+          "leaving the seat up"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Snoring",
+        "aliases": [
+          "blanket hogging",
+          "bed covers",
+          "the covers"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen060",
+    "question": "Name a place where you always lose things.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Couch",
+        "aliases": [
+          "sofa",
+          "couch cushions",
+          "between the cushions"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Car",
+        "aliases": [
+          "in the car",
+          "vehicle",
+          "backseat"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Laundry",
+        "aliases": [
+          "washing machine",
+          "dryer",
+          "the wash"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Bedroom",
+        "aliases": [
+          "bed",
+          "under the bed",
+          "nightstand"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Airport",
+        "aliases": [
+          "airplane",
+          "plane",
+          "on a flight"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Gym",
+        "aliases": [
+          "locker room",
+          "the gym"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen061",
+    "question": "Name a type of weather that ruins plans.",
+    "category": "Nature",
+    "answers": [
+      {
+        "text": "Rain",
+        "aliases": [
+          "rainstorm",
+          "downpour",
+          "showers"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Snow",
+        "aliases": [
+          "snowstorm",
+          "blizzard",
+          "ice"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Hurricane",
+        "aliases": [
+          "tornado",
+          "storm",
+          "cyclone",
+          "typhoon"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Extreme Heat",
+        "aliases": [
+          "heat wave",
+          "too hot",
+          "scorching",
+          "heatwave"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Thunderstorm",
+        "aliases": [
+          "thunder",
+          "lightning",
+          "thunder and lightning"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Fog",
+        "aliases": [
+          "dense fog",
+          "foggy",
+          "haze"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen062",
+    "question": "Name something you'd find in a grandma's house.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Candy",
+        "aliases": [
+          "sweets",
+          "candy dish",
+          "candy bowl",
+          "hard candy"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Knitting",
+        "aliases": [
+          "yarn",
+          "crochet",
+          "sewing",
+          "needles"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Old Photos",
+        "aliases": [
+          "photo albums",
+          "pictures",
+          "family photos",
+          "frames"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Doilies",
+        "aliases": [
+          "lace",
+          "tablecloth",
+          "doily"
+        ],
+        "points": 13
+      },
+      {
+        "text": "China Cabinet",
+        "aliases": [
+          "fine china",
+          "porcelain",
+          "china",
+          "dishes"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Cats",
+        "aliases": [
+          "cat",
+          "kittens",
+          "a cat"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen063",
+    "question": "Name something that happens in every action movie.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Car Chase",
+        "aliases": [
+          "car chases",
+          "chase scene",
+          "pursuit"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Explosion",
+        "aliases": [
+          "explosions",
+          "things blow up",
+          "blowing up"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Fight Scene",
+        "aliases": [
+          "fighting",
+          "fist fight",
+          "hand to hand combat"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Shooting",
+        "aliases": [
+          "guns",
+          "gunfight",
+          "bullets"
+        ],
+        "points": 12
+      },
+      {
+        "text": "One-Liner",
+        "aliases": [
+          "cheesy line",
+          "catchphrase",
+          "cool line",
+          "quip"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Hero Walks Away",
+        "aliases": [
+          "walking away from explosion",
+          "cool walk",
+          "slow motion",
+          "slow mo"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen064",
+    "question": "Name an item people buy but rarely use.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Gym Membership",
+        "aliases": [
+          "gym",
+          "gym memberships"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Cookbooks",
+        "aliases": [
+          "cookbook",
+          "recipe books"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Treadmill",
+        "aliases": [
+          "exercise equipment",
+          "exercise bike",
+          "home gym"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Books",
+        "aliases": [
+          "book",
+          "novels"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Juicer",
+        "aliases": [
+          "blender",
+          "food processor"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Iron",
+        "aliases": [
+          "ironing board",
+          "clothes iron"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen065",
+    "question": "Name something a dentist always tells you to do.",
+    "category": "Health",
+    "answers": [
+      {
+        "text": "Floss",
+        "aliases": [
+          "floss more",
+          "floss daily",
+          "flossing"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Brush Twice a Day",
+        "aliases": [
+          "brush more",
+          "brush your teeth",
+          "brushing"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Use Mouthwash",
+        "aliases": [
+          "mouthwash",
+          "rinse"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Cut Down on Sugar",
+        "aliases": [
+          "less sugar",
+          "no sugar",
+          "eat less candy",
+          "less sweets"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Come Back in 6 Months",
+        "aliases": [
+          "schedule a checkup",
+          "come back",
+          "regular checkups",
+          "next appointment"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Replace Your Toothbrush",
+        "aliases": [
+          "new toothbrush",
+          "change toothbrush"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen066",
+    "question": "Name a song everyone knows the words to.",
+    "category": "Culture",
+    "answers": [
+      {
+        "text": "Bohemian Rhapsody",
+        "aliases": [
+          "bohemian",
+          "queen bohemian"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Happy Birthday",
+        "aliases": [
+          "happy birthday to you",
+          "birthday song"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Don't Stop Believin'",
+        "aliases": [
+          "dont stop believing",
+          "dont stop believin",
+          "journey"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Sweet Caroline",
+        "aliases": [
+          "bah bah bah",
+          "neil diamond"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Mr. Brightside",
+        "aliases": [
+          "brightside",
+          "the killers"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Baby Shark",
+        "aliases": [
+          "doo doo doo",
+          "baby shark doo doo"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen067",
+    "question": "Name something that is always more expensive at the airport.",
+    "category": "Travel",
+    "answers": [
+      {
+        "text": "Food",
+        "aliases": [
+          "restaurants",
+          "meals",
+          "eating"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Water",
+        "aliases": [
+          "bottled water",
+          "drinks",
+          "beverages"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Coffee",
+        "aliases": [
+          "starbucks",
+          "latte"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Souvenirs",
+        "aliases": [
+          "gifts",
+          "gift shop",
+          "shops"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Parking",
+        "aliases": [
+          "car park"
+        ],
+        "points": 9
+      },
+      {
+        "text": "WiFi",
+        "aliases": [
+          "internet",
+          "wi-fi"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen068",
+    "question": "Name a board game that causes family fights.",
+    "category": "Entertainment",
+    "answers": [
+      {
+        "text": "Monopoly",
+        "aliases": [],
+        "points": 50
+      },
+      {
+        "text": "Risk",
+        "aliases": [],
+        "points": 16
+      },
+      {
+        "text": "Uno",
+        "aliases": [],
+        "points": 12
+      },
+      {
+        "text": "Scrabble",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "Sorry",
+        "aliases": [
+          "sorry!"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Settlers of Catan",
+        "aliases": [
+          "catan",
+          "settlers"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen069",
+    "question": "Name something people do at work when the boss isn't looking.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "Browse the Internet",
+        "aliases": [
+          "internet",
+          "surf the web",
+          "online shopping",
+          "browse web"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Check Phone",
+        "aliases": [
+          "phone",
+          "text",
+          "scroll phone",
+          "social media"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Chat with Coworkers",
+        "aliases": [
+          "talk",
+          "gossip",
+          "socialize",
+          "chatting"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Take a Long Break",
+        "aliases": [
+          "long lunch",
+          "extended break",
+          "extra break"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Nap",
+        "aliases": [
+          "sleep",
+          "doze off",
+          "rest eyes",
+          "sleeping"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Leave Early",
+        "aliases": [
+          "sneak out",
+          "go home early",
+          "leave"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen070",
+    "question": "Name something that is better homemade than store-bought.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Cookies",
+        "aliases": [
+          "chocolate chip cookies",
+          "biscuits"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Bread",
+        "aliases": [
+          "fresh bread",
+          "loaf"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Pasta Sauce",
+        "aliases": [
+          "tomato sauce",
+          "marinara",
+          "spaghetti sauce",
+          "sauce"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Pie",
+        "aliases": [
+          "apple pie",
+          "pies"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Soup",
+        "aliases": [
+          "chicken soup",
+          "soups"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Lemonade",
+        "aliases": [
+          "juice",
+          "fresh juice"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen071",
+    "question": "Name a skill that impresses people at a party.",
+    "category": "Culture",
+    "answers": [
+      {
+        "text": "Playing Guitar",
+        "aliases": [
+          "guitar",
+          "playing an instrument",
+          "playing music",
+          "instrument"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Magic Tricks",
+        "aliases": [
+          "magic",
+          "card tricks",
+          "card trick",
+          "tricks"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Dancing",
+        "aliases": [
+          "dance",
+          "good dancer",
+          "breakdancing"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Juggling",
+        "aliases": [
+          "juggle"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Singing",
+        "aliases": [
+          "sing",
+          "karaoke",
+          "good voice"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Bartending",
+        "aliases": [
+          "mixing drinks",
+          "cocktails",
+          "making cocktails",
+          "cocktail making"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen072",
+    "question": "Name something you'd find in a teenager's bedroom.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Phone",
+        "aliases": [
+          "cell phone",
+          "smartphone"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Clothes on the Floor",
+        "aliases": [
+          "messy clothes",
+          "dirty clothes",
+          "laundry",
+          "clothes"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Posters",
+        "aliases": [
+          "poster",
+          "wall posters"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Gaming Console",
+        "aliases": [
+          "playstation",
+          "xbox",
+          "nintendo",
+          "video games",
+          "ps5"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Headphones",
+        "aliases": [
+          "earbuds",
+          "airpods"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Empty Snack Bags",
+        "aliases": [
+          "food wrappers",
+          "trash",
+          "snacks",
+          "old food"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen073",
+    "question": "Name a vehicle you'd love to ride in once.",
+    "category": "Travel",
+    "answers": [
+      {
+        "text": "Helicopter",
+        "aliases": [
+          "chopper",
+          "heli"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Lamborghini",
+        "aliases": [
+          "ferrari",
+          "sports car",
+          "supercar",
+          "exotic car"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Hot Air Balloon",
+        "aliases": [
+          "balloon",
+          "air balloon"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Yacht",
+        "aliases": [
+          "luxury yacht",
+          "boat",
+          "sailboat"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Private Jet",
+        "aliases": [
+          "jet",
+          "private plane"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Submarine",
+        "aliases": [
+          "sub"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen074",
+    "question": "Name a holiday that people spend too much money on.",
+    "category": "Holidays",
+    "answers": [
+      {
+        "text": "Christmas",
+        "aliases": [
+          "xmas"
+        ],
+        "points": 50
+      },
+      {
+        "text": "Valentine's Day",
+        "aliases": [
+          "valentines",
+          "valentine",
+          "valentines day"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Thanksgiving",
+        "aliases": [
+          "turkey day"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Black Friday",
+        "aliases": [],
+        "points": 8
+      },
+      {
+        "text": "Wedding Anniversary",
+        "aliases": [
+          "anniversary"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Easter",
+        "aliases": [],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen075",
+    "question": "Name a device that has become obsolete.",
+    "category": "Technology",
+    "answers": [
+      {
+        "text": "Fax Machine",
+        "aliases": [
+          "fax"
+        ],
+        "points": 28
+      },
+      {
+        "text": "VCR",
+        "aliases": [
+          "vcr player",
+          "vhs player",
+          "vhs"
+        ],
+        "points": 24
+      },
+      {
+        "text": "CD Player",
+        "aliases": [
+          "discman",
+          "walkman",
+          "cd",
+          "portable cd player"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Pager",
+        "aliases": [
+          "beeper",
+          "pagers"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Floppy Disk",
+        "aliases": [
+          "floppy",
+          "floppy drive",
+          "floppy disks"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Flip Phone",
+        "aliases": [
+          "flip phones",
+          "old phone",
+          "nokia"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen076",
+    "question": "Name an Olympic sport most people couldn't do.",
+    "category": "Sports",
+    "answers": [
+      {
+        "text": "Gymnastics",
+        "aliases": [
+          "artistic gymnastics"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Pole Vault",
+        "aliases": [
+          "pole vaulting"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Diving",
+        "aliases": [
+          "high dive",
+          "platform diving"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Figure Skating",
+        "aliases": [
+          "ice skating",
+          "ice dance"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Weightlifting",
+        "aliases": [
+          "weight lifting",
+          "clean and jerk",
+          "snatch"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Fencing",
+        "aliases": [
+          "sword fighting"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen077",
+    "question": "Name an animal that moves slowly.",
+    "category": "Animals",
+    "answers": [
+      {
+        "text": "Sloth",
+        "aliases": [
+          "sloths"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Turtle",
+        "aliases": [
+          "tortoise",
+          "turtles",
+          "tortoises"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Snail",
+        "aliases": [
+          "snails",
+          "slug",
+          "slugs"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Koala",
+        "aliases": [
+          "koalas"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Manatee",
+        "aliases": [
+          "sea cow",
+          "manatees"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Starfish",
+        "aliases": [
+          "sea star",
+          "starfishes"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen078",
+    "question": "Name something people do immediately after waking up.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Check Phone",
+        "aliases": [
+          "look at phone",
+          "grab phone",
+          "phone"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Go to Bathroom",
+        "aliases": [
+          "use bathroom",
+          "pee",
+          "toilet",
+          "use the toilet"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Brush Teeth",
+        "aliases": [
+          "brush my teeth",
+          "teeth"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Make Coffee",
+        "aliases": [
+          "coffee",
+          "drink coffee",
+          "brew coffee"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Stretch",
+        "aliases": [
+          "stretching",
+          "yawn",
+          "yawning"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Hit Snooze",
+        "aliases": [
+          "snooze",
+          "press snooze",
+          "alarm"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen079",
+    "question": "Name something you associate with Texas.",
+    "category": "Culture",
+    "answers": [
+      {
+        "text": "Cowboys",
+        "aliases": [
+          "cowboy",
+          "dallas cowboys"
+        ],
+        "points": 30
+      },
+      {
+        "text": "BBQ",
+        "aliases": [
+          "barbecue",
+          "brisket",
+          "bbq brisket"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Guns",
+        "aliases": [
+          "firearms",
+          "rifles"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Big Trucks",
+        "aliases": [
+          "trucks",
+          "pickup trucks",
+          "pickup"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Oil",
+        "aliases": [
+          "petroleum",
+          "oil rigs",
+          "drilling"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Steaks",
+        "aliases": [
+          "steak",
+          "beef",
+          "cattle",
+          "longhorn"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen080",
+    "question": "Name something every office has.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "Coffee Machine",
+        "aliases": [
+          "coffee maker",
+          "coffee pot",
+          "keurig",
+          "coffee"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Printer",
+        "aliases": [
+          "copy machine",
+          "copier",
+          "scanner"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Computer",
+        "aliases": [
+          "computers",
+          "laptops",
+          "desktop",
+          "pcs"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Stapler",
+        "aliases": [
+          "staplers",
+          "staples"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Whiteboard",
+        "aliases": [
+          "dry erase board",
+          "bulletin board",
+          "notice board"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Clock",
+        "aliases": [
+          "wall clock",
+          "clocks"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen081",
+    "question": "Name something that makes a haunted house scary.",
+    "category": "Holidays",
+    "answers": [
+      {
+        "text": "Ghosts",
+        "aliases": [
+          "ghost",
+          "spirits",
+          "apparitions"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Creepy Sounds",
+        "aliases": [
+          "noises",
+          "screaming",
+          "weird noises",
+          "sounds",
+          "screams"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Darkness",
+        "aliases": [
+          "dark",
+          "no lights",
+          "the dark"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Jump Scares",
+        "aliases": [
+          "people jumping out",
+          "being startled",
+          "surprise"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Spiders",
+        "aliases": [
+          "cobwebs",
+          "spider webs",
+          "webs"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Clowns",
+        "aliases": [
+          "scary clowns",
+          "clown"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen082",
+    "question": "Name something your phone does that annoys you.",
+    "category": "Technology",
+    "answers": [
+      {
+        "text": "Dies",
+        "aliases": [
+          "battery dies",
+          "runs out of battery",
+          "low battery",
+          "dead battery"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Autocorrect",
+        "aliases": [
+          "auto correct",
+          "wrong autocorrect",
+          "typos",
+          "changes words"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Spam Calls",
+        "aliases": [
+          "robocalls",
+          "telemarketers",
+          "unknown calls",
+          "junk calls"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Updates",
+        "aliases": [
+          "software update",
+          "needs update",
+          "updating"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Notifications",
+        "aliases": [
+          "too many notifications",
+          "alerts",
+          "buzzing"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Freezes",
+        "aliases": [
+          "crashes",
+          "lags",
+          "slow",
+          "lagging",
+          "glitching"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen083",
+    "question": "Name a team sport where teamwork is essential.",
+    "category": "Sports",
+    "answers": [
+      {
+        "text": "Basketball",
+        "aliases": [
+          "bball",
+          "nba"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Soccer",
+        "aliases": [
+          "football",
+          "futbol"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Football",
+        "aliases": [
+          "american football",
+          "nfl"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Volleyball",
+        "aliases": [],
+        "points": 12
+      },
+      {
+        "text": "Hockey",
+        "aliases": [
+          "ice hockey",
+          "nhl"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Rowing",
+        "aliases": [
+          "crew",
+          "boat racing"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen084",
+    "question": "Name an animal with a reputation it doesn't deserve.",
+    "category": "Animals",
+    "answers": [
+      {
+        "text": "Shark",
+        "aliases": [
+          "sharks",
+          "great white"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Snake",
+        "aliases": [
+          "snakes",
+          "serpent"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Bat",
+        "aliases": [
+          "bats"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Wolf",
+        "aliases": [
+          "wolves"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Spider",
+        "aliases": [
+          "spiders"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Hyena",
+        "aliases": [
+          "hyenas"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen085",
+    "question": "Name something that is considered bad luck.",
+    "category": "Culture",
+    "answers": [
+      {
+        "text": "Breaking a Mirror",
+        "aliases": [
+          "broken mirror",
+          "mirror breaking"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Black Cat",
+        "aliases": [
+          "black cat crossing",
+          "black cats"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Walking Under a Ladder",
+        "aliases": [
+          "under a ladder",
+          "ladder"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Number 13",
+        "aliases": [
+          "thirteen",
+          "the number 13",
+          "friday the 13th"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Opening Umbrella Indoors",
+        "aliases": [
+          "umbrella inside",
+          "umbrella indoors",
+          "indoor umbrella"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Spilling Salt",
+        "aliases": [
+          "spilled salt",
+          "salt"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen086",
+    "question": "Name something people collect from places they visit.",
+    "category": "Travel",
+    "answers": [
+      {
+        "text": "Magnets",
+        "aliases": [
+          "fridge magnets",
+          "magnet",
+          "refrigerator magnets"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Postcards",
+        "aliases": [
+          "postcard"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Shot Glasses",
+        "aliases": [
+          "shot glass"
+        ],
+        "points": 18
+      },
+      {
+        "text": "T-Shirts",
+        "aliases": [
+          "t-shirt",
+          "tshirt",
+          "shirts"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Keychains",
+        "aliases": [
+          "keychain",
+          "key chains",
+          "key chain"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Snow Globes",
+        "aliases": [
+          "snow globe",
+          "snowglobe"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen087",
+    "question": "Name something you should do before a job interview.",
+    "category": "Work & School",
+    "answers": [
+      {
+        "text": "Research the Company",
+        "aliases": [
+          "research",
+          "look up the company",
+          "study the company"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Dress Nicely",
+        "aliases": [
+          "dress up",
+          "pick an outfit",
+          "iron clothes",
+          "look professional"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Practice Answers",
+        "aliases": [
+          "prepare",
+          "rehearse",
+          "practice",
+          "prep answers"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Shower",
+        "aliases": [
+          "groom",
+          "hygiene",
+          "look clean",
+          "brush teeth"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Print Resume",
+        "aliases": [
+          "resume",
+          "bring resume",
+          "update resume",
+          "cv"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Get Directions",
+        "aliases": [
+          "know where it is",
+          "check location",
+          "plan route",
+          "directions"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen088",
+    "question": "Name something that gets better with age.",
+    "category": "Food & Drink",
+    "answers": [
+      {
+        "text": "Wine",
+        "aliases": [
+          "red wine",
+          "wines"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Cheese",
+        "aliases": [
+          "aged cheese",
+          "cheddar"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Whiskey",
+        "aliases": [
+          "whisky",
+          "scotch",
+          "bourbon"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Jeans",
+        "aliases": [
+          "denim",
+          "worn in jeans"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Cast Iron Pan",
+        "aliases": [
+          "cast iron",
+          "cast iron skillet",
+          "skillet"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Balsamic Vinegar",
+        "aliases": [
+          "vinegar",
+          "balsamic"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen089",
+    "question": "Name something that always happens at a wedding.",
+    "category": "Relationships",
+    "answers": [
+      {
+        "text": "Someone Cries",
+        "aliases": [
+          "crying",
+          "tears",
+          "people cry"
+        ],
+        "points": 30
+      },
+      {
+        "text": "First Dance",
+        "aliases": [
+          "dancing",
+          "the dance",
+          "bride and groom dance"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Cake Cutting",
+        "aliases": [
+          "cutting the cake",
+          "wedding cake",
+          "cake"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Bouquet Toss",
+        "aliases": [
+          "throwing the bouquet",
+          "toss bouquet",
+          "bouquet throw"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Speeches",
+        "aliases": [
+          "toasts",
+          "best man speech",
+          "maid of honor speech",
+          "toast"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Someone Gets Drunk",
+        "aliases": [
+          "drinking too much",
+          "drunk uncle",
+          "getting wasted"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen090",
+    "question": "Name a tree most people can identify.",
+    "category": "Nature",
+    "answers": [
+      {
+        "text": "Oak",
+        "aliases": [
+          "oak tree",
+          "oaks"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Palm",
+        "aliases": [
+          "palm tree",
+          "palms",
+          "coconut tree"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Pine",
+        "aliases": [
+          "pine tree",
+          "christmas tree",
+          "evergreen"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Maple",
+        "aliases": [
+          "maple tree",
+          "maples"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Birch",
+        "aliases": [
+          "birch tree",
+          "white birch"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Willow",
+        "aliases": [
+          "weeping willow",
+          "willow tree"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen091",
+    "question": "Name a word that follows 'Home'.",
+    "category": "Word Play",
+    "answers": [
+      {
+        "text": "Work",
+        "aliases": [
+          "homework"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Sick",
+        "aliases": [
+          "homesick"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Coming",
+        "aliases": [
+          "homecoming"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Town",
+        "aliases": [
+          "hometown"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Made",
+        "aliases": [
+          "homemade"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Land",
+        "aliases": [
+          "homeland"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen092",
+    "question": "Name something you'd find at a campsite.",
+    "category": "Nature",
+    "answers": [
+      {
+        "text": "Tent",
+        "aliases": [
+          "tents"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Campfire",
+        "aliases": [
+          "fire",
+          "fire pit",
+          "bonfire"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Sleeping Bag",
+        "aliases": [
+          "sleeping bags"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Marshmallows",
+        "aliases": [
+          "smores",
+          "s'mores"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Bug Spray",
+        "aliases": [
+          "insect repellent",
+          "mosquito spray"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Cooler",
+        "aliases": [
+          "ice chest",
+          "food cooler"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen093",
+    "question": "Name a holiday food people either love or hate.",
+    "category": "Holidays",
+    "answers": [
+      {
+        "text": "Fruitcake",
+        "aliases": [
+          "fruit cake"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Eggnog",
+        "aliases": [
+          "egg nog"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Cranberry Sauce",
+        "aliases": [
+          "cranberry",
+          "cranberries"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Sweet Potatoes",
+        "aliases": [
+          "yams",
+          "sweet potato casserole",
+          "candied yams"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Stuffing",
+        "aliases": [
+          "dressing"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Mince Pie",
+        "aliases": [
+          "mince pies",
+          "mincemeat pie"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen094",
+    "question": "Name a password people commonly use.",
+    "category": "Technology",
+    "answers": [
+      {
+        "text": "123456",
+        "aliases": [
+          "12345",
+          "1234",
+          "123456789",
+          "12345678"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Password",
+        "aliases": [
+          "password1",
+          "password123"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Their Birthday",
+        "aliases": [
+          "birthday",
+          "birth date",
+          "date of birth"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Pet's Name",
+        "aliases": [
+          "pets name",
+          "dog name",
+          "cat name"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Qwerty",
+        "aliases": [
+          "qwerty123",
+          "qwertyuiop"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Their Name",
+        "aliases": [
+          "own name",
+          "first name",
+          "name123"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen095",
+    "question": "Name an exercise people love to hate.",
+    "category": "Sports",
+    "answers": [
+      {
+        "text": "Burpees",
+        "aliases": [
+          "burpee"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Running",
+        "aliases": [
+          "jogging",
+          "cardio"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Planks",
+        "aliases": [
+          "plank",
+          "planking"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Squats",
+        "aliases": [
+          "squat"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Push-Ups",
+        "aliases": [
+          "pushups",
+          "push ups",
+          "press ups"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Lunges",
+        "aliases": [
+          "lunge",
+          "walking lunges"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen096",
+    "question": "Name an animal you might see in your backyard.",
+    "category": "Animals",
+    "answers": [
+      {
+        "text": "Squirrel",
+        "aliases": [
+          "squirrels"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Bird",
+        "aliases": [
+          "birds",
+          "robin",
+          "sparrow",
+          "blue jay"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Rabbit",
+        "aliases": [
+          "bunny",
+          "rabbits",
+          "bunnies"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Deer",
+        "aliases": [
+          "deers"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Raccoon",
+        "aliases": [
+          "raccoons",
+          "trash panda"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Cat",
+        "aliases": [
+          "cats",
+          "stray cat",
+          "neighbor's cat"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen097",
+    "question": "Name a word that comes before 'Day'.",
+    "category": "Word Play",
+    "answers": [
+      {
+        "text": "Birth",
+        "aliases": [
+          "birthday"
+        ],
+        "points": 32
+      },
+      {
+        "text": "To",
+        "aliases": [
+          "today"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Holi",
+        "aliases": [
+          "holiday"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Every",
+        "aliases": [
+          "everyday"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Sun",
+        "aliases": [
+          "sunday"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Pay",
+        "aliases": [
+          "payday"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen098",
+    "question": "Name something a doctor's waiting room always has.",
+    "category": "Health",
+    "answers": [
+      {
+        "text": "Old Magazines",
+        "aliases": [
+          "magazines",
+          "magazine",
+          "old magazines",
+          "reading material"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Uncomfortable Chairs",
+        "aliases": [
+          "chairs",
+          "hard chairs",
+          "waiting chairs",
+          "seats"
+        ],
+        "points": 22
+      },
+      {
+        "text": "TV",
+        "aliases": [
+          "television",
+          "a tv",
+          "screen"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Fish Tank",
+        "aliases": [
+          "aquarium",
+          "fish"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Hand Sanitizer",
+        "aliases": [
+          "sanitizer",
+          "purell",
+          "hand sanitiser"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Crying Kids",
+        "aliases": [
+          "children",
+          "babies",
+          "kids",
+          "noisy kids"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen099",
+    "question": "Name something associated with Australia.",
+    "category": "Culture",
+    "answers": [
+      {
+        "text": "Kangaroo",
+        "aliases": [
+          "kangaroos",
+          "roo"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Koala",
+        "aliases": [
+          "koalas",
+          "koala bear"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Sydney Opera House",
+        "aliases": [
+          "opera house",
+          "sydney"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Crocodile",
+        "aliases": [
+          "crocs",
+          "crocodile dundee",
+          "crocodiles"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Vegemite",
+        "aliases": [],
+        "points": 9
+      },
+      {
+        "text": "Great Barrier Reef",
+        "aliases": [
+          "barrier reef",
+          "coral reef",
+          "reef"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen100",
+    "question": "Name a reason someone might call 911.",
+    "category": "Everyday Life",
+    "answers": [
+      {
+        "text": "Fire",
+        "aliases": [
+          "house fire",
+          "building fire"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Car Accident",
+        "aliases": [
+          "accident",
+          "crash",
+          "car crash",
+          "vehicle accident"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Robbery",
+        "aliases": [
+          "break in",
+          "burglary",
+          "theft",
+          "intruder",
+          "burglar"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Heart Attack",
+        "aliases": [
+          "medical emergency",
+          "chest pain",
+          "stroke",
+          "health emergency"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Fight",
+        "aliases": [
+          "assault",
+          "violence",
+          "domestic violence",
+          "attack"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Suspicious Person",
+        "aliases": [
+          "suspicious activity",
+          "stranger",
+          "prowler"
+        ],
+        "points": 6
+      }
     ]
   }
 ]
