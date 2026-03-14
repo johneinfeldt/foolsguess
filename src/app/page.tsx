@@ -54,7 +54,7 @@ export default function Home() {
             <div className="absolute top-0 right-0 rounded-bl-xl rounded-tr-2xl bg-accent px-3 py-1 text-xs font-bold text-white">
               {t("label.popular", lang)}
             </div>
-            <div className="mb-3 text-4xl">&#128197;</div>
+            <div className="mb-3 text-4xl">&#128293;</div>
             <h3 className="mb-2 text-lg font-bold">{t("mode.daily", lang)}</h3>
             <p className="mb-4 text-sm leading-relaxed text-text-muted">
               {t("mode.daily.desc", lang)}

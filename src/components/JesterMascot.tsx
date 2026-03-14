@@ -12,17 +12,17 @@ export default function JesterMascot({
   mood = "happy",
 }: JesterMascotProps) {
   const eyeVariants = {
-    happy: { left: "M36,42 Q38,46 40,42", right: "M56,42 Q58,46 60,42" },
-    excited: { left: "M35,39 L41,39", right: "M55,39 L61,39" },
-    thinking: { left: "M36,42 Q38,45 40,42", right: "M60,40 A2,2 0 1,1 56,40" },
-    sad: { left: "M36,44 Q38,40 40,44", right: "M56,44 Q58,40 60,44" },
+    happy: { left: "M33,38 Q35,42 37,38", right: "M47,38 Q49,42 51,38" },
+    excited: { left: "M32,36 L38,36", right: "M46,36 L52,36" },
+    thinking: { left: "M33,38 Q35,41 37,38", right: "M51,37 A2,2 0 1,1 47,37" },
+    sad: { left: "M33,40 Q35,36 37,40", right: "M47,40 Q49,36 51,40" },
   };
 
   const mouthVariants = {
-    happy: "M38,52 Q48,62 58,52",
-    excited: "M36,50 Q48,66 60,50",
-    thinking: "M42,54 Q48,56 54,54",
-    sad: "M40,56 Q48,50 56,56",
+    happy: "M36,47 Q42,55 48,47",
+    excited: "M34,45 Q42,58 50,45",
+    thinking: "M38,49 Q42,51 46,49",
+    sad: "M37,51 Q42,47 47,51",
   };
 
   const eyes = eyeVariants[mood];
@@ -30,53 +30,43 @@ export default function JesterMascot({
 
   return (
     <svg
-      viewBox="0 0 96 96"
-      width={size}
+      viewBox="0 0 80 96"
+      width={size * 0.83}
       height={size}
       className={className}
       xmlns="http://www.w3.org/2000/svg"
     >
       <defs>
-        <linearGradient id="hat-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient id="q-grad" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#6C5CE7" />
           <stop offset="100%" stopColor="#8B7CF6" />
         </linearGradient>
-        <linearGradient id="face-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="q-face-grad" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" stopColor="#FFE0B2" />
           <stop offset="100%" stopColor="#FFCC80" />
         </linearGradient>
-        <filter id="mascot-shadow">
-          <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#6C5CE7" floodOpacity="0.3" />
+        <filter id="q-shadow">
+          <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#6C5CE7" floodOpacity="0.25" />
         </filter>
       </defs>
 
-      <g filter="url(#mascot-shadow)">
-        {/* Hat - three-pointed jester cap */}
+      <g filter="url(#q-shadow)">
+        {/* Question mark curve - the main body */}
         <path
-          d="M20,35 Q15,10 30,18 Q38,2 48,16 Q58,2 66,18 Q81,10 76,35 Z"
-          fill="url(#hat-grad)"
-          stroke="#5A4BD1"
-          strokeWidth="1.5"
+          d="M22,30 Q22,8 42,8 Q62,8 62,24 Q62,36 42,40 L42,52"
+          fill="none"
+          stroke="url(#q-grad)"
+          strokeWidth="14"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        {/* Hat bells */}
-        <circle cx="30" cy="17" r="3.5" fill="#FFD600" />
-        <circle cx="48" cy="14" r="3.5" fill="#FFD600" />
-        <circle cx="66" cy="17" r="3.5" fill="#FFD600" />
-        {/* Bell shine */}
-        <circle cx="29" cy="15.5" r="1" fill="#FFF9C4" />
-        <circle cx="47" cy="12.5" r="1" fill="#FFF9C4" />
-        <circle cx="65" cy="15.5" r="1" fill="#FFF9C4" />
 
-        {/* Hat pattern - diamonds */}
-        <path d="M35,28 L38,22 L41,28 L38,32 Z" fill="#FFD600" opacity="0.6" />
-        <path d="M53,28 L56,22 L59,28 L56,32 Z" fill="#FFD600" opacity="0.6" />
-
-        {/* Face */}
-        <ellipse cx="48" cy="52" rx="22" ry="24" fill="url(#face-grad)" />
+        {/* Face area - round overlay on the curve */}
+        <ellipse cx="42" cy="30" rx="18" ry="18" fill="url(#q-face-grad)" />
 
         {/* Cheeks */}
-        <circle cx="33" cy="50" r="5" fill="#FF8A80" opacity="0.35" />
-        <circle cx="63" cy="50" r="5" fill="#FF8A80" opacity="0.35" />
+        <circle cx="30" cy="42" r="4" fill="#FF8A80" opacity="0.3" />
+        <circle cx="54" cy="42" r="4" fill="#FF8A80" opacity="0.3" />
 
         {/* Eyes */}
         <path d={eyes.left} stroke="#2D2D2D" strokeWidth="2.5" strokeLinecap="round" fill="none" />
@@ -85,14 +75,10 @@ export default function JesterMascot({
         {/* Mouth */}
         <path d={mouth} stroke="#2D2D2D" strokeWidth="2" strokeLinecap="round" fill="none" />
 
-        {/* Collar */}
-        <path
-          d="M26,72 Q32,66 38,72 Q43,66 48,72 Q53,66 58,72 Q63,66 70,72"
-          fill="none"
-          stroke="url(#hat-grad)"
-          strokeWidth="3"
-          strokeLinecap="round"
-        />
+        {/* Question mark dot */}
+        <circle cx="42" cy="72" r="8" fill="url(#q-grad)" />
+        {/* Dot shine */}
+        <circle cx="39" cy="69" r="2.5" fill="white" opacity="0.4" />
       </g>
     </svg>
   );
