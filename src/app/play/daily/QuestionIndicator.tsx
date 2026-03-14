@@ -7,16 +7,16 @@ interface QuestionIndicatorProps {
 
 export default function QuestionIndicator({ current, total }: QuestionIndicatorProps) {
   return (
-    <div className="flex items-center gap-2 rounded-full bg-surface px-3 py-2 game-shadow">
+    <div className="flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-2">
       {Array.from({ length: total }).map((_, i) => (
         <div
           key={i}
-          className={`h-2.5 w-8 rounded-full transition-all ${
+          className={`h-2 w-7 rounded-full transition-all ${
             i < current
-              ? "bg-gradient-to-r from-neon-green to-neon-green-bright shadow-[0_0_6px_rgba(0,230,118,0.4)]"
+              ? "bg-correct"
               : i === current
-              ? "bg-gradient-to-r from-electric to-electric-bright shadow-[0_0_6px_rgba(108,92,231,0.4)]"
-              : "bg-surface-light"
+              ? "bg-accent"
+              : "bg-border"
           }`}
         />
       ))}

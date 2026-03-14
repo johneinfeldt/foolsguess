@@ -13,6 +13,7 @@ import {
 } from "@/lib/journeyStorage";
 import { calculateReplayXP, isQuestionComplete, getLevelXP } from "@/lib/journey";
 import { DIVISIONS } from "@/lib/journeyConfig";
+import { useLang, t } from "@/lib/i18n";
 import { useJourneyGame } from "./useJourneyGame";
 import AnswerSlot from "../daily/AnswerSlot";
 import StrikeCounter from "../daily/StrikeCounter";
@@ -40,6 +41,7 @@ export default function JourneyGame({
   onComplete,
   onBack,
 }: JourneyGameProps) {
+  const lang = useLang();
   const existingQP = progress.questionProgress[question.id];
   const alreadyComplete = isQuestionComplete(progress, question.id);
 
@@ -182,17 +184,17 @@ export default function JourneyGame({
   const energy = getRefreshedEnergy(progress.energy);
 
   return (
-    <div className="min-h-screen bg-midnight font-sans text-text-primary">
+    <div className="min-h-screen bg-bg font-sans text-text">
       {/* Nav */}
-      <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-midnight/80 px-6 py-4 backdrop-blur-md">
+      <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-bg/90 px-6 py-4 backdrop-blur-md">
         <button
           onClick={onBack}
-          className="flex items-center gap-1 text-sm text-text-muted transition-colors hover:text-text-primary"
+          className="flex items-center gap-1 text-sm text-text-muted transition-colors hover:text-text"
         >
-          <span>&larr;</span> Back
+          <span>&larr;</span> {t("game.back", lang)}
         </button>
         <span className="text-sm text-text-muted">
-          Level {context.levelNumber} — Q{context.questionIndex + 1}
+          Level {context.levelNumber} &mdash; Q{context.questionIndex + 1}
         </span>
         <EnergyBar energy={energySpent ? Math.max(0, energy.current - 1) : energy.current} />
       </nav>
@@ -205,8 +207,8 @@ export default function JourneyGame({
           </div>
 
           {/* Question */}
-          <div className="mb-6 rounded-2xl bg-surface p-5 text-center">
-            <p className="mb-1 text-xs font-semibold uppercase text-electric">
+          <div className="card mb-6 p-5 text-center">
+            <p className="mb-1 text-xs font-bold uppercase tracking-wider text-accent">
               {question.category}
             </p>
             <h2 className="text-xl font-bold sm:text-2xl">{question.question}</h2>
@@ -240,32 +242,31 @@ export default function JourneyGame({
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder={
-                  alreadyComplete ? "All answers found!" : "Type your answer..."
+                  alreadyComplete ? t("game.allFound", lang) : t("game.typeAnswer", lang)
                 }
                 disabled={alreadyComplete}
-                className="flex-1 rounded-xl border border-border bg-surface px-4 py-3 text-text-primary placeholder-text-dim outline-none transition-colors focus:border-electric disabled:opacity-50"
+                className="flex-1 rounded-xl border-2 border-border bg-surface px-4 py-3 text-text placeholder-text-dim outline-none transition-all focus:border-accent disabled:opacity-50"
                 autoComplete="off"
               />
               <button
                 type="submit"
                 disabled={alreadyComplete || !input.trim()}
-                className="rounded-xl bg-electric px-6 py-3 font-bold text-white transition-all hover:bg-electric-bright disabled:opacity-50"
+                className="press-effect rounded-xl bg-accent px-6 py-3 font-bold text-white transition-colors hover:bg-accent-light disabled:opacity-50"
               >
-                Guess
+                {t("game.guess", lang)}
               </button>
             </form>
           ) : state.phase === "playing" && state.questionOver ? (
-            <div className="text-center text-sm text-text-dim">Revealing answers...</div>
+            <div className="text-center text-sm text-text-dim">{t("game.revealingAnswers", lang)}</div>
           ) : (
-            <div className="animate-slide-up-fade flex flex-col items-center gap-4 rounded-2xl bg-surface p-6">
+            <div className="card animate-slide-up-fade flex flex-col items-center gap-4 p-6">
               <p className="text-lg font-bold">
                 {state.revealedAnswers.filter((r, i) => r && !state.preRevealed[i]).length > 0
                   ? "Nice!"
-                  : "Question Over"}
+                  : t("game.complete", lang)}
               </p>
               <p className="text-text-muted">
-                +<span className="font-bold text-gold">{xpEarned || state.pointsThisPlay}</span> XP
-                this play
+                +<span className="font-bold text-accent">{xpEarned || state.pointsThisPlay}</span> XP
               </p>
 
               {/* XP bar for current level */}
@@ -277,14 +278,12 @@ export default function JourneyGame({
                 />
               </div>
 
-              <div className="flex gap-3">
-                <button
-                  onClick={handleFinish}
-                  className="rounded-full bg-electric px-6 py-3 font-bold text-white transition-all hover:bg-electric-bright hover:scale-105"
-                >
-                  Back to Map
-                </button>
-              </div>
+              <button
+                onClick={handleFinish}
+                className="press-effect rounded-full bg-accent px-6 py-3 font-bold text-white transition-colors hover:bg-accent-light"
+              >
+                {t("game.backToMap", lang)}
+              </button>
             </div>
           )}
         </div>

@@ -35,17 +35,27 @@ function fuzzyMatch(input: string, target: string): boolean {
   return levenshteinDistance(input, target) <= maxDistance;
 }
 
+function wordComponentMatch(input: string, target: string): boolean {
+  if (input.length < 2) return false;
+  const words = target.split(" ");
+  return words.some((word) => word === input);
+}
+
 function matchAnswer(input: string, answer: Answer): boolean {
   const normalized = normalize(input);
   if (normalized.length === 0) return false;
 
-  if (normalized === normalize(answer.text)) return true;
+  const allForms = [answer.text, ...answer.aliases].map(normalize);
 
-  for (const alias of answer.aliases) {
-    if (normalized === normalize(alias)) return true;
+  // 1. Exact match
+  if (allForms.includes(normalized)) return true;
+
+  // 2. Word-component match (e.g., "tv" matches "watch tv")
+  for (const form of allForms) {
+    if (wordComponentMatch(normalized, form)) return true;
   }
 
-  const allForms = [answer.text, ...answer.aliases].map(normalize);
+  // 3. Fuzzy match (Levenshtein)
   for (const form of allForms) {
     if (fuzzyMatch(normalized, form)) return true;
   }

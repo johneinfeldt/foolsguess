@@ -1,0 +1,8842 @@
+[
+  {
+    "id": "rff001",
+    "question": "In welches Zoogehege wuerdest du am wenigsten fallen wollen?",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Loewe",
+        "aliases": [
+          "lions",
+          "loewen",
+          "lion"
+        ],
+        "points": 29
+      },
+      {
+        "text": "Tiger",
+        "aliases": [
+          "tigers",
+          "tiger"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Gorilla",
+        "aliases": [
+          "gorillas",
+          "ape",
+          "affe"
+        ],
+        "points": 19
+      },
+      {
+        "text": "Baer",
+        "aliases": [
+          "bears",
+          "grizzly",
+          "polar bear",
+          "baeren",
+          "eisbaer",
+          "Bear"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Nilpferd",
+        "aliases": [
+          "hippopotamus",
+          "hippos",
+          "flusspferd",
+          "hippo"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Krokodil",
+        "aliases": [
+          "croc",
+          "alligator",
+          "gator",
+          "krokodile",
+          "Crocodile"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "rff002",
+    "question": "Was ist das haeufigste Tattoo bei jungen Leuten?",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Blumen oder Baeume",
+        "aliases": [
+          "flowers",
+          "trees",
+          "flower",
+          "tree",
+          "rose",
+          "roses",
+          "blumen",
+          "baeume",
+          "blume",
+          "baum",
+          "rosen",
+          "Flowers or Trees"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Unendlichzeichen",
+        "aliases": [
+          "infinity",
+          "infinity sign",
+          "unendlich",
+          "unendlichkeit",
+          "Infinity Symbol"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Herz",
+        "aliases": [
+          "hearts",
+          "heart tattoo",
+          "herzen",
+          "herz tattoo",
+          "Heart"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Schmetterling",
+        "aliases": [
+          "butterflies",
+          "schmetterlinge",
+          "Butterfly"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Woerter oder Zitate",
+        "aliases": [
+          "words",
+          "quotes",
+          "quote",
+          "text",
+          "lettering",
+          "woerter",
+          "zitate",
+          "zitat",
+          "schriftzug",
+          "Words or Quotes"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Tribal-Tattoo",
+        "aliases": [
+          "tribal",
+          "tribal design",
+          "Tribal Tattoo"
+        ],
+        "points": 9
+      }
+    ]
+  },
+  {
+    "id": "rff003",
+    "question": "Welche Sprache klingt am schoensten?",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Franzoesisch",
+        "aliases": [
+          "franzosisch",
+          "French"
+        ],
+        "points": 48
+      },
+      {
+        "text": "Spanisch",
+        "aliases": [
+          "Spanish"
+        ],
+        "points": 19
+      },
+      {
+        "text": "Italienisch",
+        "aliases": [
+          "Italian"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Englisch",
+        "aliases": [
+          "English"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Japanisch",
+        "aliases": [
+          "Japanese"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Deutsch",
+        "aliases": [
+          "deutsch",
+          "German"
+        ],
+        "points": 3
+      }
+    ]
+  },
+  {
+    "id": "rff004",
+    "question": "Nenne ein notorisch billiges Bier.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Budweiser",
+        "aliases": [
+          "bud",
+          "bud light"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Pabst Blue Ribbon",
+        "aliases": [
+          "pbr",
+          "pabst"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Natural Light",
+        "aliases": [
+          "natty light",
+          "natty",
+          "natural ice",
+          "natty ice"
+        ],
+        "points": 19
+      },
+      {
+        "text": "Corona",
+        "aliases": [],
+        "points": 9
+      },
+      {
+        "text": "Coors",
+        "aliases": [
+          "coors light",
+          "coors banquet"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Keystone",
+        "aliases": [
+          "keystone light"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "rff005",
+    "question": "Welches Musikgenre hat die staerksten Songtexte?",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Rock",
+        "aliases": [
+          "rock music",
+          "rock and roll",
+          "rockmusik"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Rap",
+        "aliases": [
+          "hip hop",
+          "rap music",
+          "hip-hop",
+          "rapmusik"
+        ],
+        "points": 29
+      },
+      {
+        "text": "Metal",
+        "aliases": [
+          "heavy metal",
+          "metal music",
+          "metalmusik"
+        ],
+        "points": 14
+      },
+      {
+        "text": "R&B",
+        "aliases": [
+          "rnb",
+          "soul",
+          "r and b"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Indie / Folk",
+        "aliases": [
+          "indie",
+          "folk",
+          "folk music",
+          "indie music",
+          "folkmusik",
+          "indiemusik"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Country",
+        "aliases": [
+          "country music",
+          "countrymusik"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "rff006",
+    "question": "Nenne ein Wort, das direkt nach dem Wort 'Golden' kommt.",
+    "category": "Wortspiel",
+    "answers": [
+      {
+        "text": "Shower",
+        "aliases": [
+          "golden shower",
+          "dusche"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Girls",
+        "aliases": [
+          "golden girls",
+          "girl",
+          "maedchen"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Retriever",
+        "aliases": [
+          "golden retriever"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Gate",
+        "aliases": [
+          "golden gate",
+          "gate bridge",
+          "bruecke"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Boy",
+        "aliases": [
+          "golden boy",
+          "junge"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Globe",
+        "aliases": [
+          "golden globe",
+          "golden globes"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "rff007",
+    "question": "Welche bekannte Band hat den besten Namen?",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Panic! At The Disco",
+        "aliases": [
+          "panic at the disco",
+          "panic",
+          "patd"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Queen",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "The Beatles",
+        "aliases": [
+          "beatles"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Imagine Dragons",
+        "aliases": [],
+        "points": 17
+      },
+      {
+        "text": "Led Zeppelin",
+        "aliases": [
+          "led zep"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Red Hot Chili Peppers",
+        "aliases": [
+          "rhcp",
+          "chili peppers",
+          "red hot chilli peppers"
+        ],
+        "points": 12
+      }
+    ]
+  },
+  {
+    "id": "rff008",
+    "question": "Ausser dem Schlafzimmer: Wo koennte eine Liebesszene in einem Film gedreht werden?",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Kueche",
+        "aliases": [
+          "the kitchen",
+          "kitchen counter",
+          "die kueche",
+          "kuechentheke",
+          "Kitchen"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Wohnzimmer",
+        "aliases": [
+          "living room",
+          "lounge",
+          "das wohnzimmer"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Dusche",
+        "aliases": [
+          "bathroom",
+          "bath",
+          "shower scene",
+          "badezimmer",
+          "bad",
+          "duschszene",
+          "Shower"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Couch",
+        "aliases": [
+          "sofa"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Pool",
+        "aliases": [
+          "swimming pool",
+          "hot tub",
+          "jacuzzi",
+          "schwimmbad",
+          "whirlpool"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Buero",
+        "aliases": [
+          "work",
+          "workplace",
+          "at work",
+          "arbeit",
+          "arbeitsplatz",
+          "Office"
+        ],
+        "points": 8
+      }
+    ]
+  },
+  {
+    "id": "rff009",
+    "question": "Welche Superkraft waere als Sportler am besten?",
+    "category": "Sport",
+    "answers": [
+      {
+        "text": "Supergeschwindigkeit",
+        "aliases": [
+          "speed",
+          "super fast",
+          "fast",
+          "geschwindigkeit",
+          "superschnell",
+          "schnell",
+          "Super Speed"
+        ],
+        "points": 61
+      },
+      {
+        "text": "Superstaerke",
+        "aliases": [
+          "strength",
+          "strong",
+          "super strong",
+          "staerke",
+          "stark",
+          "superstark",
+          "Super Strength"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Ausdauer",
+        "aliases": [
+          "endurance",
+          "infinite stamina",
+          "unlimited endurance",
+          "kondition",
+          "unendliche ausdauer",
+          "Stamina"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Zeitkontrolle",
+        "aliases": [
+          "time manipulation",
+          "stop time",
+          "slow time",
+          "time",
+          "zeit manipulation",
+          "zeit anhalten",
+          "zeit",
+          "Time Control"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Fliegen",
+        "aliases": [
+          "flying",
+          "fly",
+          "flug",
+          "fliegen koennen",
+          "Flight"
+        ],
+        "points": 4
+      },
+      {
+        "text": "Heilung",
+        "aliases": [
+          "immunity",
+          "regeneration",
+          "self healing",
+          "heal",
+          "immunitaet",
+          "selbstheilung",
+          "heilen",
+          "Healing"
+        ],
+        "points": 3
+      }
+    ]
+  },
+  {
+    "id": "rff010",
+    "question": "Welches Land hat die nettesten Menschen?",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Kanada",
+        "aliases": [
+          "canadians",
+          "kanadier",
+          "Canada"
+        ],
+        "points": 70
+      },
+      {
+        "text": "USA",
+        "aliases": [
+          "united states",
+          "america",
+          "americans",
+          "us",
+          "vereinigte staaten",
+          "amerika",
+          "amerikaner"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Schweden",
+        "aliases": [
+          "swedish",
+          "schwedisch",
+          "Sweden"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Japan",
+        "aliases": [
+          "japanese",
+          "japanisch"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Niederlande",
+        "aliases": [
+          "netherlands",
+          "holland",
+          "dutch",
+          "hollaender",
+          "niederlaender",
+          "The Netherlands"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Daenemark",
+        "aliases": [
+          "danish",
+          "danes",
+          "daenisch",
+          "daenen",
+          "Denmark"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "rff011",
+    "question": "Nenne einen Roboter aus einem Film.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "WALL-E",
+        "aliases": [
+          "wall e",
+          "walle"
+        ],
+        "points": 53
+      },
+      {
+        "text": "R2-D2",
+        "aliases": [
+          "r2d2",
+          "r2 d2",
+          "artoo"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Terminator",
+        "aliases": [
+          "t-800",
+          "t800",
+          "the terminator",
+          "der terminator"
+        ],
+        "points": 10
+      },
+      {
+        "text": "C-3PO",
+        "aliases": [
+          "c3po",
+          "c 3po",
+          "threepio"
+        ],
+        "points": 10
+      },
+      {
+        "text": "HAL 9000",
+        "aliases": [
+          "hal",
+          "hal9000"
+        ],
+        "points": 5
+      },
+      {
+        "text": "RoboCop",
+        "aliases": [
+          "robo cop"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "rff012",
+    "question": "Welche App auf deinem Handy benutzt du am meisten?",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "Reddit",
+        "aliases": [],
+        "points": 54
+      },
+      {
+        "text": "Messenger",
+        "aliases": [
+          "messenger apps",
+          "whatsapp",
+          "imessage",
+          "texts",
+          "messages",
+          "nachrichten"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Instagram",
+        "aliases": [
+          "insta",
+          "ig"
+        ],
+        "points": 11
+      },
+      {
+        "text": "YouTube",
+        "aliases": [
+          "yt"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Browser",
+        "aliases": [
+          "internet",
+          "chrome",
+          "safari",
+          "web browser",
+          "webbrowser"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Facebook",
+        "aliases": [
+          "fb"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "rff013",
+    "question": "Was ist die suesseste Hunderasse?",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Corgi",
+        "aliases": [
+          "corgis",
+          "welsh corgi"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Golden Retriever",
+        "aliases": [
+          "golden",
+          "goldie"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Pomeranian",
+        "aliases": [
+          "pom",
+          "poms",
+          "zwergspitz"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Labrador",
+        "aliases": [
+          "labrador retriever",
+          "lab",
+          "labs"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Shiba Inu",
+        "aliases": [
+          "shiba",
+          "doge"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Husky",
+        "aliases": [
+          "huskies",
+          "siberian husky",
+          "sibirischer husky"
+        ],
+        "points": 11
+      }
+    ]
+  },
+  {
+    "id": "rff014",
+    "question": "Welches Land koennte als das schoenste gelten?",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Island",
+        "aliases": [
+          "Iceland"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Schweiz",
+        "aliases": [
+          "swiss",
+          "schweizer",
+          "Switzerland"
+        ],
+        "points": 21
+      },
+      {
+        "text": "Neuseeland",
+        "aliases": [
+          "nz",
+          "New Zealand"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Italien",
+        "aliases": [
+          "Italy"
+        ],
+        "points": 14
+      },
+      {
+        "text": "USA",
+        "aliases": [
+          "united states",
+          "america",
+          "vereinigte staaten",
+          "amerika"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Kanada",
+        "aliases": [
+          "Canada"
+        ],
+        "points": 11
+      }
+    ]
+  },
+  {
+    "id": "rff015",
+    "question": "Nenne etwas, das man bei einer Partynacht verlieren koennte.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Portemonnaie",
+        "aliases": [
+          "my wallet",
+          "purse",
+          "geldboerse",
+          "geldbeutel",
+          "brieftasche",
+          "Wallet"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Handy",
+        "aliases": [
+          "my phone",
+          "cell phone",
+          "mobile",
+          "mein handy",
+          "telefon",
+          "smartphone",
+          "Phone"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Schluessel",
+        "aliases": [
+          "my keys",
+          "house keys",
+          "car keys",
+          "meine schluessel",
+          "hausschluessel",
+          "autoschluessel",
+          "Keys"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Jungfraeulichkeit",
+        "aliases": [
+          "my virginity",
+          "innocence",
+          "unschuld",
+          "Virginity"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Bargeld",
+        "aliases": [
+          "money",
+          "card",
+          "credit card",
+          "geld",
+          "karte",
+          "kreditkarte",
+          "Cash"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Schmuck",
+        "aliases": [
+          "earrings",
+          "ring",
+          "necklace",
+          "watch",
+          "ohrringe",
+          "kette",
+          "uhr",
+          "Jewelry"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "rff016",
+    "question": "Wie viele Tassen Kaffee sollte man maximal am Tag trinken?",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "3 Tassen",
+        "aliases": [
+          "3",
+          "three",
+          "three cups",
+          "drei",
+          "drei tassen",
+          "3 Cups"
+        ],
+        "points": 37
+      },
+      {
+        "text": "2 Tassen",
+        "aliases": [
+          "2",
+          "two",
+          "two cups",
+          "zwei",
+          "zwei tassen",
+          "2 Cups"
+        ],
+        "points": 24
+      },
+      {
+        "text": "4 Tassen",
+        "aliases": [
+          "4",
+          "four",
+          "four cups",
+          "vier",
+          "vier tassen",
+          "4 Cups"
+        ],
+        "points": 15
+      },
+      {
+        "text": "5 Tassen",
+        "aliases": [
+          "5",
+          "five",
+          "five cups",
+          "fuenf",
+          "fuenf tassen",
+          "5 Cups"
+        ],
+        "points": 12
+      },
+      {
+        "text": "0 Tassen",
+        "aliases": [
+          "0",
+          "zero",
+          "none",
+          "zero cups",
+          "null",
+          "keine",
+          "null tassen",
+          "0 Cups"
+        ],
+        "points": 6
+      },
+      {
+        "text": "1 Tasse",
+        "aliases": [
+          "1",
+          "one",
+          "one cup",
+          "eine",
+          "eine tasse",
+          "1 Cup"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "rff017",
+    "question": "Welcher Feiertag macht am meisten Spass?",
+    "category": "Feiertage",
+    "answers": [
+      {
+        "text": "Weihnachten",
+        "aliases": [
+          "xmas",
+          "christmas day",
+          "heiligabend",
+          "Christmas"
+        ],
+        "points": 54
+      },
+      {
+        "text": "Halloween",
+        "aliases": [],
+        "points": 20
+      },
+      {
+        "text": "Thanksgiving",
+        "aliases": [
+          "turkey day",
+          "erntedankfest"
+        ],
+        "points": 12
+      },
+      {
+        "text": "4. Juli",
+        "aliases": [
+          "fourth of july",
+          "independence day",
+          "july 4th",
+          "vierter juli",
+          "unabhaengigkeitstag",
+          "4th of July"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Silvester",
+        "aliases": [
+          "new year",
+          "new years eve",
+          "nye",
+          "neujahr",
+          "silvesterabend",
+          "New Years"
+        ],
+        "points": 4
+      },
+      {
+        "text": "Ostern",
+        "aliases": [
+          "Easter"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "rff018",
+    "question": "Nenne eine Sportart, bei der ein Ball verwendet wird.",
+    "category": "Sport",
+    "answers": [
+      {
+        "text": "Baseball",
+        "aliases": [],
+        "points": 28
+      },
+      {
+        "text": "Basketball",
+        "aliases": [
+          "bball"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Fussball",
+        "aliases": [
+          "futbol",
+          "football",
+          "fussball",
+          "soccer"
+        ],
+        "points": 21
+      },
+      {
+        "text": "American Football",
+        "aliases": [
+          "nfl",
+          "gridiron"
+        ],
+        "points": 19
+      },
+      {
+        "text": "Tennis",
+        "aliases": [],
+        "points": 5
+      },
+      {
+        "text": "Golf",
+        "aliases": [],
+        "points": 2
+      }
+    ]
+  },
+  {
+    "id": "rff019",
+    "question": "Wie lange sollte Sex im Durchschnitt dauern?",
+    "category": "Beziehungen",
+    "answers": [
+      {
+        "text": "30 Minuten",
+        "aliases": [
+          "30 min",
+          "30",
+          "half hour",
+          "30 mins",
+          "halbe stunde",
+          "30 minutes"
+        ],
+        "points": 28
+      },
+      {
+        "text": "20 Minuten",
+        "aliases": [
+          "20 min",
+          "20",
+          "20 mins",
+          "20 minutes"
+        ],
+        "points": 22
+      },
+      {
+        "text": "15 Minuten",
+        "aliases": [
+          "15 min",
+          "15",
+          "15 mins",
+          "quarter hour",
+          "viertelstunde",
+          "15 minutes"
+        ],
+        "points": 20
+      },
+      {
+        "text": "10 Minuten",
+        "aliases": [
+          "10 min",
+          "10",
+          "10 mins",
+          "10 minutes"
+        ],
+        "points": 16
+      },
+      {
+        "text": "1 Stunde",
+        "aliases": [
+          "60 min",
+          "60 minutes",
+          "an hour",
+          "one hour",
+          "60 minuten",
+          "eine stunde",
+          "1 hour"
+        ],
+        "points": 8
+      },
+      {
+        "text": "45 Minuten",
+        "aliases": [
+          "45 min",
+          "45",
+          "45 mins",
+          "45 minutes"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "rff020",
+    "question": "Nenne einen beruehmten Maler.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Van Gogh",
+        "aliases": [
+          "vincent van gogh",
+          "vangogh"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Picasso",
+        "aliases": [
+          "pablo picasso"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Da Vinci",
+        "aliases": [
+          "leonardo da vinci",
+          "leonardo",
+          "davinci"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Monet",
+        "aliases": [
+          "claude monet"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Michelangelo",
+        "aliases": [
+          "michaelangelo"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Salvador Dali",
+        "aliases": [
+          "dali",
+          "salvador dali"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q001",
+    "question": "Nenne etwas, das man an den Strand mitnimmt.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Handtuch",
+        "aliases": [
+          "beach towel",
+          "towels",
+          "Towel"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Sonnencreme",
+        "aliases": [
+          "sunblock",
+          "sun screen",
+          "spf",
+          "sun lotion",
+          "Sunscreen"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Sonnenschirm",
+        "aliases": [
+          "beach umbrella",
+          "parasol",
+          "Umbrella"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Kuehlbox",
+        "aliases": [
+          "ice chest",
+          "cool box",
+          "Cooler"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Stuhl",
+        "aliases": [
+          "beach chair",
+          "lawn chair",
+          "folding chair",
+          "Chair"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Sonnenbrille",
+        "aliases": [
+          "shades",
+          "sunnies",
+          "Sunglasses"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q002",
+    "question": "Nenne einen Grund, warum sich Leute auf der Arbeit krank melden.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Erkaeltung oder Grippe",
+        "aliases": [
+          "cold",
+          "flu",
+          "sick",
+          "illness",
+          "fever",
+          "Cold or Flu"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Kopfschmerzen",
+        "aliases": [
+          "migraine",
+          "head hurts",
+          "Headache"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Bauchschmerzen",
+        "aliases": [
+          "stomach bug",
+          "food poisoning",
+          "nausea",
+          "upset stomach",
+          "Stomach ache"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Mental-Health-Tag",
+        "aliases": [
+          "mental health",
+          "stress",
+          "burnout",
+          "anxiety",
+          "Mental health day"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Rueckenschmerzen",
+        "aliases": [
+          "back hurts",
+          "backache",
+          "Back pain"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Zahnarzttermin",
+        "aliases": [
+          "dentist",
+          "toothache",
+          "dental",
+          "Dentist appointment"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q003",
+    "question": "Nenne etwas, das man in einem Portemonnaie findet.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Kreditkarte",
+        "aliases": [
+          "credit cards",
+          "debit card",
+          "bank card",
+          "cards",
+          "Credit card"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Bargeld",
+        "aliases": [
+          "money",
+          "bills",
+          "notes",
+          "Cash"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Ausweis",
+        "aliases": [
+          "drivers license",
+          "driver license",
+          "identification",
+          "id card",
+          "licence",
+          "ID"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Fotos",
+        "aliases": [
+          "pictures",
+          "photo",
+          "family photos",
+          "Photos"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Quittungen",
+        "aliases": [
+          "receipt",
+          "old receipts",
+          "Receipts"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Visitenkarten",
+        "aliases": [
+          "business card",
+          "Business cards"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "q004",
+    "question": "Nenne etwas, das Leute auf dem Handy machen, waehrend sie warten.",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "Social Media",
+        "aliases": [
+          "scroll social media",
+          "instagram",
+          "tiktok",
+          "facebook",
+          "twitter",
+          "scrolling"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Schreiben",
+        "aliases": [
+          "texting",
+          "send texts",
+          "messaging",
+          "messages",
+          "Text"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Spiele spielen",
+        "aliases": [
+          "games",
+          "gaming",
+          "play a game",
+          "mobile games",
+          "Play games"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Videos schauen",
+        "aliases": [
+          "youtube",
+          "watch youtube",
+          "videos",
+          "streaming",
+          "Watch videos"
+        ],
+        "points": 12
+      },
+      {
+        "text": "E-Mails checken",
+        "aliases": [
+          "email",
+          "emails",
+          "read email",
+          "Check email"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Nachrichten lesen",
+        "aliases": [
+          "news",
+          "read articles",
+          "browse news",
+          "Read news"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "question": "Nenne einen beliebten Pizzabelag.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Peperoniwurst",
+        "aliases": [
+          "peperoni",
+          "Pepperoni"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Pilze",
+        "aliases": [
+          "mushroom",
+          "Mushrooms"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Wurst",
+        "aliases": [
+          "italian sausage",
+          "Sausage"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Zwiebeln",
+        "aliases": [
+          "onion",
+          "Onions"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Paprika",
+        "aliases": [
+          "bell peppers",
+          "green peppers",
+          "pepper",
+          "Peppers"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Oliven",
+        "aliases": [
+          "olive",
+          "black olives",
+          "Olives"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "q006",
+    "question": "Nenne etwas, das man immer vergisst einzupacken.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Zahnbuerste",
+        "aliases": [
+          "tooth brush",
+          "Toothbrush"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Ladegeraet",
+        "aliases": [
+          "charger",
+          "charging cable",
+          "cable",
+          "Phone charger"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Unterwaesche",
+        "aliases": [
+          "socks",
+          "clean underwear",
+          "Underwear"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Medikamente",
+        "aliases": [
+          "medicine",
+          "pills",
+          "meds",
+          "Medication"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Deo",
+        "aliases": [
+          "deo",
+          "Deodorant"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Schlafanzug",
+        "aliases": [
+          "pyjamas",
+          "sleepwear",
+          "pjs",
+          "Pajamas"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q007",
+    "question": "Nenne etwas, wovor Menschen Angst haben.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Spinnen",
+        "aliases": [
+          "spider",
+          "arachnids",
+          "Spiders"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Hoehen",
+        "aliases": [
+          "high places",
+          "falling",
+          "Heights"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Schlangen",
+        "aliases": [
+          "snake",
+          "serpents",
+          "Snakes"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Oeffentliches Reden",
+        "aliases": [
+          "speaking in public",
+          "presentations",
+          "giving speeches",
+          "Public speaking"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Dunkelheit",
+        "aliases": [
+          "darkness",
+          "dark",
+          "The dark"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Fliegen",
+        "aliases": [
+          "airplanes",
+          "planes",
+          "flights",
+          "Flying"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q008",
+    "question": "Nenne etwas, das man vor dem Schlafengehen macht.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Zaehne putzen",
+        "aliases": [
+          "brush my teeth",
+          "brushing teeth",
+          "dental hygiene",
+          "Brush teeth"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Handy checken",
+        "aliases": [
+          "scroll phone",
+          "look at phone",
+          "phone",
+          "Check phone"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Fernsehen",
+        "aliases": [
+          "watch television",
+          "tv",
+          "netflix",
+          "streaming",
+          "Watch TV"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Lesen",
+        "aliases": [
+          "read a book",
+          "reading",
+          "Read"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Duschen",
+        "aliases": [
+          "take a shower",
+          "bath",
+          "bathe",
+          "Shower"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Wecker stellen",
+        "aliases": [
+          "alarm",
+          "set my alarm",
+          "alarm clock",
+          "Set alarm"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q009",
+    "question": "Nenne einen typischen Neujahrsvorsatz.",
+    "category": "Feiertage",
+    "answers": [
+      {
+        "text": "Mehr Sport",
+        "aliases": [
+          "work out",
+          "go to gym",
+          "gym",
+          "get fit",
+          "exercise",
+          "fitness",
+          "Exercise more"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Abnehmen",
+        "aliases": [
+          "diet",
+          "eat less",
+          "weight loss",
+          "Lose weight"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Geld sparen",
+        "aliases": [
+          "spend less",
+          "save more",
+          "budget",
+          "saving money",
+          "Save money"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Aufhoeren zu rauchen",
+        "aliases": [
+          "stop smoking",
+          "quit cigarettes",
+          "Quit smoking"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Mehr lesen",
+        "aliases": [
+          "read books",
+          "reading",
+          "Read more"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Mehr reisen",
+        "aliases": [
+          "travel",
+          "see the world",
+          "explore",
+          "Travel more"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q010",
+    "question": "Nenne etwas, das man in einem Klassenzimmer findet.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Schreibtisch",
+        "aliases": [
+          "desks",
+          "table",
+          "tables",
+          "Desk"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Whiteboard",
+        "aliases": [
+          "chalkboard",
+          "blackboard",
+          "board"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Stuhl",
+        "aliases": [
+          "chairs",
+          "seats",
+          "Chair"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Buecher",
+        "aliases": [
+          "textbooks",
+          "book",
+          "textbook",
+          "Books"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Computer",
+        "aliases": [
+          "laptop",
+          "computers",
+          "laptops"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Uhr",
+        "aliases": [
+          "wall clock",
+          "Clock"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q011",
+    "question": "Nenne eine Sportart, die Leute im Fernsehen schauen.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Fussball",
+        "aliases": [
+          "american football",
+          "nfl",
+          "soccer",
+          "Football"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Basketball",
+        "aliases": [
+          "nba",
+          "hoops"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Baseball",
+        "aliases": [
+          "mlb"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Tennis",
+        "aliases": [
+          "wimbledon"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Eishockey",
+        "aliases": [
+          "ice hockey",
+          "nhl",
+          "Hockey"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Golf",
+        "aliases": [
+          "pga"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q012",
+    "question": "Nenne etwas, das man auf einen Hamburger legt.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Ketchup",
+        "aliases": [
+          "catsup"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Kaese",
+        "aliases": [
+          "cheddar",
+          "american cheese",
+          "swiss",
+          "Cheese"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Salat",
+        "aliases": [
+          "salad",
+          "greens",
+          "Lettuce"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Tomate",
+        "aliases": [
+          "tomatoes",
+          "tomato slice",
+          "Tomato"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Zwiebel",
+        "aliases": [
+          "onions",
+          "red onion",
+          "Onion"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Gurken",
+        "aliases": [
+          "pickle",
+          "Pickles"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "q013",
+    "question": "Nenne etwas, das man in einem Hotelzimmer findet.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Bett",
+        "aliases": [
+          "beds",
+          "mattress",
+          "Bed"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Fernseher",
+        "aliases": [
+          "television",
+          "flat screen",
+          "TV"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Bibel",
+        "aliases": [
+          "holy bible",
+          "book",
+          "Bible"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Handtuecher",
+        "aliases": [
+          "towel",
+          "bath towels",
+          "Towels"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Minibar",
+        "aliases": [
+          "minibar",
+          "mini fridge",
+          "fridge",
+          "Mini bar"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Safe",
+        "aliases": [
+          "room safe",
+          "safety box"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q014",
+    "question": "Nenne ein Tier, das im Ozean lebt.",
+    "category": "Natur",
+    "answers": [
+      {
+        "text": "Hai",
+        "aliases": [
+          "sharks",
+          "great white",
+          "Shark"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Delfin",
+        "aliases": [
+          "dolphins",
+          "Dolphin"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Wal",
+        "aliases": [
+          "whales",
+          "blue whale",
+          "Whale"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Oktopus",
+        "aliases": [
+          "squid",
+          "Octopus"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Meeresschildkroete",
+        "aliases": [
+          "turtle",
+          "turtles",
+          "sea turtles",
+          "Sea turtle"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Qualle",
+        "aliases": [
+          "jelly fish",
+          "Jellyfish"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "question": "Nenne etwas, das Menschen sammeln.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Briefmarken",
+        "aliases": [
+          "stamp",
+          "postage stamps",
+          "Stamps"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Muenzen",
+        "aliases": [
+          "coin",
+          "old coins",
+          "currency",
+          "Coins"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Karten",
+        "aliases": [
+          "trading cards",
+          "baseball cards",
+          "pokemon cards",
+          "Cards"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Kunst",
+        "aliases": [
+          "paintings",
+          "artwork",
+          "sculptures",
+          "Art"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Schallplatten",
+        "aliases": [
+          "records",
+          "vinyl",
+          "lps",
+          "Vinyl records"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Schuhe",
+        "aliases": [
+          "sneakers",
+          "trainers",
+          "Shoes"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "q016",
+    "question": "Nenne etwas, das dich zu spaet zur Arbeit kommen laesst.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Stau",
+        "aliases": [
+          "traffic jam",
+          "bad traffic",
+          "congestion",
+          "Traffic"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Verschlafen",
+        "aliases": [
+          "slept in",
+          "alarm didnt go off",
+          "sleeping in",
+          "oversleeping",
+          "Overslept"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Kinder",
+        "aliases": [
+          "children",
+          "dropping kids off",
+          "kids school",
+          "Kids"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Autopanne",
+        "aliases": [
+          "car broke down",
+          "flat tire",
+          "car problems",
+          "Car trouble"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Schlechtes Wetter",
+        "aliases": [
+          "weather",
+          "rain",
+          "snow",
+          "storm",
+          "Bad weather"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Schluessel verloren",
+        "aliases": [
+          "couldnt find keys",
+          "looking for keys",
+          "keys",
+          "Lost keys"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q017",
+    "question": "Nenne ein beliebtes Fruehstuecksessen.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Eier",
+        "aliases": [
+          "egg",
+          "scrambled eggs",
+          "fried eggs",
+          "omelette",
+          "Eggs"
+        ],
+        "points": 33
+      },
+      {
+        "text": "Toast",
+        "aliases": [
+          "bread",
+          "toasted bread"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Muesli",
+        "aliases": [
+          "cereals",
+          "corn flakes",
+          "Cereal"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Pfannkuchen",
+        "aliases": [
+          "pancake",
+          "flapjacks",
+          "Pancakes"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Speck",
+        "aliases": [
+          "crispy bacon",
+          "Bacon"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Obst",
+        "aliases": [
+          "fruits",
+          "banana",
+          "apple",
+          "berries",
+          "Fruit"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "q018",
+    "question": "Nenne etwas, das man bei einem Sportspiel ruft.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Los geht's",
+        "aliases": [
+          "go",
+          "lets go",
+          "come on",
+          "Go team"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Schiri ist blind",
+        "aliases": [
+          "bad call",
+          "are you blind",
+          "ref",
+          "foul",
+          "blind ref",
+          "Referee is blind"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Tor",
+        "aliases": [
+          "touchdown",
+          "score",
+          "Goal"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Buh",
+        "aliases": [
+          "boooo",
+          "booing",
+          "Boo"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Abwehr",
+        "aliases": [
+          "defence",
+          "Defense"
+        ],
+        "points": 9
+      },
+      {
+        "text": "MVP",
+        "aliases": [
+          "most valuable player",
+          "youre the best"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "q019",
+    "question": "Nenne etwas, das man auf einer Party macht.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Tanzen",
+        "aliases": [
+          "dancing",
+          "hit the dance floor",
+          "Dance"
+        ],
+        "points": 33
+      },
+      {
+        "text": "Trinken",
+        "aliases": [
+          "drinking",
+          "have drinks",
+          "alcohol",
+          "beer",
+          "cocktails",
+          "Drink"
+        ],
+        "points": 27
+      },
+      {
+        "text": "Mit Leuten reden",
+        "aliases": [
+          "socialize",
+          "chat",
+          "mingle",
+          "conversation",
+          "talk",
+          "Talk to people"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Essen",
+        "aliases": [
+          "eating",
+          "snack",
+          "food",
+          "snacks",
+          "Eat"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Spiele spielen",
+        "aliases": [
+          "games",
+          "party games",
+          "beer pong",
+          "Play games"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Fotos machen",
+        "aliases": [
+          "selfies",
+          "pictures",
+          "photos",
+          "Take photos"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "q020",
+    "question": "Nenne etwas, das man im Auto aufbewahrt.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Sonnenbrille",
+        "aliases": [
+          "shades",
+          "sunnies",
+          "Sunglasses"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Ladegeraet",
+        "aliases": [
+          "charger",
+          "car charger",
+          "charging cable",
+          "Phone charger"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Wasserflasche",
+        "aliases": [
+          "water",
+          "drink",
+          "bottle",
+          "Water bottle"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Ersatzreifen",
+        "aliases": [
+          "spare",
+          "jack",
+          "Spare tire"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Fahrzeugschein",
+        "aliases": [
+          "insurance",
+          "documents",
+          "papers",
+          "car documents",
+          "Registration"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Regenschirm",
+        "aliases": [
+          "rain umbrella",
+          "Umbrella"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "q021",
+    "question": "Nenne einen Grund, warum Leute zum Arzt gehen.",
+    "category": "Gesundheit",
+    "answers": [
+      {
+        "text": "Vorsorge",
+        "aliases": [
+          "annual checkup",
+          "physical",
+          "routine checkup",
+          "check up",
+          "Checkup"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Erkaeltung oder Grippe",
+        "aliases": [
+          "cold",
+          "flu",
+          "sick",
+          "cough",
+          "fever",
+          "Cold or Flu"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Schmerzen",
+        "aliases": [
+          "body pain",
+          "chronic pain",
+          "hurting",
+          "something hurts",
+          "Pain"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Rezept",
+        "aliases": [
+          "refill",
+          "medication",
+          "medicine",
+          "meds",
+          "Prescription"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Verletzung",
+        "aliases": [
+          "broken bone",
+          "sprain",
+          "hurt",
+          "wound",
+          "Injury"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Impfung",
+        "aliases": [
+          "vaccine",
+          "shot",
+          "immunization",
+          "flu shot",
+          "Vaccination"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen001",
+    "question": "Nenne etwas, das man im Supermarkt immer vergisst.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Milch",
+        "aliases": [
+          "milk carton",
+          "Milk"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Brot",
+        "aliases": [
+          "loaf of bread",
+          "Bread"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Eier",
+        "aliases": [
+          "egg carton",
+          "dozen eggs",
+          "Eggs"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Butter",
+        "aliases": [
+          "margarine"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Obst",
+        "aliases": [
+          "fruits",
+          "bananas",
+          "apples",
+          "Fruit"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Toilettenpapier",
+        "aliases": [
+          "tp",
+          "tissue",
+          "Toilet Paper"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen002",
+    "question": "Nenne etwas, das Leute machen, wenn ihnen zu Hause langweilig ist.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Fernsehen",
+        "aliases": [
+          "watch netflix",
+          "binge watch",
+          "streaming",
+          "television",
+          "Watch TV"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Am Handy scrollen",
+        "aliases": [
+          "phone",
+          "check phone",
+          "social media",
+          "Scroll Phone"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Schlafen",
+        "aliases": [
+          "nap",
+          "take a nap",
+          "sleeping",
+          "Sleep"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Essen",
+        "aliases": [
+          "snack",
+          "snacking",
+          "eating",
+          "Eat"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Putzen",
+        "aliases": [
+          "cleaning",
+          "tidy up",
+          "chores",
+          "Clean"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Videospiele spielen",
+        "aliases": [
+          "video games",
+          "gaming",
+          "games",
+          "Play Video Games"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen003",
+    "question": "Nenne ein Gemuese, das Kinder nicht essen wollen.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Brokkoli",
+        "aliases": [
+          "brocoli",
+          "Broccoli"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Rosenkohl",
+        "aliases": [
+          "brussel sprouts",
+          "sprouts",
+          "Brussels Sprouts"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Spinat",
+        "aliases": [
+          "Spinach"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Erbsen",
+        "aliases": [
+          "green peas",
+          "Peas"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Blumenkohl",
+        "aliases": [
+          "Cauliflower"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Spargel",
+        "aliases": [
+          "Asparagus"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen004",
+    "question": "Nenne einen Film, den jeder mindestens einmal gesehen hat.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "The Lion King",
+        "aliases": [
+          "lion king"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Titanic",
+        "aliases": [],
+        "points": 25
+      },
+      {
+        "text": "Harry Potter",
+        "aliases": [
+          "harry potter and the sorcerers stone"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Star Wars",
+        "aliases": [
+          "a new hope",
+          "star wars a new hope"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Shrek",
+        "aliases": [
+          "shrek 1"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Frozen",
+        "aliases": [],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen005",
+    "question": "Nenne etwas, das man auf einer Firmenveranstaltung nur so tut als wuerde man es geniessen.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Smalltalk",
+        "aliases": [
+          "talking to coworkers",
+          "conversation",
+          "socializing",
+          "networking",
+          "Small Talk"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Das Essen",
+        "aliases": [
+          "food",
+          "catering",
+          "snacks",
+          "The Food"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Witze vom Chef",
+        "aliases": [
+          "boss jokes",
+          "laughing at jokes",
+          "the speeches",
+          "Your Boss's Jokes"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Teambuilding-Spiele",
+        "aliases": [
+          "team building",
+          "icebreakers",
+          "activities",
+          "Team Building Games"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Tanzen",
+        "aliases": [
+          "dance",
+          "the music",
+          "Dancing"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Dort sein",
+        "aliases": [
+          "being sober",
+          "staying late",
+          "showing up",
+          "Being There"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen006",
+    "question": "Nenne ein Land, von dem Leute traeumen es zu besuchen.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Italien",
+        "aliases": [
+          "rome",
+          "venice",
+          "italia",
+          "Italy"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Japan",
+        "aliases": [
+          "tokyo"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Frankreich",
+        "aliases": [
+          "paris",
+          "France"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Griechenland",
+        "aliases": [
+          "santorini",
+          "athens",
+          "Greece"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Australien",
+        "aliases": [
+          "sydney",
+          "Australia"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Malediven",
+        "aliases": [
+          "bora bora",
+          "tahiti",
+          "Maldives"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen007",
+    "question": "Nenne eine Tradition, die man an seinem Geburtstag macht.",
+    "category": "Feiertage",
+    "answers": [
+      {
+        "text": "Kerzen ausblasen",
+        "aliases": [
+          "candles",
+          "blow candles",
+          "birthday candles",
+          "Blow Out Candles"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Kuchen essen",
+        "aliases": [
+          "cake",
+          "birthday cake",
+          "have cake",
+          "Eat Cake"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Geschenke oeffnen",
+        "aliases": [
+          "presents",
+          "gifts",
+          "open gifts",
+          "unwrap presents",
+          "Open Presents"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Party feiern",
+        "aliases": [
+          "party",
+          "birthday party",
+          "celebrate",
+          "Have a Party"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Sich etwas wuenschen",
+        "aliases": [
+          "wish",
+          "birthday wish",
+          "Make a Wish"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Happy Birthday singen",
+        "aliases": [
+          "happy birthday song",
+          "singing",
+          "Sing Happy Birthday"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "gen008",
+    "question": "Nenne etwas, das immer im schlechtesten Moment kaputt geht.",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "Handy",
+        "aliases": [
+          "cell phone",
+          "smartphone",
+          "mobile",
+          "Phone"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Auto",
+        "aliases": [
+          "vehicle",
+          "automobile",
+          "Car"
+        ],
+        "points": 25
+      },
+      {
+        "text": "WLAN",
+        "aliases": [
+          "internet",
+          "wi-fi",
+          "router",
+          "connection",
+          "WiFi"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Waschmaschine",
+        "aliases": [
+          "washer",
+          "dryer",
+          "laundry machine",
+          "Washing Machine"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Toilette",
+        "aliases": [
+          "plumbing",
+          "pipes",
+          "Toilet"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Klimaanlage",
+        "aliases": [
+          "ac",
+          "a/c",
+          "heater",
+          "hvac",
+          "Air Conditioning"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen009",
+    "question": "Nenne eine Sportart, die einfach aussieht, aber wirklich schwer ist.",
+    "category": "Sport",
+    "answers": [
+      {
+        "text": "Golf",
+        "aliases": [],
+        "points": 32
+      },
+      {
+        "text": "Schwimmen",
+        "aliases": [
+          "competitive swimming",
+          "Swimming"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Turnen",
+        "aliases": [
+          "Gymnastics"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Bowling",
+        "aliases": [],
+        "points": 13
+      },
+      {
+        "text": "Eislaufen",
+        "aliases": [
+          "figure skating",
+          "skating",
+          "Ice Skating"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Bogenschiessen",
+        "aliases": [
+          "bow and arrow",
+          "Archery"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen010",
+    "question": "Nenne ein Tier, das ein schrecklicher Mitbewohner waere.",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Baer",
+        "aliases": [
+          "bears",
+          "grizzly",
+          "Bear"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Stinktier",
+        "aliases": [
+          "skunks",
+          "Skunk"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Affe",
+        "aliases": [
+          "monkeys",
+          "chimp",
+          "chimpanzee",
+          "Monkey"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Elefant",
+        "aliases": [
+          "elephants",
+          "Elephant"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Papagei",
+        "aliases": [
+          "parrots",
+          "bird",
+          "cockatoo",
+          "Parrot"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Ziege",
+        "aliases": [
+          "goats",
+          "Goat"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen011",
+    "question": "Nenne ein Wort, das Leute haeufig falsch schreiben.",
+    "category": "Wortspiel",
+    "answers": [
+      {
+        "text": "Definitely",
+        "aliases": [
+          "definately",
+          "definitly"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Restaurant",
+        "aliases": [
+          "restaraunt",
+          "restraunt"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Necessary",
+        "aliases": [
+          "neccessary",
+          "neccesary"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Separate",
+        "aliases": [
+          "seperate"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Embarrassed",
+        "aliases": [
+          "embarassed"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Wednesday",
+        "aliases": [
+          "wendsday",
+          "wensday"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen012",
+    "question": "Nenne etwas, worueber Leute beim ersten Date immer luegen.",
+    "category": "Beziehungen",
+    "answers": [
+      {
+        "text": "Ihr Alter",
+        "aliases": [
+          "age",
+          "how old they are",
+          "Their Age"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Ihren Job",
+        "aliases": [
+          "job",
+          "career",
+          "salary",
+          "income",
+          "what they do",
+          "Their Job"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Ihre Hobbys",
+        "aliases": [
+          "hobbies",
+          "interests",
+          "Their Hobbies"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Wie viel sie trinken",
+        "aliases": [
+          "drinking habits",
+          "alcohol",
+          "partying",
+          "How Much They Drink"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Ihre Ex-Beziehungen",
+        "aliases": [
+          "ex",
+          "exes",
+          "past",
+          "relationship history",
+          "Their Past Relationships"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Ihre Groesse",
+        "aliases": [
+          "height",
+          "how tall",
+          "Their Height"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen013",
+    "question": "Nenne etwas, das Leute tun, um juenger auszusehen.",
+    "category": "Gesundheit",
+    "answers": [
+      {
+        "text": "Haare faerben",
+        "aliases": [
+          "hair dye",
+          "color hair",
+          "hair color",
+          "dye hair",
+          "Dye Their Hair"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Sport treiben",
+        "aliases": [
+          "work out",
+          "gym",
+          "fitness",
+          "Exercise"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Schminken",
+        "aliases": [
+          "makeup",
+          "cosmetics",
+          "foundation",
+          "Wear Makeup"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Botox",
+        "aliases": [
+          "fillers",
+          "plastic surgery",
+          "cosmetic surgery"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Juenger kleiden",
+        "aliases": [
+          "trendy clothes",
+          "fashion",
+          "young clothes",
+          "Dress Younger"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Hautpflege",
+        "aliases": [
+          "face cream",
+          "moisturizer",
+          "anti-aging cream",
+          "skin care",
+          "Skincare"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen014",
+    "question": "Nenne ein Geraeusch in der Natur, das entspannend ist.",
+    "category": "Natur",
+    "answers": [
+      {
+        "text": "Vogelgesang",
+        "aliases": [
+          "birds",
+          "bird song",
+          "bird chirping",
+          "chirping",
+          "Birds Singing"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Regen",
+        "aliases": [
+          "rainfall",
+          "rain drops",
+          "raindrops",
+          "Rain"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Meereswellen",
+        "aliases": [
+          "waves",
+          "sea",
+          "waves crashing",
+          "water",
+          "Ocean Waves"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Wind",
+        "aliases": [
+          "breeze",
+          "wind in trees"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Grillen",
+        "aliases": [
+          "cricket sounds",
+          "insects",
+          "Crickets"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Wasserfall",
+        "aliases": [
+          "stream",
+          "river",
+          "running water",
+          "brook",
+          "Waterfall"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen015",
+    "question": "Nenne etwas, das Leute in ihrer Krimskrams-Schublade horten.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Batterien",
+        "aliases": [
+          "old batteries",
+          "dead batteries",
+          "Batteries"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Kugelschreiber",
+        "aliases": [
+          "pencils",
+          "markers",
+          "writing utensils",
+          "Pens"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Gummibaender",
+        "aliases": [
+          "rubber band",
+          "elastics",
+          "Rubber Bands"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Schluessel",
+        "aliases": [
+          "old keys",
+          "mystery keys",
+          "random keys",
+          "Keys"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Klebeband",
+        "aliases": [
+          "scotch tape",
+          "duct tape",
+          "sellotape",
+          "Tape"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Lieferservice-Menues",
+        "aliases": [
+          "menus",
+          "coupons",
+          "old menus",
+          "flyers",
+          "Takeout Menus"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen016",
+    "question": "Nenne ein Essen, das in der Oeffentlichkeit schwer sauber zu essen ist.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Rippchen",
+        "aliases": [
+          "bbq ribs",
+          "barbecue ribs",
+          "spare ribs",
+          "Ribs"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Spaghetti",
+        "aliases": [
+          "pasta",
+          "noodles"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Tacos",
+        "aliases": [
+          "taco"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Wings",
+        "aliases": [
+          "chicken wings",
+          "buffalo wings",
+          "hot wings"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Maiskolben",
+        "aliases": [
+          "corn",
+          "corn cob",
+          "Corn on the Cob"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Burrito",
+        "aliases": [
+          "burritos",
+          "wrap"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen017",
+    "question": "Nenne eine Serie, die Leute am Stueck durchschauen.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Friends",
+        "aliases": [],
+        "points": 28
+      },
+      {
+        "text": "The Office",
+        "aliases": [
+          "office"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Stranger Things",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "Breaking Bad",
+        "aliases": [],
+        "points": 14
+      },
+      {
+        "text": "Grey's Anatomy",
+        "aliases": [
+          "greys anatomy",
+          "grays anatomy"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Game of Thrones",
+        "aliases": [
+          "got",
+          "thrones"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen018",
+    "question": "Nenne etwas, das Studenten machen, um das Lernen aufzuschieben.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Fernsehen",
+        "aliases": [
+          "netflix",
+          "watch shows",
+          "streaming",
+          "youtube",
+          "Watch TV"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Social Media scrollen",
+        "aliases": [
+          "social media",
+          "instagram",
+          "tiktok",
+          "phone",
+          "Scroll Social Media"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Putzen",
+        "aliases": [
+          "cleaning",
+          "tidy room",
+          "organize",
+          "Clean"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Essen",
+        "aliases": [
+          "snack",
+          "snacking",
+          "eating",
+          "cooking",
+          "Eat"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Nickerchen",
+        "aliases": [
+          "sleep",
+          "sleeping",
+          "take a nap",
+          "Nap"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Mit Freunden reden",
+        "aliases": [
+          "text friends",
+          "call friends",
+          "chatting",
+          "Talk to Friends"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen019",
+    "question": "Nenne etwas Nerviges am Fliegen.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Lange Schlangen",
+        "aliases": [
+          "lines",
+          "queues",
+          "waiting",
+          "security line",
+          "tsa",
+          "Long Lines"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Verspaetungen",
+        "aliases": [
+          "flight delays",
+          "cancelled flights",
+          "cancellations",
+          "Delays"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Enge Sitze",
+        "aliases": [
+          "small seats",
+          "no legroom",
+          "legroom",
+          "tight seats",
+          "Cramped Seats"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Schreiende Babys",
+        "aliases": [
+          "babies",
+          "kids",
+          "screaming children",
+          "loud children",
+          "Crying Babies"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Verlorenes Gepaeck",
+        "aliases": [
+          "lost bags",
+          "baggage",
+          "luggage",
+          "Lost Luggage"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Turbulenzen",
+        "aliases": [
+          "bumpy ride",
+          "bumps",
+          "Turbulence"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen020",
+    "question": "Nenne etwas, das Leute bis zur letzten Minute aufschieben.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Steuererklaerung",
+        "aliases": [
+          "filing taxes",
+          "tax return",
+          "tax returns",
+          "Taxes"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Hausaufgaben",
+        "aliases": [
+          "assignments",
+          "schoolwork",
+          "studying",
+          "Homework"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Packen",
+        "aliases": [
+          "packing for a trip",
+          "pack",
+          "Packing"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Weihnachtseinkauf",
+        "aliases": [
+          "holiday shopping",
+          "buying gifts",
+          "gift shopping",
+          "Christmas Shopping"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Waesche",
+        "aliases": [
+          "washing clothes",
+          "doing laundry",
+          "Laundry"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Putzen",
+        "aliases": [
+          "housework",
+          "tidying",
+          "Cleaning"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen021",
+    "question": "Nenne ein Getraenk, das man an der Bar bestellt.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Bier",
+        "aliases": [
+          "draft beer",
+          "pint",
+          "lager",
+          "ale",
+          "Beer"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Margarita",
+        "aliases": [
+          "marg",
+          "margaritas"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Whiskey",
+        "aliases": [
+          "whisky",
+          "bourbon",
+          "scotch",
+          "jack daniels"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Wodka Soda",
+        "aliases": [
+          "vodka",
+          "vodka tonic",
+          "vodka cranberry",
+          "Vodka Soda"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Wein",
+        "aliases": [
+          "red wine",
+          "white wine",
+          "glass of wine",
+          "Wine"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Old Fashioned",
+        "aliases": [
+          "manhattan",
+          "cocktail"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen022",
+    "question": "Nenne einen Promi, den jeder nachmachen kann.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Morgan Freeman",
+        "aliases": [
+          "freeman"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Arnold Schwarzenegger",
+        "aliases": [
+          "schwarzenegger",
+          "arnold"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Christopher Walken",
+        "aliases": [
+          "walken"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Donald Trump",
+        "aliases": [
+          "trump"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Matthew McConaughey",
+        "aliases": [
+          "mcconaughey"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Owen Wilson",
+        "aliases": [
+          "wilson",
+          "wow"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen023",
+    "question": "Nenne etwas, das dich nachts wach haelt.",
+    "category": "Gesundheit",
+    "answers": [
+      {
+        "text": "Stress",
+        "aliases": [
+          "anxiety",
+          "worrying",
+          "worry",
+          "overthinking"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Handy",
+        "aliases": [
+          "scrolling phone",
+          "social media",
+          "screen time",
+          "Phone"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Laerm",
+        "aliases": [
+          "loud neighbors",
+          "traffic noise",
+          "sounds",
+          "noisy",
+          "Noise"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Kaffee",
+        "aliases": [
+          "caffeine",
+          "too much coffee",
+          "Coffee"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Schmerzen",
+        "aliases": [
+          "back pain",
+          "body aches",
+          "headache",
+          "Pain"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Albtraum",
+        "aliases": [
+          "nightmare",
+          "nightmares",
+          "bad dreams",
+          "Bad Dream"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen024",
+    "question": "Nenne eine Ausrede, warum man nicht trainiert.",
+    "category": "Gesundheit",
+    "answers": [
+      {
+        "text": "Zu muede",
+        "aliases": [
+          "tired",
+          "exhausted",
+          "no energy",
+          "fatigue",
+          "Too Tired"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Keine Zeit",
+        "aliases": [
+          "too busy",
+          "busy",
+          "not enough time",
+          "No Time"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Zu teuer",
+        "aliases": [
+          "gym is expensive",
+          "cant afford it",
+          "cost",
+          "Too Expensive"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Schlechtes Wetter",
+        "aliases": [
+          "weather",
+          "its raining",
+          "too cold",
+          "too hot",
+          "Bad Weather"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Verletzung",
+        "aliases": [
+          "hurt",
+          "sore",
+          "in pain",
+          "bad back",
+          "bad knee",
+          "Injury"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Zu faul",
+        "aliases": [
+          "lazy",
+          "dont feel like it",
+          "unmotivated",
+          "Too Lazy"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen025",
+    "question": "Nenne etwas, worueber Leute auf Roadtrips streiten.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Musik",
+        "aliases": [
+          "what to listen to",
+          "radio",
+          "playlist",
+          "the radio station",
+          "Music"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Navigation",
+        "aliases": [
+          "which way to go",
+          "navigation",
+          "gps",
+          "the route",
+          "map",
+          "Directions"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Temperatur",
+        "aliases": [
+          "ac",
+          "air conditioning",
+          "too hot",
+          "too cold",
+          "the heat",
+          "Temperature"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Wo essen",
+        "aliases": [
+          "food",
+          "restaurants",
+          "where to stop",
+          "stopping for food",
+          "Where to Eat"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Wer faehrt",
+        "aliases": [
+          "driving",
+          "whos driving",
+          "taking turns driving",
+          "Who Drives"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Pinkelpausen",
+        "aliases": [
+          "stopping",
+          "rest stops",
+          "how often to stop",
+          "pee break",
+          "Bathroom Stops"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen026",
+    "question": "Nenne eine Hausarbeit, die niemand gerne macht.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Abspuelen",
+        "aliases": [
+          "washing dishes",
+          "doing the dishes",
+          "cleaning dishes",
+          "Dishes"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Bad putzen",
+        "aliases": [
+          "scrubbing toilet",
+          "toilet",
+          "bathroom",
+          "Cleaning the Bathroom"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Waesche",
+        "aliases": [
+          "folding laundry",
+          "washing clothes",
+          "ironing",
+          "Laundry"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Staubsaugen",
+        "aliases": [
+          "vacuum",
+          "hoovering",
+          "mopping",
+          "Vacuuming"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Muell rausbringen",
+        "aliases": [
+          "trash",
+          "garbage",
+          "taking out garbage",
+          "bins",
+          "Taking Out Trash"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Rasen maehen",
+        "aliases": [
+          "lawn",
+          "yard work",
+          "mowing",
+          "cutting grass",
+          "Mowing the Lawn"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen027",
+    "question": "Nenne einen Snack, den man im Kino isst.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Popcorn",
+        "aliases": [
+          "pop corn"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Suessigkeiten",
+        "aliases": [
+          "sweets",
+          "m&ms",
+          "skittles",
+          "gummy bears",
+          "chocolate",
+          "Candy"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Nachos",
+        "aliases": [
+          "nacho",
+          "chips and cheese"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Hot Dog",
+        "aliases": [
+          "hotdog",
+          "hot dogs"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Limo",
+        "aliases": [
+          "coke",
+          "pepsi",
+          "soft drink",
+          "pop",
+          "drink",
+          "Soda"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Eis",
+        "aliases": [
+          "frozen treat",
+          "ice cream bar",
+          "Ice Cream"
+        ],
+        "points": 4
+      }
+    ]
+  },
+  {
+    "id": "gen028",
+    "question": "Nenne etwas, das ein Lehrer Schuelern abnimmt.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Handy",
+        "aliases": [
+          "cell phone",
+          "mobile phone",
+          "smartphone",
+          "Phone"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Zettel",
+        "aliases": [
+          "passing notes",
+          "letters",
+          "Notes"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Kaugummi",
+        "aliases": [
+          "chewing gum",
+          "candy",
+          "sweets",
+          "Gum"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Spielzeug",
+        "aliases": [
+          "fidget spinner",
+          "fidget",
+          "fidget toy",
+          "Toys"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Muetze",
+        "aliases": [
+          "hats",
+          "cap",
+          "caps",
+          "Hat"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Kopfhoerer",
+        "aliases": [
+          "earbuds",
+          "airpods",
+          "earphones",
+          "Headphones"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen029",
+    "question": "Nenne ein Tier, von dem Leute ueberrascht sind, dass es gefaehrlich ist.",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Nilpferd",
+        "aliases": [
+          "hippopotamus",
+          "hippos",
+          "Hippo"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Delfin",
+        "aliases": [
+          "dolphins",
+          "Dolphin"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Schwan",
+        "aliases": [
+          "swans",
+          "Swan"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Elch",
+        "aliases": [
+          "Moose"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Koala",
+        "aliases": [
+          "koalas",
+          "koala bear"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Schnabeltier",
+        "aliases": [
+          "duck-billed platypus",
+          "Platypus"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen030",
+    "question": "Nenne etwas, das toll riecht, aber schrecklich schmeckt.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Parfuem",
+        "aliases": [
+          "cologne",
+          "fragrance",
+          "Perfume"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Kaffee",
+        "aliases": [
+          "coffee beans",
+          "fresh coffee",
+          "Coffee"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Kerzen",
+        "aliases": [
+          "scented candles",
+          "candle",
+          "Candles"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Seife",
+        "aliases": [
+          "hand soap",
+          "body wash",
+          "shampoo",
+          "Soap"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Blumen",
+        "aliases": [
+          "roses",
+          "flower",
+          "Flowers"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Vanilleextrakt",
+        "aliases": [
+          "vanilla",
+          "extract",
+          "Vanilla Extract"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen031",
+    "question": "Nenne einen beruehmten fiktiven Detektiv.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Sherlock Holmes",
+        "aliases": [
+          "sherlock",
+          "holmes"
+        ],
+        "points": 42
+      },
+      {
+        "text": "Batman",
+        "aliases": [
+          "bruce wayne",
+          "the dark knight"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Scooby-Doo",
+        "aliases": [
+          "scooby doo",
+          "scooby",
+          "shaggy",
+          "the mystery gang"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Inspector Gadget",
+        "aliases": [
+          "gadget"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Nancy Drew",
+        "aliases": [
+          "drew"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Hercule Poirot",
+        "aliases": [
+          "poirot"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen032",
+    "question": "Nenne etwas in einem Haus, das Gaeste zuerst bemerken.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Der Geruch",
+        "aliases": [
+          "smell",
+          "odor",
+          "scent",
+          "how it smells",
+          "The Smell"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Einrichtung",
+        "aliases": [
+          "decorations",
+          "furniture",
+          "art",
+          "paintings",
+          "Decor"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Sauberkeit",
+        "aliases": [
+          "mess",
+          "how clean it is",
+          "dirty",
+          "tidy",
+          "Cleanliness"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Die Kueche",
+        "aliases": [
+          "kitchen",
+          "size of kitchen",
+          "The Kitchen"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Haustiere",
+        "aliases": [
+          "dog",
+          "cat",
+          "animals",
+          "Pets"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Fotos",
+        "aliases": [
+          "pictures",
+          "family photos",
+          "frames",
+          "Photos"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen033",
+    "question": "Nenne ein Spiel, das man auf einem Familientreffen spielt.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Karten",
+        "aliases": [
+          "card games",
+          "poker",
+          "uno",
+          "Cards"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Scharade",
+        "aliases": [
+          "Charades"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Monopoly",
+        "aliases": [],
+        "points": 18
+      },
+      {
+        "text": "Scrabble",
+        "aliases": [
+          "board games",
+          "board game"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Quizspiele",
+        "aliases": [
+          "quiz",
+          "trivia game",
+          "trivial pursuit",
+          "Trivia"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Pictionary",
+        "aliases": [
+          "drawing game"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen034",
+    "question": "Nenne etwas, das Leute heimlich googeln.",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "Krankheitssymptome",
+        "aliases": [
+          "symptoms",
+          "medical symptoms",
+          "is this normal",
+          "webmd",
+          "Health Symptoms"
+        ],
+        "points": 34
+      },
+      {
+        "text": "Sich selbst",
+        "aliases": [
+          "their own name",
+          "self",
+          "googling yourself",
+          "my name",
+          "Themselves"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Promi-Klatsch",
+        "aliases": [
+          "celebrities",
+          "celeb news",
+          "celebrity drama",
+          "Celebrity Gossip"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Wie man ein Wort schreibt",
+        "aliases": [
+          "spelling",
+          "how to spell",
+          "word spelling",
+          "How to Spell a Word"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Den Ex",
+        "aliases": [
+          "ex",
+          "ex partner",
+          "former partner",
+          "stalking ex",
+          "Their Ex"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Dumme Fragen",
+        "aliases": [
+          "stupid questions",
+          "obvious questions",
+          "basic facts",
+          "Dumb Questions"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen035",
+    "question": "Nenne etwas, das Leuten peinlich ist im Laden zu kaufen.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Kondome",
+        "aliases": [
+          "condom",
+          "protection",
+          "contraception",
+          "Condoms"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Toilettenpapier",
+        "aliases": [
+          "tp",
+          "toiletries",
+          "Toilet Paper"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Damenhygieneprodukte",
+        "aliases": [
+          "tampons",
+          "pads",
+          "feminine hygiene",
+          "Feminine Products"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Abfuehrmittel",
+        "aliases": [
+          "laxative",
+          "stool softener",
+          "constipation medicine",
+          "Laxatives"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Erwachsenenwindeln",
+        "aliases": [
+          "diapers",
+          "incontinence",
+          "Adult Diapers"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Juckreizcreme",
+        "aliases": [
+          "hemorrhoid cream",
+          "rash cream",
+          "fungal cream",
+          "Anti-Itch Cream"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen036",
+    "question": "Nenne ein beruehmtes Wahrzeichen, das jeder kennt.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Eiffelturm",
+        "aliases": [
+          "eiffel",
+          "the eiffel tower",
+          "tour eiffel",
+          "Eiffel Tower"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Freiheitsstatue",
+        "aliases": [
+          "lady liberty",
+          "statue",
+          "Statue of Liberty"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Chinesische Mauer",
+        "aliases": [
+          "great wall",
+          "chinese wall",
+          "Great Wall of China"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Big Ben",
+        "aliases": [
+          "london clock",
+          "elizabeth tower"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Pyramiden",
+        "aliases": [
+          "egyptian pyramids",
+          "pyramid",
+          "great pyramid",
+          "giza",
+          "Pyramids"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Taj Mahal",
+        "aliases": [
+          "taj"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen037",
+    "question": "Nenne etwas, bei dem man so tut als wuerde man es verstehen.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Steuern",
+        "aliases": [
+          "tax",
+          "filing taxes",
+          "the tax system",
+          "Taxes"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Kryptowaehrung",
+        "aliases": [
+          "crypto",
+          "bitcoin",
+          "blockchain",
+          "nft",
+          "Cryptocurrency"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Politik",
+        "aliases": [
+          "government",
+          "political stuff",
+          "policy",
+          "Politics"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Automotoren",
+        "aliases": [
+          "cars",
+          "mechanics",
+          "how cars work",
+          "engines",
+          "Car Engines"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Wein",
+        "aliases": [
+          "wine tasting",
+          "wine varieties",
+          "wines",
+          "Wine"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Aktienmarkt",
+        "aliases": [
+          "stocks",
+          "investing",
+          "investments",
+          "finance",
+          "Stock Market"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen038",
+    "question": "Nenne etwas, das man beim ersten Date nie tun sollte.",
+    "category": "Beziehungen",
+    "answers": [
+      {
+        "text": "Ueber den Ex reden",
+        "aliases": [
+          "mention your ex",
+          "bring up ex",
+          "ex",
+          "Talk About Your Ex"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Am Handy sein",
+        "aliases": [
+          "phone",
+          "check phone",
+          "text",
+          "scroll phone",
+          "Be On Your Phone"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Zu spaet kommen",
+        "aliases": [
+          "show up late",
+          "being late",
+          "Be Late"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Unordentlich essen",
+        "aliases": [
+          "eat with mouth open",
+          "eat sloppily",
+          "bad table manners",
+          "Eat Messy Food"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Ueber Heirat reden",
+        "aliases": [
+          "marriage",
+          "propose",
+          "kids",
+          "wedding",
+          "Talk About Marriage"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Ruelpsen",
+        "aliases": [
+          "fart",
+          "pass gas",
+          "be rude",
+          "bad manners",
+          "Burp"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen039",
+    "question": "Nenne eine Blume, die man als Geschenk gibt.",
+    "category": "Natur",
+    "answers": [
+      {
+        "text": "Rosen",
+        "aliases": [
+          "rose",
+          "red roses",
+          "red rose",
+          "Roses"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Tulpen",
+        "aliases": [
+          "tulip",
+          "Tulips"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Sonnenblumen",
+        "aliases": [
+          "sunflower",
+          "Sunflowers"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Lilien",
+        "aliases": [
+          "lily",
+          "white lilies",
+          "Lilies"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Orchideen",
+        "aliases": [
+          "orchid",
+          "Orchids"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Gaensebluemchen",
+        "aliases": [
+          "daisy",
+          "Daisies"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen040",
+    "question": "Nenne ein Wort, das nach dem Wort 'Chicken' kommt.",
+    "category": "Wortspiel",
+    "answers": [
+      {
+        "text": "Nuggets",
+        "aliases": [
+          "chicken nuggets",
+          "nugget"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Wings",
+        "aliases": [
+          "chicken wings",
+          "wing"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Pocken",
+        "aliases": [
+          "chicken pox",
+          "chickenpox",
+          "Pox"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Suppe",
+        "aliases": [
+          "chicken soup",
+          "noodle soup",
+          "Soup"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Finger",
+        "aliases": [
+          "chicken fingers",
+          "tenders",
+          "chicken tenders",
+          "Fingers"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Brust",
+        "aliases": [
+          "chicken breast",
+          "Breast"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen041",
+    "question": "Nenne etwas, das eine Nachbarschaft laut macht.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Bellende Hunde",
+        "aliases": [
+          "dogs",
+          "barking",
+          "barking dogs",
+          "dog",
+          "Dogs Barking"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Baustelle",
+        "aliases": [
+          "building work",
+          "road work",
+          "jackhammer",
+          "Construction"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Rasenmaeher",
+        "aliases": [
+          "mowing",
+          "lawn mower",
+          "leaf blower",
+          "leaf blowers",
+          "Lawn Mowers"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Verkehr",
+        "aliases": [
+          "cars",
+          "road noise",
+          "honking",
+          "Traffic"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Partys",
+        "aliases": [
+          "loud music",
+          "music",
+          "party",
+          "Parties"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Spielende Kinder",
+        "aliases": [
+          "children",
+          "screaming kids",
+          "kids",
+          "Kids Playing"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen042",
+    "question": "Nenne ein Essen, das man isst wenn man traurig ist.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Eis",
+        "aliases": [
+          "icecream",
+          "Ice Cream"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Schokolade",
+        "aliases": [
+          "chocolate bar",
+          "candy",
+          "Chocolate"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Kaese-Makkaroni",
+        "aliases": [
+          "macaroni and cheese",
+          "mac n cheese",
+          "mac & cheese",
+          "Mac and Cheese"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Pizza",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "Chips",
+        "aliases": [
+          "potato chips",
+          "crisps",
+          "fries"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Suppe",
+        "aliases": [
+          "chicken soup",
+          "ramen",
+          "noodle soup",
+          "Soup"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen043",
+    "question": "Nenne einen Beruf, den Kinder ausueben wollen wenn sie gross sind.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Arzt",
+        "aliases": [
+          "physician",
+          "surgeon",
+          "Doctor"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Astronaut",
+        "aliases": [
+          "spaceman"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Feuerwehrmann",
+        "aliases": [
+          "fireman",
+          "fire fighter",
+          "Firefighter"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Polizist",
+        "aliases": [
+          "cop",
+          "policeman",
+          "detective",
+          "Police Officer"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Sportler",
+        "aliases": [
+          "sports player",
+          "professional athlete",
+          "soccer player",
+          "football player",
+          "Athlete"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Tierarzt",
+        "aliases": [
+          "vet",
+          "animal doctor",
+          "Veterinarian"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen044",
+    "question": "Nenne etwas, das du als erstes greifen wuerdest wenn dein Haus brennt.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Handy",
+        "aliases": [
+          "cell phone",
+          "smartphone",
+          "my phone",
+          "Phone"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Haustiere",
+        "aliases": [
+          "dog",
+          "cat",
+          "pet",
+          "my pet",
+          "my dog",
+          "Pets"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Familienfotos",
+        "aliases": [
+          "photos",
+          "photo albums",
+          "pictures",
+          "albums",
+          "Family Photos"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Geldbeutel",
+        "aliases": [
+          "purse",
+          "money",
+          "cash",
+          "keys",
+          "Wallet"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Dokumente",
+        "aliases": [
+          "passport",
+          "important papers",
+          "birth certificate",
+          "ids",
+          "Documents"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Laptop",
+        "aliases": [
+          "computer",
+          "my laptop"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen045",
+    "question": "Nenne eine Frucht, die schwer sauber zu essen ist.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Mango",
+        "aliases": [
+          "mangoes",
+          "mangos"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Wassermelone",
+        "aliases": [
+          "water melon",
+          "Watermelon"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Granatapfel",
+        "aliases": [
+          "pomegranates",
+          "Pomegranate"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Orange",
+        "aliases": [
+          "oranges",
+          "tangerine",
+          "clementine"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Pfirsich",
+        "aliases": [
+          "peaches",
+          "nectarine",
+          "Peach"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Grapefruit",
+        "aliases": [],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen046",
+    "question": "Nenne eine Serie, die in einem Krankenhaus spielt.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Grey's Anatomy",
+        "aliases": [
+          "greys anatomy",
+          "grays anatomy"
+        ],
+        "points": 40
+      },
+      {
+        "text": "House",
+        "aliases": [
+          "house md",
+          "dr house",
+          "house m.d."
+        ],
+        "points": 22
+      },
+      {
+        "text": "ER",
+        "aliases": [
+          "e.r."
+        ],
+        "points": 14
+      },
+      {
+        "text": "Scrubs",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "The Good Doctor",
+        "aliases": [
+          "good doctor"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Chicago Med",
+        "aliases": [],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen047",
+    "question": "Nenne etwas, das Leute vergessen bevor sie das Haus verlassen.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Tuer abschliessen",
+        "aliases": [
+          "lock door",
+          "lock up",
+          "locking the door",
+          "Lock the Door"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Schluessel nehmen",
+        "aliases": [
+          "keys",
+          "take keys",
+          "forget keys",
+          "Grab Keys"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Licht ausschalten",
+        "aliases": [
+          "lights",
+          "turn off the lights",
+          "switch off lights",
+          "Turn Off Lights"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Handy nehmen",
+        "aliases": [
+          "phone",
+          "forget phone",
+          "Grab Phone"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Herd ausschalten",
+        "aliases": [
+          "stove",
+          "oven",
+          "turn off oven",
+          "Turn Off Stove"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Geldbeutel nehmen",
+        "aliases": [
+          "wallet",
+          "purse",
+          "forget wallet",
+          "Grab Wallet"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen048",
+    "question": "Nenne eine typische Ausrede dafuer, eine Nachricht nicht beantwortet zu haben.",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "Nicht gesehen",
+        "aliases": [
+          "didnt see it",
+          "missed it",
+          "didnt notice",
+          "i didnt see it",
+          "Didn't See It"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Akku leer",
+        "aliases": [
+          "dead phone",
+          "battery died",
+          "phone was dead",
+          "no battery",
+          "Phone Died"
+        ],
+        "points": 25
+      },
+      {
+        "text": "War beschaeftigt",
+        "aliases": [
+          "too busy",
+          "busy",
+          "i was busy",
+          "Was Busy"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Vergessen",
+        "aliases": [
+          "i forgot",
+          "just forgot",
+          "slipped my mind",
+          "Forgot"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Eingeschlafen",
+        "aliases": [
+          "sleeping",
+          "was sleeping",
+          "i fell asleep",
+          "was asleep",
+          "Fell Asleep"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Schlechter Empfang",
+        "aliases": [
+          "no signal",
+          "no service",
+          "no reception",
+          "Bad Signal"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen049",
+    "question": "Nenne eine Sportart, die man alleine ausueben kann.",
+    "category": "Sport",
+    "answers": [
+      {
+        "text": "Golf",
+        "aliases": [],
+        "points": 28
+      },
+      {
+        "text": "Laufen",
+        "aliases": [
+          "jogging",
+          "track",
+          "Running"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Schwimmen",
+        "aliases": [
+          "Swimming"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Tennis",
+        "aliases": [
+          "hitting against a wall"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Bowling",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "Radfahren",
+        "aliases": [
+          "biking",
+          "bike riding",
+          "riding a bike",
+          "Cycling"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen050",
+    "question": "Nenne ein Tier, das schlauer ist als die Leute denken.",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Schwein",
+        "aliases": [
+          "pigs",
+          "hog",
+          "Pig"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Kraehe",
+        "aliases": [
+          "crows",
+          "raven",
+          "ravens",
+          "Crow"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Oktopus",
+        "aliases": [
+          "Octopus"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Hund",
+        "aliases": [
+          "dogs",
+          "Dog"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Ratte",
+        "aliases": [
+          "rats",
+          "mouse",
+          "mice",
+          "Rat"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Elefant",
+        "aliases": [
+          "elephants",
+          "Elephant"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen051",
+    "question": "Nenne etwas, das man sich immer ausleiht aber nie zurueckgibt.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Kugelschreiber",
+        "aliases": [
+          "pens",
+          "pencil",
+          "Pen"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Feuerzeug",
+        "aliases": [
+          "lighters",
+          "Lighter"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Regenschirm",
+        "aliases": [
+          "umbrellas",
+          "Umbrella"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Buecher",
+        "aliases": [
+          "book",
+          "novels",
+          "Books"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Ladegeraet",
+        "aliases": [
+          "phone charger",
+          "charging cable",
+          "Charger"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Tupperware",
+        "aliases": [
+          "containers",
+          "food container",
+          "food containers"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen052",
+    "question": "Nenne etwas, das man in der Schule haette lernen sollen, aber nicht gelernt hat.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Steuererklaerung machen",
+        "aliases": [
+          "taxes",
+          "filing taxes",
+          "tax returns",
+          "How to Do Taxes"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Budgetplanung",
+        "aliases": [
+          "finances",
+          "money management",
+          "personal finance",
+          "managing money",
+          "Budgeting"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Kochen",
+        "aliases": [
+          "how to cook",
+          "basic cooking",
+          "Cooking"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Erste Hilfe",
+        "aliases": [
+          "cpr",
+          "basic medical",
+          "emergency skills",
+          "First Aid"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Autowartung",
+        "aliases": [
+          "changing a tire",
+          "how to fix a car",
+          "oil change",
+          "Car Maintenance"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Wie man waehlt",
+        "aliases": [
+          "voting",
+          "politics",
+          "civic duty",
+          "How to Vote"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen053",
+    "question": "Nenne einen Ort, an dem man fluestert.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Bibliothek",
+        "aliases": [
+          "the library",
+          "Library"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Kirche",
+        "aliases": [
+          "temple",
+          "mosque",
+          "synagogue",
+          "place of worship",
+          "Church"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Kino",
+        "aliases": [
+          "theater",
+          "cinema",
+          "the movies",
+          "Movie Theater"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Krankenhaus",
+        "aliases": [
+          "doctor's office",
+          "medical",
+          "Hospital"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Beerdigung",
+        "aliases": [
+          "funeral home",
+          "wake",
+          "Funeral"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Klassenzimmer",
+        "aliases": [
+          "school",
+          "class",
+          "during a test",
+          "Classroom"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen054",
+    "question": "Nenne ein Essen, das als Rest besser schmeckt.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Pizza",
+        "aliases": [
+          "cold pizza"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Lasagne",
+        "aliases": [
+          "lasagne",
+          "Lasagna"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Chinesisches Essen",
+        "aliases": [
+          "chinese",
+          "chinese takeout",
+          "lo mein",
+          "fried rice",
+          "Chinese Food"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Chili",
+        "aliases": [
+          "chilli"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Eintopf",
+        "aliases": [
+          "soup",
+          "curry",
+          "Stew"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Thanksgiving-Truthahn",
+        "aliases": [
+          "turkey",
+          "thanksgiving leftovers",
+          "Thanksgiving Turkey"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen055",
+    "question": "Nenne einen beruehmten fiktiven Boesewicht.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Darth Vader",
+        "aliases": [
+          "vader",
+          "lord vader"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Joker",
+        "aliases": [
+          "the joker"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Thanos",
+        "aliases": [],
+        "points": 17
+      },
+      {
+        "text": "Voldemort",
+        "aliases": [
+          "lord voldemort",
+          "he who must not be named",
+          "you know who"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Cruella de Vil",
+        "aliases": [
+          "cruella"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Scar",
+        "aliases": [
+          "lion king scar"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen056",
+    "question": "Nenne etwas, das bei der Zulassungsstelle ewig dauert.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Warten in der Schlange",
+        "aliases": [
+          "the line",
+          "waiting",
+          "queue",
+          "standing in line",
+          "Waiting in Line"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Papierkram",
+        "aliases": [
+          "forms",
+          "filling out forms",
+          "documents",
+          "Paperwork"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Foto",
+        "aliases": [
+          "getting your photo",
+          "license photo",
+          "taking the photo",
+          "picture",
+          "Photo"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Sehtest",
+        "aliases": [
+          "vision test",
+          "eye exam",
+          "Eye Test"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Schriftliche Pruefung",
+        "aliases": [
+          "the test",
+          "driving test",
+          "exam",
+          "Written Test"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Aufgerufen werden",
+        "aliases": [
+          "waiting for your number",
+          "your number",
+          "being called",
+          "ticket number",
+          "Getting Called"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen057",
+    "question": "Nenne ein Musikinstrument, das Leute gerne spielen koennten.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Klavier",
+        "aliases": [
+          "keyboard",
+          "Piano"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Gitarre",
+        "aliases": [
+          "electric guitar",
+          "acoustic guitar",
+          "Guitar"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Geige",
+        "aliases": [
+          "fiddle",
+          "Violin"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Schlagzeug",
+        "aliases": [
+          "drum set",
+          "drum kit",
+          "percussion",
+          "Drums"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Saxophon",
+        "aliases": [
+          "sax",
+          "Saxophone"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Harfe",
+        "aliases": [
+          "Harp"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen058",
+    "question": "Nenne etwas, das Leute im Stau machen.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Musik hoeren",
+        "aliases": [
+          "music",
+          "play music",
+          "radio",
+          "listen to the radio",
+          "Listen to Music"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Hupen",
+        "aliases": [
+          "honk horn",
+          "honking",
+          "beep",
+          "Honk"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Handy checken",
+        "aliases": [
+          "phone",
+          "text",
+          "look at phone",
+          "scroll phone",
+          "Check Phone"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Singen",
+        "aliases": [
+          "sing along",
+          "singing",
+          "sing in the car",
+          "Sing"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Fluchen",
+        "aliases": [
+          "curse",
+          "yell",
+          "road rage",
+          "get angry",
+          "get frustrated",
+          "Swear"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Podcast",
+        "aliases": [
+          "listen to podcast",
+          "audiobook",
+          "listen to audiobook"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen059",
+    "question": "Nenne etwas Albernes, worueber Paare streiten.",
+    "category": "Beziehungen",
+    "answers": [
+      {
+        "text": "Was essen",
+        "aliases": [
+          "where to eat",
+          "dinner",
+          "food",
+          "restaurant",
+          "What to Eat"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Thermostat",
+        "aliases": [
+          "temperature",
+          "ac",
+          "heating",
+          "too hot",
+          "too cold"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Abspuelen",
+        "aliases": [
+          "chores",
+          "who does dishes",
+          "cleaning",
+          "Dishes"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Fernbedienung",
+        "aliases": [
+          "remote",
+          "what to watch",
+          "whats on tv",
+          "TV Remote"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Toilettendeckel",
+        "aliases": [
+          "toilet seat up",
+          "leaving the seat up",
+          "Toilet Seat"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Schnarchen",
+        "aliases": [
+          "blanket hogging",
+          "bed covers",
+          "the covers",
+          "Snoring"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen060",
+    "question": "Nenne einen Ort, an dem man immer Dinge verliert.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Couch",
+        "aliases": [
+          "sofa",
+          "couch cushions",
+          "between the cushions"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Auto",
+        "aliases": [
+          "in the car",
+          "vehicle",
+          "backseat",
+          "Car"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Waesche",
+        "aliases": [
+          "washing machine",
+          "dryer",
+          "the wash",
+          "Laundry"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Schlafzimmer",
+        "aliases": [
+          "bed",
+          "under the bed",
+          "nightstand",
+          "Bedroom"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Flughafen",
+        "aliases": [
+          "airplane",
+          "plane",
+          "on a flight",
+          "Airport"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Fitnessstudio",
+        "aliases": [
+          "locker room",
+          "the gym",
+          "Gym"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen061",
+    "question": "Nenne ein Wetter, das Plaene ruiniert.",
+    "category": "Natur",
+    "answers": [
+      {
+        "text": "Regen",
+        "aliases": [
+          "rainstorm",
+          "downpour",
+          "showers",
+          "Rain"
+        ],
+        "points": 38
+      },
+      {
+        "text": "Schnee",
+        "aliases": [
+          "snowstorm",
+          "blizzard",
+          "ice",
+          "Snow"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Hurrikan",
+        "aliases": [
+          "tornado",
+          "storm",
+          "cyclone",
+          "typhoon",
+          "Hurricane"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Extreme Hitze",
+        "aliases": [
+          "heat wave",
+          "too hot",
+          "scorching",
+          "heatwave",
+          "Extreme Heat"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Gewitter",
+        "aliases": [
+          "thunder",
+          "lightning",
+          "thunder and lightning",
+          "Thunderstorm"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Nebel",
+        "aliases": [
+          "dense fog",
+          "foggy",
+          "haze",
+          "Fog"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen062",
+    "question": "Nenne etwas, das man bei Oma im Haus findet.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Suessigkeiten",
+        "aliases": [
+          "sweets",
+          "candy dish",
+          "candy bowl",
+          "hard candy",
+          "Candy"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Stricken",
+        "aliases": [
+          "yarn",
+          "crochet",
+          "sewing",
+          "needles",
+          "Knitting"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Alte Fotos",
+        "aliases": [
+          "photo albums",
+          "pictures",
+          "family photos",
+          "frames",
+          "Old Photos"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Deckchen",
+        "aliases": [
+          "lace",
+          "tablecloth",
+          "doily",
+          "Doilies"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Vitrinenschrank",
+        "aliases": [
+          "fine china",
+          "porcelain",
+          "china",
+          "dishes",
+          "China Cabinet"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Katzen",
+        "aliases": [
+          "cat",
+          "kittens",
+          "a cat",
+          "Cats"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen063",
+    "question": "Nenne etwas, das in jedem Actionfilm passiert.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Verfolgungsjagd",
+        "aliases": [
+          "car chases",
+          "chase scene",
+          "pursuit",
+          "Car Chase"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Explosion",
+        "aliases": [
+          "explosions",
+          "things blow up",
+          "blowing up"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Kampfszene",
+        "aliases": [
+          "fighting",
+          "fist fight",
+          "hand to hand combat",
+          "Fight Scene"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Schiesserei",
+        "aliases": [
+          "guns",
+          "gunfight",
+          "bullets",
+          "Shooting"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Cooler Spruch",
+        "aliases": [
+          "cheesy line",
+          "catchphrase",
+          "cool line",
+          "quip",
+          "One-Liner"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Held geht davon",
+        "aliases": [
+          "walking away from explosion",
+          "cool walk",
+          "slow motion",
+          "slow mo",
+          "Hero Walks Away"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen064",
+    "question": "Nenne einen Gegenstand, den Leute kaufen aber selten benutzen.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Fitnessstudio-Mitgliedschaft",
+        "aliases": [
+          "gym",
+          "gym memberships",
+          "Gym Membership"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Kochbuecher",
+        "aliases": [
+          "cookbook",
+          "recipe books",
+          "Cookbooks"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Laufband",
+        "aliases": [
+          "exercise equipment",
+          "exercise bike",
+          "home gym",
+          "Treadmill"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Buecher",
+        "aliases": [
+          "book",
+          "novels",
+          "Books"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Entsafter",
+        "aliases": [
+          "blender",
+          "food processor",
+          "Juicer"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Buegeleisen",
+        "aliases": [
+          "ironing board",
+          "clothes iron",
+          "Iron"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen065",
+    "question": "Nenne etwas, das ein Zahnarzt dir immer sagt.",
+    "category": "Gesundheit",
+    "answers": [
+      {
+        "text": "Zahnseide benutzen",
+        "aliases": [
+          "floss more",
+          "floss daily",
+          "flossing",
+          "Floss"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Zweimal taeglich putzen",
+        "aliases": [
+          "brush more",
+          "brush your teeth",
+          "brushing",
+          "Brush Twice a Day"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Mundspuelung benutzen",
+        "aliases": [
+          "mouthwash",
+          "rinse",
+          "Use Mouthwash"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Weniger Zucker",
+        "aliases": [
+          "less sugar",
+          "no sugar",
+          "eat less candy",
+          "less sweets",
+          "Cut Down on Sugar"
+        ],
+        "points": 10
+      },
+      {
+        "text": "In 6 Monaten wiederkommen",
+        "aliases": [
+          "schedule a checkup",
+          "come back",
+          "regular checkups",
+          "next appointment",
+          "Come Back in 6 Months"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Zahnbuerste wechseln",
+        "aliases": [
+          "new toothbrush",
+          "change toothbrush",
+          "Replace Your Toothbrush"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen066",
+    "question": "Nenne ein Lied, bei dem jeder den Text kennt.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Bohemian Rhapsody",
+        "aliases": [
+          "bohemian",
+          "queen bohemian"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Happy Birthday",
+        "aliases": [
+          "happy birthday to you",
+          "birthday song"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Don't Stop Believin'",
+        "aliases": [
+          "dont stop believing",
+          "dont stop believin",
+          "journey"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Sweet Caroline",
+        "aliases": [
+          "bah bah bah",
+          "neil diamond"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Mr. Brightside",
+        "aliases": [
+          "brightside",
+          "the killers"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Baby Shark",
+        "aliases": [
+          "doo doo doo",
+          "baby shark doo doo"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen067",
+    "question": "Nenne etwas, das am Flughafen immer teurer ist.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Essen",
+        "aliases": [
+          "restaurants",
+          "meals",
+          "eating",
+          "Food"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Wasser",
+        "aliases": [
+          "bottled water",
+          "drinks",
+          "beverages",
+          "Water"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Kaffee",
+        "aliases": [
+          "starbucks",
+          "latte",
+          "Coffee"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Souvenirs",
+        "aliases": [
+          "gifts",
+          "gift shop",
+          "shops"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Parken",
+        "aliases": [
+          "car park",
+          "Parking"
+        ],
+        "points": 9
+      },
+      {
+        "text": "WLAN",
+        "aliases": [
+          "internet",
+          "wi-fi",
+          "WiFi"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen068",
+    "question": "Nenne ein Brettspiel, das zu Familienstreits fuehrt.",
+    "category": "Unterhaltung",
+    "answers": [
+      {
+        "text": "Monopoly",
+        "aliases": [],
+        "points": 50
+      },
+      {
+        "text": "Risiko",
+        "aliases": [
+          "Risk"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Uno",
+        "aliases": [],
+        "points": 12
+      },
+      {
+        "text": "Scrabble",
+        "aliases": [],
+        "points": 10
+      },
+      {
+        "text": "Sorry",
+        "aliases": [
+          "sorry!"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Settlers of Catan",
+        "aliases": [
+          "catan",
+          "settlers"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen069",
+    "question": "Nenne etwas, das Leute bei der Arbeit machen wenn der Chef nicht hinschaut.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Im Internet surfen",
+        "aliases": [
+          "internet",
+          "surf the web",
+          "online shopping",
+          "browse web",
+          "Browse the Internet"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Handy checken",
+        "aliases": [
+          "phone",
+          "text",
+          "scroll phone",
+          "social media",
+          "Check Phone"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Mit Kollegen quatschen",
+        "aliases": [
+          "talk",
+          "gossip",
+          "socialize",
+          "chatting",
+          "Chat with Coworkers"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Lange Pause machen",
+        "aliases": [
+          "long lunch",
+          "extended break",
+          "extra break",
+          "Take a Long Break"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Nickerchen",
+        "aliases": [
+          "sleep",
+          "doze off",
+          "rest eyes",
+          "sleeping",
+          "Nap"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Frueher gehen",
+        "aliases": [
+          "sneak out",
+          "go home early",
+          "leave",
+          "Leave Early"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen070",
+    "question": "Nenne etwas, das selbstgemacht besser ist als gekauft.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Kekse",
+        "aliases": [
+          "chocolate chip cookies",
+          "biscuits",
+          "Cookies"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Brot",
+        "aliases": [
+          "fresh bread",
+          "loaf",
+          "Bread"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Tomatensosse",
+        "aliases": [
+          "tomato sauce",
+          "marinara",
+          "spaghetti sauce",
+          "sauce",
+          "Pasta Sauce"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Kuchen",
+        "aliases": [
+          "apple pie",
+          "pies",
+          "Pie"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Suppe",
+        "aliases": [
+          "chicken soup",
+          "soups",
+          "Soup"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Limonade",
+        "aliases": [
+          "juice",
+          "fresh juice",
+          "Lemonade"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen071",
+    "question": "Nenne eine Faehigkeit, die auf einer Party beeindruckt.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Gitarre spielen",
+        "aliases": [
+          "guitar",
+          "playing an instrument",
+          "playing music",
+          "instrument",
+          "Playing Guitar"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Zaubertricks",
+        "aliases": [
+          "magic",
+          "card tricks",
+          "card trick",
+          "tricks",
+          "Magic Tricks"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Tanzen",
+        "aliases": [
+          "dance",
+          "good dancer",
+          "breakdancing",
+          "Dancing"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Jonglieren",
+        "aliases": [
+          "juggle",
+          "Juggling"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Singen",
+        "aliases": [
+          "sing",
+          "karaoke",
+          "good voice",
+          "Singing"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Barkeeping",
+        "aliases": [
+          "mixing drinks",
+          "cocktails",
+          "making cocktails",
+          "cocktail making",
+          "Bartending"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen072",
+    "question": "Nenne etwas, das man im Zimmer eines Teenagers findet.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Handy",
+        "aliases": [
+          "cell phone",
+          "smartphone",
+          "Phone"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Klamotten auf dem Boden",
+        "aliases": [
+          "messy clothes",
+          "dirty clothes",
+          "laundry",
+          "clothes",
+          "Clothes on the Floor"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Poster",
+        "aliases": [
+          "poster",
+          "wall posters",
+          "Posters"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Spielkonsole",
+        "aliases": [
+          "playstation",
+          "xbox",
+          "nintendo",
+          "video games",
+          "ps5",
+          "Gaming Console"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Kopfhoerer",
+        "aliases": [
+          "earbuds",
+          "airpods",
+          "Headphones"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Leere Snacktueten",
+        "aliases": [
+          "food wrappers",
+          "trash",
+          "snacks",
+          "old food",
+          "Empty Snack Bags"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen073",
+    "question": "Nenne ein Fahrzeug, in dem man einmal mitfahren moechte.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Hubschrauber",
+        "aliases": [
+          "chopper",
+          "heli",
+          "Helicopter"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Lamborghini",
+        "aliases": [
+          "ferrari",
+          "sports car",
+          "supercar",
+          "exotic car"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Heissluftballon",
+        "aliases": [
+          "balloon",
+          "air balloon",
+          "Hot Air Balloon"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Yacht",
+        "aliases": [
+          "luxury yacht",
+          "boat",
+          "sailboat"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Privatjet",
+        "aliases": [
+          "jet",
+          "private plane",
+          "Private Jet"
+        ],
+        "points": 10
+      },
+      {
+        "text": "U-Boot",
+        "aliases": [
+          "sub",
+          "Submarine"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen074",
+    "question": "Nenne einen Feiertag, fuer den Leute zu viel Geld ausgeben.",
+    "category": "Feiertage",
+    "answers": [
+      {
+        "text": "Weihnachten",
+        "aliases": [
+          "xmas",
+          "Christmas"
+        ],
+        "points": 50
+      },
+      {
+        "text": "Valentinstag",
+        "aliases": [
+          "valentines",
+          "valentine",
+          "valentines day",
+          "Valentine's Day"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Thanksgiving",
+        "aliases": [
+          "turkey day"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Black Friday",
+        "aliases": [],
+        "points": 8
+      },
+      {
+        "text": "Hochzeitstag",
+        "aliases": [
+          "anniversary",
+          "Wedding Anniversary"
+        ],
+        "points": 7
+      },
+      {
+        "text": "Ostern",
+        "aliases": [
+          "Easter"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen075",
+    "question": "Nenne ein Geraet, das veraltet ist.",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "Faxgeraet",
+        "aliases": [
+          "fax",
+          "Fax Machine"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Videorekorder",
+        "aliases": [
+          "vcr player",
+          "vhs player",
+          "vhs",
+          "VCR"
+        ],
+        "points": 24
+      },
+      {
+        "text": "CD-Player",
+        "aliases": [
+          "discman",
+          "walkman",
+          "cd",
+          "portable cd player",
+          "CD Player"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Pager",
+        "aliases": [
+          "beeper",
+          "pagers"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Diskette",
+        "aliases": [
+          "floppy",
+          "floppy drive",
+          "floppy disks",
+          "Floppy Disk"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Klapphandy",
+        "aliases": [
+          "flip phones",
+          "old phone",
+          "nokia",
+          "Flip Phone"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen076",
+    "question": "Nenne eine olympische Sportart, die die meisten nicht koennten.",
+    "category": "Sport",
+    "answers": [
+      {
+        "text": "Turnen",
+        "aliases": [
+          "artistic gymnastics",
+          "Gymnastics"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Stabhochsprung",
+        "aliases": [
+          "pole vaulting",
+          "Pole Vault"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Turmspringen",
+        "aliases": [
+          "high dive",
+          "platform diving",
+          "Diving"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Eiskunstlauf",
+        "aliases": [
+          "ice skating",
+          "ice dance",
+          "Figure Skating"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Gewichtheben",
+        "aliases": [
+          "weight lifting",
+          "clean and jerk",
+          "snatch",
+          "Weightlifting"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Fechten",
+        "aliases": [
+          "sword fighting",
+          "Fencing"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen077",
+    "question": "Nenne ein Tier, das sich langsam bewegt.",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Faultier",
+        "aliases": [
+          "sloths",
+          "Sloth"
+        ],
+        "points": 40
+      },
+      {
+        "text": "Schildkroete",
+        "aliases": [
+          "tortoise",
+          "turtles",
+          "tortoises",
+          "Turtle"
+        ],
+        "points": 26
+      },
+      {
+        "text": "Schnecke",
+        "aliases": [
+          "snails",
+          "slug",
+          "slugs",
+          "Snail"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Koala",
+        "aliases": [
+          "koalas"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Seekuh",
+        "aliases": [
+          "sea cow",
+          "manatees",
+          "Manatee"
+        ],
+        "points": 5
+      },
+      {
+        "text": "Seestern",
+        "aliases": [
+          "sea star",
+          "starfishes",
+          "Starfish"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen078",
+    "question": "Nenne etwas, das Leute sofort nach dem Aufwachen machen.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Handy checken",
+        "aliases": [
+          "look at phone",
+          "grab phone",
+          "phone",
+          "Check Phone"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Auf die Toilette gehen",
+        "aliases": [
+          "use bathroom",
+          "pee",
+          "toilet",
+          "use the toilet",
+          "Go to Bathroom"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Zaehne putzen",
+        "aliases": [
+          "brush my teeth",
+          "teeth",
+          "Brush Teeth"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Kaffee machen",
+        "aliases": [
+          "coffee",
+          "drink coffee",
+          "brew coffee",
+          "Make Coffee"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Strecken",
+        "aliases": [
+          "stretching",
+          "yawn",
+          "yawning",
+          "Stretch"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Schlummertaste druecken",
+        "aliases": [
+          "snooze",
+          "press snooze",
+          "alarm",
+          "Hit Snooze"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen079",
+    "question": "Nenne etwas, das du mit Texas verbindest.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Cowboys",
+        "aliases": [
+          "cowboy",
+          "dallas cowboys"
+        ],
+        "points": 30
+      },
+      {
+        "text": "BBQ",
+        "aliases": [
+          "barbecue",
+          "brisket",
+          "bbq brisket"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Waffen",
+        "aliases": [
+          "firearms",
+          "rifles",
+          "Guns"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Grosse Trucks",
+        "aliases": [
+          "trucks",
+          "pickup trucks",
+          "pickup",
+          "Big Trucks"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Oel",
+        "aliases": [
+          "petroleum",
+          "oil rigs",
+          "drilling",
+          "Oil"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Steaks",
+        "aliases": [
+          "steak",
+          "beef",
+          "cattle",
+          "longhorn"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen080",
+    "question": "Nenne etwas, das jedes Buero hat.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Kaffeemaschine",
+        "aliases": [
+          "coffee maker",
+          "coffee pot",
+          "keurig",
+          "coffee",
+          "Coffee Machine"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Drucker",
+        "aliases": [
+          "copy machine",
+          "copier",
+          "scanner",
+          "Printer"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Computer",
+        "aliases": [
+          "computers",
+          "laptops",
+          "desktop",
+          "pcs"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Tacker",
+        "aliases": [
+          "staplers",
+          "staples",
+          "Stapler"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Whiteboard",
+        "aliases": [
+          "dry erase board",
+          "bulletin board",
+          "notice board"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Uhr",
+        "aliases": [
+          "wall clock",
+          "clocks",
+          "Clock"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen081",
+    "question": "Nenne etwas, das ein Spukhaus gruselig macht.",
+    "category": "Feiertage",
+    "answers": [
+      {
+        "text": "Geister",
+        "aliases": [
+          "ghost",
+          "spirits",
+          "apparitions",
+          "Ghosts"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Gruselige Geraeusche",
+        "aliases": [
+          "noises",
+          "screaming",
+          "weird noises",
+          "sounds",
+          "screams",
+          "Creepy Sounds"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Dunkelheit",
+        "aliases": [
+          "dark",
+          "no lights",
+          "the dark",
+          "Darkness"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Schockmomente",
+        "aliases": [
+          "people jumping out",
+          "being startled",
+          "surprise",
+          "Jump Scares"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Spinnen",
+        "aliases": [
+          "cobwebs",
+          "spider webs",
+          "webs",
+          "Spiders"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Clowns",
+        "aliases": [
+          "scary clowns",
+          "clown"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen082",
+    "question": "Nenne etwas, das dein Handy macht und dich nervt.",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "Geht aus",
+        "aliases": [
+          "battery dies",
+          "runs out of battery",
+          "low battery",
+          "dead battery",
+          "Dies"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Autokorrektur",
+        "aliases": [
+          "auto correct",
+          "wrong autocorrect",
+          "typos",
+          "changes words",
+          "Autocorrect"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Spam-Anrufe",
+        "aliases": [
+          "robocalls",
+          "telemarketers",
+          "unknown calls",
+          "junk calls",
+          "Spam Calls"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Updates",
+        "aliases": [
+          "software update",
+          "needs update",
+          "updating"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Benachrichtigungen",
+        "aliases": [
+          "too many notifications",
+          "alerts",
+          "buzzing",
+          "Notifications"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Haengt sich auf",
+        "aliases": [
+          "crashes",
+          "lags",
+          "slow",
+          "lagging",
+          "glitching",
+          "Freezes"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen083",
+    "question": "Nenne eine Mannschaftssportart, bei der Teamarbeit unerlässlich ist.",
+    "category": "Sport",
+    "answers": [
+      {
+        "text": "Basketball",
+        "aliases": [
+          "bball",
+          "nba"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Fussball",
+        "aliases": [
+          "football",
+          "futbol",
+          "Soccer"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Football",
+        "aliases": [
+          "american football",
+          "nfl"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Volleyball",
+        "aliases": [],
+        "points": 12
+      },
+      {
+        "text": "Eishockey",
+        "aliases": [
+          "ice hockey",
+          "nhl",
+          "Hockey"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Rudern",
+        "aliases": [
+          "crew",
+          "boat racing",
+          "Rowing"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen084",
+    "question": "Nenne ein Tier mit einem unverdienten Ruf.",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Hai",
+        "aliases": [
+          "sharks",
+          "great white",
+          "Shark"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Schlange",
+        "aliases": [
+          "snakes",
+          "serpent",
+          "Snake"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Fledermaus",
+        "aliases": [
+          "bats",
+          "Bat"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Wolf",
+        "aliases": [
+          "wolves"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Spinne",
+        "aliases": [
+          "spiders",
+          "Spider"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Hyaene",
+        "aliases": [
+          "hyenas",
+          "Hyena"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen085",
+    "question": "Nenne etwas, das als Unglueck gilt.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Spiegel zerbrechen",
+        "aliases": [
+          "broken mirror",
+          "mirror breaking",
+          "Breaking a Mirror"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Schwarze Katze",
+        "aliases": [
+          "black cat crossing",
+          "black cats",
+          "Black Cat"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Unter Leiter durchgehen",
+        "aliases": [
+          "under a ladder",
+          "ladder",
+          "Walking Under a Ladder"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Zahl 13",
+        "aliases": [
+          "thirteen",
+          "the number 13",
+          "friday the 13th",
+          "Number 13"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Regenschirm drinnen oeffnen",
+        "aliases": [
+          "umbrella inside",
+          "umbrella indoors",
+          "indoor umbrella",
+          "Opening Umbrella Indoors"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Salz verschuetten",
+        "aliases": [
+          "spilled salt",
+          "salt",
+          "Spilling Salt"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen086",
+    "question": "Nenne etwas, das Leute von Orten sammeln, die sie besuchen.",
+    "category": "Reisen",
+    "answers": [
+      {
+        "text": "Magnete",
+        "aliases": [
+          "fridge magnets",
+          "magnet",
+          "refrigerator magnets",
+          "Magnets"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Postkarten",
+        "aliases": [
+          "postcard",
+          "Postcards"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Schnapsglaeser",
+        "aliases": [
+          "shot glass",
+          "Shot Glasses"
+        ],
+        "points": 18
+      },
+      {
+        "text": "T-Shirts",
+        "aliases": [
+          "t-shirt",
+          "tshirt",
+          "shirts"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Schluesselanhaenger",
+        "aliases": [
+          "keychain",
+          "key chains",
+          "key chain",
+          "Keychains"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Schneekugeln",
+        "aliases": [
+          "snow globe",
+          "snowglobe",
+          "Snow Globes"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen087",
+    "question": "Nenne etwas, das man vor einem Vorstellungsgespraech tun sollte.",
+    "category": "Arbeit & Schule",
+    "answers": [
+      {
+        "text": "Firma recherchieren",
+        "aliases": [
+          "research",
+          "look up the company",
+          "study the company",
+          "Research the Company"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Schick anziehen",
+        "aliases": [
+          "dress up",
+          "pick an outfit",
+          "iron clothes",
+          "look professional",
+          "Dress Nicely"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Antworten ueben",
+        "aliases": [
+          "prepare",
+          "rehearse",
+          "practice",
+          "prep answers",
+          "Practice Answers"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Duschen",
+        "aliases": [
+          "groom",
+          "hygiene",
+          "look clean",
+          "brush teeth",
+          "Shower"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Lebenslauf drucken",
+        "aliases": [
+          "resume",
+          "bring resume",
+          "update resume",
+          "cv",
+          "Print Resume"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Anfahrt planen",
+        "aliases": [
+          "know where it is",
+          "check location",
+          "plan route",
+          "directions",
+          "Get Directions"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen088",
+    "question": "Nenne etwas, das mit dem Alter besser wird.",
+    "category": "Essen & Trinken",
+    "answers": [
+      {
+        "text": "Wein",
+        "aliases": [
+          "red wine",
+          "wines",
+          "Wine"
+        ],
+        "points": 45
+      },
+      {
+        "text": "Kaese",
+        "aliases": [
+          "aged cheese",
+          "cheddar",
+          "Cheese"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Whiskey",
+        "aliases": [
+          "whisky",
+          "scotch",
+          "bourbon"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Jeans",
+        "aliases": [
+          "denim",
+          "worn in jeans"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Gusseisenpfanne",
+        "aliases": [
+          "cast iron",
+          "cast iron skillet",
+          "skillet",
+          "Cast Iron Pan"
+        ],
+        "points": 6
+      },
+      {
+        "text": "Balsamico-Essig",
+        "aliases": [
+          "vinegar",
+          "balsamic",
+          "Balsamic Vinegar"
+        ],
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "gen089",
+    "question": "Nenne etwas, das auf jeder Hochzeit passiert.",
+    "category": "Beziehungen",
+    "answers": [
+      {
+        "text": "Jemand weint",
+        "aliases": [
+          "crying",
+          "tears",
+          "people cry",
+          "Someone Cries"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Eroeffnungstanz",
+        "aliases": [
+          "dancing",
+          "the dance",
+          "bride and groom dance",
+          "First Dance"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Torte anschneiden",
+        "aliases": [
+          "cutting the cake",
+          "wedding cake",
+          "cake",
+          "Cake Cutting"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Brautstrauss werfen",
+        "aliases": [
+          "throwing the bouquet",
+          "toss bouquet",
+          "bouquet throw",
+          "Bouquet Toss"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Reden",
+        "aliases": [
+          "toasts",
+          "best man speech",
+          "maid of honor speech",
+          "toast",
+          "Speeches"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Jemand wird betrunken",
+        "aliases": [
+          "drinking too much",
+          "drunk uncle",
+          "getting wasted",
+          "Someone Gets Drunk"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen090",
+    "question": "Nenne einen Baum, den die meisten erkennen.",
+    "category": "Natur",
+    "answers": [
+      {
+        "text": "Eiche",
+        "aliases": [
+          "oak tree",
+          "oaks",
+          "Oak"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Palme",
+        "aliases": [
+          "palm tree",
+          "palms",
+          "coconut tree",
+          "Palm"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Kiefer",
+        "aliases": [
+          "pine tree",
+          "christmas tree",
+          "evergreen",
+          "Pine"
+        ],
+        "points": 20
+      },
+      {
+        "text": "Ahorn",
+        "aliases": [
+          "maple tree",
+          "maples",
+          "Maple"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Birke",
+        "aliases": [
+          "birch tree",
+          "white birch",
+          "Birch"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Weide",
+        "aliases": [
+          "weeping willow",
+          "willow tree",
+          "Willow"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen091",
+    "question": "Nenne ein Wort, das nach 'Home' kommt.",
+    "category": "Wortspiel",
+    "answers": [
+      {
+        "text": "Work",
+        "aliases": [
+          "homework"
+        ],
+        "points": 30
+      },
+      {
+        "text": "Sick",
+        "aliases": [
+          "homesick"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Coming",
+        "aliases": [
+          "homecoming"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Town",
+        "aliases": [
+          "hometown"
+        ],
+        "points": 13
+      },
+      {
+        "text": "Made",
+        "aliases": [
+          "homemade"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Land",
+        "aliases": [
+          "homeland"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen092",
+    "question": "Nenne etwas, das man auf einem Campingplatz findet.",
+    "category": "Natur",
+    "answers": [
+      {
+        "text": "Zelt",
+        "aliases": [
+          "tents",
+          "Tent"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Lagerfeuer",
+        "aliases": [
+          "fire",
+          "fire pit",
+          "bonfire",
+          "Campfire"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Schlafsack",
+        "aliases": [
+          "sleeping bags",
+          "Sleeping Bag"
+        ],
+        "points": 15
+      },
+      {
+        "text": "Marshmallows",
+        "aliases": [
+          "smores",
+          "s'mores"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Insektenspray",
+        "aliases": [
+          "insect repellent",
+          "mosquito spray",
+          "Bug Spray"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Kuehlbox",
+        "aliases": [
+          "ice chest",
+          "food cooler",
+          "Cooler"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen093",
+    "question": "Nenne ein Feiertagsessen, das man entweder liebt oder hasst.",
+    "category": "Feiertage",
+    "answers": [
+      {
+        "text": "Fruechte-Kuchen",
+        "aliases": [
+          "fruit cake",
+          "Fruitcake"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Eierlikoerpunsch",
+        "aliases": [
+          "egg nog",
+          "Eggnog"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Preiselbeersosse",
+        "aliases": [
+          "cranberry",
+          "cranberries",
+          "Cranberry Sauce"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Suesskartoffeln",
+        "aliases": [
+          "yams",
+          "sweet potato casserole",
+          "candied yams",
+          "Sweet Potatoes"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Fuellung",
+        "aliases": [
+          "dressing",
+          "Stuffing"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Mince Pie",
+        "aliases": [
+          "mince pies",
+          "mincemeat pie"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen094",
+    "question": "Nenne ein Passwort, das Leute haeufig verwenden.",
+    "category": "Technologie",
+    "answers": [
+      {
+        "text": "123456",
+        "aliases": [
+          "12345",
+          "1234",
+          "123456789",
+          "12345678"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Password",
+        "aliases": [
+          "password1",
+          "password123"
+        ],
+        "points": 25
+      },
+      {
+        "text": "Ihr Geburtstag",
+        "aliases": [
+          "birthday",
+          "birth date",
+          "date of birth",
+          "Their Birthday"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Name des Haustiers",
+        "aliases": [
+          "pets name",
+          "dog name",
+          "cat name",
+          "Pet's Name"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Qwerty",
+        "aliases": [
+          "qwerty123",
+          "qwertyuiop"
+        ],
+        "points": 8
+      },
+      {
+        "text": "Ihr Name",
+        "aliases": [
+          "own name",
+          "first name",
+          "name123",
+          "Their Name"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen095",
+    "question": "Nenne eine Uebung, die Leute lieben zu hassen.",
+    "category": "Sport",
+    "answers": [
+      {
+        "text": "Burpees",
+        "aliases": [
+          "burpee"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Laufen",
+        "aliases": [
+          "jogging",
+          "cardio",
+          "Running"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Planks",
+        "aliases": [
+          "plank",
+          "planking"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Kniebeugen",
+        "aliases": [
+          "squat",
+          "Squats"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Liegestuetze",
+        "aliases": [
+          "pushups",
+          "push ups",
+          "press ups",
+          "Push-Ups"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Ausfallschritte",
+        "aliases": [
+          "lunge",
+          "walking lunges",
+          "Lunges"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen096",
+    "question": "Nenne ein Tier, das man im Garten sehen koennte.",
+    "category": "Tiere",
+    "answers": [
+      {
+        "text": "Eichhoernchen",
+        "aliases": [
+          "squirrels",
+          "Squirrel"
+        ],
+        "points": 32
+      },
+      {
+        "text": "Vogel",
+        "aliases": [
+          "birds",
+          "robin",
+          "sparrow",
+          "blue jay",
+          "Bird"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Kaninchen",
+        "aliases": [
+          "bunny",
+          "rabbits",
+          "bunnies",
+          "Rabbit"
+        ],
+        "points": 17
+      },
+      {
+        "text": "Reh",
+        "aliases": [
+          "deers",
+          "Deer"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Waschbaer",
+        "aliases": [
+          "raccoons",
+          "trash panda",
+          "Raccoon"
+        ],
+        "points": 9
+      },
+      {
+        "text": "Katze",
+        "aliases": [
+          "cats",
+          "stray cat",
+          "neighbor's cat",
+          "Cat"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen097",
+    "question": "Nenne ein Wort, das vor 'Day' kommt.",
+    "category": "Wortspiel",
+    "answers": [
+      {
+        "text": "Birth",
+        "aliases": [
+          "birthday"
+        ],
+        "points": 32
+      },
+      {
+        "text": "To",
+        "aliases": [
+          "today"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Holi",
+        "aliases": [
+          "holiday"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Every",
+        "aliases": [
+          "everyday"
+        ],
+        "points": 12
+      },
+      {
+        "text": "Sun",
+        "aliases": [
+          "sunday"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Pay",
+        "aliases": [
+          "payday"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen098",
+    "question": "Nenne etwas, das ein Wartezimmer beim Arzt immer hat.",
+    "category": "Gesundheit",
+    "answers": [
+      {
+        "text": "Alte Zeitschriften",
+        "aliases": [
+          "magazines",
+          "magazine",
+          "old magazines",
+          "reading material"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Unbequeme Stuehle",
+        "aliases": [
+          "chairs",
+          "hard chairs",
+          "waiting chairs",
+          "seats",
+          "Uncomfortable Chairs"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Fernseher",
+        "aliases": [
+          "television",
+          "a tv",
+          "screen",
+          "TV"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Aquarium",
+        "aliases": [
+          "aquarium",
+          "fish",
+          "Fish Tank"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Desinfektionsmittel",
+        "aliases": [
+          "sanitizer",
+          "purell",
+          "hand sanitiser",
+          "Hand Sanitizer"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Weinende Kinder",
+        "aliases": [
+          "children",
+          "babies",
+          "kids",
+          "noisy kids",
+          "Crying Kids"
+        ],
+        "points": 6
+      }
+    ]
+  },
+  {
+    "id": "gen099",
+    "question": "Nenne etwas, das du mit Australien verbindest.",
+    "category": "Kultur",
+    "answers": [
+      {
+        "text": "Kaenguru",
+        "aliases": [
+          "kangaroos",
+          "roo",
+          "Kangaroo"
+        ],
+        "points": 35
+      },
+      {
+        "text": "Koala",
+        "aliases": [
+          "koalas",
+          "koala bear"
+        ],
+        "points": 22
+      },
+      {
+        "text": "Sydney Opera House",
+        "aliases": [
+          "opera house",
+          "sydney"
+        ],
+        "points": 16
+      },
+      {
+        "text": "Krokodil",
+        "aliases": [
+          "crocs",
+          "crocodile dundee",
+          "crocodiles",
+          "Crocodile"
+        ],
+        "points": 11
+      },
+      {
+        "text": "Vegemite",
+        "aliases": [],
+        "points": 9
+      },
+      {
+        "text": "Great Barrier Reef",
+        "aliases": [
+          "barrier reef",
+          "coral reef",
+          "reef"
+        ],
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "gen100",
+    "question": "Nenne einen Grund, warum jemand den Notruf waehlen koennte.",
+    "category": "Alltag",
+    "answers": [
+      {
+        "text": "Feuer",
+        "aliases": [
+          "house fire",
+          "building fire",
+          "Fire"
+        ],
+        "points": 28
+      },
+      {
+        "text": "Autounfall",
+        "aliases": [
+          "accident",
+          "crash",
+          "car crash",
+          "vehicle accident",
+          "Car Accident"
+        ],
+        "points": 24
+      },
+      {
+        "text": "Ueberfall",
+        "aliases": [
+          "break in",
+          "burglary",
+          "theft",
+          "intruder",
+          "burglar",
+          "Robbery"
+        ],
+        "points": 18
+      },
+      {
+        "text": "Herzinfarkt",
+        "aliases": [
+          "medical emergency",
+          "chest pain",
+          "stroke",
+          "health emergency",
+          "Heart Attack"
+        ],
+        "points": 14
+      },
+      {
+        "text": "Schlaegerei",
+        "aliases": [
+          "assault",
+          "violence",
+          "domestic violence",
+          "attack",
+          "Fight"
+        ],
+        "points": 10
+      },
+      {
+        "text": "Verdaechtige Person",
+        "aliases": [
+          "suspicious activity",
+          "stranger",
+          "prowler",
+          "Suspicious Person"
+        ],
+        "points": 6
+      }
+    ]
+  }
+]

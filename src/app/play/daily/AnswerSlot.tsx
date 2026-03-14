@@ -13,8 +13,8 @@ interface AnswerSlotProps {
 export default function AnswerSlot({ rank, answer, revealed, justRevealed, missed }: AnswerSlotProps) {
   if (!revealed) {
     return (
-      <div className="flex h-14 items-center rounded-xl border border-border bg-surface-light px-4 game-shadow transition-colors">
-        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-surface text-sm font-bold text-text-dim">
+      <div className="flex h-13 items-center rounded-xl border border-border bg-surface-alt px-4 transition-colors">
+        <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-border text-sm font-bold text-text-dim">
           {rank}
         </span>
         <div className="ml-3 flex-1">
@@ -26,26 +26,26 @@ export default function AnswerSlot({ rank, answer, revealed, justRevealed, misse
   }
 
   const bgClass = missed
-    ? "border-coral/40 bg-gradient-to-r from-coral/15 to-coral/5 glow-coral"
+    ? "border-wrong/30 bg-wrong/5"
     : justRevealed
-    ? "border-neon-green/50 bg-gradient-to-r from-neon-green/20 to-neon-green/5 glow-green"
-    : "border-electric/30 bg-gradient-to-r from-electric/10 to-electric/5";
+    ? "border-correct/40 bg-correct/5"
+    : "border-accent/20 bg-accent/5";
 
   const rankBg = missed
-    ? "bg-coral/20 text-coral"
+    ? "bg-wrong/10 text-wrong"
     : justRevealed
-    ? "bg-neon-green/20 text-neon-green"
-    : "bg-electric/20 text-electric";
+    ? "bg-correct/10 text-correct"
+    : "bg-accent/10 text-accent";
 
-  const pointsClass = missed ? "text-coral" : justRevealed ? "text-neon-green" : "text-electric-bright";
+  const pointsClass = missed ? "text-wrong" : justRevealed ? "text-correct" : "text-accent";
 
   return (
-    <div className={`flex h-14 items-center rounded-xl border px-4 ${bgClass} ${justRevealed ? "animate-flip-reveal" : ""} transition-colors`}>
-      <span className={`flex h-8 w-8 items-center justify-center rounded-lg text-sm font-bold ${rankBg}`}>
+    <div className={`flex h-13 items-center rounded-xl border px-4 ${bgClass} ${justRevealed ? "animate-flip-reveal" : ""} transition-colors`}>
+      <span className={`flex h-7 w-7 items-center justify-center rounded-lg text-sm font-bold ${rankBg}`}>
         {rank}
       </span>
       <span className="ml-3 flex-1 font-semibold tracking-wide">{answer.text}</span>
-      <span className={`font-extrabold tabular-nums ${pointsClass}`}>{answer.points}</span>
+      <span className={`font-bold tabular-nums ${pointsClass}`}>{answer.points}</span>
     </div>
   );
 }

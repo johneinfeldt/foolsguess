@@ -1,18 +1,22 @@
 "use client";
 
+import { useLang, t } from "@/lib/i18n";
+
 interface StrikeCounterProps {
   strikes: number;
 }
 
 export default function StrikeCounter({ strikes }: StrikeCounterProps) {
+  const lang = useLang();
+
   return (
     <div className="flex items-center justify-center gap-3">
       {[0, 1, 2].map((i) => (
         <div
           key={i}
-          className={`flex h-11 w-11 items-center justify-center rounded-full border-2 text-lg font-bold transition-all ${
+          className={`flex h-10 w-10 items-center justify-center rounded-full border-2 text-base font-bold transition-all ${
             i < strikes
-              ? "animate-strike-pop border-coral bg-gradient-to-br from-coral/30 to-coral/10 text-coral glow-coral"
+              ? "animate-strike-pop border-wrong bg-wrong/10 text-wrong"
               : "border-border bg-surface text-text-dim"
           }`}
         >
@@ -20,7 +24,7 @@ export default function StrikeCounter({ strikes }: StrikeCounterProps) {
         </div>
       ))}
       <span className="ml-2 text-xs font-bold text-text-dim">
-        {3 - strikes} left
+        {3 - strikes} {t("game.left", lang)}
       </span>
     </div>
   );

@@ -4,6 +4,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { Question } from "@/lib/types";
 import { checkGuess } from "@/lib/matching";
 import { GameState, GameAction, GameMode } from "./useGameState";
+import { useLang, t } from "@/lib/i18n";
 import AnswerSlot from "./AnswerSlot";
 import StrikeCounter from "./StrikeCounter";
 import Timer from "./Timer";
@@ -18,6 +19,7 @@ interface GameBoardProps {
 }
 
 export default function GameBoard({ question, state, dispatch, mode }: GameBoardProps) {
+  const lang = useLang();
   const [input, setInput] = useState("");
   const [shaking, setShaking] = useState(false);
   const [showTransition, setShowTransition] = useState(false);
@@ -31,7 +33,7 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
   useEffect(() => {
     if (state.justRevealedIndex !== null) {
       setCorrectFlash(true);
-      const timer1 = setTimeout(() => setCorrectFlash(false), 600);
+      const timer1 = setTimeout(() => setCorrectFlash(false), 500);
       const timer2 = setTimeout(() => dispatch({ type: "CLEAR_JUST_REVEALED" }), 500);
       return () => { clearTimeout(timer1); clearTimeout(timer2); };
     }
@@ -64,7 +66,7 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
     } else {
       dispatch({ type: "WRONG_GUESS" });
       setShaking(true);
-      setTimeout(() => setShaking(false), 500);
+      setTimeout(() => setShaking(false), 400);
     }
 
     setInput("");
@@ -98,13 +100,13 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
       )}
 
       {/* Question */}
-      <div className="mb-6 rounded-2xl border border-electric/20 bg-gradient-to-br from-surface to-surface-light p-5 text-center game-shadow">
-        <p className="mb-1 text-xs font-bold uppercase tracking-wider text-electric">
+      <div className="card mb-6 p-5 text-center">
+        <p className="mb-1 text-xs font-bold uppercase tracking-wider text-accent">
           {question.category}
         </p>
         <h2 className="text-xl font-extrabold sm:text-2xl">{question.question}</h2>
         <p className="mt-2 text-xs text-text-dim">
-          {foundCount}/6 found
+          {foundCount}/6 {t("game.found", lang)}
         </p>
       </div>
 
@@ -129,25 +131,25 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
 
       {/* Input or Transition */}
       {showTransition ? (
-        <div className="animate-slide-up-fade flex flex-col items-center gap-4 rounded-2xl border border-border bg-surface p-8 game-shadow">
-          <div className="text-4xl">
+        <div className="card animate-slide-up-fade flex flex-col items-center gap-4 p-8">
+          <div className="text-3xl">
             {state.currentQuestionScore >= 80 ? "\u2B50" : state.currentQuestionScore >= 50 ? "\u{1F44F}" : "\u{1F44D}"}
           </div>
           <p className="text-lg font-extrabold">
-            Question {state.currentQuestionIndex + 1} Complete
+            {t("game.complete", lang)}
           </p>
           <p className="text-text-muted">
-            You scored{" "}
-            <span className="text-2xl font-extrabold text-gradient-gold">
+            {t("game.score", lang)}{" "}
+            <span className="text-2xl font-extrabold text-accent">
               {state.currentQuestionScore}
             </span>{" "}
             / 100
           </p>
           <button
             onClick={handleNextQuestion}
-            className="press-effect mt-2 rounded-full bg-gradient-to-r from-electric to-electric-bright px-8 py-3 font-bold text-white shadow-lg shadow-electric/20 transition-all hover:scale-105"
+            className="press-effect mt-2 rounded-full bg-accent px-8 py-3 font-bold text-white transition-colors hover:bg-accent-light"
           >
-            {state.currentQuestionIndex >= 2 ? "See Results" : "Next Question \u2192"}
+            {state.currentQuestionIndex >= 2 ? t("game.seeResults", lang) : `${t("game.nextQuestion", lang)} \u2192`}
           </button>
         </div>
       ) : (
@@ -157,17 +159,17 @@ export default function GameBoard({ question, state, dispatch, mode }: GameBoard
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder={state.questionOver ? "Question over..." : "Type your answer..."}
+            placeholder={state.questionOver ? t("game.questionOver", lang) : t("game.typeAnswer", lang)}
             disabled={state.questionOver}
-            className="flex-1 rounded-xl border-2 border-border bg-surface px-4 py-3.5 text-text-primary placeholder-text-dim outline-none transition-all focus:border-electric focus:shadow-lg focus:shadow-electric/10 disabled:opacity-50 game-shadow"
+            className="flex-1 rounded-xl border-2 border-border bg-surface px-4 py-3 text-text placeholder-text-dim outline-none transition-all focus:border-accent disabled:opacity-50"
             autoComplete="off"
           />
           <button
             type="submit"
             disabled={state.questionOver || !input.trim()}
-            className="press-effect rounded-xl bg-gradient-to-r from-electric to-electric-bright px-6 py-3.5 font-bold text-white shadow-lg shadow-electric/20 transition-all hover:scale-105 disabled:opacity-50 disabled:hover:scale-100"
+            className="press-effect rounded-xl bg-accent px-6 py-3 font-bold text-white transition-colors hover:bg-accent-light disabled:opacity-50 disabled:hover:bg-accent"
           >
-            Guess
+            {t("game.guess", lang)}
           </button>
         </form>
       )}

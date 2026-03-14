@@ -1,5 +1,4 @@
-import { getDailyQuestions } from "@/lib/daily";
-import questions from "@/data/questions.json";
+import questionsEn from "@/data/questions.json";
 import DailyGame from "./DailyGame";
 import { Question } from "@/lib/types";
 
@@ -9,8 +8,5 @@ export const metadata = {
 };
 
 export default function DailyPage() {
-  const allQuestions = questions as Question[];
-  const dailyQuestions = getDailyQuestions(new Date(), allQuestions);
-
-  return <DailyGame questions={dailyQuestions} />;
+  return <DailyGame allQuestionsEn={questionsEn as Question[]} />;
 }

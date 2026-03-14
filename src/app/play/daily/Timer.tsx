@@ -50,19 +50,19 @@ export default function Timer({ isActive, onTimeUp, questionIndex, duration = 60
   const percent = (remaining / duration) * 100;
   const seconds = Math.ceil(remaining / 1000);
 
-  let barColor = "bg-electric";
-  if (percent < 33) barColor = "bg-coral";
+  let barColor = "bg-accent";
+  if (percent < 33) barColor = "bg-wrong";
   else if (percent < 66) barColor = "bg-gold";
 
   return (
     <div className="flex items-center gap-3">
-      <div className="h-2 flex-1 overflow-hidden rounded-full bg-surface-light">
+      <div className="h-2 flex-1 overflow-hidden rounded-full bg-surface-alt">
         <div
           className={`h-full rounded-full transition-all duration-100 ${barColor}`}
           style={{ width: `${percent}%` }}
         />
       </div>
-      <span className={`min-w-[3ch] text-right text-sm font-bold ${percent < 33 ? "text-coral" : "text-text-muted"}`}>
+      <span className={`min-w-[3ch] text-right text-sm font-bold ${percent < 33 ? "text-wrong" : "text-text-muted"}`}>
         {seconds}s
       </span>
     </div>

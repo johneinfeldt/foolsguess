@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Question, QuestionResult } from "@/lib/types";
 import { generateShareText } from "@/lib/daily";
+import { useLang, t } from "@/lib/i18n";
 import JesterMascot from "@/components/JesterMascot";
 import Confetti from "@/components/Confetti";
 
@@ -14,6 +15,7 @@ interface ResultsScreenProps {
 }
 
 export default function ResultsScreen({ questions, questionResults, score, mode }: ResultsScreenProps) {
+  const lang = useLang();
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState("");
   const [showConfetti, setShowConfetti] = useState(false);
@@ -69,15 +71,15 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
       <Confetti active={showConfetti} />
 
       {/* Score Card */}
-      <div className="animate-bounce-in mb-8 w-full max-w-md rounded-2xl border border-gold/20 bg-gradient-to-br from-surface to-surface-light p-8 text-center game-shadow-lg">
-        <JesterMascot size={80} mood={mascotMood} className="mx-auto mb-4" />
+      <div className="card animate-bounce-in mb-8 w-full max-w-md p-8 text-center">
+        <JesterMascot size={64} mood={mascotMood} className="mx-auto mb-4" />
 
         {/* Stars */}
         <div className="mb-3 flex items-center justify-center gap-1">
           {[1, 2, 3].map((i) => (
             <span
               key={i}
-              className={`text-3xl transition-all ${
+              className={`text-2xl transition-all ${
                 i <= starCount
                   ? "animate-bounce-in text-gold"
                   : "text-text-dim opacity-30"
@@ -89,11 +91,11 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
           ))}
         </div>
 
-        <p className="mb-1 text-xs font-bold uppercase tracking-wider text-text-muted">Your Score</p>
-        <p className="text-6xl font-extrabold text-gradient-gold">{score}</p>
+        <p className="mb-1 text-xs font-bold uppercase tracking-wider text-text-muted">{t("results.yourScore", lang)}</p>
+        <p className="text-5xl font-extrabold text-accent">{score}</p>
         <p className="text-text-muted">/ 300</p>
         {mode === "relaxed" && (
-          <p className="mt-2 text-xs text-text-dim">Relaxed mode — not ranked</p>
+          <p className="mt-2 text-xs text-text-dim">{t("daily.notRanked", lang)}</p>
         )}
       </div>
 
@@ -105,17 +107,17 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
           return (
             <div
               key={qi}
-              className="animate-slide-up-fade rounded-xl border border-border bg-surface p-5 game-shadow"
+              className="card animate-slide-up-fade p-5"
               style={{ animationDelay: `${(qi + 1) * 150}ms` }}
             >
               <p className="mb-2 text-sm font-semibold text-text-muted">
                 Q{qi + 1}: {question.question}
               </p>
               <p className="mb-3 text-lg font-bold">
-                <span className="text-gradient-gold">{result.pointsEarned}</span>
+                <span className="text-accent">{result.pointsEarned}</span>
                 <span className="text-text-dim"> / 100</span>
                 <span className="ml-2 text-sm text-text-muted">
-                  {result.answersFound.filter(Boolean).length}/6 found
+                  {result.answersFound.filter(Boolean).length}/6 {t("game.found", lang)}
                 </span>
               </p>
               <div className="flex flex-wrap gap-2">
@@ -124,8 +126,8 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
                     key={ai}
                     className={`rounded-full px-3 py-1 text-xs font-medium ${
                       result.answersFound[ai]
-                        ? "bg-neon-green/10 text-neon-green"
-                        : "bg-coral/10 text-coral"
+                        ? "bg-correct/10 text-correct"
+                        : "bg-wrong/10 text-wrong"
                     }`}
                   >
                     {result.answersFound[ai] ? "\u2713" : "\u2717"} {answer.text} ({answer.points})
@@ -140,28 +142,28 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
       {/* Share Button */}
       <button
         onClick={handleShare}
-        className="press-effect mb-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-electric to-electric-bright px-8 py-3.5 font-bold text-white shadow-lg shadow-electric/20 transition-all hover:scale-105"
+        className="press-effect mb-6 inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3 font-bold text-white transition-colors hover:bg-accent-light"
       >
-        {copied ? "\u2713 Copied!" : "\u{1F4CB} Share Results"}
+        {copied ? `\u2713 ${t("results.copied", lang)}` : `\u{1F4CB} ${t("results.share", lang)}`}
       </button>
 
       {/* Countdown */}
       <div className="mb-6 text-center">
-        <p className="text-sm text-text-muted">Next challenge in</p>
-        <p className="text-2xl font-extrabold text-gradient-electric">{countdown}</p>
+        <p className="text-sm text-text-muted">{t("results.nextIn", lang)}</p>
+        <p className="text-2xl font-extrabold text-accent">{countdown}</p>
       </div>
 
       {/* Solo Journey CTA */}
       <a
         href="/play/solo"
-        className="press-effect rounded-2xl border border-neon-green/20 bg-surface p-6 text-center transition-all hover:border-neon-green/40 hover:bg-surface-light game-shadow"
+        className="card card-hover press-effect p-6 text-center"
       >
-        <p className="mb-1 font-bold">Want more? Try Solo Journey</p>
+        <p className="mb-1 font-bold">{t("results.trySolo", lang)}</p>
         <p className="text-sm text-text-muted">
-          Progress through levels and earn XP at your own pace.
+          {t("results.trySolo.desc", lang)}
         </p>
-        <span className="mt-3 inline-block rounded-full bg-neon-green/10 px-4 py-1.5 text-sm font-bold text-neon-green">
-          Play Solo &rarr;
+        <span className="mt-3 inline-block rounded-full bg-accent/10 px-4 py-1.5 text-sm font-bold text-accent">
+          {t("results.playSolo", lang)} &rarr;
         </span>
       </a>
     </div>

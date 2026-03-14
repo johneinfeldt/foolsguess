@@ -17,6 +17,8 @@ import {
   isLevelUnlocked,
   getDivisionProgress,
 } from "@/lib/journey";
+import { useLang, t } from "@/lib/i18n";
+import { loadQuestions } from "@/lib/questionsLoader";
 import JesterMascot from "@/components/JesterMascot";
 import DivisionTab from "./DivisionTab";
 import LevelCard from "./LevelCard";
@@ -25,10 +27,13 @@ import StreakBadge from "./StreakBadge";
 import JourneyGame from "./JourneyGame";
 
 interface JourneyHomeProps {
-  allQuestions: Question[];
+  allQuestionsEn: Question[];
 }
 
-export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
+export default function JourneyHome({ allQuestionsEn }: JourneyHomeProps) {
+  const lang = useLang();
+  const [allQuestions, setAllQuestions] = useState<Question[]>(allQuestionsEn);
+
   const [progress, setProgress] = useState<JourneyProgress | null>(null);
   const [activeDivision, setActiveDivision] = useState(1);
   const [streak, setStreak] = useState(0);
@@ -39,6 +44,11 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
     questionIndex: number;
   } | null>(null);
   const [noEnergyFlash, setNoEnergyFlash] = useState(false);
+
+  // Load translated questions when language changes
+  useEffect(() => {
+    loadQuestions(lang, allQuestionsEn).then(setAllQuestions);
+  }, [lang, allQuestionsEn]);
 
   useEffect(() => {
     const p = loadJourneyProgress();
@@ -95,9 +105,9 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
 
   if (!progress) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-midnight">
+      <div className="flex min-h-screen items-center justify-center bg-bg">
         <div className="animate-float">
-          <JesterMascot size={80} mood="thinking" />
+          <JesterMascot size={64} mood="thinking" />
         </div>
       </div>
     );
@@ -127,11 +137,11 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
   const energy = getRefreshedEnergy(progress.energy);
 
   return (
-    <div className="min-h-screen bg-midnight font-sans text-text-primary">
+    <div className="min-h-screen bg-bg font-sans text-text">
       {/* Nav */}
-      <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-midnight/80 px-6 py-4 backdrop-blur-md">
+      <nav className="sticky top-0 z-50 flex items-center justify-between border-b border-border bg-bg/90 px-6 py-4 backdrop-blur-md">
         <a href="/" className="text-xl font-bold tracking-tight">
-          <span className="text-gradient-electric">Fools</span>Guess
+          <span className="text-accent">Fools</span>Guess
         </a>
         <div className="flex items-center gap-2">
           <StreakBadge streak={streak} />
@@ -155,50 +165,47 @@ export default function JourneyHome({ allQuestions }: JourneyHomeProps) {
         </div>
 
         {/* Division Header */}
-        <div className="mb-6 rounded-2xl border-2 border-electric/10 bg-gradient-to-br from-surface to-surface-light p-5 game-shadow">
+        <div className="card mb-6 p-5">
           <div className="mb-3 flex items-center justify-between">
             <h2 className="text-lg font-extrabold">{currentDiv.name}</h2>
-            <span className="rounded-full bg-electric/10 px-3 py-1 text-xs font-bold text-electric">
+            <span className="rounded-full bg-accent/10 px-3 py-1 text-xs font-bold text-accent">
               {divProgress.completedLevels}/{divProgress.totalLevels} levels
             </span>
           </div>
-          <div className="relative h-3 overflow-hidden rounded-full bg-surface-light">
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+          <div className="h-2.5 overflow-hidden rounded-full bg-surface-alt">
             <div
-              className="h-full rounded-full bg-gradient-to-r from-electric to-electric-bright shadow-[0_0_10px_rgba(108,92,231,0.3)] transition-all duration-700"
+              className="h-full rounded-full bg-accent transition-all duration-700"
               style={{
                 width: `${(divProgress.completedLevels / divProgress.totalLevels) * 100}%`,
               }}
-            >
-              <div className="absolute inset-x-0 top-0 h-1/2 rounded-full bg-white/20" />
-            </div>
+            />
           </div>
         </div>
 
         {/* No Energy Warning */}
         {noEnergyFlash && (
-          <div className="animate-shake mb-4 rounded-xl border border-coral/30 bg-coral/10 p-4 text-center">
-            <p className="text-sm font-bold text-coral">
-              &#9889; No energy left! Come back tomorrow or go Pro.
+          <div className="animate-shake mb-4 rounded-xl border border-wrong/20 bg-wrong/5 p-4 text-center">
+            <p className="text-sm font-bold text-wrong">
+              {t("solo.noEnergy", lang)}
             </p>
           </div>
         )}
 
-        {/* Pro + Coins CTAs */}
+        {/* Pro + Hints CTAs */}
         <div className="mb-6 grid grid-cols-2 gap-3">
-          <button className="press-effect flex items-center gap-2.5 rounded-xl border-2 border-gold/15 bg-gradient-to-br from-gold/8 to-gold/3 px-4 py-3 transition-all hover:border-gold/30 game-shadow">
+          <button className="card card-hover press-effect flex items-center gap-2.5 px-4 py-3">
             <span className="text-xl">&#11088;</span>
             <div className="text-left">
-              <p className="text-xs font-bold text-gold">Go Pro</p>
-              <p className="text-[10px] text-text-dim">Unlimited energy</p>
+              <p className="text-xs font-bold text-accent">{t("solo.goPro", lang)}</p>
+              <p className="text-[10px] text-text-dim">{t("solo.unlimitedEnergy", lang)}</p>
             </div>
           </button>
 
-          <button className="press-effect flex items-center gap-2.5 rounded-xl border-2 border-cyan/15 bg-gradient-to-br from-cyan/8 to-cyan/3 px-4 py-3 transition-all hover:border-cyan/30 game-shadow">
+          <button className="card card-hover press-effect flex items-center gap-2.5 px-4 py-3">
             <span className="text-xl">&#128161;</span>
             <div className="text-left">
-              <p className="text-xs font-bold text-cyan">Hints</p>
-              <p className="text-[10px] text-text-dim">Reveal answers</p>
+              <p className="text-xs font-bold text-accent">{t("solo.hints", lang)}</p>
+              <p className="text-[10px] text-text-dim">{t("solo.revealAnswers", lang)}</p>
             </div>
           </button>
         </div>

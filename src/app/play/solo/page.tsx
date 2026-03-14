@@ -1,4 +1,4 @@
-import questions from "@/data/questions.json";
+import questionsEn from "@/data/questions.json";
 import JourneyHome from "./JourneyHome";
 import { Question } from "@/lib/types";
 
@@ -8,6 +8,5 @@ export const metadata = {
 };
 
 export default function SoloPage() {
-  const allQuestions = questions as Question[];
-  return <JourneyHome allQuestions={allQuestions} />;
+  return <JourneyHome allQuestionsEn={questionsEn as Question[]} />;
 }
