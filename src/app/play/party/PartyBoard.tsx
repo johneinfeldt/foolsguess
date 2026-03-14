@@ -5,7 +5,7 @@ import { Question } from "@/lib/types";
 import { checkGuess } from "@/lib/matching";
 import { PartyState, PartyAction } from "./usePartyState";
 import { useLang, t } from "@/lib/i18n";
-import { AvatarConfig, COLOR_HEX } from "@/lib/avatars";
+import { AvatarConfig, PLAYER_GAME_COLORS } from "@/lib/avatars";
 import AvatarDisplay from "@/components/AvatarDisplay";
 import AnswerSlot from "../daily/AnswerSlot";
 import StrikeCounter from "../daily/StrikeCounter";
@@ -28,7 +28,7 @@ export default function PartyBoard({ question, state, dispatch, playerName, avat
   const [showTransition, setShowTransition] = useState(false);
   const [correctFlash, setCorrectFlash] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
-  const color = COLOR_HEX[avatar.color];
+  const color = PLAYER_GAME_COLORS[playerIndex % PLAYER_GAME_COLORS.length];
 
   useEffect(() => {
     inputRef.current?.focus();

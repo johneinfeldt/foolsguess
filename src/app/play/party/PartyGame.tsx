@@ -90,6 +90,7 @@ export default function PartyGame({ allQuestionsEn }: PartyGameProps) {
               <TurnIntro
                 playerName={currentPlayer.name}
                 avatar={currentPlayer.avatar}
+                playerIndex={state.currentPlayerIndex}
                 roundNumber={state.currentRound + 1}
                 totalRounds={ROUNDS_PER_GAME}
                 onReady={handleReady}

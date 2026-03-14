@@ -2,7 +2,7 @@
 
 import { useLang, t } from "@/lib/i18n";
 import { Player, PlayerScore, ROUNDS_PER_GAME } from "./usePartyState";
-import { COLOR_HEX } from "@/lib/avatars";
+import { PLAYER_GAME_COLORS } from "@/lib/avatars";
 import AvatarDisplay from "@/components/AvatarDisplay";
 import Confetti from "@/components/Confetti";
 
@@ -43,7 +43,7 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
         <div className="mb-2 text-2xl">{"\u{1F451}"}</div>
         <h2
           className="text-2xl font-extrabold"
-          style={{ color: COLOR_HEX[winner.player.avatar.color] }}
+          style={{ color: PLAYER_GAME_COLORS[winner.index % PLAYER_GAME_COLORS.length] }}
         >
           {winner.player.name}
         </h2>
@@ -69,7 +69,7 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
               <span className="flex-1 font-bold">{entry.player.name}</span>
               <span
                 className="text-lg font-extrabold"
-                style={{ color: COLOR_HEX[entry.player.avatar.color] }}
+                style={{ color: PLAYER_GAME_COLORS[entry.index % PLAYER_GAME_COLORS.length] }}
               >
                 {entry.total}
               </span>
@@ -90,7 +90,7 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
                   <th
                     key={i}
                     className="py-2 text-center font-bold"
-                    style={{ color: COLOR_HEX[player.avatar.color] }}
+                    style={{ color: PLAYER_GAME_COLORS[i % PLAYER_GAME_COLORS.length] }}
                   >
                     {player.name}
                   </th>
@@ -114,7 +114,7 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
                   <td
                     key={entry.index}
                     className="py-2 text-center"
-                    style={{ color: COLOR_HEX[entry.player.avatar.color] }}
+                    style={{ color: PLAYER_GAME_COLORS[entry.index % PLAYER_GAME_COLORS.length] }}
                   >
                     {entry.total}
                   </td>

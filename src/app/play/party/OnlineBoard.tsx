@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { Question } from "@/lib/types";
 import { checkGuess } from "@/lib/matching";
 import { useLang, t } from "@/lib/i18n";
-import { AvatarConfig, COLOR_HEX } from "@/lib/avatars";
+import { AvatarConfig } from "@/lib/avatars";
 import AvatarDisplay from "@/components/AvatarDisplay";
 import AnswerSlot from "../daily/AnswerSlot";
 import StrikeCounter from "../daily/StrikeCounter";
@@ -57,7 +57,7 @@ export default function OnlineBoard({
   const [turnOver, setTurnOver] = useState(false);
   const [doneSent, setDoneSent] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
-  const color = COLOR_HEX[myAvatar.color];
+  const color = "#6C5CE7"; // accent color for own name
 
   useEffect(() => {
     inputRef.current?.focus();

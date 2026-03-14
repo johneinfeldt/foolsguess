@@ -3,7 +3,7 @@
 import { useLang, t } from "@/lib/i18n";
 import { Answer } from "@/lib/types";
 import { Player, PlayerScore, ROUNDS_PER_GAME } from "./usePartyState";
-import { COLOR_HEX } from "@/lib/avatars";
+import { PLAYER_GAME_COLORS } from "@/lib/avatars";
 import AvatarDisplay from "@/components/AvatarDisplay";
 
 interface RoundResultsProps {
@@ -73,7 +73,7 @@ export default function RoundResults({ players, roundScores, roundNumber, questi
       {/* Player scores */}
       <div className="mb-6 flex w-full max-w-sm flex-col gap-3">
         {ranked.map((entry, rank) => {
-          const color = COLOR_HEX[entry.player.avatar.color];
+          const color = PLAYER_GAME_COLORS[entry.index % PLAYER_GAME_COLORS.length];
           return (
             <div
               key={entry.index}

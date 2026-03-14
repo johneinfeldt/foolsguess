@@ -21,9 +21,9 @@ export default function AvatarBuilder({ value, onChange }: AvatarBuilderProps) {
   return (
     <div className="flex flex-col items-center gap-3">
       {/* Live preview */}
-      <AvatarDisplay avatar={value} size={64} />
+      <AvatarDisplay avatar={value} size={72} />
 
-      {/* Head shape selector */}
+      {/* Hairstyle selector */}
       <div className="w-full">
         <p className="mb-1 text-center text-xs font-bold text-text-dim">
           {t("avatar.shape", lang)}
@@ -34,22 +34,22 @@ export default function AvatarBuilder({ value, onChange }: AvatarBuilderProps) {
               key={shape}
               type="button"
               onClick={() => onChange({ ...value, headShape: shape })}
-              className={`rounded-lg border-2 p-1 transition-all ${
+              className={`rounded-xl border-2 p-1 transition-all ${
                 value.headShape === shape
-                  ? "border-accent scale-110"
+                  ? "border-accent scale-110 shadow-sm"
                   : "border-border hover:border-border-focus"
               }`}
             >
               <AvatarDisplay
                 avatar={{ ...value, headShape: shape, accessory: "none" }}
-                size={28}
+                size={32}
               />
             </button>
           ))}
         </div>
       </div>
 
-      {/* Color selector */}
+      {/* Skin tone selector */}
       <div className="w-full">
         <p className="mb-1 text-center text-xs font-bold text-text-dim">
           {t("avatar.color", lang)}
@@ -60,9 +60,9 @@ export default function AvatarBuilder({ value, onChange }: AvatarBuilderProps) {
               key={color}
               type="button"
               onClick={() => onChange({ ...value, color })}
-              className={`h-7 w-7 rounded-full border-2 transition-all ${
+              className={`h-8 w-8 rounded-full border-2 transition-all ${
                 value.color === color
-                  ? "border-text scale-110"
+                  ? "border-text scale-110 shadow-sm"
                   : "border-border hover:border-border-focus"
               }`}
               style={{ backgroundColor: COLOR_HEX[color] }}
@@ -82,15 +82,15 @@ export default function AvatarBuilder({ value, onChange }: AvatarBuilderProps) {
               key={acc}
               type="button"
               onClick={() => onChange({ ...value, accessory: acc })}
-              className={`rounded-lg border-2 p-1 transition-all ${
+              className={`rounded-xl border-2 p-1 transition-all ${
                 value.accessory === acc
-                  ? "border-accent scale-110"
+                  ? "border-accent scale-110 shadow-sm"
                   : "border-border hover:border-border-focus"
               }`}
             >
               <AvatarDisplay
                 avatar={{ ...value, accessory: acc }}
-                size={28}
+                size={32}
               />
             </button>
           ))}

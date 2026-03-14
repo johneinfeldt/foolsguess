@@ -56,7 +56,7 @@ export default function OnlineGame({ allQuestions }: OnlineGameProps) {
   const [hostId, setHostId] = useState("");
   const [myId, setMyId] = useState("");
   const [myName, setMyName] = useState("");
-  const [myAvatar, setMyAvatar] = useState<AvatarConfig>({ headShape: "round", color: "purple", accessory: "none" });
+  const [myAvatar, setMyAvatar] = useState<AvatarConfig>({ headShape: "short", color: "light", accessory: "none" });
   const [error, setError] = useState<string | null>(null);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [roundNumber, setRoundNumber] = useState(0);
@@ -146,7 +146,7 @@ export default function OnlineGame({ allQuestions }: OnlineGameProps) {
                 id: `${msg.playerId}-${msg.answerIndex}-${Date.now()}`,
                 playerId: msg.playerId,
                 playerName: msg.playerName,
-                playerAvatar: player?.avatar || { headShape: "round", color: "purple", accessory: "none" },
+                playerAvatar: player?.avatar || { headShape: "short", color: "light", accessory: "none" },
                 type: "found",
                 answerIndex: msg.answerIndex,
                 timestamp: Date.now(),
@@ -165,7 +165,7 @@ export default function OnlineGame({ allQuestions }: OnlineGameProps) {
                 id: `${msg.playerId}-strike-${Date.now()}`,
                 playerId: msg.playerId,
                 playerName: player?.name || "",
-                playerAvatar: player?.avatar || { headShape: "round", color: "purple", accessory: "none" },
+                playerAvatar: player?.avatar || { headShape: "short", color: "light", accessory: "none" },
                 type: "strike",
                 timestamp: Date.now(),
               },

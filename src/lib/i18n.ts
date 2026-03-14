@@ -179,8 +179,8 @@ const translations: Record<string, Record<Lang, string>> = {
   "party.chooseMode": { en: "How do you want to play?", de: "Wie wollt ihr spielen?", es: "¿Cómo quieres jugar?" },
 
   // Avatar
-  "avatar.shape": { en: "Head Shape", de: "Kopfform", es: "Forma de cabeza" },
-  "avatar.color": { en: "Color", de: "Farbe", es: "Color" },
+  "avatar.shape": { en: "Hairstyle", de: "Frisur", es: "Peinado" },
+  "avatar.color": { en: "Skin Tone", de: "Hautfarbe", es: "Tono de piel" },
   "avatar.accessory": { en: "Accessory", de: "Accessoire", es: "Accesorio" },
 
   // Online

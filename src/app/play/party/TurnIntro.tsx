@@ -1,20 +1,21 @@
 "use client";
 
 import { useLang, t } from "@/lib/i18n";
-import { AvatarConfig, COLOR_HEX } from "@/lib/avatars";
+import { AvatarConfig, PLAYER_GAME_COLORS } from "@/lib/avatars";
 import AvatarDisplay from "@/components/AvatarDisplay";
 
 interface TurnIntroProps {
   playerName: string;
   avatar: AvatarConfig;
+  playerIndex: number;
   roundNumber: number;
   totalRounds: number;
   onReady: () => void;
 }
 
-export default function TurnIntro({ playerName, avatar, roundNumber, totalRounds, onReady }: TurnIntroProps) {
+export default function TurnIntro({ playerName, avatar, playerIndex, roundNumber, totalRounds, onReady }: TurnIntroProps) {
   const lang = useLang();
-  const color = COLOR_HEX[avatar.color];
+  const gameColor = PLAYER_GAME_COLORS[playerIndex % PLAYER_GAME_COLORS.length];
 
   return (
     <div className="flex min-h-[80vh] flex-col items-center justify-center px-4 py-8">
@@ -25,7 +26,7 @@ export default function TurnIntro({ playerName, avatar, roundNumber, totalRounds
           {t("party.round", lang)} {roundNumber}/{totalRounds}
         </p>
 
-        <h2 className="text-3xl font-extrabold" style={{ color }}>
+        <h2 className="text-3xl font-extrabold" style={{ color: gameColor }}>
           {playerName}
         </h2>
 
@@ -40,7 +41,7 @@ export default function TurnIntro({ playerName, avatar, roundNumber, totalRounds
         <button
           onClick={onReady}
           className="press-effect mt-2 rounded-full px-10 py-3.5 text-lg font-bold text-white transition-opacity hover:opacity-90"
-          style={{ backgroundColor: color }}
+          style={{ backgroundColor: gameColor }}
         >
           {t("party.ready", lang)}
         </button>
