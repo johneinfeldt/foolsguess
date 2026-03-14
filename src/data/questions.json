@@ -1,0 +1,275 @@
+[
+  {
+    "id": "q001",
+    "question": "Name something you take to the beach.",
+    "category": "Everyday Life",
+    "answers": [
+      { "text": "Towel", "aliases": ["beach towel", "towels"], "points": 35 },
+      { "text": "Sunscreen", "aliases": ["sunblock", "sun screen", "spf", "sun lotion"], "points": 25 },
+      { "text": "Umbrella", "aliases": ["beach umbrella", "parasol"], "points": 15 },
+      { "text": "Cooler", "aliases": ["ice chest", "cool box"], "points": 12 },
+      { "text": "Chair", "aliases": ["beach chair", "lawn chair", "folding chair"], "points": 8 },
+      { "text": "Sunglasses", "aliases": ["shades", "sunnies"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q002",
+    "question": "Name a reason people call in sick to work.",
+    "category": "Work & School",
+    "answers": [
+      { "text": "Cold or Flu", "aliases": ["cold", "flu", "sick", "illness", "fever"], "points": 38 },
+      { "text": "Headache", "aliases": ["migraine", "head hurts"], "points": 22 },
+      { "text": "Stomach ache", "aliases": ["stomach bug", "food poisoning", "nausea", "upset stomach"], "points": 16 },
+      { "text": "Mental health day", "aliases": ["mental health", "stress", "burnout", "anxiety"], "points": 12 },
+      { "text": "Back pain", "aliases": ["back hurts", "backache"], "points": 7 },
+      { "text": "Dentist appointment", "aliases": ["dentist", "toothache", "dental"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q003",
+    "question": "Name something you find in a wallet.",
+    "category": "Everyday Life",
+    "answers": [
+      { "text": "Credit card", "aliases": ["credit cards", "debit card", "bank card", "cards"], "points": 35 },
+      { "text": "Cash", "aliases": ["money", "bills", "notes"], "points": 28 },
+      { "text": "ID", "aliases": ["drivers license", "driver license", "identification", "id card", "licence"], "points": 18 },
+      { "text": "Photos", "aliases": ["pictures", "photo", "family photos"], "points": 9 },
+      { "text": "Receipts", "aliases": ["receipt", "old receipts"], "points": 6 },
+      { "text": "Business cards", "aliases": ["business card"], "points": 4 }
+    ]
+  },
+  {
+    "id": "q004",
+    "question": "Name something people do on their phone while waiting.",
+    "category": "Technology",
+    "answers": [
+      { "text": "Social media", "aliases": ["scroll social media", "instagram", "tiktok", "facebook", "twitter", "scrolling"], "points": 35 },
+      { "text": "Text", "aliases": ["texting", "send texts", "messaging", "messages"], "points": 25 },
+      { "text": "Play games", "aliases": ["games", "gaming", "play a game", "mobile games"], "points": 18 },
+      { "text": "Watch videos", "aliases": ["youtube", "watch youtube", "videos", "streaming"], "points": 12 },
+      { "text": "Check email", "aliases": ["email", "emails", "read email"], "points": 6 },
+      { "text": "Read news", "aliases": ["news", "read articles", "browse news"], "points": 4 }
+    ]
+  },
+  {
+    "id": "q005",
+    "question": "Name a popular pizza topping.",
+    "category": "Food & Drink",
+    "answers": [
+      { "text": "Pepperoni", "aliases": ["peperoni"], "points": 38 },
+      { "text": "Mushrooms", "aliases": ["mushroom"], "points": 20 },
+      { "text": "Sausage", "aliases": ["italian sausage"], "points": 15 },
+      { "text": "Onions", "aliases": ["onion"], "points": 12 },
+      { "text": "Peppers", "aliases": ["bell peppers", "green peppers", "pepper"], "points": 9 },
+      { "text": "Olives", "aliases": ["olive", "black olives"], "points": 6 }
+    ]
+  },
+  {
+    "id": "q006",
+    "question": "Name something you always forget to pack for a trip.",
+    "category": "Travel",
+    "answers": [
+      { "text": "Toothbrush", "aliases": ["tooth brush"], "points": 32 },
+      { "text": "Phone charger", "aliases": ["charger", "charging cable", "cable"], "points": 28 },
+      { "text": "Underwear", "aliases": ["socks", "clean underwear"], "points": 16 },
+      { "text": "Medication", "aliases": ["medicine", "pills", "meds"], "points": 11 },
+      { "text": "Deodorant", "aliases": ["deo"], "points": 8 },
+      { "text": "Pajamas", "aliases": ["pyjamas", "sleepwear", "pjs"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q007",
+    "question": "Name something people are afraid of.",
+    "category": "Everyday Life",
+    "answers": [
+      { "text": "Spiders", "aliases": ["spider", "arachnids"], "points": 30 },
+      { "text": "Heights", "aliases": ["high places", "falling"], "points": 25 },
+      { "text": "Snakes", "aliases": ["snake", "serpents"], "points": 18 },
+      { "text": "Public speaking", "aliases": ["speaking in public", "presentations", "giving speeches"], "points": 13 },
+      { "text": "The dark", "aliases": ["darkness", "dark"], "points": 9 },
+      { "text": "Flying", "aliases": ["airplanes", "planes", "flights"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q008",
+    "question": "Name something you do before going to bed.",
+    "category": "Everyday Life",
+    "answers": [
+      { "text": "Brush teeth", "aliases": ["brush my teeth", "brushing teeth", "dental hygiene"], "points": 35 },
+      { "text": "Check phone", "aliases": ["scroll phone", "look at phone", "phone"], "points": 25 },
+      { "text": "Watch TV", "aliases": ["watch television", "tv", "netflix", "streaming"], "points": 16 },
+      { "text": "Read", "aliases": ["read a book", "reading"], "points": 12 },
+      { "text": "Shower", "aliases": ["take a shower", "bath", "bathe"], "points": 7 },
+      { "text": "Set alarm", "aliases": ["alarm", "set my alarm", "alarm clock"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q009",
+    "question": "Name a common New Year's resolution.",
+    "category": "Holidays",
+    "answers": [
+      { "text": "Exercise more", "aliases": ["work out", "go to gym", "gym", "get fit", "exercise", "fitness"], "points": 35 },
+      { "text": "Lose weight", "aliases": ["diet", "eat less", "weight loss"], "points": 25 },
+      { "text": "Save money", "aliases": ["spend less", "save more", "budget", "saving money"], "points": 18 },
+      { "text": "Quit smoking", "aliases": ["stop smoking", "quit cigarettes"], "points": 10 },
+      { "text": "Read more", "aliases": ["read books", "reading"], "points": 7 },
+      { "text": "Travel more", "aliases": ["travel", "see the world", "explore"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q010",
+    "question": "Name something you find in a classroom.",
+    "category": "Work & School",
+    "answers": [
+      { "text": "Desk", "aliases": ["desks", "table", "tables"], "points": 30 },
+      { "text": "Whiteboard", "aliases": ["chalkboard", "blackboard", "board"], "points": 25 },
+      { "text": "Chair", "aliases": ["chairs", "seats"], "points": 18 },
+      { "text": "Books", "aliases": ["textbooks", "book", "textbook"], "points": 13 },
+      { "text": "Computer", "aliases": ["laptop", "computers", "laptops"], "points": 9 },
+      { "text": "Clock", "aliases": ["wall clock"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q011",
+    "question": "Name a sport people watch on TV.",
+    "category": "Entertainment",
+    "answers": [
+      { "text": "Football", "aliases": ["american football", "nfl", "soccer"], "points": 35 },
+      { "text": "Basketball", "aliases": ["nba", "hoops"], "points": 25 },
+      { "text": "Baseball", "aliases": ["mlb"], "points": 16 },
+      { "text": "Tennis", "aliases": ["wimbledon"], "points": 11 },
+      { "text": "Hockey", "aliases": ["ice hockey", "nhl"], "points": 8 },
+      { "text": "Golf", "aliases": ["pga"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q012",
+    "question": "Name something you put on a hamburger.",
+    "category": "Food & Drink",
+    "answers": [
+      { "text": "Ketchup", "aliases": ["catsup"], "points": 32 },
+      { "text": "Cheese", "aliases": ["cheddar", "american cheese", "swiss"], "points": 25 },
+      { "text": "Lettuce", "aliases": ["salad", "greens"], "points": 17 },
+      { "text": "Tomato", "aliases": ["tomatoes", "tomato slice"], "points": 12 },
+      { "text": "Onion", "aliases": ["onions", "red onion"], "points": 8 },
+      { "text": "Pickles", "aliases": ["pickle"], "points": 6 }
+    ]
+  },
+  {
+    "id": "q013",
+    "question": "Name something you would find in a hotel room.",
+    "category": "Travel",
+    "answers": [
+      { "text": "Bed", "aliases": ["beds", "mattress"], "points": 35 },
+      { "text": "TV", "aliases": ["television", "flat screen"], "points": 22 },
+      { "text": "Bible", "aliases": ["holy bible", "book"], "points": 16 },
+      { "text": "Towels", "aliases": ["towel", "bath towels"], "points": 13 },
+      { "text": "Mini bar", "aliases": ["minibar", "mini fridge", "fridge"], "points": 9 },
+      { "text": "Safe", "aliases": ["room safe", "safety box"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q014",
+    "question": "Name an animal that lives in the ocean.",
+    "category": "Nature",
+    "answers": [
+      { "text": "Shark", "aliases": ["sharks", "great white"], "points": 32 },
+      { "text": "Dolphin", "aliases": ["dolphins"], "points": 25 },
+      { "text": "Whale", "aliases": ["whales", "blue whale"], "points": 18 },
+      { "text": "Octopus", "aliases": ["squid"], "points": 12 },
+      { "text": "Sea turtle", "aliases": ["turtle", "turtles", "sea turtles"], "points": 8 },
+      { "text": "Jellyfish", "aliases": ["jelly fish"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q015",
+    "question": "Name something people collect.",
+    "category": "Everyday Life",
+    "answers": [
+      { "text": "Stamps", "aliases": ["stamp", "postage stamps"], "points": 30 },
+      { "text": "Coins", "aliases": ["coin", "old coins", "currency"], "points": 25 },
+      { "text": "Cards", "aliases": ["trading cards", "baseball cards", "pokemon cards"], "points": 18 },
+      { "text": "Art", "aliases": ["paintings", "artwork", "sculptures"], "points": 12 },
+      { "text": "Vinyl records", "aliases": ["records", "vinyl", "lps"], "points": 9 },
+      { "text": "Shoes", "aliases": ["sneakers", "trainers"], "points": 6 }
+    ]
+  },
+  {
+    "id": "q016",
+    "question": "Name something that makes you late for work.",
+    "category": "Work & School",
+    "answers": [
+      { "text": "Traffic", "aliases": ["traffic jam", "bad traffic", "congestion"], "points": 35 },
+      { "text": "Overslept", "aliases": ["slept in", "alarm didnt go off", "sleeping in", "oversleeping"], "points": 28 },
+      { "text": "Kids", "aliases": ["children", "dropping kids off", "kids school"], "points": 15 },
+      { "text": "Car trouble", "aliases": ["car broke down", "flat tire", "car problems"], "points": 10 },
+      { "text": "Bad weather", "aliases": ["weather", "rain", "snow", "storm"], "points": 7 },
+      { "text": "Lost keys", "aliases": ["couldnt find keys", "looking for keys", "keys"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q017",
+    "question": "Name a popular breakfast food.",
+    "category": "Food & Drink",
+    "answers": [
+      { "text": "Eggs", "aliases": ["egg", "scrambled eggs", "fried eggs", "omelette"], "points": 33 },
+      { "text": "Toast", "aliases": ["bread", "toasted bread"], "points": 22 },
+      { "text": "Cereal", "aliases": ["cereals", "corn flakes"], "points": 18 },
+      { "text": "Pancakes", "aliases": ["pancake", "flapjacks"], "points": 13 },
+      { "text": "Bacon", "aliases": ["crispy bacon"], "points": 9 },
+      { "text": "Fruit", "aliases": ["fruits", "banana", "apple", "berries"], "points": 5 }
+    ]
+  },
+  {
+    "id": "q018",
+    "question": "Name something you shout at a sports game.",
+    "category": "Entertainment",
+    "answers": [
+      { "text": "Go team", "aliases": ["go", "lets go", "come on"], "points": 30 },
+      { "text": "Referee is blind", "aliases": ["bad call", "are you blind", "ref", "foul", "blind ref"], "points": 22 },
+      { "text": "Goal", "aliases": ["touchdown", "score"], "points": 20 },
+      { "text": "Boo", "aliases": ["boooo", "booing"], "points": 13 },
+      { "text": "Defense", "aliases": ["defence"], "points": 9 },
+      { "text": "MVP", "aliases": ["most valuable player", "youre the best"], "points": 6 }
+    ]
+  },
+  {
+    "id": "q019",
+    "question": "Name something you do at a party.",
+    "category": "Entertainment",
+    "answers": [
+      { "text": "Dance", "aliases": ["dancing", "hit the dance floor"], "points": 33 },
+      { "text": "Drink", "aliases": ["drinking", "have drinks", "alcohol", "beer", "cocktails"], "points": 27 },
+      { "text": "Talk to people", "aliases": ["socialize", "chat", "mingle", "conversation", "talk"], "points": 17 },
+      { "text": "Eat", "aliases": ["eating", "snack", "food", "snacks"], "points": 12 },
+      { "text": "Play games", "aliases": ["games", "party games", "beer pong"], "points": 7 },
+      { "text": "Take photos", "aliases": ["selfies", "pictures", "photos"], "points": 4 }
+    ]
+  },
+  {
+    "id": "q020",
+    "question": "Name something you keep in your car.",
+    "category": "Everyday Life",
+    "answers": [
+      { "text": "Sunglasses", "aliases": ["shades", "sunnies"], "points": 28 },
+      { "text": "Phone charger", "aliases": ["charger", "car charger", "charging cable"], "points": 25 },
+      { "text": "Water bottle", "aliases": ["water", "drink", "bottle"], "points": 18 },
+      { "text": "Spare tire", "aliases": ["spare", "jack"], "points": 13 },
+      { "text": "Registration", "aliases": ["insurance", "documents", "papers", "car documents"], "points": 10 },
+      { "text": "Umbrella", "aliases": ["rain umbrella"], "points": 6 }
+    ]
+  },
+  {
+    "id": "q021",
+    "question": "Name a reason people go to the doctor.",
+    "category": "Health",
+    "answers": [
+      { "text": "Checkup", "aliases": ["annual checkup", "physical", "routine checkup", "check up"], "points": 32 },
+      { "text": "Cold or Flu", "aliases": ["cold", "flu", "sick", "cough", "fever"], "points": 25 },
+      { "text": "Pain", "aliases": ["body pain", "chronic pain", "hurting", "something hurts"], "points": 17 },
+      { "text": "Prescription", "aliases": ["refill", "medication", "medicine", "meds"], "points": 12 },
+      { "text": "Injury", "aliases": ["broken bone", "sprain", "hurt", "wound"], "points": 9 },
+      { "text": "Vaccination", "aliases": ["vaccine", "shot", "immunization", "flu shot"], "points": 5 }
+    ]
+  }
+]

@@ -7,7 +7,7 @@ export default function Home() {
           <span className="text-electric">Fools</span>Guess
         </span>
         <a
-          href="#"
+          href="/play/daily"
           className="rounded-full bg-electric px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-electric-bright"
         >
           Play Now
@@ -29,7 +29,7 @@ export default function Home() {
           </p>
 
           <a
-            href="#"
+            href="/play/daily"
             className="animate-glow-pulse mt-4 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-electric to-electric-bright px-8 py-4 text-lg font-bold text-white shadow-lg shadow-electric/25 transition-all hover:scale-105 hover:shadow-electric/40"
           >
             Play Now
@@ -189,7 +189,7 @@ export default function Home() {
           No sign-up required. Pick a mode and start guessing.
         </p>
         <a
-          href="#"
+          href="/play/daily"
           className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-electric to-electric-bright px-8 py-4 text-lg font-bold text-white shadow-lg shadow-electric/25 transition-all hover:scale-105 hover:shadow-electric/40"
         >
           Start Playing
