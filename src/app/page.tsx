@@ -103,7 +103,7 @@ export default function Home() {
           </p>
 
           <div className="grid gap-6 sm:grid-cols-3">
-            <div className="relative overflow-hidden rounded-2xl border border-border bg-surface p-8 transition-colors hover:border-gold/30 hover:bg-surface-light">
+            <a href="/play/daily" className="relative overflow-hidden rounded-2xl border border-border bg-surface p-8 transition-colors hover:border-gold/30 hover:bg-surface-light">
               <div className="absolute top-0 right-0 rounded-bl-xl bg-gold/10 px-3 py-1 text-xs font-bold text-gold">
                 POPULAR
               </div>
@@ -117,7 +117,7 @@ export default function Home() {
                 <span>&#9733;</span>
                 <span>Global leaderboard</span>
               </div>
-            </div>
+            </a>
 
             <div className="relative overflow-hidden rounded-2xl border border-border bg-surface p-8 transition-colors hover:border-cyan/30 hover:bg-surface-light">
               <div className="absolute top-0 right-0 rounded-bl-xl bg-cyan/10 px-3 py-1 text-xs font-bold text-cyan">
@@ -135,7 +135,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative overflow-hidden rounded-2xl border border-border bg-surface p-8 transition-colors hover:border-neon-green/30 hover:bg-surface-light">
+            <a href="/play/solo" className="relative overflow-hidden rounded-2xl border border-border bg-surface p-8 transition-colors hover:border-neon-green/30 hover:bg-surface-light">
               <div className="absolute top-0 right-0 rounded-bl-xl bg-neon-green/10 px-3 py-1 text-xs font-bold text-neon-green">
                 CHILL
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
                 <span>&#10003;</span>
                 <span>100+ levels</span>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>

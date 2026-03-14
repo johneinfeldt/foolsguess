@@ -18,3 +18,37 @@ export interface QuestionResult {
   strikes: number;
   timedOut: boolean;
 }
+
+// Solo Journey types
+
+export interface QuestionProgress {
+  bestScore: number;
+  answersFound: boolean[];
+  totalXPEarned: number;
+}
+
+export interface JourneyProgress {
+  currentDivision: number;
+  questionProgress: Record<string, QuestionProgress>;
+  energy: {
+    current: number;
+    lastRefillDate: string;
+  };
+}
+
+export interface StreakData {
+  current: number;
+  lastPlayDate: string;
+}
+
+export interface LevelConfig {
+  levelNumber: number;
+  questionIds: string[];
+}
+
+export interface DivisionConfig {
+  number: number;
+  name: string;
+  xpPerLevel: number;
+  levels: LevelConfig[];
+}

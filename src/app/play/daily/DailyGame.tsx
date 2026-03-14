@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Question, QuestionResult } from "@/lib/types";
 import { useGameState, GameMode } from "./useGameState";
+import { updateStreak } from "@/lib/journeyStorage";
 import ModeSelect from "./ModeSelect";
 import GameBoard from "./GameBoard";
 import ResultsScreen from "./ResultsScreen";
@@ -57,6 +58,7 @@ export default function DailyGame({ questions }: DailyGameProps) {
           questionResults: state.questionResults,
         };
         localStorage.setItem("foolsguess_daily", JSON.stringify(data));
+        updateStreak();
       } catch {
         // Ignore localStorage errors
       }
