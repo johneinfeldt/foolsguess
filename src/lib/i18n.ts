@@ -149,6 +149,10 @@ const translations: Record<string, Record<Lang, string>> = {
 
   // Footer
   "footer.rights": { en: "All rights reserved.", de: "Alle Rechte vorbehalten.", es: "Todos los derechos reservados." },
+  "footer.impressum": { en: "Legal Notice", de: "Impressum", es: "Aviso Legal" },
+  "footer.privacy": { en: "Privacy", de: "Datenschutz", es: "Privacidad" },
+  "footer.terms": { en: "Terms", de: "Nutzungsbedingungen", es: "T\u00e9rminos" },
+  "footer.contact": { en: "Contact", de: "Kontakt", es: "Contacto" },
 
   // Party Mode
   "party.title": { en: "Party Mode", de: "Party-Modus", es: "Modo fiesta" },

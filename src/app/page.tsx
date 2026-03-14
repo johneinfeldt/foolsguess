@@ -192,10 +192,11 @@ export default function Home() {
           <span className="text-sm text-text-dim">
             &copy; 2026 FoolsGuess. {t("footer.rights", lang)}
           </span>
-          <div className="flex gap-6 text-sm text-text-dim">
-            <a href="#" className="transition-colors hover:text-text-muted">Privacy</a>
-            <a href="#" className="transition-colors hover:text-text-muted">Terms</a>
-            <a href="#" className="transition-colors hover:text-text-muted">Contact</a>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm text-text-dim">
+            <a href="/impressum" className="transition-colors hover:text-text-muted">{t("footer.impressum", lang)}</a>
+            <a href="/privacy" className="transition-colors hover:text-text-muted">{t("footer.privacy", lang)}</a>
+            <a href="/terms" className="transition-colors hover:text-text-muted">{t("footer.terms", lang)}</a>
+            <a href="/contact" className="transition-colors hover:text-text-muted">{t("footer.contact", lang)}</a>
           </div>
         </div>
       </footer>
