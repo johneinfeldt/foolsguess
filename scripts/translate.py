@@ -670,6 +670,30 @@ sys.path.insert(0, SCRIPT_DIR)
 from de_answers import DE_ANSWER_TEXTS
 from es_answers import ES_ANSWER_TEXTS
 
+# gen101-gen200 translations
+from de_questions_new1 import DE_QUESTIONS_NEW1
+from de_answers_new1 import DE_ANSWER_TEXTS_NEW1
+from es_questions_new1 import ES_QUESTIONS_NEW1
+from es_answers_new1 import ES_ANSWER_TEXTS_NEW1
+
+# gen201-gen300 translations
+from de_questions_new2 import DE_QUESTIONS_NEW2
+from de_answers_new2 import DE_ANSWER_TEXTS_NEW2
+from es_questions_new2 import ES_QUESTIONS_NEW2
+from es_answers_new2 import ES_ANSWER_TEXTS_NEW2
+
+# Merge new question translations into main maps
+DE_QUESTIONS.update(DE_QUESTIONS_NEW1)
+DE_QUESTIONS.update(DE_QUESTIONS_NEW2)
+ES_QUESTIONS.update(ES_QUESTIONS_NEW1)
+ES_QUESTIONS.update(ES_QUESTIONS_NEW2)
+
+# Merge new answer translations into main maps
+DE_ANSWER_TEXTS.update(DE_ANSWER_TEXTS_NEW1)
+DE_ANSWER_TEXTS.update(DE_ANSWER_TEXTS_NEW2)
+ES_ANSWER_TEXTS.update(ES_ANSWER_TEXTS_NEW1)
+ES_ANSWER_TEXTS.update(ES_ANSWER_TEXTS_NEW2)
+
 
 def build_translated_json(lang):
     """Build translated JSON from English source."""

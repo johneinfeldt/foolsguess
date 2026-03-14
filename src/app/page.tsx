@@ -82,18 +82,23 @@ export default function Home() {
             </span>
           </a>
 
-          {/* Multiplayer */}
-          <div className="card relative p-6 opacity-50">
-            <div className="absolute top-0 right-0 rounded-bl-xl rounded-tr-2xl bg-text-dim px-3 py-1 text-xs font-bold text-white">
-              {t("label.comingSoon", lang)}
+          {/* Party Mode */}
+          <a
+            href="/play/party"
+            className="card card-hover press-effect group relative p-6 transition-all hover:scale-[1.02]"
+          >
+            <div className="absolute top-0 right-0 rounded-bl-xl rounded-tr-2xl bg-gold px-3 py-1 text-xs font-bold text-white">
+              {t("label.new", lang)}
             </div>
             <div className="mb-3 text-4xl">&#128101;</div>
-            <h3 className="mb-2 text-lg font-bold">{t("mode.multi", lang)}</h3>
+            <h3 className="mb-2 text-lg font-bold">{t("party.title", lang)}</h3>
             <p className="mb-4 text-sm leading-relaxed text-text-muted">
               {t("mode.multi.desc", lang)}
             </p>
-            <span className="text-sm text-text-dim">{t("label.players", lang)}</span>
-          </div>
+            <span className="text-sm font-semibold text-accent opacity-0 transition-opacity group-hover:opacity-100">
+              {t("nav.playNow", lang)} &rarr;
+            </span>
+          </a>
         </div>
       </section>
 
@@ -171,6 +176,12 @@ export default function Home() {
             className="press-effect inline-flex items-center gap-2 rounded-full border-2 border-accent/30 px-7 py-3 font-bold text-accent transition-all hover:border-accent hover:bg-accent/5"
           >
             {t("mode.solo", lang)} &rarr;
+          </a>
+          <a
+            href="/play/party"
+            className="press-effect inline-flex items-center gap-2 rounded-full border-2 border-accent/30 px-7 py-3 font-bold text-accent transition-all hover:border-accent hover:bg-accent/5"
+          >
+            {t("party.title", lang)} &rarr;
           </a>
         </div>
       </section>

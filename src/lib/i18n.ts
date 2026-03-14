@@ -150,6 +150,28 @@ const translations: Record<string, Record<Lang, string>> = {
   // Footer
   "footer.rights": { en: "All rights reserved.", de: "Alle Rechte vorbehalten.", es: "Todos los derechos reservados." },
 
+  // Party Mode
+  "party.title": { en: "Party Mode", de: "Party-Modus", es: "Modo fiesta" },
+  "party.addPlayers": { en: "Add 2-4 players to get started", de: "Füge 2-4 Spieler hinzu", es: "Agrega 2-4 jugadores para empezar" },
+  "party.player": { en: "Player", de: "Spieler", es: "Jugador" },
+  "party.addPlayer": { en: "Add Player", de: "Spieler hinzufügen", es: "Agregar jugador" },
+  "party.start": { en: "Start Game", de: "Spiel starten", es: "Iniciar juego" },
+  "party.rounds": { en: "5 rounds. Pass the device between turns.", de: "5 Runden. Gebt das Gerät weiter.", es: "5 rondas. Pasa el dispositivo entre turnos." },
+  "party.round": { en: "Round", de: "Runde", es: "Ronda" },
+  "party.yourTurn": { en: "It's your turn! Get ready to guess.", de: "Du bist dran! Mach dich bereit.", es: "¡Es tu turno! Prepárate para adivinar." },
+  "party.dontPeek": { en: "Make sure other players aren't peeking!", de: "Stellt sicher, dass niemand schaut!", es: "¡Asegúrate de que nadie espíe!" },
+  "party.ready": { en: "I'm Ready!", de: "Ich bin bereit!", es: "¡Estoy listo!" },
+  "party.passTurn": { en: "Pass Device", de: "Gerät weitergeben", es: "Pasar dispositivo" },
+  "party.roundComplete": { en: "Round Complete!", de: "Runde abgeschlossen!", es: "¡Ronda completada!" },
+  "party.nextRound": { en: "Next Round", de: "Nächste Runde", es: "Siguiente ronda" },
+  "party.finalResults": { en: "See Final Results", de: "Endergebnis ansehen", es: "Ver resultados finales" },
+  "party.gameOver": { en: "Game Over!", de: "Spiel vorbei!", es: "¡Fin del juego!" },
+  "party.winner": { en: "Winner", de: "Gewinner", es: "Ganador" },
+  "party.leaderboard": { en: "Final Standings", de: "Endstand", es: "Clasificación final" },
+  "party.roundBreakdown": { en: "Round Breakdown", de: "Runden-Übersicht", es: "Desglose por ronda" },
+  "party.total": { en: "Total", de: "Gesamt", es: "Total" },
+  "party.playAgain": { en: "Play Again", de: "Nochmal spielen", es: "Jugar de nuevo" },
+
   // Language
   "lang.en": { en: "English", de: "Englisch", es: "Inglés" },
   "lang.de": { en: "German", de: "Deutsch", es: "Alemán" },

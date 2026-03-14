@@ -1,0 +1,652 @@
+[
+  {
+    "id": "gen101",
+    "question": "Name a food that's impossible to eat quietly.",
+    "category": "Food & Drink",
+    "answers": [
+      {"text": "Chips", "aliases": ["crisps", "potato chips", "tortilla chips"], "points": 32},
+      {"text": "Celery", "aliases": ["celery sticks", "celery stalks"], "points": 22},
+      {"text": "Apples", "aliases": ["apple", "an apple"], "points": 18},
+      {"text": "Carrots", "aliases": ["carrot", "carrot sticks", "raw carrots"], "points": 14},
+      {"text": "Cereal", "aliases": ["breakfast cereal", "corn flakes"], "points": 9},
+      {"text": "Soup", "aliases": ["hot soup", "slurping soup"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen102",
+    "question": "Name something people pretend to understand at a dinner party.",
+    "category": "Culture",
+    "answers": [
+      {"text": "Wine", "aliases": ["wine tasting", "wines", "wine flavors"], "points": 34},
+      {"text": "Politics", "aliases": ["political issues", "current politics"], "points": 24},
+      {"text": "Art", "aliases": ["modern art", "artwork", "paintings"], "points": 17},
+      {"text": "Classical music", "aliases": ["opera", "symphony", "classical"], "points": 12},
+      {"text": "Finance", "aliases": ["stocks", "the economy", "investing", "crypto"], "points": 8},
+      {"text": "Foreign cuisine", "aliases": ["exotic food", "fancy food", "gourmet food"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen103",
+    "question": "Name a movie that always makes people cry.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Titanic", "aliases": ["the titanic"], "points": 35},
+      {"text": "The Notebook", "aliases": ["notebook"], "points": 23},
+      {"text": "Bambi", "aliases": ["bambi movie"], "points": 15},
+      {"text": "Up", "aliases": ["up movie", "pixar up"], "points": 12},
+      {"text": "Marley & Me", "aliases": ["marley and me"], "points": 9},
+      {"text": "The Lion King", "aliases": ["lion king"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen104",
+    "question": "Name something that smells better than it tastes.",
+    "category": "Food & Drink",
+    "answers": [
+      {"text": "Coffee", "aliases": ["coffee beans", "fresh coffee"], "points": 36},
+      {"text": "Candles", "aliases": ["scented candles", "candle"], "points": 20},
+      {"text": "Vanilla extract", "aliases": ["vanilla", "pure vanilla"], "points": 16},
+      {"text": "Perfume", "aliases": ["cologne", "fragrance"], "points": 13},
+      {"text": "Soap", "aliases": ["bar soap", "hand soap"], "points": 9},
+      {"text": "Cocoa powder", "aliases": ["baking cocoa", "unsweetened cocoa"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen105",
+    "question": "Name something tourists always do wrong when visiting a new country.",
+    "category": "Travel",
+    "answers": [
+      {"text": "Not learning the language", "aliases": ["don't speak the language", "no local language", "only speak english"], "points": 28},
+      {"text": "Tipping wrong", "aliases": ["bad tipping", "wrong tip", "over tipping", "under tipping"], "points": 22},
+      {"text": "Eating at tourist traps", "aliases": ["tourist restaurants", "bad restaurants", "chain restaurants"], "points": 19},
+      {"text": "Wearing wrong clothes", "aliases": ["dressing badly", "bad outfits", "fanny packs"], "points": 14},
+      {"text": "Not respecting customs", "aliases": ["ignoring culture", "rude behavior", "cultural mistakes"], "points": 10},
+      {"text": "Overpacking", "aliases": ["too much luggage", "packing too much", "big suitcase"], "points": 7}
+    ]
+  },
+  {
+    "id": "gen106",
+    "question": "Name an animal that looks cute but is actually dangerous.",
+    "category": "Animals",
+    "answers": [
+      {"text": "Bear", "aliases": ["bears", "bear cub", "cubs"], "points": 30},
+      {"text": "Hippo", "aliases": ["hippopotamus", "hippos"], "points": 24},
+      {"text": "Koala", "aliases": ["koalas", "koala bear"], "points": 16},
+      {"text": "Raccoon", "aliases": ["raccoons", "trash panda"], "points": 13},
+      {"text": "Pufferfish", "aliases": ["puffer fish", "blowfish"], "points": 10},
+      {"text": "Chimpanzee", "aliases": ["chimp", "chimps", "monkey"], "points": 7}
+    ]
+  },
+  {
+    "id": "gen107",
+    "question": "Name something people always lose in their own house.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Keys", "aliases": ["house keys", "car keys", "my keys"], "points": 32},
+      {"text": "TV remote", "aliases": ["remote", "remote control", "the remote"], "points": 25},
+      {"text": "Phone", "aliases": ["cell phone", "mobile", "my phone", "smartphone"], "points": 18},
+      {"text": "Glasses", "aliases": ["reading glasses", "eyeglasses", "spectacles"], "points": 12},
+      {"text": "Socks", "aliases": ["a sock", "matching socks"], "points": 8},
+      {"text": "Wallet", "aliases": ["purse", "my wallet"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen108",
+    "question": "Name a job that kids say they want when they grow up.",
+    "category": "Work & School",
+    "answers": [
+      {"text": "Doctor", "aliases": ["a doctor", "physician"], "points": 28},
+      {"text": "Astronaut", "aliases": ["space man", "spaceman"], "points": 23},
+      {"text": "Firefighter", "aliases": ["fireman", "fire fighter"], "points": 19},
+      {"text": "Athlete", "aliases": ["sports player", "pro athlete", "professional athlete", "sports star"], "points": 14},
+      {"text": "Veterinarian", "aliases": ["vet", "animal doctor"], "points": 10},
+      {"text": "Teacher", "aliases": ["a teacher", "school teacher"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen109",
+    "question": "Name something people do to procrastinate.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Watch TV", "aliases": ["watch shows", "binge watch", "netflix", "streaming", "watch netflix"], "points": 30},
+      {"text": "Scroll social media", "aliases": ["check phone", "social media", "browse phone", "tiktok", "instagram"], "points": 26},
+      {"text": "Eat snacks", "aliases": ["snacking", "eat", "raid the fridge", "eating"], "points": 16},
+      {"text": "Clean", "aliases": ["cleaning", "tidy up", "organize"], "points": 12},
+      {"text": "Nap", "aliases": ["sleep", "take a nap", "napping"], "points": 10},
+      {"text": "Daydream", "aliases": ["zone out", "stare at wall", "space out"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen110",
+    "question": "Name a word people commonly misspell.",
+    "category": "Word Play",
+    "answers": [
+      {"text": "Necessary", "aliases": ["neccessary", "necesary"], "points": 28},
+      {"text": "Restaurant", "aliases": ["restaraunt", "restraunt"], "points": 22},
+      {"text": "Wednesday", "aliases": ["wendsday", "wensday"], "points": 18},
+      {"text": "Definitely", "aliases": ["definately", "defintely"], "points": 15},
+      {"text": "Separate", "aliases": ["seperate", "seprate"], "points": 10},
+      {"text": "Receive", "aliases": ["recieve", "receeve"], "points": 7}
+    ]
+  },
+  {
+    "id": "gen111",
+    "question": "Name something people always forget to pack for a trip.",
+    "category": "Travel",
+    "answers": [
+      {"text": "Toothbrush", "aliases": ["tooth brush", "toothpaste"], "points": 30},
+      {"text": "Phone charger", "aliases": ["charger", "charging cable", "phone cable"], "points": 25},
+      {"text": "Underwear", "aliases": ["extra underwear", "undies", "boxers"], "points": 17},
+      {"text": "Socks", "aliases": ["extra socks"], "points": 12},
+      {"text": "Sunscreen", "aliases": ["sun screen", "sunblock", "SPF"], "points": 10},
+      {"text": "Medication", "aliases": ["medicine", "pills", "prescriptions", "meds"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen112",
+    "question": "Name something that's always in a grandma's house.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Candy dish", "aliases": ["candy", "candy bowl", "hard candy", "sweets"], "points": 30},
+      {"text": "Doilies", "aliases": ["lace doilies", "crochet doilies", "doily"], "points": 22},
+      {"text": "Old photos", "aliases": ["family photos", "photo albums", "pictures"], "points": 18},
+      {"text": "Plastic on furniture", "aliases": ["plastic covers", "couch covers", "plastic wrap on couch"], "points": 14},
+      {"text": "Religious items", "aliases": ["crosses", "bible", "crucifix", "jesus picture"], "points": 10},
+      {"text": "Potpourri", "aliases": ["air freshener", "scented things"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen113",
+    "question": "Name an excuse people use to leave a party early.",
+    "category": "Relationships",
+    "answers": [
+      {"text": "Have to work early", "aliases": ["work tomorrow", "early morning", "work in the morning"], "points": 32},
+      {"text": "Not feeling well", "aliases": ["sick", "headache", "don't feel good", "feeling sick"], "points": 24},
+      {"text": "Babysitter", "aliases": ["kids", "need to get the kids", "relieve the babysitter"], "points": 17},
+      {"text": "Pet needs me", "aliases": ["dog needs to go out", "feed the dog", "let the dog out", "cat"], "points": 12},
+      {"text": "Early appointment", "aliases": ["appointment tomorrow", "doctor appointment"], "points": 9},
+      {"text": "Traffic", "aliases": ["long drive", "long drive home", "beat the traffic"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen114",
+    "question": "Name something people argue about on road trips.",
+    "category": "Travel",
+    "answers": [
+      {"text": "Music", "aliases": ["radio station", "what to listen to", "the radio", "playlist"], "points": 30},
+      {"text": "Directions", "aliases": ["which way to go", "navigation", "GPS", "the map"], "points": 24},
+      {"text": "Temperature", "aliases": ["AC", "air conditioning", "heat", "too hot", "too cold"], "points": 18},
+      {"text": "Where to eat", "aliases": ["food stops", "restaurants", "where to stop for food"], "points": 14},
+      {"text": "Bathroom breaks", "aliases": ["stopping too much", "rest stops", "bathroom stops"], "points": 9},
+      {"text": "Driving speed", "aliases": ["going too fast", "too slow", "speeding"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen115",
+    "question": "Name a sport that's boring to watch but fun to play.",
+    "category": "Sports",
+    "answers": [
+      {"text": "Golf", "aliases": ["golfing"], "points": 34},
+      {"text": "Bowling", "aliases": ["bowling alley"], "points": 22},
+      {"text": "Fishing", "aliases": ["fish", "sport fishing"], "points": 17},
+      {"text": "Cricket", "aliases": ["cricket match"], "points": 12},
+      {"text": "Darts", "aliases": ["dart throwing", "playing darts"], "points": 9},
+      {"text": "Badminton", "aliases": ["shuttlecock", "birdie"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen116",
+    "question": "Name something people lie about on a first date.",
+    "category": "Relationships",
+    "answers": [
+      {"text": "Age", "aliases": ["how old they are", "their age"], "points": 30},
+      {"text": "Job", "aliases": ["career", "what they do", "income", "salary"], "points": 24},
+      {"text": "Hobbies", "aliases": ["interests", "what they like to do"], "points": 18},
+      {"text": "Relationship history", "aliases": ["past relationships", "ex", "exes"], "points": 13},
+      {"text": "Height", "aliases": ["how tall", "their height"], "points": 10},
+      {"text": "What they eat", "aliases": ["diet", "eating habits", "food preferences"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen117",
+    "question": "Name something that takes forever at the doctor's office.",
+    "category": "Health",
+    "answers": [
+      {"text": "Waiting in the lobby", "aliases": ["waiting room", "the wait", "waiting"], "points": 38},
+      {"text": "Filling out forms", "aliases": ["paperwork", "forms", "filling out paperwork"], "points": 22},
+      {"text": "Waiting in the exam room", "aliases": ["waiting for the doctor", "sitting in the room"], "points": 16},
+      {"text": "Insurance stuff", "aliases": ["insurance", "insurance paperwork", "billing"], "points": 11},
+      {"text": "Lab results", "aliases": ["test results", "blood work", "waiting for results"], "points": 8},
+      {"text": "Getting a referral", "aliases": ["referrals", "specialist referral"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen118",
+    "question": "Name a household chore everyone hates doing.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Dishes", "aliases": ["washing dishes", "doing the dishes", "dishwashing"], "points": 30},
+      {"text": "Laundry", "aliases": ["doing laundry", "folding laundry", "washing clothes"], "points": 24},
+      {"text": "Cleaning the bathroom", "aliases": ["scrubbing toilet", "toilet cleaning", "bathroom"], "points": 18},
+      {"text": "Vacuuming", "aliases": ["vacuum", "hoovering"], "points": 12},
+      {"text": "Mopping", "aliases": ["mopping floors", "floor mopping"], "points": 10},
+      {"text": "Ironing", "aliases": ["ironing clothes", "pressing clothes"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen119",
+    "question": "Name a sound that wakes you up in the middle of the night.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Dog barking", "aliases": ["barking dog", "dogs barking", "barking"], "points": 28},
+      {"text": "Thunder", "aliases": ["thunderstorm", "lightning", "storm"], "points": 22},
+      {"text": "Baby crying", "aliases": ["crying baby", "child crying", "kid crying"], "points": 20},
+      {"text": "Car alarm", "aliases": ["alarm", "car horn"], "points": 14},
+      {"text": "Sirens", "aliases": ["police sirens", "ambulance", "fire truck"], "points": 10},
+      {"text": "Creaking", "aliases": ["floor creaking", "house settling", "weird noise", "strange noise"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen120",
+    "question": "Name something people do when they're stuck in an elevator.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Press buttons", "aliases": ["push buttons", "press all buttons", "hit the alarm"], "points": 30},
+      {"text": "Call for help", "aliases": ["call 911", "phone someone", "use the phone", "yell for help"], "points": 25},
+      {"text": "Panic", "aliases": ["freak out", "get scared", "have a panic attack"], "points": 18},
+      {"text": "Check phone", "aliases": ["look at phone", "use phone", "scroll phone"], "points": 12},
+      {"text": "Talk to others", "aliases": ["make conversation", "chat", "talk to strangers"], "points": 10},
+      {"text": "Pray", "aliases": ["pray to god", "praying"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen121",
+    "question": "Name a famous fictional detective.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Sherlock Holmes", "aliases": ["sherlock", "holmes"], "points": 40},
+      {"text": "Scooby-Doo", "aliases": ["scooby doo", "scooby", "the scooby gang"], "points": 20},
+      {"text": "Batman", "aliases": ["the batman", "dark knight", "bruce wayne"], "points": 15},
+      {"text": "Nancy Drew", "aliases": ["nancy"], "points": 11},
+      {"text": "Inspector Clouseau", "aliases": ["clouseau", "pink panther"], "points": 8},
+      {"text": "Columbo", "aliases": ["lieutenant columbo"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen122",
+    "question": "Name something that always has a long line.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "DMV", "aliases": ["department of motor vehicles", "drivers license office", "the DMV"], "points": 30},
+      {"text": "Amusement park rides", "aliases": ["theme park", "roller coasters", "disney", "disneyland"], "points": 22},
+      {"text": "Airport security", "aliases": ["TSA", "airport", "security check"], "points": 18},
+      {"text": "Coffee shop", "aliases": ["Starbucks", "starbucks line", "coffee line"], "points": 14},
+      {"text": "Grocery checkout", "aliases": ["grocery store", "supermarket", "checkout"], "points": 10},
+      {"text": "Public restroom", "aliases": ["bathroom", "womens restroom", "restroom", "toilet"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen123",
+    "question": "Name something you'd find in a junk drawer.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Batteries", "aliases": ["dead batteries", "old batteries", "battery"], "points": 28},
+      {"text": "Rubber bands", "aliases": ["rubber band", "elastic bands"], "points": 22},
+      {"text": "Pens", "aliases": ["old pens", "markers", "pencils", "pen"], "points": 18},
+      {"text": "Tape", "aliases": ["scotch tape", "duct tape", "masking tape"], "points": 14},
+      {"text": "Takeout menus", "aliases": ["menus", "old menus", "delivery menus"], "points": 10},
+      {"text": "Old keys", "aliases": ["mystery keys", "random keys", "keys"], "points": 8}
+    ]
+  },
+  {
+    "id": "gen124",
+    "question": "Name a song everyone knows the words to.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Happy Birthday", "aliases": ["happy birthday to you", "birthday song"], "points": 36},
+      {"text": "Bohemian Rhapsody", "aliases": ["bohemian rhapsody queen", "queen bohemian"], "points": 22},
+      {"text": "Don't Stop Believin'", "aliases": ["don't stop believing", "journey", "journey song"], "points": 16},
+      {"text": "Sweet Caroline", "aliases": ["sweet caroline neil diamond", "bah bah bah"], "points": 12},
+      {"text": "Twinkle Twinkle Little Star", "aliases": ["twinkle twinkle", "twinkle star"], "points": 8},
+      {"text": "ABC Song", "aliases": ["alphabet song", "ABCs", "the ABCs"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen125",
+    "question": "Name something people always say they'll do but never actually do.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Exercise", "aliases": ["go to the gym", "work out", "start working out", "join a gym"], "points": 34},
+      {"text": "Eat healthier", "aliases": ["diet", "go on a diet", "eat healthy", "eat better"], "points": 24},
+      {"text": "Save money", "aliases": ["start saving", "budget", "spend less"], "points": 16},
+      {"text": "Read more", "aliases": ["read books", "start reading", "read a book"], "points": 12},
+      {"text": "Learn a language", "aliases": ["learn spanish", "study a language", "learn a new language"], "points": 8},
+      {"text": "Wake up early", "aliases": ["get up early", "become a morning person", "wake up earlier"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen126",
+    "question": "Name a vegetable kids refuse to eat.",
+    "category": "Food & Drink",
+    "answers": [
+      {"text": "Broccoli", "aliases": ["brocoli", "brocolli"], "points": 35},
+      {"text": "Brussels sprouts", "aliases": ["brussel sprouts", "sprouts"], "points": 24},
+      {"text": "Spinach", "aliases": ["spinich"], "points": 16},
+      {"text": "Asparagus", "aliases": ["aspargus"], "points": 11},
+      {"text": "Peas", "aliases": ["green peas"], "points": 8},
+      {"text": "Cauliflower", "aliases": ["califlower", "cauliflour"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen127",
+    "question": "Name something people check before leaving the house.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Phone", "aliases": ["cell phone", "mobile phone", "my phone"], "points": 30},
+      {"text": "Keys", "aliases": ["house keys", "car keys", "my keys"], "points": 26},
+      {"text": "Wallet", "aliases": ["purse", "my wallet"], "points": 20},
+      {"text": "Hair", "aliases": ["their hair", "the mirror", "appearance", "how they look"], "points": 11},
+      {"text": "Stove", "aliases": ["oven", "stove off", "oven off", "appliances"], "points": 8},
+      {"text": "Lock the door", "aliases": ["door locked", "locked the door", "the door"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen128",
+    "question": "Name a famous landmark people take photos in front of.",
+    "category": "Travel",
+    "answers": [
+      {"text": "Eiffel Tower", "aliases": ["eiffel", "the eiffel tower", "paris tower"], "points": 32},
+      {"text": "Statue of Liberty", "aliases": ["lady liberty", "statue of liberty NYC"], "points": 24},
+      {"text": "Leaning Tower of Pisa", "aliases": ["tower of pisa", "pisa", "leaning tower"], "points": 18},
+      {"text": "Big Ben", "aliases": ["big ben london", "london clock"], "points": 12},
+      {"text": "Great Wall of China", "aliases": ["great wall", "chinese wall"], "points": 8},
+      {"text": "Colosseum", "aliases": ["roman colosseum", "coliseum", "the colosseum"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen129",
+    "question": "Name something people do when a song they love comes on.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Sing along", "aliases": ["sing", "start singing", "belt it out"], "points": 36},
+      {"text": "Turn up the volume", "aliases": ["crank it up", "turn it up", "blast it"], "points": 24},
+      {"text": "Dance", "aliases": ["start dancing", "dance around", "bust a move"], "points": 18},
+      {"text": "Say 'this is my song'", "aliases": ["that's my song", "my jam", "this is my jam", "oh thats my song"], "points": 10},
+      {"text": "Air guitar", "aliases": ["play air guitar", "air drums", "pretend to play"], "points": 7},
+      {"text": "Close their eyes", "aliases": ["close eyes", "vibe", "zone out"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen130",
+    "question": "Name a common password people use.",
+    "category": "Technology",
+    "answers": [
+      {"text": "123456", "aliases": ["1234", "12345", "1234567", "12345678"], "points": 34},
+      {"text": "Password", "aliases": ["password1", "password123", "passw0rd"], "points": 26},
+      {"text": "Their birthday", "aliases": ["birthday", "date of birth", "birth date", "DOB"], "points": 16},
+      {"text": "Pet's name", "aliases": ["dog name", "cat name", "pet name"], "points": 11},
+      {"text": "Qwerty", "aliases": ["qwerty123", "qwerty1"], "points": 8},
+      {"text": "abc123", "aliases": ["abc", "abcd1234"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen131",
+    "question": "Name an animal you might see in someone's backyard.",
+    "category": "Animals",
+    "answers": [
+      {"text": "Squirrel", "aliases": ["squirrels", "a squirrel"], "points": 30},
+      {"text": "Bird", "aliases": ["birds", "robin", "sparrow", "songbird"], "points": 24},
+      {"text": "Rabbit", "aliases": ["bunny", "rabbits", "bunnies"], "points": 18},
+      {"text": "Deer", "aliases": ["a deer", "deers"], "points": 13},
+      {"text": "Raccoon", "aliases": ["raccoons", "trash panda"], "points": 9},
+      {"text": "Opossum", "aliases": ["possum", "possums"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen132",
+    "question": "Name something that always gets tangled.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Headphones", "aliases": ["earbuds", "earphones", "headphone cords", "earphone wires"], "points": 34},
+      {"text": "Christmas lights", "aliases": ["holiday lights", "string lights", "xmas lights"], "points": 24},
+      {"text": "Hair", "aliases": ["long hair", "curly hair"], "points": 16},
+      {"text": "Fishing line", "aliases": ["fishing wire", "fishing rod"], "points": 11},
+      {"text": "Necklaces", "aliases": ["necklace", "chains", "jewelry"], "points": 9},
+      {"text": "Extension cords", "aliases": ["power cords", "cables", "cords"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen133",
+    "question": "Name something people are afraid to ask for at a restaurant.",
+    "category": "Food & Drink",
+    "answers": [
+      {"text": "The check", "aliases": ["the bill", "check please", "bill"], "points": 28},
+      {"text": "More bread", "aliases": ["extra bread", "another basket of bread"], "points": 22},
+      {"text": "A different table", "aliases": ["to move tables", "change seats", "another table"], "points": 18},
+      {"text": "Substitutions", "aliases": ["changes to the dish", "modifications", "customize"], "points": 14},
+      {"text": "Leftovers box", "aliases": ["doggy bag", "to-go box", "take home box"], "points": 11},
+      {"text": "The manager", "aliases": ["speak to manager", "see the manager"], "points": 7}
+    ]
+  },
+  {
+    "id": "gen134",
+    "question": "Name a holiday that involves a lot of cooking.",
+    "category": "Holidays",
+    "answers": [
+      {"text": "Thanksgiving", "aliases": ["turkey day"], "points": 42},
+      {"text": "Christmas", "aliases": ["xmas", "christmas day"], "points": 26},
+      {"text": "Easter", "aliases": ["easter sunday"], "points": 13},
+      {"text": "Fourth of July", "aliases": ["July 4th", "independence day", "4th of july"], "points": 9},
+      {"text": "Hanukkah", "aliases": ["chanukah", "hannukah"], "points": 6},
+      {"text": "Super Bowl Sunday", "aliases": ["super bowl", "superbowl", "the big game"], "points": 4}
+    ]
+  },
+  {
+    "id": "gen135",
+    "question": "Name something that's always more expensive at the airport.",
+    "category": "Travel",
+    "answers": [
+      {"text": "Water", "aliases": ["bottled water", "water bottle", "drinks"], "points": 30},
+      {"text": "Food", "aliases": ["meals", "restaurants", "snacks", "airport food"], "points": 26},
+      {"text": "Parking", "aliases": ["airport parking", "car park"], "points": 18},
+      {"text": "Souvenirs", "aliases": ["gifts", "gift shop", "merchandise"], "points": 12},
+      {"text": "Wi-Fi", "aliases": ["wifi", "internet", "internet access"], "points": 8},
+      {"text": "Magazines", "aliases": ["books", "newspapers", "reading material"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen136",
+    "question": "Name a reason someone might cancel plans last minute.",
+    "category": "Relationships",
+    "answers": [
+      {"text": "Feeling sick", "aliases": ["sick", "not feeling well", "ill", "under the weather"], "points": 34},
+      {"text": "Too tired", "aliases": ["exhausted", "tired", "sleepy", "fatigue"], "points": 24},
+      {"text": "Work", "aliases": ["have to work", "work emergency", "working late"], "points": 16},
+      {"text": "Bad weather", "aliases": ["weather", "rain", "storm", "snow"], "points": 12},
+      {"text": "Family emergency", "aliases": ["family issue", "emergency", "something came up"], "points": 9},
+      {"text": "Just don't want to go", "aliases": ["lazy", "don't feel like it", "not in the mood", "antisocial"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen137",
+    "question": "Name something people collect.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Stamps", "aliases": ["postage stamps", "stamp collection"], "points": 28},
+      {"text": "Coins", "aliases": ["coin collection", "old coins", "rare coins"], "points": 24},
+      {"text": "Action figures", "aliases": ["figurines", "toys", "dolls", "collectible figures"], "points": 18},
+      {"text": "Baseball cards", "aliases": ["sports cards", "trading cards", "pokemon cards"], "points": 14},
+      {"text": "Vinyl records", "aliases": ["records", "LPs", "albums", "vinyl"], "points": 10},
+      {"text": "Seashells", "aliases": ["shells", "sea shells"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen138",
+    "question": "Name a place where you have to whisper.",
+    "category": "Culture",
+    "answers": [
+      {"text": "Library", "aliases": ["the library", "a library"], "points": 40},
+      {"text": "Church", "aliases": ["temple", "mosque", "synagogue", "place of worship"], "points": 24},
+      {"text": "Movie theater", "aliases": ["cinema", "the movies", "theatre"], "points": 15},
+      {"text": "Hospital", "aliases": ["hospital room", "doctor office"], "points": 10},
+      {"text": "Baby's room", "aliases": ["nursery", "near a sleeping baby", "sleeping baby"], "points": 7},
+      {"text": "Funeral", "aliases": ["at a funeral", "wake", "memorial service"], "points": 4}
+    ]
+  },
+  {
+    "id": "gen139",
+    "question": "Name a game people play at a barbecue.",
+    "category": "Sports",
+    "answers": [
+      {"text": "Cornhole", "aliases": ["bean bag toss", "bags"], "points": 30},
+      {"text": "Horseshoes", "aliases": ["horse shoes", "throwing horseshoes"], "points": 22},
+      {"text": "Volleyball", "aliases": ["volley ball", "beach volleyball"], "points": 18},
+      {"text": "Frisbee", "aliases": ["throwing frisbee", "ultimate frisbee", "disc"], "points": 14},
+      {"text": "Card games", "aliases": ["cards", "playing cards", "poker"], "points": 10},
+      {"text": "Badminton", "aliases": ["badmington", "shuttlecock"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen140",
+    "question": "Name something that's hard to do with gloves on.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Use a phone", "aliases": ["text", "type on phone", "touchscreen", "texting"], "points": 36},
+      {"text": "Pick up coins", "aliases": ["pick up small things", "grab change", "small objects"], "points": 22},
+      {"text": "Tie shoes", "aliases": ["tie laces", "shoelaces", "tie your shoes"], "points": 16},
+      {"text": "Button a shirt", "aliases": ["buttons", "zip a zipper", "button up"], "points": 12},
+      {"text": "Write", "aliases": ["writing", "hold a pen", "sign something"], "points": 8},
+      {"text": "Open a jar", "aliases": ["grip things", "hold things", "grab stuff"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen141",
+    "question": "Name a fictional place everyone wishes were real.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Hogwarts", "aliases": ["harry potter school", "hogwarts school", "wizarding world"], "points": 36},
+      {"text": "Narnia", "aliases": ["the land of narnia", "chronicles of narnia"], "points": 20},
+      {"text": "Wakanda", "aliases": ["black panther", "wakanda forever"], "points": 16},
+      {"text": "Middle-earth", "aliases": ["middle earth", "the shire", "lord of the rings", "hobbiton"], "points": 13},
+      {"text": "Neverland", "aliases": ["never land", "peter pan's neverland"], "points": 9},
+      {"text": "Willy Wonka's factory", "aliases": ["chocolate factory", "wonka factory", "wonka"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen142",
+    "question": "Name something people sneak into a movie theater.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Candy", "aliases": ["sweets", "chocolate", "snacks", "gummy bears"], "points": 34},
+      {"text": "Soda", "aliases": ["drinks", "pop", "soft drink", "a drink"], "points": 24},
+      {"text": "Chips", "aliases": ["crisps", "potato chips", "bag of chips"], "points": 16},
+      {"text": "Sandwiches", "aliases": ["sandwich", "sub", "food from outside"], "points": 11},
+      {"text": "Fast food", "aliases": ["burgers", "mcdonalds", "taco bell", "takeout"], "points": 9},
+      {"text": "A flask", "aliases": ["alcohol", "booze", "liquor", "wine"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen143",
+    "question": "Name something that always seems to break at the worst time.",
+    "category": "Everyday Life",
+    "answers": [
+      {"text": "Car", "aliases": ["vehicle", "car breaks down", "engine"], "points": 32},
+      {"text": "Phone", "aliases": ["cell phone", "phone screen", "phone battery"], "points": 24},
+      {"text": "Toilet", "aliases": ["plumbing", "bathroom", "pipes"], "points": 16},
+      {"text": "Air conditioning", "aliases": ["AC", "A/C", "heater", "HVAC"], "points": 13},
+      {"text": "Washing machine", "aliases": ["washer", "dryer", "laundry machine"], "points": 9},
+      {"text": "Internet", "aliases": ["wifi", "wi-fi", "router", "connection"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen144",
+    "question": "Name a fruit people put in drinks.",
+    "category": "Food & Drink",
+    "answers": [
+      {"text": "Lemon", "aliases": ["lemons", "lemon slice", "lemon wedge"], "points": 34},
+      {"text": "Lime", "aliases": ["limes", "lime wedge", "lime slice"], "points": 24},
+      {"text": "Orange", "aliases": ["oranges", "orange slice", "orange wedge"], "points": 17},
+      {"text": "Strawberry", "aliases": ["strawberries"], "points": 12},
+      {"text": "Pineapple", "aliases": ["pineapple slice", "pineapple chunk"], "points": 8},
+      {"text": "Cherry", "aliases": ["cherries", "maraschino cherry", "maraschino"], "points": 5}
+    ]
+  },
+  {
+    "id": "gen145",
+    "question": "Name something people do while waiting for their food at a restaurant.",
+    "category": "Food & Drink",
+    "answers": [
+      {"text": "Look at phone", "aliases": ["check phone", "scroll phone", "use phone", "browse phone"], "points": 34},
+      {"text": "Talk", "aliases": ["conversation", "chat", "talk to each other"], "points": 24},
+      {"text": "Eat bread", "aliases": ["bread basket", "breadsticks", "chips and salsa", "appetizer"], "points": 16},
+      {"text": "Drink", "aliases": ["have a drink", "sip drink", "drink water", "order drinks"], "points": 12},
+      {"text": "People watch", "aliases": ["look around", "watch other people", "observe"], "points": 8},
+      {"text": "Read the menu again", "aliases": ["look at menu", "re-read menu", "browse menu"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen146",
+    "question": "Name a TV show people binge-watch.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Friends", "aliases": ["friends tv show", "friends series"], "points": 28},
+      {"text": "The Office", "aliases": ["office", "the office US"], "points": 24},
+      {"text": "Breaking Bad", "aliases": ["breaking bad series"], "points": 18},
+      {"text": "Stranger Things", "aliases": ["stranger things netflix"], "points": 14},
+      {"text": "Game of Thrones", "aliases": ["GOT", "game of thrones HBO", "thrones"], "points": 10},
+      {"text": "Grey's Anatomy", "aliases": ["greys anatomy", "gray's anatomy", "grays anatomy"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen147",
+    "question": "Name something you'd find on a teacher's desk.",
+    "category": "Work & School",
+    "answers": [
+      {"text": "Apple", "aliases": ["an apple", "apple for teacher"], "points": 28},
+      {"text": "Papers to grade", "aliases": ["papers", "homework", "assignments", "tests", "grading"], "points": 24},
+      {"text": "Coffee mug", "aliases": ["coffee cup", "coffee", "mug"], "points": 18},
+      {"text": "Pens", "aliases": ["red pen", "pencils", "markers"], "points": 14},
+      {"text": "Stapler", "aliases": ["staple remover", "staplers"], "points": 10},
+      {"text": "Name plate", "aliases": ["name tag", "desk sign", "nameplate"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen148",
+    "question": "Name something that smells terrible but people eat anyway.",
+    "category": "Food & Drink",
+    "answers": [
+      {"text": "Blue cheese", "aliases": ["bleu cheese", "stinky cheese", "limburger"], "points": 30},
+      {"text": "Durian", "aliases": ["durian fruit"], "points": 22},
+      {"text": "Fish", "aliases": ["seafood", "sardines", "anchovies", "canned fish"], "points": 18},
+      {"text": "Hard-boiled eggs", "aliases": ["boiled eggs", "eggs", "egg salad", "deviled eggs"], "points": 14},
+      {"text": "Kimchi", "aliases": ["fermented cabbage", "kimchee"], "points": 10},
+      {"text": "Brussels sprouts", "aliases": ["brussel sprouts", "sprouts"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen149",
+    "question": "Name something people do on their lunch break at work.",
+    "category": "Work & School",
+    "answers": [
+      {"text": "Eat", "aliases": ["have lunch", "eat lunch", "eat food"], "points": 34},
+      {"text": "Scroll social media", "aliases": ["check phone", "browse phone", "go on phone"], "points": 24},
+      {"text": "Take a walk", "aliases": ["go for a walk", "walk around", "walk outside"], "points": 16},
+      {"text": "Nap", "aliases": ["sleep", "take a nap", "rest", "close eyes"], "points": 12},
+      {"text": "Run errands", "aliases": ["errands", "shopping", "go to store"], "points": 8},
+      {"text": "Gossip", "aliases": ["talk to coworkers", "chat with colleagues", "socialize"], "points": 6}
+    ]
+  },
+  {
+    "id": "gen150",
+    "question": "Name a board game that causes family arguments.",
+    "category": "Entertainment",
+    "answers": [
+      {"text": "Monopoly", "aliases": ["monopoly board game"], "points": 42},
+      {"text": "Risk", "aliases": ["risk board game", "risk game"], "points": 18},
+      {"text": "Scrabble", "aliases": ["scrabble game"], "points": 15},
+      {"text": "Uno", "aliases": ["uno card game", "uno cards"], "points": 12},
+      {"text": "Sorry!", "aliases": ["sorry", "sorry game", "sorry board game"], "points": 8},
+      {"text": "Trivial Pursuit", "aliases": ["trivial pursuit game", "trivia"], "points": 5}
+    ]
+  }
+]
