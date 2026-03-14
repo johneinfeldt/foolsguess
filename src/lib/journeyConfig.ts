@@ -38,7 +38,7 @@ function buildDivisions(): DivisionConfig[] {
 
 export const DIVISIONS: DivisionConfig[] = buildDivisions();
 
-export const MAX_ENERGY = 3;
+export const MAX_ENERGY = 5;
 
 export function getDivision(divNumber: number): DivisionConfig | undefined {
   return DIVISIONS.find((d) => d.number === divNumber);

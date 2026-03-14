@@ -9,6 +9,7 @@ import AvatarDisplay from "@/components/AvatarDisplay";
 interface RoundResultsProps {
   players: Player[];
   roundScores: PlayerScore[];
+  allScores?: PlayerScore[][];
   roundNumber: number;
   questionText: string;
   answers: Answer[];
@@ -18,13 +19,25 @@ interface RoundResultsProps {
   isHost?: boolean;
 }
 
-export default function RoundResults({ players, roundScores, roundNumber, questionText, answers, onNext, isLastRound, isOnline, isHost }: RoundResultsProps) {
+export default function RoundResults({ players, roundScores, allScores, roundNumber, questionText, answers, onNext, isLastRound, isOnline, isHost }: RoundResultsProps) {
   const lang = useLang();
 
   // Sort players by score for this round
   const ranked = players
     .map((player, i) => ({ player, score: roundScores[i]?.pointsEarned || 0, index: i }))
     .sort((a, b) => b.score - a.score);
+
+  // Calculate cumulative totals across all rounds
+  const cumulativeTotals = players.map((player, playerIndex) => {
+    let total = 0;
+    if (allScores) {
+      for (let round = 0; round < allScores.length; round++) {
+        total += allScores[round]?.[playerIndex]?.pointsEarned || 0;
+      }
+    }
+    return { player, total, index: playerIndex };
+  });
+  const cumulativeRanked = [...cumulativeTotals].sort((a, b) => b.total - a.total);
 
   const showNextButton = !isOnline || isHost;
 
@@ -70,7 +83,7 @@ export default function RoundResults({ players, roundScores, roundNumber, questi
         </div>
       </div>
 
-      {/* Player scores */}
+      {/* This round's scores */}
       <div className="mb-6 flex w-full max-w-sm flex-col gap-3">
         {ranked.map((entry, rank) => {
           const color = PLAYER_GAME_COLORS[entry.index % PLAYER_GAME_COLORS.length];
@@ -94,6 +107,39 @@ export default function RoundResults({ players, roundScores, roundNumber, questi
           );
         })}
       </div>
+
+      {/* Cumulative standings */}
+      {allScores && allScores.length > 0 && (
+        <div className="mb-6 w-full max-w-sm">
+          <h3 className="mb-3 text-sm font-bold text-text-muted">
+            {t("party.standings", lang)}
+          </h3>
+          <div className="flex flex-col gap-2">
+            {cumulativeRanked.map((entry, rank) => {
+              const color = PLAYER_GAME_COLORS[entry.index % PLAYER_GAME_COLORS.length];
+              const maxPossible = roundNumber * 100;
+              return (
+                <div
+                  key={entry.index}
+                  className={`card flex items-center gap-3 p-3 ${rank === 0 ? "ring-1 ring-gold" : ""}`}
+                >
+                  <span className="w-6 text-center text-sm font-bold text-text-dim">
+                    {rank + 1}.
+                  </span>
+                  <AvatarDisplay avatar={entry.player.avatar} size={28} />
+                  <span className="flex-1 font-bold">{entry.player.name}</span>
+                  <div className="flex items-center gap-1">
+                    <span className="text-lg font-extrabold" style={{ color }}>
+                      {entry.total}
+                    </span>
+                    <span className="text-xs text-text-dim">/{maxPossible}</span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {showNextButton ? (
         <button

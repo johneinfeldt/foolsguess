@@ -25,58 +25,100 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
   });
 
   const ranked = [...totals].sort((a, b) => b.total - a.total);
-  const winner = ranked[0];
   const maxPossible = ROUNDS_PER_GAME * 100;
+  const top3 = ranked.slice(0, 3);
 
   return (
     <div className="flex min-h-[80vh] flex-col items-center px-4 py-8">
       <Confetti active={true} />
 
-      <h1 className="mb-2 mt-4 text-3xl font-extrabold">{t("party.gameOver", lang)}</h1>
+      <h1 className="mb-6 mt-4 text-3xl font-extrabold">{t("party.gameOver", lang)}</h1>
 
-      {/* Winner */}
-      <div className="card mb-8 w-full max-w-sm p-6 text-center ring-2 ring-gold">
-        <p className="mb-1 text-sm text-text-muted">{t("party.winner", lang)}</p>
-        <div className="mb-2 flex justify-center">
-          <AvatarDisplay avatar={winner.player.avatar} size={80} />
-        </div>
-        <div className="mb-2 text-2xl">{"\u{1F451}"}</div>
-        <h2
-          className="text-2xl font-extrabold"
-          style={{ color: PLAYER_GAME_COLORS[winner.index % PLAYER_GAME_COLORS.length] }}
-        >
-          {winner.player.name}
-        </h2>
-        <p className="mt-1 text-lg">
-          <span className="text-3xl font-extrabold text-gold">{winner.total}</span>
-          <span className="text-text-dim"> / {maxPossible}</span>
-        </p>
-      </div>
-
-      {/* Full leaderboard */}
-      <div className="mb-6 w-full max-w-sm">
-        <h3 className="mb-3 text-sm font-bold text-text-muted">{t("party.leaderboard", lang)}</h3>
-        <div className="flex flex-col gap-2">
-          {ranked.map((entry, rank) => (
-            <div
-              key={entry.index}
-              className={`card flex items-center gap-3 p-3 ${rank === 0 ? "ring-1 ring-gold" : ""}`}
+      {/* Top 3 Podium */}
+      <div className="mb-8 flex w-full max-w-sm items-end justify-center gap-3">
+        {/* 2nd place (left) */}
+        {top3[1] && (
+          <div className="flex flex-1 flex-col items-center">
+            <AvatarDisplay avatar={top3[1].player.avatar} size={56} />
+            <p
+              className="mt-1 text-sm font-bold truncate max-w-[80px] text-center"
+              style={{ color: PLAYER_GAME_COLORS[top3[1].index % PLAYER_GAME_COLORS.length] }}
             >
-              <span className="w-6 text-center text-sm font-bold text-text-dim">
-                {rank + 1}.
-              </span>
-              <AvatarDisplay avatar={entry.player.avatar} size={32} />
-              <span className="flex-1 font-bold">{entry.player.name}</span>
-              <span
-                className="text-lg font-extrabold"
-                style={{ color: PLAYER_GAME_COLORS[entry.index % PLAYER_GAME_COLORS.length] }}
-              >
-                {entry.total}
+              {top3[1].player.name}
+            </p>
+            <div className="mt-1 flex w-full flex-col items-center rounded-t-xl bg-surface-alt pt-3 pb-2" style={{ minHeight: "80px" }}>
+              <span className="text-lg font-bold text-text-dim">2</span>
+              <span className="text-xl font-extrabold" style={{ color: PLAYER_GAME_COLORS[top3[1].index % PLAYER_GAME_COLORS.length] }}>
+                {top3[1].total}
               </span>
             </div>
-          ))}
-        </div>
+          </div>
+        )}
+
+        {/* 1st place (center, tallest) */}
+        {top3[0] && (
+          <div className="flex flex-1 flex-col items-center">
+            <div className="text-2xl">{"\u{1F451}"}</div>
+            <AvatarDisplay avatar={top3[0].player.avatar} size={72} />
+            <p
+              className="mt-1 text-base font-extrabold truncate max-w-[100px] text-center"
+              style={{ color: PLAYER_GAME_COLORS[top3[0].index % PLAYER_GAME_COLORS.length] }}
+            >
+              {top3[0].player.name}
+            </p>
+            <div className="mt-1 flex w-full flex-col items-center rounded-t-xl bg-gold/10 ring-2 ring-gold pt-3 pb-2" style={{ minHeight: "110px" }}>
+              <span className="text-lg font-bold text-gold">1</span>
+              <span className="text-3xl font-extrabold text-gold">
+                {top3[0].total}
+              </span>
+              <span className="text-xs text-text-dim">/ {maxPossible}</span>
+            </div>
+          </div>
+        )}
+
+        {/* 3rd place (right) */}
+        {top3[2] && (
+          <div className="flex flex-1 flex-col items-center">
+            <AvatarDisplay avatar={top3[2].player.avatar} size={48} />
+            <p
+              className="mt-1 text-sm font-bold truncate max-w-[80px] text-center"
+              style={{ color: PLAYER_GAME_COLORS[top3[2].index % PLAYER_GAME_COLORS.length] }}
+            >
+              {top3[2].player.name}
+            </p>
+            <div className="mt-1 flex w-full flex-col items-center rounded-t-xl bg-surface-alt pt-3 pb-2" style={{ minHeight: "60px" }}>
+              <span className="text-lg font-bold text-text-dim">3</span>
+              <span className="text-xl font-extrabold" style={{ color: PLAYER_GAME_COLORS[top3[2].index % PLAYER_GAME_COLORS.length] }}>
+                {top3[2].total}
+              </span>
+            </div>
+          </div>
+        )}
       </div>
+
+      {/* Full leaderboard (if more than 3 players) */}
+      {ranked.length > 3 && (
+        <div className="mb-6 w-full max-w-sm">
+          <h3 className="mb-3 text-sm font-bold text-text-muted">{t("party.leaderboard", lang)}</h3>
+          <div className="flex flex-col gap-2">
+            {ranked.slice(3).map((entry, i) => (
+              <div key={entry.index} className="card flex items-center gap-3 p-3">
+                <span className="w-6 text-center text-sm font-bold text-text-dim">
+                  {i + 4}.
+                </span>
+                <AvatarDisplay avatar={entry.player.avatar} size={32} />
+                <span className="flex-1 font-bold">{entry.player.name}</span>
+                <span
+                  className="text-lg font-extrabold"
+                  style={{ color: PLAYER_GAME_COLORS[entry.index % PLAYER_GAME_COLORS.length] }}
+                >
+                  {entry.total}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Round breakdown */}
       <div className="mb-8 w-full max-w-sm">
@@ -131,13 +173,13 @@ export default function FinalResults({ players, scores, onPlayAgain }: FinalResu
           onClick={onPlayAgain}
           className="press-effect rounded-full bg-accent px-8 py-3 font-bold text-white transition-colors hover:bg-accent-light"
         >
-          {t("party.playAgain", lang)}
+          {t("party.newGame", lang)}
         </button>
         <a
           href="/"
           className="press-effect rounded-full border-2 border-accent/30 px-8 py-3 font-bold text-accent transition-all hover:border-accent hover:bg-accent/5"
         >
-          {t("game.back", lang)}
+          {t("party.mainMenu", lang)}
         </a>
       </div>
     </div>

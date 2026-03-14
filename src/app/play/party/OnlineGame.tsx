@@ -306,6 +306,7 @@ export default function OnlineGame({ allQuestions }: OnlineGameProps) {
       <RoundResults
         players={playersForResults}
         roundScores={roundScoresForResults}
+        allScores={allScoresForResults}
         roundNumber={roundNumber}
         questionText={currentQuestion.question}
         answers={currentQuestion.answers}

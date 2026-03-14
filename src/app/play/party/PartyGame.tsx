@@ -113,6 +113,7 @@ export default function PartyGame({ allQuestionsEn }: PartyGameProps) {
               <RoundResults
                 players={state.players}
                 roundScores={state.scores[state.currentRound] || []}
+                allScores={state.scores}
                 roundNumber={state.currentRound + 1}
                 questionText={currentQuestion.question}
                 answers={currentQuestion.answers}
