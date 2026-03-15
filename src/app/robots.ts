@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: [],
+      disallow: ["/api/", "/auth/", "/profile"],
     },
     sitemap: "https://foolsguess.com/sitemap.xml",
   };
