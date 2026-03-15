@@ -66,6 +66,9 @@ export const metadata: Metadata = {
     },
   },
   category: "games",
+  verification: {
+    google: "O2H8_wxZ0lWW31qMaRfsRhvPiNVLbWWigYk1ICFwR08",
+  },
 };
 
 const jsonLd = {
