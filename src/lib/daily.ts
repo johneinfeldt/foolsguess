@@ -28,22 +28,35 @@ export function getDailyQuestions(date: Date, allQuestions: Question[]): Questio
   return shuffled.slice(0, 3);
 }
 
+// Day number since launch (March 15, 2026)
+const LAUNCH_DATE = new Date("2026-03-15");
+
+export function getDailyNumber(date: Date): number {
+  const utcDate = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const utcLaunch = new Date(Date.UTC(LAUNCH_DATE.getFullYear(), LAUNCH_DATE.getMonth(), LAUNCH_DATE.getDate()));
+  return Math.floor((utcDate.getTime() - utcLaunch.getTime()) / (1000 * 60 * 60 * 24)) + 1;
+}
+
+function getScoreEmoji(points: number): string {
+  if (points >= 80) return "🟪";
+  if (points >= 50) return "🟦";
+  if (points >= 20) return "🟨";
+  return "⬛";
+}
+
 export function generateShareText(
   questionResults: QuestionResult[],
   date: Date,
   totalScore: number
 ): string {
-  const dateStr = date.toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
+  const dayNum = getDailyNumber(date);
 
-  const lines = questionResults.map((result, i) => {
-    const squares = result.answersFound
-      .map((found) => (found ? "🟩" : "⬛"))
+  const lines = questionResults.map((result) => {
+    const bar = result.answersFound
+      .map((found) => (found ? "🟪" : "⬛"))
       .join("");
-    return `Q${i + 1}: ${squares} (${result.pointsEarned}/100)`;
+    const emoji = getScoreEmoji(result.pointsEarned);
+    return `${emoji} ${bar} ${result.pointsEarned}`;
   });
 
   let stars = "";
@@ -52,12 +65,12 @@ export function generateShareText(
   else if (totalScore >= 50) stars = " ⭐";
 
   return [
-    `FoolsGuess Daily - ${dateStr}`,
+    `🃏 FoolsGuess #${dayNum}`,
     "",
     ...lines,
     "",
-    `Total: ${totalScore}/300${stars}`,
+    `Score: ${totalScore}/300${stars}`,
     "",
-    "Play at foolsguess.com",
+    "https://foolsguess.com",
   ].join("\n");
 }

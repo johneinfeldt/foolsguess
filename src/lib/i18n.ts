@@ -125,6 +125,7 @@ const translations: Record<string, Record<Lang, string>> = {
   // Results
   "results.yourScore": { en: "Your Score", de: "Dein Score", es: "Tu puntuación" },
   "results.share": { en: "Share Results", de: "Ergebnisse teilen", es: "Compartir resultados" },
+  "results.copy": { en: "Copy", de: "Kopieren", es: "Copiar" },
   "results.copied": { en: "Copied!", de: "Kopiert!", es: "¡Copiado!" },
   "results.nextIn": { en: "Next challenge in", de: "Nächste Challenge in", es: "Siguiente reto en" },
   "results.trySolo": { en: "Want more? Try Solo Journey", de: "Mehr? Probiere die Solo-Reise", es: "¿Quieres más? Prueba el Viaje en solitario" },
