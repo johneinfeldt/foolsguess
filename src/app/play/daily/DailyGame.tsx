@@ -96,7 +96,7 @@ export default function DailyGame({ allQuestionsEn }: DailyGameProps) {
         // Ignore localStorage errors
       }
     }
-  }, [state.phase, state.mode, state.score, state.questionResults]);
+  }, [state.phase, state.mode, state.score, state.questionResults, user]);
 
   const handleModeSelect = (mode: GameMode) => {
     playDateRef.current = getTodayString();
