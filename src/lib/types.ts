@@ -52,3 +52,32 @@ export interface DivisionConfig {
   xpPerLevel: number;
   levels: LevelConfig[];
 }
+
+// User & Leaderboard types
+
+export interface UserProfile {
+  id: string;
+  display_name: string;
+  avatar_config: {
+    headShape: string;
+    color: string;
+    accessory: string;
+  };
+  newsletter_subscribed: boolean;
+}
+
+export interface DailyScore {
+  user_id: string;
+  play_date: string;
+  mode: "relaxed" | "ranked";
+  score: number;
+  question_results: QuestionResult[];
+}
+
+export interface LeaderboardEntry {
+  rank: number;
+  display_name: string;
+  avatar_config: UserProfile["avatar_config"];
+  score: number;
+  user_id: string;
+}

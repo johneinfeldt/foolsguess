@@ -216,6 +216,44 @@ const translations: Record<string, Record<Lang, string>> = {
   "lang.en": { en: "English", de: "Englisch", es: "Inglés" },
   "lang.de": { en: "German", de: "Deutsch", es: "Alemán" },
   "lang.es": { en: "Spanish", de: "Spanisch", es: "Español" },
+
+  // Auth
+  "auth.login": { en: "Log In", de: "Anmelden", es: "Iniciar sesión" },
+  "auth.register": { en: "Create Account", de: "Konto erstellen", es: "Crear cuenta" },
+  "auth.logout": { en: "Log Out", de: "Abmelden", es: "Cerrar sesión" },
+  "auth.email": { en: "Email", de: "E-Mail", es: "Correo electrónico" },
+  "auth.password": { en: "Password", de: "Passwort", es: "Contraseña" },
+  "auth.confirmPassword": { en: "Confirm Password", de: "Passwort bestätigen", es: "Confirmar contraseña" },
+  "auth.displayName": { en: "Display Name", de: "Anzeigename", es: "Nombre" },
+  "auth.noAccount": { en: "Don't have an account?", de: "Noch kein Konto?", es: "¿No tienes cuenta?" },
+  "auth.hasAccount": { en: "Already have an account?", de: "Schon ein Konto?", es: "¿Ya tienes cuenta?" },
+  "auth.checkEmail": { en: "Check your email to confirm your account!", de: "Prüfe deine E-Mails, um dein Konto zu bestätigen!", es: "¡Revisa tu correo para confirmar tu cuenta!" },
+  "auth.error": { en: "Something went wrong. Please try again.", de: "Etwas ist schiefgelaufen. Bitte versuche es erneut.", es: "Algo salió mal. Inténtalo de nuevo." },
+  "auth.passwordMismatch": { en: "Passwords do not match.", de: "Passwörter stimmen nicht überein.", es: "Las contraseñas no coinciden." },
+  "auth.welcome": { en: "Welcome back!", de: "Willkommen zurück!", es: "¡Bienvenido de vuelta!" },
+
+  // Profile
+  "profile.title": { en: "Profile", de: "Profil", es: "Perfil" },
+  "profile.stats": { en: "Stats", de: "Statistiken", es: "Estadísticas" },
+  "profile.gamesPlayed": { en: "Games Played", de: "Spiele gespielt", es: "Partidas jugadas" },
+  "profile.bestScore": { en: "Best Daily Score", de: "Bester Tages-Score", es: "Mejor puntuación diaria" },
+  "profile.currentStreak": { en: "Current Streak", de: "Aktuelle Serie", es: "Racha actual" },
+  "profile.longestStreak": { en: "Longest Streak", de: "Längste Serie", es: "Racha más larga" },
+
+  // Newsletter
+  "newsletter.subscribe": { en: "Subscribe to newsletter", de: "Newsletter abonnieren", es: "Suscribirse al boletín" },
+  "newsletter.description": { en: "Get updates about new features and game content.", de: "Erhalte Updates über neue Features und Spielinhalte.", es: "Recibe noticias sobre nuevas funciones y contenido." },
+
+  // Leaderboard
+  "leaderboard.title": { en: "Leaderboard", de: "Rangliste", es: "Ranking" },
+  "leaderboard.today": { en: "Today", de: "Heute", es: "Hoy" },
+  "leaderboard.allTime": { en: "All Time", de: "Gesamt", es: "Total" },
+  "leaderboard.rank": { en: "Rank", de: "Rang", es: "Posición" },
+  "leaderboard.player": { en: "Player", de: "Spieler", es: "Jugador" },
+  "leaderboard.score": { en: "Score", de: "Punkte", es: "Puntos" },
+  "leaderboard.empty": { en: "No scores yet today. Be the first!", de: "Noch keine Scores heute. Sei der Erste!", es: "¡Aún no hay puntuaciones hoy. Sé el primero!" },
+  "leaderboard.signUpCta": { en: "Create a free account to appear on the leaderboard!", de: "Erstelle ein kostenloses Konto, um in der Rangliste zu erscheinen!", es: "¡Crea una cuenta gratis para aparecer en el ranking!" },
+  "leaderboard.viewFull": { en: "View Full Leaderboard", de: "Gesamte Rangliste", es: "Ver ranking completo" },
 };
 
 export function t(key: string, lang: Lang): string {

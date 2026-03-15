@@ -5,6 +5,8 @@ import { Question, QuestionResult } from "@/lib/types";
 import { getDailyQuestions } from "@/lib/daily";
 import { useGameState, GameMode } from "./useGameState";
 import { updateStreak } from "@/lib/journeyStorage";
+import { useAuth } from "@/lib/authContext";
+import { uploadDailyScore, uploadStreak } from "@/lib/syncService";
 import { useLang, t } from "@/lib/i18n";
 import { loadQuestions } from "@/lib/questionsLoader";
 import ModeSelect from "./ModeSelect";
@@ -28,6 +30,7 @@ function getTodayString(): string {
 
 export default function DailyGame({ allQuestionsEn }: DailyGameProps) {
   const lang = useLang();
+  const { user } = useAuth();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [allQuestions, setAllQuestions] = useState<Question[]>(allQuestionsEn);
   const { state, dispatch, currentQuestion } = useGameState(questions);
@@ -83,7 +86,12 @@ export default function DailyGame({ allQuestionsEn }: DailyGameProps) {
           questionResults: state.questionResults,
         };
         localStorage.setItem("foolsguess_daily", JSON.stringify(data));
-        updateStreak();
+        const streak = updateStreak();
+        // Sync to server if logged in
+        if (user) {
+          uploadDailyScore(user.id, data.date, data.mode, data.score, data.questionResults);
+          uploadStreak(user.id, streak);
+        }
       } catch {
         // Ignore localStorage errors
       }
