@@ -141,7 +141,13 @@ const translations: Record<string, Record<Lang, string>> = {
   "dailyResults.question": { en: "Question", de: "Frage", es: "Pregunta" },
   "dailyResults.playCTA": { en: "Play Today's Challenge", de: "Heutige Challenge spielen", es: "Jugar el reto de hoy" },
   "dailyResults.freeToPlay": { en: "Free to play. No account needed.", de: "Kostenlos. Kein Account nötig.", es: "Gratis. Sin cuenta." },
+  "results.leaderboardCTA": { en: "Want to see your name on the leaderboard?", de: "Willst du deinen Namen im Leaderboard sehen?", es: "¿Quieres ver tu nombre en la clasificación?" },
+  "results.leaderboardCTA.desc": { en: "Create a free account to track your scores and compete globally.", de: "Erstelle einen kostenlosen Account, um Scores zu tracken und weltweit zu spielen.", es: "Crea una cuenta gratis para seguir tus puntuaciones y competir globalmente." },
+  "results.viewLeaderboard": { en: "View Leaderboard", de: "Leaderboard ansehen", es: "Ver clasificación" },
   "results.seeYesterday": { en: "See Yesterday's Answers", de: "Gestrige Antworten ansehen", es: "Ver respuestas de ayer" },
+  "archive.title": { en: "Daily Challenge Archive", de: "Daily Challenge Archiv", es: "Archivo de retos diarios" },
+  "archive.subtitle": { en: "Browse past challenges and see what everyone guessed", de: "Vergangene Challenges ansehen und sehen was alle geraten haben", es: "Explora retos pasados y ve lo que todos adivinaron" },
+  "archive.noResults": { en: "No past challenges yet. Play today's first!", de: "Noch keine vergangenen Challenges. Spiele zuerst die heutige!", es: "Aún no hay retos pasados. ¡Juega el de hoy primero!" },
   "results.seeYesterday.desc": { en: "Check the questions and top answers from yesterday", de: "Schau dir die Fragen und Top-Antworten von gestern an", es: "Mira las preguntas y respuestas principales de ayer" },
 
   // Solo

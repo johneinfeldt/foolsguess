@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Question, QuestionResult } from "@/lib/types";
 import { generateShareText, getDailyNumber } from "@/lib/daily";
 import { useLang, t } from "@/lib/i18n";
+import { useAuth } from "@/lib/authContext";
 import JesterMascot from "@/components/JesterMascot";
 import Confetti from "@/components/Confetti";
 
@@ -16,6 +17,7 @@ interface ResultsScreenProps {
 
 export default function ResultsScreen({ questions, questionResults, score, mode }: ResultsScreenProps) {
   const lang = useLang();
+  const { user } = useAuth();
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState("");
   const [showConfetti, setShowConfetti] = useState(false);
@@ -196,6 +198,25 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
           )}
         </div>
       </div>
+
+      {/* Leaderboard CTA */}
+      {mode === "ranked" && !user && (
+        <a
+          href="/auth/register"
+          className="card card-hover press-effect mb-6 w-full max-w-md border-accent/20 bg-accent/5 p-5 text-center"
+        >
+          <p className="mb-1 font-bold text-accent">{t("results.leaderboardCTA", lang)}</p>
+          <p className="text-sm text-text-muted">{t("results.leaderboardCTA.desc", lang)}</p>
+        </a>
+      )}
+      {mode === "ranked" && user && (
+        <a
+          href="/leaderboard"
+          className="card card-hover press-effect mb-6 w-full max-w-md p-4 text-center"
+        >
+          <p className="text-sm font-bold">{t("results.viewLeaderboard", lang)} &rarr;</p>
+        </a>
+      )}
 
       {/* Countdown */}
       <div className="mb-6 text-center">
