@@ -203,10 +203,19 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
         <p className="text-2xl font-extrabold text-accent">{countdown}</p>
       </div>
 
+      {/* Yesterday's Results Link */}
+      <a
+        href={`/daily/${(() => { const d = new Date(); d.setDate(d.getDate() - 1); return d.toISOString().slice(0, 10); })()}`}
+        className="card card-hover press-effect mb-4 w-full max-w-md p-4 text-center"
+      >
+        <p className="text-sm font-bold">{t("results.seeYesterday", lang)}</p>
+        <p className="text-xs text-text-muted">{t("results.seeYesterday.desc", lang)}</p>
+      </a>
+
       {/* Solo Journey CTA */}
       <a
         href="/play/solo"
-        className="card card-hover press-effect p-6 text-center"
+        className="card card-hover press-effect w-full max-w-md p-6 text-center"
       >
         <p className="mb-1 font-bold">{t("results.trySolo", lang)}</p>
         <p className="text-sm text-text-muted">

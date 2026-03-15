@@ -132,6 +132,18 @@ const translations: Record<string, Record<Lang, string>> = {
   "results.trySolo.desc": { en: "Progress through levels and earn XP at your own pace.", de: "Steige durch Levels auf und sammle XP in deinem Tempo.", es: "Avanza por niveles y gana XP a tu ritmo." },
   "results.playSolo": { en: "Play Solo", de: "Solo spielen", es: "Jugar solo" },
 
+  // Daily Results page
+  "results.playToday": { en: "Play Today's", de: "Heute spielen", es: "Jugar hoy" },
+  "dailyResults.subtitle": { en: "Here's what everyone was guessing", de: "Das haben alle geraten", es: "Esto es lo que todos adivinaron" },
+  "dailyResults.players": { en: "Players", de: "Spieler", es: "Jugadores" },
+  "dailyResults.avgScore": { en: "Avg Score", de: "Ø Score", es: "Promedio" },
+  "dailyResults.highScore": { en: "Best", de: "Bester", es: "Mejor" },
+  "dailyResults.question": { en: "Question", de: "Frage", es: "Pregunta" },
+  "dailyResults.playCTA": { en: "Play Today's Challenge", de: "Heutige Challenge spielen", es: "Jugar el reto de hoy" },
+  "dailyResults.freeToPlay": { en: "Free to play. No account needed.", de: "Kostenlos. Kein Account nötig.", es: "Gratis. Sin cuenta." },
+  "results.seeYesterday": { en: "See Yesterday's Answers", de: "Gestrige Antworten ansehen", es: "Ver respuestas de ayer" },
+  "results.seeYesterday.desc": { en: "Check the questions and top answers from yesterday", de: "Schau dir die Fragen und Top-Antworten von gestern an", es: "Mira las preguntas y respuestas principales de ayer" },
+
   // Solo
   "solo.goPro": { en: "Go Pro", de: "Pro werden", es: "Hazte Pro" },
   "solo.unlimitedEnergy": { en: "Unlimited energy", de: "Unbegrenzte Energie", es: "Energía ilimitada" },
