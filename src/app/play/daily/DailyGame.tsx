@@ -35,6 +35,7 @@ export default function DailyGame({ allQuestionsEn }: DailyGameProps) {
   const [allQuestions, setAllQuestions] = useState<Question[]>(allQuestionsEn);
   const { state, dispatch, currentQuestion } = useGameState(questions);
   const playDateRef = useRef<string>(getTodayString());
+  const uploadedDateRef = useRef<string | null>(null);
 
   // Load translated questions when language changes
   useEffect(() => {
@@ -78,17 +79,19 @@ export default function DailyGame({ allQuestionsEn }: DailyGameProps) {
   // Save to localStorage when game ends
   useEffect(() => {
     if (state.phase === "results" && state.mode && state.questionResults.length === 3) {
+      const currentDate = playDateRef.current;
       try {
         const data: DailyStorage = {
-          date: playDateRef.current,
+          date: currentDate,
           mode: state.mode,
           score: state.score,
           questionResults: state.questionResults,
         };
         localStorage.setItem("foolsguess_daily", JSON.stringify(data));
         const streak = updateStreak();
-        // Sync to server if logged in
-        if (user) {
+        // Sync to server if logged in (only once per date)
+        if (user && uploadedDateRef.current !== currentDate) {
+          uploadedDateRef.current = currentDate;
           uploadDailyScore(user.id, data.date, data.mode, data.score, data.questionResults);
           uploadStreak(user.id, streak);
         }
