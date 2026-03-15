@@ -16,6 +16,12 @@ export default function Home() {
           <span className="text-accent">Fools</span>Guess
         </span>
         <div className="flex items-center gap-3">
+          <a
+            href="/leaderboard"
+            className="text-sm font-semibold text-text-muted transition-colors hover:text-accent"
+          >
+            {t("leaderboard.title", lang)}
+          </a>
           <LanguageSelector />
           <UserMenu />
           <a
