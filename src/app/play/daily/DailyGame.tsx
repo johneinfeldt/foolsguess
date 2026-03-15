@@ -89,8 +89,13 @@ export default function DailyGame({ allQuestionsEn }: DailyGameProps) {
         const streak = updateStreak();
         // Sync to server if logged in
         if (user) {
-          uploadDailyScore(user.id, data.date, data.mode, data.score, data.questionResults);
+          console.log("[FG] Uploading daily score for user:", user.id, "date:", data.date, "mode:", data.mode, "score:", data.score);
+          uploadDailyScore(user.id, data.date, data.mode, data.score, data.questionResults)
+            .then((ok) => console.log("[FG] Upload result:", ok))
+            .catch((err) => console.error("[FG] Upload error:", err));
           uploadStreak(user.id, streak);
+        } else {
+          console.log("[FG] No user, skipping upload");
         }
       } catch {
         // Ignore localStorage errors

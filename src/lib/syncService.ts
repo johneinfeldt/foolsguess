@@ -95,8 +95,8 @@ export async function uploadDailyScore(
   mode: "relaxed" | "ranked",
   score: number,
   questionResults: QuestionResult[]
-): Promise<void> {
-  await supabase.from("daily_scores").upsert(
+): Promise<boolean> {
+  const { error } = await supabase.from("daily_scores").upsert(
     {
       user_id: userId,
       play_date: date,
@@ -106,6 +106,11 @@ export async function uploadDailyScore(
     },
     { onConflict: "user_id,play_date" }
   );
+  if (error) {
+    console.error("uploadDailyScore error:", error);
+    return false;
+  }
+  return true;
 }
 
 // --- Streak Sync ---
