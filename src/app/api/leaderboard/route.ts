@@ -13,42 +13,42 @@ export async function GET(request: NextRequest) {
   const limit = Math.min(parseInt(searchParams.get("limit") || "50", 10), 100);
 
   try {
-    if (type === "alltime") {
-      // All-time: sum of all ranked scores per user
-      const { data, error } = await supabase.rpc("get_alltime_leaderboard", {
-        row_limit: limit,
-      });
-
-      if (error) {
-        // Fallback if RPC doesn't exist yet
-        const { data: fallback } = await supabase
-          .from("daily_scores")
-          .select("user_id, score, profiles(display_name, avatar_config)")
-          .eq("mode", "ranked")
-          .order("score", { ascending: false })
-          .limit(limit);
-
-        return NextResponse.json({ entries: fallback || [] });
-      }
-
-      return NextResponse.json({ entries: data || [] });
-    }
-
-    // Daily leaderboard
-    const { data, error } = await supabase
+    // Fetch scores
+    let scoresQuery = supabase
       .from("daily_scores")
-      .select("user_id, score, profiles(display_name, avatar_config)")
-      .eq("play_date", date)
+      .select("user_id, score, play_date, mode")
       .eq("mode", "ranked")
       .order("score", { ascending: false })
       .limit(limit);
 
-    if (error) {
-      return NextResponse.json({ entries: [], error: error.message }, { status: 500 });
+    if (type === "daily") {
+      scoresQuery = scoresQuery.eq("play_date", date);
     }
 
-    const entries = (data || []).map((row, i) => {
-      const profile = row.profiles as unknown as { display_name: string; avatar_config: unknown } | null;
+    const { data: scores, error: scoresError } = await scoresQuery;
+
+    if (scoresError) {
+      console.error("Leaderboard scores error:", scoresError);
+      return NextResponse.json({ entries: [], error: scoresError.message }, { status: 500 });
+    }
+
+    if (!scores || scores.length === 0) {
+      return NextResponse.json({ entries: [] });
+    }
+
+    // Fetch profiles for these users
+    const userIds = [...new Set(scores.map((s) => s.user_id))];
+    const { data: profiles } = await supabase
+      .from("profiles")
+      .select("id, display_name, avatar_config")
+      .in("id", userIds);
+
+    const profileMap = new Map(
+      (profiles || []).map((p) => [p.id, p])
+    );
+
+    const entries = scores.map((row, i) => {
+      const profile = profileMap.get(row.user_id);
       return {
         rank: i + 1,
         user_id: row.user_id,
@@ -62,7 +62,8 @@ export async function GET(request: NextRequest) {
       { entries },
       { headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=30" } }
     );
-  } catch {
+  } catch (err) {
+    console.error("Leaderboard error:", err);
     return NextResponse.json({ entries: [] }, { status: 500 });
   }
 }
