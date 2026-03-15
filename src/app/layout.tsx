@@ -67,6 +67,12 @@ export const metadata: Metadata = {
     },
   },
   category: "games",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "FoolsGuess",
+  },
   verification: {
     google: "O2H8_wxZ0lWW31qMaRfsRhvPiNVLbWWigYk1ICFwR08",
   },
