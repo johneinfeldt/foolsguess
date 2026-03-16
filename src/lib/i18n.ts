@@ -273,6 +273,68 @@ const translations: Record<string, Record<Lang, string>> = {
   "leaderboard.empty": { en: "No scores yet today. Be the first!", de: "Noch keine Scores heute. Sei der Erste!", es: "¡Aún no hay puntuaciones hoy. Sé el primero!" },
   "leaderboard.signUpCta": { en: "Create a free account to appear on the leaderboard!", de: "Erstelle ein kostenloses Konto, um in der Rangliste zu erscheinen!", es: "¡Crea una cuenta gratis para aparecer en el ranking!" },
   "leaderboard.viewFull": { en: "View Full Leaderboard", de: "Gesamte Rangliste", es: "Ver ranking completo" },
+
+  // H1 with keywords
+  "hero.h1": {
+    en: "FoolsGuess \u2014 The Free Survey Guessing Game",
+    de: "FoolsGuess \u2014 Das kostenlose Umfrage-Ratespiel",
+    es: "FoolsGuess \u2014 El juego gratuito de adivinar encuestas",
+  },
+
+  // SEO Content Section
+  "seo.whatIs.title": {
+    en: "What is FoolsGuess?",
+    de: "Was ist FoolsGuess?",
+    es: "\u00bfQu\u00e9 es FoolsGuess?",
+  },
+  "seo.whatIs.text": {
+    en: "FoolsGuess is a free, browser-based survey guessing game inspired by classic TV game shows like Family Feud. Your goal is simple: guess what the most popular answers are to everyday survey questions. We surveyed real people, and now it\u2019s your turn to figure out what they said. No downloads, no sign-ups required \u2014 just pick a game mode and start guessing right in your browser. Whether you\u2019re looking for a quick brain teaser or a competitive challenge, FoolsGuess has something for everyone.",
+    de: "FoolsGuess ist ein kostenloses, browserbasiertes Umfrage-Ratespiel, inspiriert von beliebten TV-Gameshows wie Familienduell. Dein Ziel ist einfach: Rate, was die beliebtesten Antworten auf allt\u00e4gliche Umfragefragen sind. Wir haben echte Menschen befragt, und jetzt bist du dran herauszufinden, was sie gesagt haben. Kein Download, keine Anmeldung n\u00f6tig \u2014 w\u00e4hle einfach einen Spielmodus und fang direkt im Browser an zu raten. Ob du ein schnelles Denkspiel suchst oder eine kompetitive Herausforderung \u2014 FoolsGuess hat f\u00fcr jeden etwas.",
+    es: "FoolsGuess es un juego gratuito de adivinanza de encuestas que se juega en el navegador, inspirado en programas de televisi\u00f3n cl\u00e1sicos como 100 Mexicanos Dijeron. Tu objetivo es simple: adivina cu\u00e1les son las respuestas m\u00e1s populares a preguntas de encuestas cotidianas. Encuestamos a personas reales, y ahora es tu turno de descubrir qu\u00e9 dijeron. Sin descargas, sin registro \u2014 solo elige un modo de juego y empieza a adivinar directamente en tu navegador. Ya sea que busques un reto r\u00e1pido o un desaf\u00edo competitivo, FoolsGuess tiene algo para todos.",
+  },
+  "seo.whySurvey.title": {
+    en: "Why Survey-Based Guessing Games Are So Much Fun",
+    de: "Warum Umfrage-basierte Ratespiele so viel Spa\u00df machen",
+    es: "Por qu\u00e9 los juegos de encuestas son tan divertidos",
+  },
+  "seo.whySurvey.text": {
+    en: "There\u2019s something uniquely entertaining about trying to think like everyone else. Survey games challenge you to step outside your own perspective and predict what the majority would say. It\u2019s not about being the smartest person in the room \u2014 it\u2019s about understanding how people think. Whether you\u2019re playing solo during a lunch break or competing head-to-head with friends at a party, the mix of strategy, humor, and surprise keeps every round fresh and engaging.",
+    de: "Es hat etwas einzigartig Unterhaltsames, zu versuchen, wie alle anderen zu denken. Umfragespiele fordern dich heraus, deine eigene Perspektive zu verlassen und vorherzusagen, was die Mehrheit sagen w\u00fcrde. Es geht nicht darum, der Kl\u00fcgste zu sein \u2014 es geht darum zu verstehen, wie Menschen denken. Ob du in der Mittagspause alleine spielst oder dich mit Freunden auf einer Party misst \u2014 die Mischung aus Strategie, Humor und \u00dcberraschung macht jede Runde spannend und abwechslungsreich.",
+    es: "Hay algo \u00fanico en intentar pensar como todos los dem\u00e1s. Los juegos de encuestas te desaf\u00edan a salir de tu propia perspectiva y predecir lo que dir\u00eda la mayor\u00eda. No se trata de ser el m\u00e1s inteligente \u2014 se trata de entender c\u00f3mo piensa la gente. Ya sea que juegues solo durante un descanso o compitas con amigos en una fiesta, la mezcla de estrategia, humor y sorpresa hace que cada ronda sea fresca y emocionante.",
+  },
+  "seo.gameModes.title": {
+    en: "Game Modes for Every Occasion",
+    de: "Spielmodi f\u00fcr jede Gelegenheit",
+    es: "Modos de juego para cada ocasi\u00f3n",
+  },
+  "seo.gameModes.text": {
+    en: "FoolsGuess offers three distinct ways to play. The Daily Challenge gives everyone the same set of questions each day \u2014 perfect for comparing your score with friends or climbing the global leaderboard. Solo Journey lets you progress through divisions and levels at your own pace, earning XP and building streaks as you go. And Party Mode turns any gathering into a game night \u2014 play on one shared device or create an online room so everyone can join from their own phone.",
+    de: "FoolsGuess bietet drei verschiedene Spielmodi. Die Tages-Challenge gibt allen jeden Tag die gleichen Fragen \u2014 perfekt um deinen Score mit Freunden zu vergleichen oder die globale Rangliste zu erklimmen. Die Solo-Reise l\u00e4sst dich in deinem eigenen Tempo durch Divisionen und Level aufsteigen, XP sammeln und Serien aufbauen. Und der Party-Modus verwandelt jedes Treffen in einen Spieleabend \u2014 spielt auf einem gemeinsamen Ger\u00e4t oder erstellt einen Online-Raum, dem alle von ihrem eigenen Handy aus beitreten k\u00f6nnen.",
+    es: "FoolsGuess ofrece tres formas distintas de jugar. El Reto Diario da a todos las mismas preguntas cada d\u00eda \u2014 perfecto para comparar tu puntuaci\u00f3n con amigos o subir en la clasificaci\u00f3n global. El Viaje en Solitario te permite progresar por divisiones y niveles a tu propio ritmo, ganando XP y construyendo rachas. Y el Modo Fiesta convierte cualquier reuni\u00f3n en una noche de juegos \u2014 juega en un dispositivo compartido o crea una sala online para que todos se unan desde su propio tel\u00e9fono.",
+  },
+  "seo.language.title": {
+    en: "Play in Your Language",
+    de: "Spiele in deiner Sprache",
+    es: "Juega en tu idioma",
+  },
+  "seo.language.text": {
+    en: "FoolsGuess is available in English, German (Deutsch), and Spanish (Espa\u00f1ol). Switch languages anytime with a single click \u2014 all questions and answers are fully translated so you get the best experience in your preferred language.",
+    de: "FoolsGuess ist auf Englisch, Deutsch und Spanisch (Espa\u00f1ol) verf\u00fcgbar. Wechsle jederzeit die Sprache mit einem Klick \u2014 alle Fragen und Antworten sind vollst\u00e4ndig \u00fcbersetzt, damit du das beste Spielerlebnis in deiner bevorzugten Sprache hast.",
+    es: "FoolsGuess est\u00e1 disponible en ingl\u00e9s, alem\u00e1n (Deutsch) y espa\u00f1ol. Cambia de idioma en cualquier momento con un solo clic \u2014 todas las preguntas y respuestas est\u00e1n completamente traducidas para que tengas la mejor experiencia en tu idioma preferido.",
+  },
+  "seo.free.title": {
+    en: "Free to Play, No Account Required",
+    de: "Kostenlos spielen, kein Konto n\u00f6tig",
+    es: "Gratis, sin cuenta necesaria",
+  },
+  "seo.free.text": {
+    en: "You can enjoy FoolsGuess completely for free without creating an account. If you\u2019d like to track your scores and appear on the global leaderboard, you can optionally create a free account in seconds. There are no paywalls and no ads \u2014 just a fun game you can play anytime, anywhere.",
+    de: "Du kannst FoolsGuess komplett kostenlos spielen, ohne ein Konto zu erstellen. Wenn du deine Scores verfolgen und in der globalen Rangliste erscheinen m\u00f6chtest, kannst du optional in Sekunden ein kostenloses Konto erstellen. Keine Paywalls, keine Werbung \u2014 einfach ein spa\u00dfiges Spiel, das du jederzeit und \u00fcberall spielen kannst.",
+    es: "Puedes disfrutar de FoolsGuess completamente gratis sin crear una cuenta. Si quieres seguir tus puntuaciones y aparecer en la clasificaci\u00f3n global, puedes crear opcionalmente una cuenta gratuita en segundos. Sin muros de pago, sin anuncios \u2014 solo un juego divertido que puedes jugar en cualquier momento y lugar.",
+  },
+
+  // Footer social
+  "footer.followUs": { en: "Follow us", de: "Folge uns", es: "S\u00edguenos" },
 };
 
 export function t(key: string, lang: Lang): string {

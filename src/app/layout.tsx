@@ -54,6 +54,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://foolsguess.com"),
   alternates: {
     canonical: "https://foolsguess.com",
+    languages: {
+      "en": "https://foolsguess.com",
+      "de": "https://foolsguess.com",
+      "es": "https://foolsguess.com",
+      "x-default": "https://foolsguess.com",
+    },
   },
   robots: {
     index: true,
@@ -80,6 +86,53 @@ export const metadata: Metadata = {
   verification: {
     google: "O2H8_wxZ0lWW31qMaRfsRhvPiNVLbWWigYk1ICFwR08",
   },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How do I play FoolsGuess?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We show you a survey question that was asked to real people. Your job is to guess the most popular answers. Type what you think people said, and earn points for every match. The higher an answer ranks in the survey, the more points you score.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is FoolsGuess free to play?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, FoolsGuess is completely free to play. No downloads or sign-ups required. Just open the website in your browser and start guessing. You can optionally create a free account to track your scores and appear on the leaderboard.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I play FoolsGuess with friends?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Absolutely! Party Mode supports 2-8 players. You can play on the same device by passing it between turns, or create an online room where each player joins from their own device using a room code.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What languages does FoolsGuess support?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "FoolsGuess is available in English, German (Deutsch), and Spanish (Espa\u00f1ol). You can switch languages anytime using the language selector in the navigation bar. All questions and answers are fully translated.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What game modes are available?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "FoolsGuess offers three game modes: Daily Challenge (a new puzzle every day where everyone plays the same questions), Solo Journey (progress through divisions and levels, earn XP), and Party Mode (2-8 players on the same device or online).",
+      },
+    },
+  ],
 };
 
 const jsonLd = {
@@ -115,6 +168,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       </head>
       <body
