@@ -21,6 +21,7 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
   const [copied, setCopied] = useState(false);
   const [countdown, setCountdown] = useState("");
   const [showConfetti, setShowConfetti] = useState(false);
+  const [generatingCard, setGeneratingCard] = useState(false);
 
   useEffect(() => {
     if (score >= 200) setShowConfetti(true);
@@ -46,6 +47,12 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
 
   const shareText = generateShareText(questionResults, new Date(), score);
   const dailyNumber = getDailyNumber(new Date());
+
+  const mascotMood = score >= 250 ? "excited" : score >= 150 ? "happy" : score >= 50 ? "thinking" : "sad";
+  let starCount = 0;
+  if (score >= 250) starCount = 3;
+  else if (score >= 150) starCount = 2;
+  else if (score >= 50) starCount = 1;
 
   const handleCopy = async () => {
     try {
@@ -82,11 +89,51 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
     }
   };
 
-  const mascotMood = score >= 250 ? "excited" : score >= 150 ? "happy" : score >= 50 ? "thinking" : "sad";
-  let starCount = 0;
-  if (score >= 250) starCount = 3;
-  else if (score >= 150) starCount = 2;
-  else if (score >= 50) starCount = 1;
+  const handleShareCard = async () => {
+    setGeneratingCard(true);
+    try {
+      const params = new URLSearchParams({
+        score: String(score),
+        q1: String(questionResults[0]?.pointsEarned || 0),
+        q2: String(questionResults[1]?.pointsEarned || 0),
+        q3: String(questionResults[2]?.pointsEarned || 0),
+        f1: String(questionResults[0]?.answersFound.filter(Boolean).length || 0),
+        f2: String(questionResults[1]?.answersFound.filter(Boolean).length || 0),
+        f3: String(questionResults[2]?.answersFound.filter(Boolean).length || 0),
+        day: String(dailyNumber),
+        stars: String(starCount),
+      });
+
+      const res = await fetch(`/api/share-card?${params}`);
+      const blob = await res.blob();
+
+      // Try native share with image file
+      if (navigator.share && navigator.canShare) {
+        const file = new File([blob], `foolsguess-${dailyNumber}.png`, { type: "image/png" });
+        if (navigator.canShare({ files: [file] })) {
+          await navigator.share({
+            files: [file],
+            text: `FoolsGuess #${dailyNumber} — ${score}/300\nhttps://foolsguess.com`,
+          });
+          return;
+        }
+      }
+
+      // Fallback: download the image
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `foolsguess-${dailyNumber}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch {
+      // Share cancelled or failed
+    } finally {
+      setGeneratingCard(false);
+    }
+  };
 
   return (
     <div className="flex flex-col items-center px-4 py-8 sm:px-6">
@@ -166,6 +213,28 @@ export default function ResultsScreen({ questions, questionResults, score, mode 
         <p className="text-center text-sm font-bold uppercase tracking-wider text-text-muted">
           {t("results.share", lang)}
         </p>
+
+        {/* Share Card Button */}
+        <button
+          onClick={handleShareCard}
+          disabled={generatingCard}
+          className="press-effect flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#6C5CE7] to-[#8B7CF6] px-4 py-3.5 font-bold text-white transition-opacity hover:opacity-90 disabled:opacity-60"
+        >
+          {generatingCard ? (
+            <>
+              <svg className="h-5 w-5 animate-spin" viewBox="0 0 24 24" fill="none">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+              {t("results.generating", lang)}
+            </>
+          ) : (
+            <>
+              &#x1F4F8; {t("results.shareCard", lang)}
+            </>
+          )}
+        </button>
+
         <div className="flex gap-3">
           <button
             onClick={handleCopy}
