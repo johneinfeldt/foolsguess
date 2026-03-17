@@ -81,9 +81,9 @@ const translations: Record<string, Record<Lang, string>> = {
   "how.subtitle": { en: "Three steps. Infinite fun.", de: "Drei Schritte. Unendlicher Spaß.", es: "Tres pasos. Diversión infinita." },
   "how.step1.title": { en: "See the Question", de: "Sieh die Frage", es: "Mira la pregunta" },
   "how.step1.desc": {
-    en: 'We surveyed 100 people. A question pops up — like "Name something you take to the beach."',
-    de: 'Wir haben 100 Leute befragt. Eine Frage erscheint — z.B. "Nenne etwas, das du an den Strand mitnimmst."',
-    es: 'Encuestamos a 100 personas. Aparece una pregunta — como "Nombra algo que llevas a la playa."',
+    en: 'Answers are based on AI, probabilities, and real-world survey data. A question pops up — like "Name something you take to the beach."',
+    de: 'Antworten basieren auf KI, Wahrscheinlichkeiten und echten Umfragedaten. Eine Frage erscheint — z.B. "Nenne etwas, das du an den Strand mitnimmst."',
+    es: 'Las respuestas se basan en IA, probabilidades y datos de encuestas reales. Aparece una pregunta — como "Nombra algo que llevas a la playa."',
   },
   "how.step2.title": { en: "Type Your Answer", de: "Tippe deine Antwort", es: "Escribe tu respuesta" },
   "how.step2.desc": {
@@ -290,9 +290,9 @@ const translations: Record<string, Record<Lang, string>> = {
     es: "\u00bfQu\u00e9 es FoolsGuess?",
   },
   "seo.whatIs.text": {
-    en: "FoolsGuess is a free, browser-based survey guessing game inspired by classic TV game shows like Family Feud. Your goal is simple: guess what the most popular answers are to everyday survey questions. We surveyed real people, and now it\u2019s your turn to figure out what they said. No downloads, no sign-ups required \u2014 just pick a game mode and start guessing right in your browser. Whether you\u2019re looking for a quick brain teaser or a competitive challenge, FoolsGuess has something for everyone.",
-    de: "FoolsGuess ist ein kostenloses, browserbasiertes Umfrage-Ratespiel, inspiriert von beliebten TV-Gameshows wie Familienduell. Dein Ziel ist einfach: Rate, was die beliebtesten Antworten auf allt\u00e4gliche Umfragefragen sind. Wir haben echte Menschen befragt, und jetzt bist du dran herauszufinden, was sie gesagt haben. Kein Download, keine Anmeldung n\u00f6tig \u2014 w\u00e4hle einfach einen Spielmodus und fang direkt im Browser an zu raten. Ob du ein schnelles Denkspiel suchst oder eine kompetitive Herausforderung \u2014 FoolsGuess hat f\u00fcr jeden etwas.",
-    es: "FoolsGuess es un juego gratuito de adivinanza de encuestas que se juega en el navegador, inspirado en programas de televisi\u00f3n cl\u00e1sicos como 100 Mexicanos Dijeron. Tu objetivo es simple: adivina cu\u00e1les son las respuestas m\u00e1s populares a preguntas de encuestas cotidianas. Encuestamos a personas reales, y ahora es tu turno de descubrir qu\u00e9 dijeron. Sin descargas, sin registro \u2014 solo elige un modo de juego y empieza a adivinar directamente en tu navegador. Ya sea que busques un reto r\u00e1pido o un desaf\u00edo competitivo, FoolsGuess tiene algo para todos.",
+    en: "FoolsGuess is a free, browser-based survey guessing game inspired by classic survey-style game shows. Your goal is simple: guess what the most popular answers are to everyday questions. Our answers are generated using a combination of AI, probabilities, and real-world survey data \u2014 and now it\u2019s your turn to figure out what people would say. No downloads, no sign-ups required \u2014 just pick a game mode and start guessing right in your browser. Whether you\u2019re looking for a quick brain teaser or a competitive challenge, FoolsGuess has something for everyone.",
+    de: "FoolsGuess ist ein kostenloses, browserbasiertes Ratespiel, inspiriert von beliebten Umfrage-Gameshows. Dein Ziel ist einfach: Rate, was die beliebtesten Antworten auf allt\u00e4gliche Fragen sind. Unsere Antworten basieren auf einer Kombination aus KI, Wahrscheinlichkeiten und echten Umfragedaten \u2014 und jetzt bist du dran herauszufinden, was die Leute sagen w\u00fcrden. Kein Download, keine Anmeldung n\u00f6tig \u2014 w\u00e4hle einfach einen Spielmodus und fang direkt im Browser an zu raten. Ob du ein schnelles Denkspiel suchst oder eine kompetitive Herausforderung \u2014 FoolsGuess hat f\u00fcr jeden etwas.",
+    es: "FoolsGuess es un juego gratuito de adivinanza que se juega en el navegador, inspirado en programas de encuestas cl\u00e1sicos. Tu objetivo es simple: adivina cu\u00e1les son las respuestas m\u00e1s populares a preguntas cotidianas. Nuestras respuestas se generan mediante una combinaci\u00f3n de IA, probabilidades y datos de encuestas reales \u2014 y ahora es tu turno de descubrir qu\u00e9 dir\u00eda la gente. Sin descargas, sin registro \u2014 solo elige un modo de juego y empieza a adivinar directamente en tu navegador. Ya sea que busques un reto r\u00e1pido o un desaf\u00edo competitivo, FoolsGuess tiene algo para todos.",
   },
   "seo.whySurvey.title": {
     en: "Why Survey-Based Guessing Games Are So Much Fun",

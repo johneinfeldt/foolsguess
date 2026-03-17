@@ -97,7 +97,7 @@ const faqJsonLd = {
       name: "How do I play FoolsGuess?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We show you a survey question that was asked to real people. Your job is to guess the most popular answers. Type what you think people said, and earn points for every match. The higher an answer ranks in the survey, the more points you score.",
+        text: "We show you a question with answers based on AI, probabilities, and real-world survey data. Your job is to guess the most popular answers. Type what you think people would say, and earn points for every match. The higher an answer ranks, the more points you score.",
       },
     },
     {
