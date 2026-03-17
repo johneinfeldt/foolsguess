@@ -52,16 +52,45 @@ export async function GET(req: NextRequest) {
           }}
         />
 
-        {/* Header */}
+        {/* Header with mascot */}
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            gap: "12px",
+            gap: "14px",
             marginBottom: "8px",
           }}
         >
-          <span style={{ fontSize: 36, display: "flex" }}>🃏</span>
+          {/* Inline Jester Mascot SVG */}
+          <svg
+            viewBox="0 0 80 96"
+            width="50"
+            height="60"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {/* Question mark curve */}
+            <path
+              d="M22,30 Q22,8 42,8 Q62,8 62,24 Q62,36 42,40 L42,52"
+              fill="none"
+              stroke="#8B7CF6"
+              strokeWidth="14"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            {/* Face */}
+            <ellipse cx="42" cy="30" rx="18" ry="18" fill="#FFCC80" />
+            {/* Cheeks */}
+            <circle cx="30" cy="42" r="4" fill="#FF8A80" opacity="0.3" />
+            <circle cx="54" cy="42" r="4" fill="#FF8A80" opacity="0.3" />
+            {/* Eyes - happy */}
+            <path d="M33,38 Q35,42 37,38" stroke="#2D2D2D" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+            <path d="M47,38 Q49,42 51,38" stroke="#2D2D2D" strokeWidth="2.5" strokeLinecap="round" fill="none" />
+            {/* Mouth - happy */}
+            <path d="M36,47 Q42,55 48,47" stroke="#2D2D2D" strokeWidth="2" strokeLinecap="round" fill="none" />
+            {/* Dot */}
+            <circle cx="42" cy="72" r="8" fill="#8B7CF6" />
+            <circle cx="39" cy="69" r="2.5" fill="white" opacity="0.4" />
+          </svg>
           <span
             style={{
               fontSize: 36,
@@ -239,14 +268,7 @@ export async function GET(req: NextRequest) {
                     width: `${q.points}%`,
                     height: "100%",
                     borderRadius: "5px",
-                    background:
-                      q.points >= 80
-                        ? "linear-gradient(90deg, #22c55e, #4ade80)"
-                        : q.points >= 50
-                        ? "linear-gradient(90deg, #6C5CE7, #a78bfa)"
-                        : q.points >= 20
-                        ? "linear-gradient(90deg, #f59e0b, #fcd34d)"
-                        : "linear-gradient(90deg, #ef4444, #fca5a5)",
+                    background: "linear-gradient(90deg, #6C5CE7, #a78bfa)",
                     display: "flex",
                   }}
                 />
