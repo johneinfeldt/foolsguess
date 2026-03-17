@@ -30,6 +30,8 @@ function levenshteinDistance(a: string, b: string): number {
 }
 
 function fuzzyMatch(input: string, target: string): boolean {
+  // No fuzzy matching for very short inputs — too ambiguous (e.g. "5" matching "3")
+  if (input.length <= 2) return false;
   if (input.length >= 4 && target.startsWith(input)) return true;
   const maxDistance = target.length <= 5 ? 1 : 2;
   return levenshteinDistance(input, target) <= maxDistance;

@@ -813,68 +813,6 @@
     ]
   },
   {
-    "id": "rff016",
-    "question": "What's the most cups of coffee you should have in one day?",
-    "category": "Food & Drink",
-    "answers": [
-      {
-        "text": "3 Cups",
-        "aliases": [
-          "3",
-          "three",
-          "three cups"
-        ],
-        "points": 37
-      },
-      {
-        "text": "2 Cups",
-        "aliases": [
-          "2",
-          "two",
-          "two cups"
-        ],
-        "points": 24
-      },
-      {
-        "text": "4 Cups",
-        "aliases": [
-          "4",
-          "four",
-          "four cups"
-        ],
-        "points": 15
-      },
-      {
-        "text": "5 Cups",
-        "aliases": [
-          "5",
-          "five",
-          "five cups"
-        ],
-        "points": 12
-      },
-      {
-        "text": "0 Cups",
-        "aliases": [
-          "0",
-          "zero",
-          "none",
-          "zero cups"
-        ],
-        "points": 6
-      },
-      {
-        "text": "1 Cup",
-        "aliases": [
-          "1",
-          "one",
-          "one cup"
-        ],
-        "points": 6
-      }
-    ]
-  },
-  {
     "id": "rff017",
     "question": "What holiday is the most enjoyable?",
     "category": "Holidays",

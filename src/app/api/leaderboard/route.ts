@@ -17,12 +17,13 @@ export async function GET(request: NextRequest) {
     let scoresQuery = supabase
       .from("daily_scores")
       .select("user_id, score, play_date, mode")
-      .eq("mode", "ranked")
-      .order("score", { ascending: false })
-      .limit(limit);
+      .eq("mode", "ranked");
 
     if (type === "daily") {
-      scoresQuery = scoresQuery.eq("play_date", date);
+      scoresQuery = scoresQuery.eq("play_date", date).order("score", { ascending: false }).limit(limit);
+    } else {
+      // For alltime, fetch all ranked scores (we aggregate below)
+      scoresQuery = scoresQuery.order("score", { ascending: false });
     }
 
     const { data: scores, error: scoresError } = await scoresQuery;
@@ -36,8 +37,23 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ entries: [] });
     }
 
+    // For alltime: aggregate total score per player
+    let rankedScores: { user_id: string; score: number }[];
+    if (type === "alltime") {
+      const totals = new Map<string, number>();
+      for (const row of scores) {
+        totals.set(row.user_id, (totals.get(row.user_id) || 0) + row.score);
+      }
+      rankedScores = [...totals.entries()]
+        .map(([user_id, score]) => ({ user_id, score }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, limit);
+    } else {
+      rankedScores = scores;
+    }
+
     // Fetch profiles for these users
-    const userIds = [...new Set(scores.map((s) => s.user_id))];
+    const userIds = [...new Set(rankedScores.map((s) => s.user_id))];
     const { data: profiles } = await supabase
       .from("profiles")
       .select("id, display_name, avatar_config")
@@ -47,7 +63,7 @@ export async function GET(request: NextRequest) {
       (profiles || []).map((p) => [p.id, p])
     );
 
-    const entries = scores.map((row, i) => {
+    const entries = rankedScores.map((row, i) => {
       const profile = profileMap.get(row.user_id);
       return {
         rank: i + 1,
