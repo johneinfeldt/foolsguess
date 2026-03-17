@@ -21,15 +21,18 @@ function seededRandom(seed: number): () => number {
 }
 
 export function getDailyQuestions(date: Date, allQuestions: Question[]): Question[] {
-  const dateString = date.toISOString().slice(0, 10);
+  // Use UTC date to ensure all timezones get the same questions at the same UTC day
+  const utcDate = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const dateString = utcDate.toISOString().slice(0, 10);
   const seed = hashString(dateString);
   const rng = seededRandom(seed);
-  const shuffled = [...allQuestions];
-  for (let i = shuffled.length - 1; i > 0; i--) {
+  // Sort by ID first so adding/removing questions doesn't change results for other questions
+  const sorted = [...allQuestions].sort((a, b) => a.id.localeCompare(b.id));
+  for (let i = sorted.length - 1; i > 0; i--) {
     const j = Math.floor(rng() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    [sorted[i], sorted[j]] = [sorted[j], sorted[i]];
   }
-  return shuffled.slice(0, 3);
+  return sorted.slice(0, 3);
 }
 
 // Day number since launch (March 15, 2026)
