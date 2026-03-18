@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import LangProvider from "@/components/LangProvider";
 import { AuthProvider } from "@/lib/authContext";
 import "./globals.css";
@@ -165,6 +166,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="RHhTOJXDM3byDkB5RBE3Mw"
+          strategy="afterInteractive"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
