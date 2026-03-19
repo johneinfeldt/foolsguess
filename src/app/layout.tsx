@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import LangProvider from "@/components/LangProvider";
 import { AuthProvider } from "@/lib/authContext";
 import "./globals.css";
@@ -165,6 +166,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-35SKST0NL1"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-35SKST0NL1');
+          `}
+        </Script>
         <script src="https://analytics.ahrefs.com/analytics.js" data-key="RHhTOJXDM3byDkB5RBE3Mw" async></script>
         <script
           type="application/ld+json"
