@@ -4,6 +4,7 @@ import JesterMascot from "@/components/JesterMascot";
 import LanguageSelector from "@/components/LanguageSelector";
 import UserMenu from "@/components/UserMenu";
 import { useLang, t } from "@/lib/i18n";
+import { categories } from "@/lib/categories";
 
 export default function Home() {
   const lang = useLang();
@@ -110,6 +111,32 @@ export default function Home() {
               {t("nav.playNow", lang)} &rarr;
             </span>
           </a>
+        </div>
+      </section>
+
+      {/* Categories */}
+      <section className="px-6 pb-16">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-6 text-center text-2xl font-extrabold">
+            {lang === "de" ? "Kategorien entdecken" : lang === "es" ? "Explorar categor\u00edas" : "Browse Categories"}
+          </h2>
+          <div className="grid grid-cols-3 gap-3 sm:grid-cols-5 md:grid-cols-7">
+            {categories.map((cat) => (
+              <a
+                key={cat.slug}
+                href={`/categories/${cat.slug}`}
+                className="card card-hover press-effect flex flex-col items-center p-3 text-center"
+              >
+                <span className="mb-1 text-2xl">{cat.icon}</span>
+                <span className="text-xs font-semibold">{cat[lang].name}</span>
+              </a>
+            ))}
+          </div>
+          <div className="mt-4 text-center">
+            <a href="/categories" className="text-sm font-semibold text-accent hover:text-accent-light">
+              {lang === "de" ? "Alle Kategorien ansehen" : lang === "es" ? "Ver todas las categor\u00edas" : "View all categories"} &rarr;
+            </a>
+          </div>
         </div>
       </section>
 
@@ -230,6 +257,7 @@ export default function Home() {
             &copy; 2026 FoolsGuess. {t("footer.rights", lang)}
           </span>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm text-text-dim">
+            <a href="/categories" className="transition-colors hover:text-text-muted">{lang === "de" ? "Kategorien" : lang === "es" ? "Categor\u00edas" : "Categories"}</a>
             <a href="/impressum" className="transition-colors hover:text-text-muted">{t("footer.impressum", lang)}</a>
             <a href="/privacy" className="transition-colors hover:text-text-muted">{t("footer.privacy", lang)}</a>
             <a href="/terms" className="transition-colors hover:text-text-muted">{t("footer.terms", lang)}</a>
