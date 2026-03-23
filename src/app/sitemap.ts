@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { categories } from "@/lib/categories";
 
 const LAUNCH_DATE = "2026-03-15";
 
@@ -89,6 +90,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  const categoryPages: MetadataRoute.Sitemap = [
+    {
+      url: `${base}/categories`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    ...categories.map((cat) => ({
+      url: `${base}/categories/${cat.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
   const dailyPages: MetadataRoute.Sitemap = getPastDailies().map(({ url, date }) => ({
     url,
     lastModified: new Date(date + "T23:59:59Z"),
@@ -96,5 +112,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...dailyPages];
+  return [...staticPages, ...categoryPages, ...dailyPages];
 }
